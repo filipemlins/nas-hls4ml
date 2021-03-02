@@ -1,0 +1,184 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'myproject'" level="0">
+<item name = "Date">Mon Mar  1 22:17:21 2021
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z007sclg225-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00, 4.350, 0.62</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">1984267, 6809739, 949549, 2788325, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="dense_large_2_U0">dense_large_2, 101860, 2788324, 101860, 2788324, none</column>
+<column name="softmax_U0">softmax, 194, 194, 194, 194, none</column>
+<column name="dense_large_1_U0">dense_large_1, 91060, 393460, 91060, 393460, none</column>
+<column name="conv_2d_large_cl_U0">conv_2d_large_cl, 731628, 1526604, 731628, 1526604, none</column>
+<column name="conv_2d_large_cl_1_U0">conv_2d_large_cl_1, 949548, 1945292, 949548, 1945292, none</column>
+<column name="dense_large_U0">dense_large, 13064, 33224, 13064, 33224, none</column>
+<column name="pooling2d_cl_U0">pooling2d_cl, 42577, 61393, 42577, 61393, none</column>
+<column name="pooling2d_cl_1_U0">pooling2d_cl_1, 15777, 22689, 15777, 22689, none</column>
+<column name="relu_1_U0">relu_1, 26913, 26913, 26913, 26913, none</column>
+<column name="relu_U0">relu, 10817, 10817, 10817, 10817, none</column>
+<column name="relu_3_U0">relu_3, 481, 481, 481, 481, none</column>
+<column name="relu_2_U0">relu_2, 337, 337, 337, 337, none</column>
+<column name="Block_arrayctor_loop_U0">Block_arrayctor_loop, 0, 0, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Utilization Estimates" level="0">
+<item name = "Summary"><table name="" hasTotal="1">
+<keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="DSP">-, -, -, -</column>
+<column name="Expression">-, -, 0, 34</column>
+<column name="FIFO">-, -, -, -</column>
+<column name="Instance">115, 9, 8245, 10807</column>
+<column name="Memory">29, -, 28, 3</column>
+<column name="Multiplexer">-, -, -, 36</column>
+<column name="Register">-, -, 6, -</column>
+<specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
+<specialColumn name="Utilization (%)">144, 13, 28, 75</specialColumn>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="1">
+<keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
+<column name="Block_arrayctor_loop_U0">Block_arrayctor_loop, 0, 0, 2, 11</column>
+<column name="conv_2d_large_cl_U0">conv_2d_large_cl, 1, 1, 622, 1388</column>
+<column name="conv_2d_large_cl_1_U0">conv_2d_large_cl_1, 1, 1, 569, 1253</column>
+<column name="dense_large_U0">dense_large, 2, 2, 511, 897</column>
+<column name="dense_large_1_U0">dense_large_1, 15, 2, 801, 1063</column>
+<column name="dense_large_2_U0">dense_large_2, 94, 2, 4127, 3552</column>
+<column name="pooling2d_cl_U0">pooling2d_cl, 0, 0, 210, 503</column>
+<column name="pooling2d_cl_1_U0">pooling2d_cl_1, 0, 0, 207, 486</column>
+<column name="relu_U0">relu, 0, 0, 82, 104</column>
+<column name="relu_1_U0">relu_1, 0, 0, 85, 109</column>
+<column name="relu_2_U0">relu_2, 0, 0, 67, 105</column>
+<column name="relu_3_U0">relu_3, 0, 0, 67, 105</column>
+<column name="softmax_U0">softmax, 2, 1, 895, 1231</column>
+</table>
+</item>
+<item name = "DSP48"><table name="" hasTotal="0">
+<keys size="3">Instance, Module, Expression</keys>
+</table>
+</item>
+<item name = "Memory"><table name="" hasTotal="1">
+<keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
+<column name="layer10_out_V_U">myproject_layer10_out_V, 1, 0, 0, 576, 14, 2, 16128</column>
+<column name="layer11_out_V_U">myproject_layer11_out_V, 1, 0, 0, 120, 14, 2, 3360</column>
+<column name="layer13_out_V_U">myproject_layer13_out_V, 1, 0, 0, 120, 13, 2, 3120</column>
+<column name="layer14_out_V_U">myproject_layer14_out_V, 1, 0, 0, 84, 14, 2, 2352</column>
+<column name="layer16_out_V_U">myproject_layer16_out_V, 1, 0, 0, 84, 13, 2, 2184</column>
+<column name="layer17_out_V_U">myproject_layer17_out_V, 0, 28, 3, 10, 14, 2, 280</column>
+<column name="layer3_out_V_U">myproject_layer3_out_V, 7, 0, 0, 6728, 14, 2, 188384</column>
+<column name="layer5_out_V_U">myproject_layer5_out_V, 7, 0, 0, 6728, 13, 2, 174928</column>
+<column name="layer6_out_V_U">myproject_layer6_out_V, 2, 0, 0, 1568, 14, 2, 43904</column>
+<column name="layer7_out_V_U">myproject_layer7_out_V, 4, 0, 0, 2704, 14, 2, 75712</column>
+<column name="layer9_out_V_U">myproject_layer9_out_V, 4, 0, 0, 2704, 13, 2, 70304</column>
+</table>
+</item>
+<item name = "FIFO"><table name="" hasTotal="1">
+<keys size="7">Name, BRAM_18K, FF, LUT, Depth, Bits, Size:D*B</keys>
+</table>
+</item>
+<item name = "Expression"><table name="" hasTotal="1">
+<keys size="7">Variable Name, Operation, DSP48E, FF, LUT, Bitwidth P0, Bitwidth P1</keys>
+<column name="Block_arrayctor_loop_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
+<column name="conv_2d_large_cl_1_U0_ap_ready_count">+, 0, 0, 10, 2, 1</column>
+<column name="Block_arrayctor_loop_U0_ap_start">and, 0, 0, 2, 1, 1</column>
+<column name="ap_idle">and, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_done">and, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_ready">and, 0, 0, 2, 1, 1</column>
+<column name="conv_2d_large_cl_1_U0_ap_start">and, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_Block_arrayctor_loop_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
+<column name="ap_sync_conv_2d_large_cl_1_U0_ap_ready">or, 0, 0, 2, 1, 1</column>
+</table>
+</item>
+<item name = "Multiplexer"><table name="" hasTotal="1">
+<keys size="5">Name, LUT, Input Size, Bits, Total Bits</keys>
+<column name="Block_arrayctor_loop_U0_ap_ready_count">9, 2, 2, 4</column>
+<column name="ap_sync_reg_Block_arrayctor_loop_U0_ap_ready">9, 2, 1, 2</column>
+<column name="ap_sync_reg_conv_2d_large_cl_1_U0_ap_ready">9, 2, 1, 2</column>
+<column name="conv_2d_large_cl_1_U0_ap_ready_count">9, 2, 2, 4</column>
+</table>
+</item>
+<item name = "Register"><table name="" hasTotal="1">
+<keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
+<column name="Block_arrayctor_loop_U0_ap_ready_count">2, 0, 2, 0</column>
+<column name="ap_sync_reg_Block_arrayctor_loop_U0_ap_ready">1, 0, 1, 0</column>
+<column name="ap_sync_reg_conv_2d_large_cl_1_U0_ap_ready">1, 0, 1, 0</column>
+<column name="conv_2d_large_cl_1_U0_ap_ready_count">2, 0, 2, 0</column>
+</table>
+</item>
+</section>
+</item>
+</section>
+
+<section name = "Interface" level="0">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">RTL Ports, Dir, Bits, Protocol, Source Object, C Type</keys>
+<column name="ap_clk">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_rst">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_start">in, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_done">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_ready">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="ap_idle">out, 1, ap_ctrl_hs, myproject, return value</column>
+<column name="input1_V_address0">out, 10, ap_memory, input1_V, array</column>
+<column name="input1_V_ce0">out, 1, ap_memory, input1_V, array</column>
+<column name="input1_V_d0">out, 14, ap_memory, input1_V, array</column>
+<column name="input1_V_q0">in, 14, ap_memory, input1_V, array</column>
+<column name="input1_V_we0">out, 1, ap_memory, input1_V, array</column>
+<column name="input1_V_address1">out, 10, ap_memory, input1_V, array</column>
+<column name="input1_V_ce1">out, 1, ap_memory, input1_V, array</column>
+<column name="input1_V_d1">out, 14, ap_memory, input1_V, array</column>
+<column name="input1_V_q1">in, 14, ap_memory, input1_V, array</column>
+<column name="input1_V_we1">out, 1, ap_memory, input1_V, array</column>
+<column name="layer19_out_V_address0">out, 4, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_ce0">out, 1, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_d0">out, 14, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_q0">in, 14, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_we0">out, 1, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_address1">out, 4, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_ce1">out, 1, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_d1">out, 14, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_q1">in, 14, ap_memory, layer19_out_V, array</column>
+<column name="layer19_out_V_we1">out, 1, ap_memory, layer19_out_V, array</column>
+<column name="const_size_in_1">out, 16, ap_vld, const_size_in_1, pointer</column>
+<column name="const_size_in_1_ap_vld">out, 1, ap_vld, const_size_in_1, pointer</column>
+<column name="const_size_out_1">out, 16, ap_vld, const_size_out_1, pointer</column>
+<column name="const_size_out_1_ap_vld">out, 1, ap_vld, const_size_out_1, pointer</column>
+</table>
+</item>
+</section>
+</profile>

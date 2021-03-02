@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="myproject_prj" solutionName="solution1" date="2021-02-27T16:06:52.779-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="myproject_prj" solutionName="solution1" date="2021-02-27T16:05:50.178-0300"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="myproject_prj" solutionName="solution1" date="2021-02-27T16:05:50.168-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="myproject_prj" solutionName="solution1" date="2021-02-27T16:04:42.318-0300"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="myproject_prj" solutionName="solution1" date="2021-02-27T16:04:42.307-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:06:25.032-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T15:49:09.320-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: compilation error(s)." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T15:46:53.205-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T13:57:17.569-0300"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T13:57:17.562-0300"/>
+        <logs message="ERROR: [SIM 211-100] 'csim_design' failed: nonzero return value." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T13:33:39.509-0300"/>
+        <logs message="@E Simulation failed: Function 'main' returns nonzero value '1'." projectName="myproject_prj" solutionName="solution1" date="2021-02-24T13:33:39.499-0300"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:10:12.843-0300"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:10:12.834-0300"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:08:24.339-0300"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:08:24.331-0300"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:05:48.146-0300"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:05:48.140-0300"/>
+        <logs message="ERROR: [SIM 211-100] CSim failed with errors." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:05:17.365-0300"/>
+        <logs message="@E Simulation failed: SIGSEGV." projectName="myproject_prj" solutionName="solution1" date="2021-02-23T18:05:17.359-0300"/>
+      </csimLog>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 8&#xA;0.06&#xA;corrected values: 3 percentage: 0.06&#xA;wrong values: 47 percentage: 0.94" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:54.939-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 7" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:54.611-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 2&#xA;0.0625 47" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:54.305-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 4" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:53.965-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:53.654-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 8" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:53.337-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:53.030-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:52.718-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 7" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:52.401-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:51.917-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 1" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:51.431-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:51.103-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:50.797-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 7" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:50.482-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:50.162-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 8" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:49.830-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:49.522-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 1" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:49.212-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:48.893-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:48.568-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:48.258-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:47.945-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 8" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:47.618-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 0" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:47.299-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 0" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:46.994-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 0" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:46.663-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:46.344-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 2&#xA;0.0869565 22" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:46.029-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 5" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:45.714-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:45.398-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 4" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:45.080-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:44.752-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:44.437-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;2 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:44.120-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 4&#xA;0.0625 15" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:43.804-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 7" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:43.491-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 2" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:43.057-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 1" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:42.575-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 3" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:42.182-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:41.868-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 1" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:41.553-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 7" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:41.238-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 2" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:40.921-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 2" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:40.604-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 6" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:40.287-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 8" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:39.972-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:39.651-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 9" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:39.335-0300" type="Warning"/>
+        <logs message="WARNING: assign NaN to fixed point value&#xA;4 1" projectName="myproject_prj" solutionName="solution1" date="2021-02-25T20:29:39.015-0300" type="Warning"/>
+      </csimLog>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>

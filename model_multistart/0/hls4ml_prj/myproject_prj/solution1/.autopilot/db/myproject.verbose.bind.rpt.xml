@@ -1,0 +1,58 @@
+<profile>
+
+<section name = "Vivado HLS Report for 'myproject'" level="0">
+<item name = "Date">Mon Mar  1 22:17:12 2021
+</item>
+<item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
+<item name = "Project">myproject_prj</item>
+<item name = "Solution">solution1</item>
+<item name = "Product family">zynq</item>
+<item name = "Target device">xc7z007sclg225-1</item>
+</section>
+
+<section name = "Performance Estimates" level="0">
+<item name = "Timing (ns)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="4">Clock, Target, Estimated, Uncertainty</keys>
+<column name="ap_clk">5.00, 4.350, 0.62</column>
+</table>
+</item>
+</section>
+</item>
+<item name = "Latency (clock cycles)">
+<section name = "" level="1">
+<item name = "Summary"><table name="" hasTotal="0">
+<keys size="6">, min, max, min, max, Type</keys>
+<column name="">1984267, 6809739, 949549, 2788325, dataflow</column>
+</table>
+</item>
+<item name = "Detail">
+<section name = "" level="1">
+<item name = "Instance"><table name="" hasTotal="0">
+<keys size="7">Instance, Module, min, max, min, max, Type</keys>
+<column name="grp_dense_large_2_fu_122">dense_large_2, 101860, 2788324, 101860, 2788324, none</column>
+<column name="grp_softmax_fu_132">softmax, 194, 194, 194, 194, none</column>
+<column name="grp_dense_large_1_fu_143">dense_large_1, 91060, 393460, 91060, 393460, none</column>
+<column name="grp_conv_2d_large_cl_fu_153">conv_2d_large_cl, 731628, 1526604, 731628, 1526604, none</column>
+<column name="grp_conv_2d_large_cl_1_fu_163">conv_2d_large_cl_1, 949548, 1945292, 949548, 1945292, none</column>
+<column name="grp_dense_large_fu_175">dense_large, 13064, 33224, 13064, 33224, none</column>
+<column name="grp_pooling2d_cl_fu_185">pooling2d_cl, 42577, 61393, 42577, 61393, none</column>
+<column name="grp_pooling2d_cl_1_fu_191">pooling2d_cl_1, 15777, 22689, 15777, 22689, none</column>
+<column name="grp_relu_1_fu_197">relu_1, 26913, 26913, 26913, 26913, none</column>
+<column name="grp_relu_fu_203">relu, 10817, 10817, 10817, 10817, none</column>
+<column name="grp_relu_3_fu_209">relu_3, 481, 481, 481, 481, none</column>
+<column name="grp_relu_2_fu_215">relu_2, 337, 337, 337, 337, none</column>
+<column name="StgValue_67_Block_arrayctor_loop_fu_221">Block_arrayctor_loop, 0, 0, 0, 0, none</column>
+</table>
+</item>
+<item name = "Loop"><table name="" hasTotal="0">
+<keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+</table>
+</item>
+</section>
+</item>
+</section>
+</item>
+</section>
+</profile>

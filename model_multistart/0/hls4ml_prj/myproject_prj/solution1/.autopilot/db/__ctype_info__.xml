@@ -1,0 +1,43 @@
+<InterfaceSummary>
+<RtlPorts>
+<name>input1_V</name>
+<CType>
+<TypeName>ap_fixed 16 4 0 0 0</TypeName>
+<TypeWidth>16</TypeWidth>
+<PhysicalWidth>14</PhysicalWidth>
+</CType>
+<CFractionWidth>12</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>layer19_out_V</name>
+<CType>
+<TypeName>ap_fixed 16 4 0 0 0</TypeName>
+<TypeWidth>16</TypeWidth>
+<PhysicalWidth>14</PhysicalWidth>
+</CType>
+<CFractionWidth>12</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>const_size_in_1</name>
+<CType>
+<TypeName>unsigned short</TypeName>
+<TypeWidth>16</TypeWidth>
+<PhysicalWidth>16</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+<RtlPorts>
+<name>const_size_out_1</name>
+<CType>
+<TypeName>unsigned short</TypeName>
+<TypeWidth>16</TypeWidth>
+<PhysicalWidth>16</PhysicalWidth>
+</CType>
+<CFractionWidth>0</CFractionWidth>
+<InvalidType>0</InvalidType>
+</RtlPorts>
+</InterfaceSummary>
+
