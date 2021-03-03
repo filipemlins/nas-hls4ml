@@ -1,4 +1,4 @@
 #!/bin/sh
 lli=${LLVMINTERP-lli}
 exec $lli \
-    /home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj/myproject_prj/solution1/.autopilot/db/a.g.0.bc ${1+"$@"}
+    /home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj/myproject_prj/solution1/.autopilot/db/a.g.0.bc ${1+"$@"}

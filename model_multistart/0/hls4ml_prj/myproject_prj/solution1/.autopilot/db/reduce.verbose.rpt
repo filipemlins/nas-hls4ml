@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'reduce'
 ================================================================
-* Date:           Mon Mar  1 22:17:19 2021
+* Date:           Tue Mar  2 23:01:33 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -285,7 +285,7 @@ ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %branch0"   --->   Operati
 State 4 <SV = 2> <Delay = 2.82>
 ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%i2 = phi i3 [ 0, %.preheader.preheader ], [ %i_4, %.preheader.backedge ]"   --->   Operation 47 'phi' 'i2' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 48 [1/1] (1.13ns)   --->   "%exitcond = icmp eq i3 %i2, -4" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 48 'icmp' 'exitcond' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_4 : Operation 49 [1/1] (0.00ns)   --->   "%empty_28 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)"   --->   Operation 49 'speclooptripcount' 'empty_28' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 49 [1/1] (0.00ns)   --->   "%empty_30 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)"   --->   Operation 49 'speclooptripcount' 'empty_30' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 50 [1/1] (1.65ns)   --->   "%i_4 = add i3 %i2, 1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 50 'add' 'i_4' <Predicate = true> <Delay = 1.65> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_4 : Operation 51 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %2, label %1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 51 'br' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 52 [1/1] (0.96ns)   --->   "%tmp_20_t = xor i3 %i2, -4" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 52 'xor' 'tmp_20_t' <Predicate = (!exitcond)> <Delay = 0.96> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
@@ -401,7 +401,7 @@ StgValue_45      (br               ) [ 00000000]
 StgValue_46      (br               ) [ 01110000]
 i2               (phi              ) [ 00001000]
 exitcond         (icmp             ) [ 00001100]
-empty_28         (speclooptripcount) [ 00000000]
+empty_30         (speclooptripcount) [ 00000000]
 i_4              (add              ) [ 00101100]
 StgValue_51      (br               ) [ 00000000]
 tmp_20_t         (xor              ) [ 00001100]

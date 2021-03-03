@@ -31,9 +31,12 @@ from random import randint
 import shutil
 import os
 
+
+
 from distutils.dir_util import copy_tree
 
-
+import csv
+import datetime
 
 def change_precision(x,y):
     default_precision = 'ap_fixed<'+ str(x) +','+str(y)+',AP_RND,AP_SAT>'
@@ -106,6 +109,7 @@ def get_accuracy_csim(csim_log_path):
         f=open(csim_log_path)
         lines=f.readlines()
         accuracy = float(lines[5].rstrip("\n"))
+        return accuracy
 
 ##pre processing
 train = pd.read_csv('train.csv')
@@ -169,7 +173,17 @@ best_solution = [0, 0, 0, 2.0, 0.0]
 
 first_time = True
 
-while ( (numEpisodes < 20) or (resource < resource_usage_obj
+dic_tested_solutions = {}
+num_keys = 0
+solution_values = [0, 0, 0]
+dic_tested_solutions_path = "model_multistart/dic_tested_solutions-"
+now = datetime.datetime.now()
+timestamp = str(now.strftime("%Y%m%d_%H-%M-%S"))
+dic_tested_solutions_path += timestamp + ".csv"
+
+
+
+while ( (numEpisodes < 50) or (resource < resource_usage_obj
                                and accuracy >= accuracy_obj) ):
 
     num_model_path = str(num_model) + '/'
@@ -182,7 +196,29 @@ while ( (numEpisodes < 20) or (resource < resource_usage_obj
 
     R = randint(0, 9)
     X = randint(10, 18)
-    Y = randint(1, X)
+    Y = randint(1, 6) #(1,X)
+    solution_values = [factor[R], X, Y]
+    new_solution = False
+
+    while(not new_solution):
+        if(solution_values in dic_tested_solutions. values()):
+            R = randint(0, 9)
+            X = randint(10, 18)
+            Y = randint(1, 6) #(1,X)
+            solution_values = [factor[R], X, Y]
+        else:
+            dic_tested_solutions.update({str(num_keys): solution_values})
+            num_keys = num_keys + 1
+            new_solution = True
+
+
+    dic_tested_solutions_csv = open(dic_tested_solutions_path, "w")
+    writer = csv.writer(dic_tested_solutions_csv)
+
+    for key, value in dic_tested_solutions.items():
+        writer.writerow([key, value])
+
+    dic_tested_solutions_csv.close()
 
     precision = change_precision(X,Y)
     config = hls4ml.utils.config_from_keras_model(model, granularity='model', default_precision=precision)
@@ -267,9 +303,12 @@ while ( (numEpisodes < 20) or (resource < resource_usage_obj
             best_solution[3] = resource
             best_solution[4] = accuracy
             df_best = pd.DataFrame(np.array(best_solution).reshape(1,5), columns=['X', 'Y', 'Reuse', 'Resource', 'Accuracy'])
-            df_best = pd.DataFrame(columns=['X', 'Y', 'Reuse', 'Resource', 'Accuracy'])
+            np.savetxt('model_multistart/dic_pareto.csv', df_best, delimiter=',', fmt='%d, %d, %d, %.2f, %.2f')
+            accuracy = 0
+
 
     numEpisodes += 1
+    np.savetxt('model_multistart/dic_all.csv', dic_all, delimiter=',', fmt='%d, %d, %.2f, %.2f, %.2f, %.2f, %d, %d')
     K.clear_session()
 
 print(dic_tested)

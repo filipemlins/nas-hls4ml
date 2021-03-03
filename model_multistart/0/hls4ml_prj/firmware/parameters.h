@@ -31,7 +31,7 @@ struct config3_mult : nnet::dense_config {
     static const unsigned n_in = 16;
     static const unsigned n_out = 8;
     static const unsigned reuse_factor = 64;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
 };
@@ -54,7 +54,7 @@ struct config3 : nnet::conv2d_config {
     static const unsigned reuse_factor = 64;
     static const unsigned n_zeros = 0;
     static const bool store_weights_in_bram = false;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
     typedef config3_mult mult_config;
@@ -64,7 +64,7 @@ struct relu_config5 : nnet::activ_config {
     static const unsigned n_in = OUT_HEIGHT_3*OUT_WIDTH_3*N_FILT_3;
     static const unsigned table_size = 1024;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4500;
+    static const unsigned reuse_factor = 15000;
     typedef ap_fixed<18,8> table_t;
 };
 
@@ -83,14 +83,14 @@ struct config6 : nnet::pooling2d_config {
     static const unsigned pad_left = 0;
     static const unsigned pad_right = 0;
     static const nnet::Pool_Op pool_op = nnet::Max;
-    static const unsigned reuse = 4500;
+    static const unsigned reuse = 15000;
 };
 
 struct config7_mult : nnet::dense_config {
     static const unsigned n_in = 32;
     static const unsigned n_out = 16;
     static const unsigned reuse_factor = 256;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
 };
@@ -113,7 +113,7 @@ struct config7 : nnet::conv2d_config {
     static const unsigned reuse_factor = 256;
     static const unsigned n_zeros = 0;
     static const bool store_weights_in_bram = false;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
     typedef config7_mult mult_config;
@@ -123,7 +123,7 @@ struct relu_config9 : nnet::activ_config {
     static const unsigned n_in = OUT_HEIGHT_7*OUT_WIDTH_7*N_FILT_7;
     static const unsigned table_size = 1024;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4500;
+    static const unsigned reuse_factor = 15000;
     typedef ap_fixed<18,8> table_t;
 };
 
@@ -142,18 +142,18 @@ struct config10 : nnet::pooling2d_config {
     static const unsigned pad_left = 0;
     static const unsigned pad_right = 0;
     static const nnet::Pool_Op pool_op = nnet::Max;
-    static const unsigned reuse = 4500;
+    static const unsigned reuse = 15000;
 };
 
 struct config11 : nnet::dense_config {
     static const unsigned n_in = OUT_HEIGHT_10*OUT_WIDTH_10*N_FILT_10;
     static const unsigned n_out = N_LAYER_11;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4608;
+    static const unsigned reuse_factor = 13824;
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 69120;
     static const bool store_weights_in_bram = false;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
     typedef ap_uint<1> index_t;
@@ -163,7 +163,7 @@ struct relu_config13 : nnet::activ_config {
     static const unsigned n_in = N_LAYER_11;
     static const unsigned table_size = 1024;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4500;
+    static const unsigned reuse_factor = 15000;
     typedef ap_fixed<18,8> table_t;
 };
 
@@ -175,7 +175,7 @@ struct config14 : nnet::dense_config {
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 10080;
     static const bool store_weights_in_bram = false;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
     typedef ap_uint<1> index_t;
@@ -185,7 +185,7 @@ struct relu_config16 : nnet::activ_config {
     static const unsigned n_in = N_LAYER_14;
     static const unsigned table_size = 1024;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4500;
+    static const unsigned reuse_factor = 15000;
     typedef ap_fixed<18,8> table_t;
 };
 
@@ -197,7 +197,7 @@ struct config17 : nnet::dense_config {
     static const unsigned n_zeros = 0;
     static const unsigned n_nonzeros = 840;
     static const bool store_weights_in_bram = false;
-    typedef ap_fixed<17,7,AP_RND,AP_SAT> accum_t;
+    typedef ap_fixed<14,2,AP_RND,AP_SAT> accum_t;
     typedef model_default_t bias_t;
     typedef model_default_t weight_t;
     typedef ap_uint<1> index_t;
@@ -207,7 +207,7 @@ struct softmax_config19 : nnet::activ_config {
     static const unsigned n_in = N_LAYER_17;
     static const unsigned table_size = 1024;
     static const unsigned io_type = nnet::io_parallel;
-    static const unsigned reuse_factor = 4500;
+    static const unsigned reuse_factor = 15000;
     typedef ap_fixed<18,8> exp_table_t;
     typedef ap_fixed<18,8> inv_table_t;
 };

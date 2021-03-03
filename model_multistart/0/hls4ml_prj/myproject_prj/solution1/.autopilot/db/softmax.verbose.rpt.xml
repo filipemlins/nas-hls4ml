@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'softmax'" level="0">
-<item name = "Date">Mon Mar  1 22:17:19 2021
+<item name = "Date">Tue Mar  2 23:01:35 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -50,32 +50,32 @@
 <item name = "Summary"><table name="" hasTotal="1">
 <keys size="5">Name, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="DSP">-, 1, -, -</column>
-<column name="Expression">-, -, 0, 170</column>
+<column name="Expression">-, -, 0, 175</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">-, -, 660, 906</column>
-<column name="Memory">2, -, 36, 3</column>
+<column name="Instance">-, -, 620, 906</column>
+<column name="Memory">2, -, 26, 3</column>
 <column name="Multiplexer">-, -, -, 152</column>
-<column name="Register">-, -, 199, -</column>
+<column name="Register">-, -, 179, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
-<specialColumn name="Utilization (%)">2, 1, 3, 8</specialColumn>
+<specialColumn name="Utilization (%)">2, 1, 2, 8</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_reduce_2_fu_167">reduce_2, 0, 0, 660, 906</column>
+<column name="grp_reduce_2_fu_167">reduce_2, 0, 0, 620, 906</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
-<column name="myproject_mul_mul_18s_14s_32_3_1_U94">myproject_mul_mul_18s_14s_32_3_1, i0 * i1</column>
+<column name="myproject_mul_mul_14s_13ns_27_3_1_U92">myproject_mul_mul_14s_13ns_27_3_1, i0 * i1</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
-<column name="exp_res_V_U">softmax_exp_res_V, 0, 36, 3, 10, 18, 1, 180</column>
-<column name="exp_table2_U">softmax_exp_table2, 1, 0, 0, 1024, 18, 1, 18432</column>
+<column name="exp_res_V_U">softmax_exp_res_V, 0, 26, 3, 10, 13, 1, 130</column>
+<column name="exp_table2_U">softmax_exp_table2, 1, 0, 0, 1024, 13, 1, 13312</column>
 <column name="invert_table3_U">softmax_invert_table3, 1, 0, 0, 1024, 14, 1, 14336</column>
 </table>
 </item>
@@ -94,9 +94,9 @@
 <column name="p_s_fu_357_p2">and, 0, 0, 2, 1, 1</column>
 <column name="phitmp_demorgan_fu_371_p2">and, 0, 0, 2, 1, 1</column>
 <column name="underflow_fu_420_p2">and, 0, 0, 2, 1, 1</column>
-<column name="Range1_all_ones_fu_332_p2">icmp, 0, 0, 9, 3, 2</column>
-<column name="Range1_all_zeros_fu_338_p2">icmp, 0, 0, 9, 3, 1</column>
-<column name="Range2_all_ones_fu_317_p2">icmp, 0, 0, 8, 2, 2</column>
+<column name="Range1_all_ones_fu_332_p2">icmp, 0, 0, 11, 5, 2</column>
+<column name="Range1_all_zeros_fu_338_p2">icmp, 0, 0, 11, 5, 1</column>
+<column name="Range2_all_ones_fu_317_p2">icmp, 0, 0, 9, 4, 2</column>
 <column name="tmp_7_fu_221_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="tmp_fu_172_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="ap_block_state1">or, 0, 0, 2, 1, 1</column>
@@ -135,8 +135,8 @@
 <column name="ap_done_reg">1, 0, 1, 0</column>
 <column name="brmerge192_demorgan_reg_598">1, 0, 1, 0</column>
 <column name="carry_1_reg_572">1, 0, 1, 0</column>
-<column name="exp_res_V_load_reg_536">18, 0, 18, 0</column>
-<column name="exp_table2_load_reg_498">18, 0, 18, 0</column>
+<column name="exp_res_V_load_reg_536">13, 0, 13, 0</column>
+<column name="exp_table2_load_reg_498">13, 0, 13, 0</column>
 <column name="grp_reduce_2_fu_167_ap_start_reg">1, 0, 1, 0</column>
 <column name="i3_reg_156">4, 0, 4, 0</column>
 <column name="i_1_reg_473">4, 0, 4, 0</column>
@@ -147,10 +147,10 @@
 <column name="p_Result_s_reg_555">1, 0, 1, 0</column>
 <column name="p_Val2_2_reg_566">14, 0, 14, 0</column>
 <column name="phitmp_demorgan_reg_592">1, 0, 1, 0</column>
-<column name="r_V_reg_546">32, 0, 32, 0</column>
-<column name="tmp_10_reg_561">1, 0, 1, 0</column>
-<column name="tmp_3_cast_cast_reg_513">32, 0, 32, 0</column>
+<column name="r_V_reg_546">27, 0, 27, 0</column>
+<column name="tmp_3_cast_cast_cast_reg_513">27, 0, 27, 0</column>
 <column name="tmp_4_reg_478">4, 0, 64, 60</column>
+<column name="tmp_6_reg_561">1, 0, 1, 0</column>
 <column name="tmp_8_reg_526">4, 0, 64, 60</column>
 <column name="y_V_2_reg_503">10, 0, 10, 0</column>
 <column name="y_V_reg_488">10, 0, 10, 0</column>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'myproject'" level="0">
-<item name = "Date">Mon Mar  1 22:17:21 2021
+<item name = "Date">Tue Mar  2 23:01:36 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -22,18 +22,18 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">1984267, 6809739, 949549, 2788325, dataflow</column>
+<column name="">2521531, 7004283, 949549, 2917349, dataflow</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="dense_large_2_U0">dense_large_2, 101860, 2788324, 101860, 2788324, none</column>
 <column name="softmax_U0">softmax, 194, 194, 194, 194, none</column>
-<column name="dense_large_1_U0">dense_large_1, 91060, 393460, 91060, 393460, none</column>
+<column name="dense_large_2_U0">dense_large_2, 553444, 2917348, 553444, 2917348, none</column>
 <column name="conv_2d_large_cl_U0">conv_2d_large_cl, 731628, 1526604, 731628, 1526604, none</column>
 <column name="conv_2d_large_cl_1_U0">conv_2d_large_cl_1, 949548, 1945292, 949548, 1945292, none</column>
+<column name="dense_large_1_U0">dense_large_1, 176740, 458980, 176740, 458980, none</column>
 <column name="dense_large_U0">dense_large, 13064, 33224, 13064, 33224, none</column>
 <column name="pooling2d_cl_U0">pooling2d_cl, 42577, 61393, 42577, 61393, none</column>
 <column name="pooling2d_cl_1_U0">pooling2d_cl_1, 15777, 22689, 15777, 22689, none</column>
@@ -60,12 +60,12 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 34</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">115, 9, 8245, 10807</column>
+<column name="Instance">95, 9, 4818, 8276</column>
 <column name="Memory">29, -, 28, 3</column>
 <column name="Multiplexer">-, -, -, 36</column>
 <column name="Register">-, -, 6, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
-<specialColumn name="Utilization (%)">144, 13, 28, 75</specialColumn>
+<specialColumn name="Utilization (%)">124, 13, 16, 57</specialColumn>
 </table>
 </item>
 <item name = "Detail">
@@ -73,18 +73,18 @@
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
 <column name="Block_arrayctor_loop_U0">Block_arrayctor_loop, 0, 0, 2, 11</column>
-<column name="conv_2d_large_cl_U0">conv_2d_large_cl, 1, 1, 622, 1388</column>
-<column name="conv_2d_large_cl_1_U0">conv_2d_large_cl_1, 1, 1, 569, 1253</column>
-<column name="dense_large_U0">dense_large, 2, 2, 511, 897</column>
-<column name="dense_large_1_U0">dense_large_1, 15, 2, 801, 1063</column>
-<column name="dense_large_2_U0">dense_large_2, 94, 2, 4127, 3552</column>
+<column name="conv_2d_large_cl_U0">conv_2d_large_cl, 1, 1, 628, 1367</column>
+<column name="conv_2d_large_cl_1_U0">conv_2d_large_cl_1, 1, 1, 576, 1232</column>
+<column name="dense_large_U0">dense_large, 2, 2, 518, 876</column>
+<column name="dense_large_1_U0">dense_large_1, 17, 2, 591, 955</column>
+<column name="dense_large_2_U0">dense_large_2, 72, 2, 960, 1187</column>
 <column name="pooling2d_cl_U0">pooling2d_cl, 0, 0, 210, 503</column>
 <column name="pooling2d_cl_1_U0">pooling2d_cl_1, 0, 0, 207, 486</column>
 <column name="relu_U0">relu, 0, 0, 82, 104</column>
 <column name="relu_1_U0">relu_1, 0, 0, 85, 109</column>
 <column name="relu_2_U0">relu_2, 0, 0, 67, 105</column>
 <column name="relu_3_U0">relu_3, 0, 0, 67, 105</column>
-<column name="softmax_U0">softmax, 2, 1, 895, 1231</column>
+<column name="softmax_U0">softmax, 2, 1, 825, 1236</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">

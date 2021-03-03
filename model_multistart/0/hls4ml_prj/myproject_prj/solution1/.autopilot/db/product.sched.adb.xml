@@ -3,25 +3,25 @@
 
 <trans_list>
 
-<trans id="49" from="1" to="2">
+<trans id="48" from="1" to="2">
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 </trans>
 
-<trans id="50" from="2" to="3">
+<trans id="49" from="2" to="3">
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 </trans>
 
-<trans id="51" from="3" to="4">
+<trans id="50" from="3" to="4">
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 </trans>
 
-<trans id="52" from="4" to="5">
+<trans id="51" from="4" to="5">
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
@@ -169,7 +169,7 @@
 
 <Node id="11" bw="1" op_0_bw="1" op_1_bw="28" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:8  %tmp_25 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 4)
+._crit_edge_ifconv:8  %tmp_25 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 11)
 
 ]]></Node>
 <StgValue><ssdm name="tmp_25"/></StgValue>
@@ -187,7 +187,7 @@
 
 <Node id="9" bw="14" op_0_bw="14" op_1_bw="28" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-._crit_edge_ifconv:6  %p_Val2_3 = call i14 @_ssdm_op_PartSelect.i14.i28.i32.i32(i28 %r_V_2, i32 5, i32 18)
+._crit_edge_ifconv:6  %p_Val2_3 = call i14 @_ssdm_op_PartSelect.i14.i28.i32.i32(i28 %r_V_2, i32 12, i32 25)
 
 ]]></Node>
 <StgValue><ssdm name="p_Val2_3"/></StgValue>
@@ -202,7 +202,7 @@
 
 <Node id="10" bw="1" op_0_bw="1" op_1_bw="28" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:7  %p_Result_7 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 18)
+._crit_edge_ifconv:7  %p_Result_7 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 25)
 
 ]]></Node>
 <StgValue><ssdm name="p_Result_7"/></StgValue>
@@ -305,42 +305,42 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="18" bw="8" op_0_bw="8" op_1_bw="28" op_2_bw="32" op_3_bw="32">
+<Node id="18" bw="1" op_0_bw="1" op_1_bw="28" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:15  %p_Result_s_29 = call i8 @_ssdm_op_PartSelect.i8.i28.i32.i32(i28 %r_V_2, i32 20, i32 27)
-
-]]></Node>
-<StgValue><ssdm name="p_Result_s_29"/></StgValue>
-</operation>
-
-<operation id="24" st_id="4" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="19" bw="1" op_0_bw="8" op_1_bw="8">
-<![CDATA[
-._crit_edge_ifconv:16  %Range2_all_ones = icmp eq i8 %p_Result_s_29, -1
+._crit_edge_ifconv:15  %Range2_all_ones = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 27)
 
 ]]></Node>
 <StgValue><ssdm name="Range2_all_ones"/></StgValue>
 </operation>
 
-<operation id="25" st_id="4" stage="1" lat="1">
+<operation id="24" st_id="4" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="20" bw="9" op_0_bw="9" op_1_bw="28" op_2_bw="32" op_3_bw="32">
+<Node id="19" bw="2" op_0_bw="2" op_1_bw="28" op_2_bw="32" op_3_bw="32">
 <![CDATA[
-._crit_edge_ifconv:17  %p_Result_1 = call i9 @_ssdm_op_PartSelect.i9.i28.i32.i32(i28 %r_V_2, i32 19, i32 27)
+._crit_edge_ifconv:16  %p_Result_s_31 = call i2 @_ssdm_op_PartSelect.i2.i28.i32.i32(i28 %r_V_2, i32 26, i32 27)
 
 ]]></Node>
-<StgValue><ssdm name="p_Result_1"/></StgValue>
+<StgValue><ssdm name="p_Result_s_31"/></StgValue>
+</operation>
+
+<operation id="25" st_id="4" stage="1" lat="1">
+<core>Cmp</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="20" bw="1" op_0_bw="2" op_1_bw="2">
+<![CDATA[
+._crit_edge_ifconv:17  %Range1_all_ones = icmp eq i2 %p_Result_s_31, -1
+
+]]></Node>
+<StgValue><ssdm name="Range1_all_ones"/></StgValue>
 </operation>
 
 <operation id="26" st_id="4" stage="1" lat="1">
@@ -350,42 +350,42 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="21" bw="1" op_0_bw="9" op_1_bw="9">
+<Node id="21" bw="1" op_0_bw="2" op_1_bw="2">
 <![CDATA[
-._crit_edge_ifconv:18  %Range1_all_ones = icmp eq i9 %p_Result_1, -1
-
-]]></Node>
-<StgValue><ssdm name="Range1_all_ones"/></StgValue>
-</operation>
-
-<operation id="27" st_id="4" stage="1" lat="1">
-<core>Cmp</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="22" bw="1" op_0_bw="9" op_1_bw="9">
-<![CDATA[
-._crit_edge_ifconv:19  %Range1_all_zeros = icmp eq i9 %p_Result_1, 0
+._crit_edge_ifconv:18  %Range1_all_zeros = icmp eq i2 %p_Result_s_31, 0
 
 ]]></Node>
 <StgValue><ssdm name="Range1_all_zeros"/></StgValue>
 </operation>
 
-<operation id="28" st_id="4" stage="1" lat="1">
+<operation id="27" st_id="4" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="24" bw="1" op_0_bw="1" op_1_bw="28" op_2_bw="32">
+<Node id="23" bw="1" op_0_bw="1" op_1_bw="28" op_2_bw="32">
 <![CDATA[
-._crit_edge_ifconv:21  %tmp_28 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 19)
+._crit_edge_ifconv:20  %tmp_29 = call i1 @_ssdm_op_BitSelect.i1.i28.i32(i28 %r_V_2, i32 26)
 
 ]]></Node>
-<StgValue><ssdm name="tmp_28"/></StgValue>
+<StgValue><ssdm name="tmp_29"/></StgValue>
+</operation>
+
+<operation id="28" st_id="4" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="24" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+._crit_edge_ifconv:21  %rev2 = xor i1 %tmp_29, true
+
+]]></Node>
+<StgValue><ssdm name="rev2"/></StgValue>
 </operation>
 
 <operation id="29" st_id="4" stage="1" lat="1">
@@ -397,40 +397,40 @@
 
 <Node id="25" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:22  %rev2 = xor i1 %tmp_28, true
-
-]]></Node>
-<StgValue><ssdm name="rev2"/></StgValue>
-</operation>
-
-<operation id="30" st_id="4" stage="1" lat="1">
-<core>LogicGate</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="26" bw="1" op_0_bw="1" op_1_bw="1">
-<![CDATA[
-._crit_edge_ifconv:23  %p_s = and i1 %Range2_all_ones, %rev2
+._crit_edge_ifconv:22  %p_s = and i1 %Range2_all_ones, %rev2
 
 ]]></Node>
 <StgValue><ssdm name="p_s"/></StgValue>
 </operation>
 
-<operation id="31" st_id="4" stage="1" lat="1">
+<operation id="30" st_id="4" stage="1" lat="1">
 <core>Sel</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="27" bw="1" op_0_bw="1" op_1_bw="1" op_2_bw="1">
+<Node id="26" bw="1" op_0_bw="1" op_1_bw="1" op_2_bw="1">
 <![CDATA[
-._crit_edge_ifconv:24  %deleted_ones = select i1 %carry_2, i1 %p_s, i1 %Range1_all_ones
+._crit_edge_ifconv:23  %deleted_ones = select i1 %carry_2, i1 %p_s, i1 %Range1_all_ones
 
 ]]></Node>
 <StgValue><ssdm name="deleted_ones"/></StgValue>
+</operation>
+
+<operation id="31" st_id="4" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="27" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+._crit_edge_ifconv:24  %phitmp_demorgan = and i1 %carry_2, %Range1_all_ones
+
+]]></Node>
+<StgValue><ssdm name="phitmp_demorgan"/></StgValue>
 </operation>
 
 <operation id="32" st_id="4" stage="1" lat="1">
@@ -440,24 +440,9 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="28" bw="1" op_0_bw="1" op_1_bw="1">
+<Node id="32" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:25  %phitmp_demorgan = and i1 %carry_2, %Range1_all_ones
-
-]]></Node>
-<StgValue><ssdm name="phitmp_demorgan"/></StgValue>
-</operation>
-
-<operation id="33" st_id="4" stage="1" lat="1">
-<core>LogicGate</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="33" bw="1" op_0_bw="1" op_1_bw="1">
-<![CDATA[
-._crit_edge_ifconv:30  %brmerge114_demorgan = and i1 %p_Result_8, %deleted_ones
+._crit_edge_ifconv:29  %brmerge114_demorgan = and i1 %p_Result_8, %deleted_ones
 
 ]]></Node>
 <StgValue><ssdm name="brmerge114_demorgan"/></StgValue>
@@ -466,19 +451,34 @@
 
 <state id="5" st_id="5">
 
-<operation id="34" st_id="5" stage="1" lat="1">
+<operation id="33" st_id="5" stage="1" lat="1">
 <core>Sel</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="23" bw="1" op_0_bw="1" op_1_bw="1" op_2_bw="1">
+<Node id="22" bw="1" op_0_bw="1" op_1_bw="1" op_2_bw="1">
 <![CDATA[
-._crit_edge_ifconv:20  %deleted_zeros = select i1 %carry_2, i1 %Range1_all_ones, i1 %Range1_all_zeros
+._crit_edge_ifconv:19  %deleted_zeros = select i1 %carry_2, i1 %Range1_all_ones, i1 %Range1_all_zeros
 
 ]]></Node>
 <StgValue><ssdm name="deleted_zeros"/></StgValue>
+</operation>
+
+<operation id="34" st_id="5" stage="1" lat="1">
+<core>LogicGate</core>
+<MemPortIdVec></MemPortIdVec>
+<condition id="-1">
+<or_exp><and_exp></and_exp></or_exp>
+</condition>
+
+<Node id="28" bw="1" op_0_bw="1" op_1_bw="1">
+<![CDATA[
+._crit_edge_ifconv:25  %p_not = xor i1 %deleted_zeros, true
+
+]]></Node>
+<StgValue><ssdm name="p_not"/></StgValue>
 </operation>
 
 <operation id="35" st_id="5" stage="1" lat="1">
@@ -490,10 +490,10 @@
 
 <Node id="29" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:26  %p_not = xor i1 %deleted_zeros, true
+._crit_edge_ifconv:26  %brmerge = or i1 %p_Result_8, %p_not
 
 ]]></Node>
-<StgValue><ssdm name="p_not"/></StgValue>
+<StgValue><ssdm name="brmerge"/></StgValue>
 </operation>
 
 <operation id="36" st_id="5" stage="1" lat="1">
@@ -505,10 +505,10 @@
 
 <Node id="30" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:27  %brmerge = or i1 %p_Result_8, %p_not
+._crit_edge_ifconv:27  %tmp_8 = xor i1 %p_Result_s, true
 
 ]]></Node>
-<StgValue><ssdm name="brmerge"/></StgValue>
+<StgValue><ssdm name="tmp_8"/></StgValue>
 </operation>
 
 <operation id="37" st_id="5" stage="1" lat="1">
@@ -520,10 +520,10 @@
 
 <Node id="31" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:28  %tmp_9 = xor i1 %p_Result_s, true
+._crit_edge_ifconv:28  %overflow = and i1 %brmerge, %tmp_8
 
 ]]></Node>
-<StgValue><ssdm name="tmp_9"/></StgValue>
+<StgValue><ssdm name="overflow"/></StgValue>
 </operation>
 
 <operation id="38" st_id="5" stage="1" lat="1">
@@ -533,12 +533,12 @@
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="32" bw="1" op_0_bw="1" op_1_bw="1">
+<Node id="33" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:29  %overflow = and i1 %brmerge, %tmp_9
+._crit_edge_ifconv:30  %tmp1_demorgan = or i1 %phitmp_demorgan, %brmerge114_demorgan
 
 ]]></Node>
-<StgValue><ssdm name="overflow"/></StgValue>
+<StgValue><ssdm name="tmp1_demorgan"/></StgValue>
 </operation>
 
 <operation id="39" st_id="5" stage="1" lat="1">
@@ -550,10 +550,10 @@
 
 <Node id="34" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:31  %tmp1_demorgan = or i1 %phitmp_demorgan, %brmerge114_demorgan
+._crit_edge_ifconv:31  %tmp1 = xor i1 %tmp1_demorgan, true
 
 ]]></Node>
-<StgValue><ssdm name="tmp1_demorgan"/></StgValue>
+<StgValue><ssdm name="tmp1"/></StgValue>
 </operation>
 
 <operation id="40" st_id="5" stage="1" lat="1">
@@ -565,10 +565,10 @@
 
 <Node id="35" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:32  %tmp1 = xor i1 %tmp1_demorgan, true
+._crit_edge_ifconv:32  %underflow = and i1 %p_Result_s, %tmp1
 
 ]]></Node>
-<StgValue><ssdm name="tmp1"/></StgValue>
+<StgValue><ssdm name="underflow"/></StgValue>
 </operation>
 
 <operation id="41" st_id="5" stage="1" lat="1">
@@ -580,10 +580,10 @@
 
 <Node id="36" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:33  %underflow = and i1 %p_Result_s, %tmp1
+._crit_edge_ifconv:33  %brmerge5 = or i1 %underflow, %overflow
 
 ]]></Node>
-<StgValue><ssdm name="underflow"/></StgValue>
+<StgValue><ssdm name="brmerge5"/></StgValue>
 </operation>
 
 <operation id="42" st_id="5" stage="1" lat="1">
@@ -595,10 +595,10 @@
 
 <Node id="37" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:34  %brmerge5 = or i1 %underflow, %overflow
+._crit_edge_ifconv:34  %tmp2 = or i1 %brmerge114_demorgan, %tmp_8
 
 ]]></Node>
-<StgValue><ssdm name="brmerge5"/></StgValue>
+<StgValue><ssdm name="tmp2"/></StgValue>
 </operation>
 
 <operation id="43" st_id="5" stage="1" lat="1">
@@ -610,25 +610,25 @@
 
 <Node id="38" bw="1" op_0_bw="1" op_1_bw="1">
 <![CDATA[
-._crit_edge_ifconv:35  %tmp2 = or i1 %brmerge114_demorgan, %tmp_9
+._crit_edge_ifconv:35  %underflow_not = or i1 %tmp2, %phitmp_demorgan
 
 ]]></Node>
-<StgValue><ssdm name="tmp2"/></StgValue>
+<StgValue><ssdm name="underflow_not"/></StgValue>
 </operation>
 
 <operation id="44" st_id="5" stage="1" lat="1">
-<core>LogicGate</core>
+<core>Sel</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="39" bw="1" op_0_bw="1" op_1_bw="1">
+<Node id="39" bw="14" op_0_bw="1" op_1_bw="14" op_2_bw="14">
 <![CDATA[
-._crit_edge_ifconv:36  %underflow_not = or i1 %tmp2, %phitmp_demorgan
+._crit_edge_ifconv:36  %p_Val2_6_mux = select i1 %brmerge5, i14 8191, i14 %p_Val2_4
 
 ]]></Node>
-<StgValue><ssdm name="underflow_not"/></StgValue>
+<StgValue><ssdm name="p_Val2_6_mux"/></StgValue>
 </operation>
 
 <operation id="45" st_id="5" stage="1" lat="1">
@@ -640,10 +640,10 @@
 
 <Node id="40" bw="14" op_0_bw="1" op_1_bw="14" op_2_bw="14">
 <![CDATA[
-._crit_edge_ifconv:37  %p_Val2_6_mux = select i1 %brmerge5, i14 8191, i14 %p_Val2_4
+._crit_edge_ifconv:37  %p_Val2_6 = select i1 %underflow, i14 -8192, i14 %p_Val2_4
 
 ]]></Node>
-<StgValue><ssdm name="p_Val2_6_mux"/></StgValue>
+<StgValue><ssdm name="p_Val2_6"/></StgValue>
 </operation>
 
 <operation id="46" st_id="5" stage="1" lat="1">
@@ -655,37 +655,22 @@
 
 <Node id="41" bw="14" op_0_bw="1" op_1_bw="14" op_2_bw="14">
 <![CDATA[
-._crit_edge_ifconv:38  %p_Val2_6 = select i1 %underflow, i14 -8192, i14 %p_Val2_4
-
-]]></Node>
-<StgValue><ssdm name="p_Val2_6"/></StgValue>
-</operation>
-
-<operation id="47" st_id="5" stage="1" lat="1">
-<core>Sel</core>
-<MemPortIdVec></MemPortIdVec>
-<condition id="-1">
-<or_exp><and_exp></and_exp></or_exp>
-</condition>
-
-<Node id="42" bw="14" op_0_bw="1" op_1_bw="14" op_2_bw="14">
-<![CDATA[
-._crit_edge_ifconv:39  %agg_result_V_1 = select i1 %underflow_not, i14 %p_Val2_6_mux, i14 %p_Val2_6
+._crit_edge_ifconv:38  %agg_result_V_1 = select i1 %underflow_not, i14 %p_Val2_6_mux, i14 %p_Val2_6
 
 ]]></Node>
 <StgValue><ssdm name="agg_result_V_1"/></StgValue>
 </operation>
 
-<operation id="48" st_id="5" stage="1" lat="1">
+<operation id="47" st_id="5" stage="1" lat="1">
 <core>NULL</core>
 <MemPortIdVec></MemPortIdVec>
 <condition id="-1">
 <or_exp><and_exp></and_exp></or_exp>
 </condition>
 
-<Node id="43" bw="0" op_0_bw="14">
+<Node id="42" bw="0" op_0_bw="14">
 <![CDATA[
-._crit_edge_ifconv:40  ret i14 %agg_result_V_1
+._crit_edge_ifconv:39  ret i14 %agg_result_V_1
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>

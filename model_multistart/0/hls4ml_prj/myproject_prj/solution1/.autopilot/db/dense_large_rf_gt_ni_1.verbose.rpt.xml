@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large_rf_gt_ni_1'" level="0">
-<item name = "Date">Mon Mar  1 22:17:13 2021
+<item name = "Date">Tue Mar  2 23:01:23 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.134, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -54,19 +54,19 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 351</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">-, 1, 55, 168</column>
+<column name="Instance">-, 1, 55, 147</column>
 <column name="Memory">1, -, 30, 4</column>
 <column name="Multiplexer">-, -, -, 202</column>
-<column name="Register">-, -, 249, -</column>
+<column name="Register">-, -, 256, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
-<specialColumn name="Utilization (%)">1, 1, 1, 5</specialColumn>
+<specialColumn name="Utilization (%)">1, 1, 1, 4</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_product_fu_261">product, 0, 1, 55, 168</column>
+<column name="grp_product_fu_261">product, 0, 1, 55, 147</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
@@ -77,7 +77,7 @@
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
 <column name="acc_V_U">dense_large_rf_gt_ni_1_acc_V, 0, 28, 2, 8, 14, 1, 112</column>
 <column name="outidx7_U">dense_large_rf_gt_ni_1_outidx7, 0, 2, 2, 64, 2, 1, 128</column>
-<column name="w3_V_U">dense_large_rf_gt_ni_1_w3_V, 1, 0, 0, 64, 18, 1, 1152</column>
+<column name="w3_V_U">dense_large_rf_gt_ni_1_w3_V, 1, 0, 0, 64, 25, 1, 1600</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -149,7 +149,7 @@
 <column name="tmp_86_reg_606">14, 0, 14, 0</column>
 <column name="tmp_90_reg_652">28, 0, 28, 0</column>
 <column name="underflow_reg_626">1, 0, 1, 0</column>
-<column name="w3_V_load_reg_596">18, 0, 18, 0</column>
+<column name="w3_V_load_reg_596">25, 0, 25, 0</column>
 <column name="w_index3_reg_240">8, 0, 8, 0</column>
 <column name="w_index_cast_reg_544">7, 0, 8, 1</column>
 <column name="w_index_reg_196">7, 0, 7, 0</column>

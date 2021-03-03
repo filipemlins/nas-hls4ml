@@ -77,21 +77,21 @@
 						<id>5</id>
 						<name>acc_V</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>126</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>126</second>
 									</item>
@@ -125,21 +125,21 @@
 						<id>6</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>130</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>130</second>
 									</item>
@@ -210,21 +210,21 @@
 						<id>9</id>
 						<name>exitcond6</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>130</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>130</second>
 									</item>
@@ -259,21 +259,21 @@
 						<id>11</id>
 						<name>iacc_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>130</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>130</second>
 									</item>
@@ -308,21 +308,21 @@
 						<id>12</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>130</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>130</second>
 									</item>
@@ -358,21 +358,21 @@
 						<id>15</id>
 						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>132</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>132</second>
 									</item>
@@ -406,21 +406,21 @@
 						<id>16</id>
 						<name>acc_V_addr</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>132</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>132</second>
 									</item>
@@ -456,21 +456,21 @@
 						<id>17</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>132</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>132</second>
 									</item>
@@ -505,21 +505,21 @@
 						<id>18</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>130</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>130</second>
 									</item>
@@ -553,21 +553,21 @@
 						<id>20</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -638,21 +638,21 @@
 						<id>23</id>
 						<name>in_index</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>168</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>168</second>
 									</item>
@@ -689,21 +689,21 @@
 						<id>24</id>
 						<name>w_index_cast</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -737,21 +737,21 @@
 						<id>25</id>
 						<name>exitcond</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -786,21 +786,21 @@
 						<id>27</id>
 						<name>ir</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -835,21 +835,21 @@
 						<id>28</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -885,21 +885,21 @@
 						<id>32</id>
 						<name>tmp_s</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>155</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>155</second>
 									</item>
@@ -933,21 +933,21 @@
 						<id>33</id>
 						<name>outidx_addr</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>155</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>155</second>
 									</item>
@@ -983,21 +983,21 @@
 						<id>34</id>
 						<name>out_index</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>155</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>155</second>
 									</item>
@@ -1031,21 +1031,21 @@
 						<id>35</id>
 						<name>out_index_cast</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>155</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>155</second>
 									</item>
@@ -1077,23 +1077,23 @@
 					<Obj>
 						<type>0</type>
 						<id>36</id>
-						<name>tmp_62</name>
+						<name>tmp_61</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1127,21 +1127,21 @@
 						<id>37</id>
 						<name>data_V_addr</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1177,21 +1177,21 @@
 						<id>38</id>
 						<name>data_V_load</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1225,21 +1225,21 @@
 						<id>39</id>
 						<name>extLd</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1273,21 +1273,21 @@
 						<id>40</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>158</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>158</second>
 									</item>
@@ -1358,21 +1358,21 @@
 						<id>43</id>
 						<name>out_index5</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>155</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>155</second>
 									</item>
@@ -1444,23 +1444,23 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>tmp_60</name>
+						<name>tmp_59</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>158</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>158</second>
 									</item>
@@ -1496,21 +1496,21 @@
 						<id>47</id>
 						<name>im_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>158</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>158</second>
 									</item>
@@ -1545,21 +1545,21 @@
 						<id>48</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>158</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>158</second>
 									</item>
@@ -1593,23 +1593,23 @@
 					<Obj>
 						<type>0</type>
 						<id>51</id>
-						<name>tmp_65</name>
+						<name>tmp_64</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1643,21 +1643,21 @@
 						<id>52</id>
 						<name>tmp_21</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1692,21 +1692,21 @@
 						<id>53</id>
 						<name>zext_cast</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1740,21 +1740,21 @@
 						<id>54</id>
 						<name>mul</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1789,21 +1789,21 @@
 						<id>55</id>
 						<name>tmp_23</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1837,21 +1837,21 @@
 						<id>56</id>
 						<name>w17_V_addr</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1887,21 +1887,21 @@
 						<id>57</id>
 						<name>w17_V_load</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1912,7 +1912,7 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>18</bitwidth>
+					<bitwidth>25</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>1</count>
@@ -1935,21 +1935,21 @@
 						<id>58</id>
 						<name>w17_V_load_cast</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -1983,21 +1983,21 @@
 						<id>59</id>
 						<name>tmp_8</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2032,23 +2032,23 @@
 					<Obj>
 						<type>0</type>
 						<id>60</id>
-						<name>tmp_61</name>
+						<name>tmp_60</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2084,21 +2084,21 @@
 						<id>61</id>
 						<name>p_shl8</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2132,23 +2132,23 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>tmp_66</name>
+						<name>tmp_65</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2182,23 +2182,23 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>tmp_67</name>
+						<name>tmp_66</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2230,23 +2230,23 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>tmp_68</name>
+						<name>tmp_67</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2279,23 +2279,23 @@
 					<Obj>
 						<type>0</type>
 						<id>65</id>
-						<name>tmp_72</name>
+						<name>tmp_68</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2327,23 +2327,23 @@
 					<Obj>
 						<type>0</type>
 						<id>66</id>
-						<name>tmp_73</name>
+						<name>tmp_72</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2367,7 +2367,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>4.04</m_delay>
+				<m_delay>4.23</m_delay>
 				<m_topoIndex>48</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -2376,23 +2376,23 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>tmp_74</name>
+						<name>tmp_73</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2426,21 +2426,21 @@
 						<id>68</id>
 						<name>p_Val2_17</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2476,21 +2476,21 @@
 						<id>69</id>
 						<name>acc_V_addr_6</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2526,21 +2526,21 @@
 						<id>70</id>
 						<name>p_Val2_s</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2574,21 +2574,21 @@
 						<id>71</id>
 						<name>lhs_V</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2622,21 +2622,21 @@
 						<id>72</id>
 						<name>rhs_V</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2670,21 +2670,21 @@
 						<id>73</id>
 						<name>ret_V</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2719,21 +2719,21 @@
 						<id>74</id>
 						<name>p_Result_s</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2769,21 +2769,21 @@
 						<id>75</id>
 						<name>p_Val2_19</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2818,21 +2818,21 @@
 						<id>76</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2868,21 +2868,21 @@
 						<id>77</id>
 						<name>p_Result_11</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2918,21 +2918,21 @@
 						<id>78</id>
 						<name>tmp_20</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -2967,21 +2967,21 @@
 						<id>79</id>
 						<name>overflow</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3016,21 +3016,21 @@
 						<id>80</id>
 						<name>tmp_69</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3065,21 +3065,21 @@
 						<id>81</id>
 						<name>underflow</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3114,21 +3114,21 @@
 						<id>82</id>
 						<name>brmerge8</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3163,21 +3163,21 @@
 						<id>83</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3213,21 +3213,21 @@
 						<id>85</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3263,21 +3263,21 @@
 						<id>87</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3313,21 +3313,21 @@
 						<id>89</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3364,21 +3364,21 @@
 						<id>90</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3446,21 +3446,21 @@
 						<id>94</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3497,21 +3497,21 @@
 						<id>95</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>160</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>160</second>
 									</item>
@@ -3545,21 +3545,21 @@
 						<id>97</id>
 						<name>w_index_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>162</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>162</second>
 									</item>
@@ -3594,21 +3594,21 @@
 						<id>98</id>
 						<name>tmp_70</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>163</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>163</second>
 									</item>
@@ -3643,21 +3643,21 @@
 						<id>99</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>163</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>163</second>
 									</item>
@@ -3693,21 +3693,21 @@
 						<id>101</id>
 						<name>out_index_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>164</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>164</second>
 									</item>
@@ -3742,21 +3742,21 @@
 						<id>102</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>158</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>158</second>
 									</item>
@@ -3790,21 +3790,21 @@
 						<id>104</id>
 						<name>in_index_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>167</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>167</second>
 									</item>
@@ -3839,21 +3839,21 @@
 						<id>105</id>
 						<name>tmp_71</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>168</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>168</second>
 									</item>
@@ -3888,21 +3888,21 @@
 						<id>106</id>
 						<name>p_s</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>168</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>168</second>
 									</item>
@@ -3938,21 +3938,21 @@
 						<id>108</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>151</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>151</second>
 									</item>
@@ -3986,21 +3986,21 @@
 						<id>110</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>176</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>176</second>
 									</item>
@@ -4069,23 +4069,23 @@
 					<Obj>
 						<type>0</type>
 						<id>113</id>
-						<name>tmp_63</name>
+						<name>tmp_62</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>176</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>176</second>
 									</item>
@@ -4120,21 +4120,21 @@
 						<id>115</id>
 						<name>ires_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>176</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>176</second>
 									</item>
@@ -4169,21 +4169,21 @@
 						<id>116</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>176</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>176</second>
 									</item>
@@ -4217,23 +4217,23 @@
 					<Obj>
 						<type>0</type>
 						<id>119</id>
-						<name>tmp_64</name>
+						<name>tmp_63</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>178</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>178</second>
 									</item>
@@ -4267,21 +4267,21 @@
 						<id>120</id>
 						<name>acc_V_addr_5</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>178</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>178</second>
 									</item>
@@ -4317,21 +4317,21 @@
 						<id>121</id>
 						<name>acc_V_load</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>178</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>178</second>
 									</item>
@@ -4365,21 +4365,21 @@
 						<id>122</id>
 						<name>res_V_addr</name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>178</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>178</second>
 									</item>
@@ -4415,21 +4415,21 @@
 						<id>123</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>178</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>178</second>
 									</item>
@@ -4464,21 +4464,21 @@
 						<id>124</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>176</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>176</second>
 									</item>
@@ -4512,21 +4512,21 @@
 						<id>126</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>180</lineNumber>
-						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
+											<second>dense_large_rf_gt_nin_rem0&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config17&amp;gt;</second>
 										</first>
 										<second>180</second>
 									</item>
@@ -5371,7 +5371,7 @@
 				<Obj>
 					<type>3</type>
 					<id>84</id>
-					<name>_ZN13ap_fixed_baseILi15ELi10ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv</name>
+					<name>_ZN13ap_fixed_baseILi15ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>
@@ -5543,7 +5543,7 @@
 				<Obj>
 					<type>3</type>
 					<id>100</id>
-					<name>_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit</name>
+					<name>_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
 					<lineNumber>0</lineNumber>

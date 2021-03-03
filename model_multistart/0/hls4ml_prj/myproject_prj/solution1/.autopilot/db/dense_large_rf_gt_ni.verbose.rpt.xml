@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large_rf_gt_ni'" level="0">
-<item name = "Date">Mon Mar  1 22:17:15 2021
+<item name = "Date">Tue Mar  2 23:01:25 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.134, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -54,10 +54,10 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 358</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">-, 1, 55, 168</column>
+<column name="Instance">-, 1, 55, 147</column>
 <column name="Memory">1, -, 31, 16</column>
 <column name="Multiplexer">-, -, -, 202</column>
-<column name="Register">-, -, 264, -</column>
+<column name="Register">-, -, 270, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
 <specialColumn name="Utilization (%)">1, 1, 1, 5</specialColumn>
 </table>
@@ -66,7 +66,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_product_fu_263">product, 0, 1, 55, 168</column>
+<column name="grp_product_fu_263">product, 0, 1, 55, 147</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
@@ -77,7 +77,7 @@
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
 <column name="acc_V_U">dense_large_rf_gt_ni_acc_V, 0, 28, 4, 16, 14, 1, 224</column>
 <column name="outidx6_U">dense_large_rf_gt_ni_outidx6, 0, 3, 12, 256, 3, 1, 768</column>
-<column name="w7_V_U">dense_large_rf_gt_ni_w7_V, 1, 0, 0, 256, 19, 1, 4864</column>
+<column name="w7_V_U">dense_large_rf_gt_ni_w7_V, 1, 0, 0, 256, 25, 1, 6400</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -101,12 +101,12 @@
 <column name="exitcond4_fu_274_p2">icmp, 0, 0, 11, 5, 6</column>
 <column name="exitcond_fu_295_p2">icmp, 0, 0, 13, 9, 10</column>
 <column name="icmp_fu_509_p2">icmp, 0, 0, 18, 27, 1</column>
-<column name="tmp_69_fu_521_p2">icmp, 0, 0, 11, 5, 6</column>
+<column name="tmp_68_fu_521_p2">icmp, 0, 0, 11, 5, 6</column>
 <column name="tmp_98_fu_393_p2">lshr, 0, 0, 85, 28, 28</column>
 <column name="p_s_fu_514_p3">select, 0, 0, 32, 1, 1</column>
 <column name="brmerge6_fu_467_p2">xor, 0, 0, 2, 1, 1</column>
 <column name="tmp_15_fu_443_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="tmp_73_fu_455_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="tmp_72_fu_455_p2">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -144,12 +144,12 @@
 <column name="p_Val2_5_reg_618">14, 0, 14, 0</column>
 <column name="reg_269">14, 0, 14, 0</column>
 <column name="tmp_103_reg_654">27, 0, 27, 0</column>
-<column name="tmp_71_reg_672">5, 0, 64, 59</column>
+<column name="tmp_70_reg_672">5, 0, 64, 59</column>
 <column name="tmp_91_reg_584">1, 0, 1, 0</column>
 <column name="tmp_96_reg_603">4, 0, 5, 1</column>
 <column name="tmp_99_reg_608">14, 0, 14, 0</column>
 <column name="underflow_reg_628">1, 0, 1, 0</column>
-<column name="w7_V_load_reg_598">19, 0, 19, 0</column>
+<column name="w7_V_load_reg_598">25, 0, 25, 0</column>
 <column name="w_index1_reg_242">10, 0, 10, 0</column>
 <column name="w_index_cast_reg_546">9, 0, 10, 1</column>
 <column name="w_index_reg_198">9, 0, 9, 0</column>

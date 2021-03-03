@@ -340,10 +340,10 @@ arrayctor.loop1.preheader:2  br label %.preheader
 
 <Node id="23" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:2  %empty_69 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 13, i64 13, i64 13)
+:2  %empty_71 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 13, i64 13, i64 13)
 
 ]]></Node>
-<StgValue><ssdm name="empty_69"/></StgValue>
+<StgValue><ssdm name="empty_71"/></StgValue>
 </operation>
 
 <operation id="27" st_id="3" stage="1" lat="1">
@@ -402,10 +402,10 @@ arrayctor.loop1.preheader:2  br label %.preheader
 
 <Node id="57" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32">
 <![CDATA[
-:0  %empty_72 = call i32 (...)* @_ssdm_op_SpecRegionEnd([11 x i8]* @p_str20, i32 %tmp_46)
+:0  %empty_74 = call i32 (...)* @_ssdm_op_SpecRegionEnd([11 x i8]* @p_str20, i32 %tmp_46)
 
 ]]></Node>
-<StgValue><ssdm name="empty_72"/></StgValue>
+<StgValue><ssdm name="empty_74"/></StgValue>
 </operation>
 
 <operation id="31" st_id="3" stage="1" lat="1">
@@ -610,10 +610,10 @@ arrayctor.loop1.preheader:2  br label %.preheader
 
 <Node id="38" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:3  %empty_70 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)
+:3  %empty_72 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)
 
 ]]></Node>
-<StgValue><ssdm name="empty_70"/></StgValue>
+<StgValue><ssdm name="empty_72"/></StgValue>
 </operation>
 
 <operation id="44" st_id="7" stage="1" lat="1">
@@ -752,10 +752,10 @@ arrayctor.loop1.preheader:2  br label %.preheader
 
 <Node id="54" bw="32" op_0_bw="32" op_1_bw="0" op_2_bw="32">
 <![CDATA[
-:0  %empty_71 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str21, i32 %tmp_47)
+:0  %empty_73 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str21, i32 %tmp_47)
 
 ]]></Node>
-<StgValue><ssdm name="empty_71"/></StgValue>
+<StgValue><ssdm name="empty_73"/></StgValue>
 </operation>
 
 <operation id="53" st_id="7" stage="1" lat="1">

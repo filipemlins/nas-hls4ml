@@ -366,10 +366,10 @@
 
 <Node id="18" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader12:2  %empty_30 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 6, i64 6, i64 6)
+.preheader12:2  %empty_32 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 6, i64 6, i64 6)
 
 ]]></Node>
-<StgValue><ssdm name="empty_30"/></StgValue>
+<StgValue><ssdm name="empty_32"/></StgValue>
 </operation>
 
 <operation id="30" st_id="3" stage="1" lat="1">
@@ -543,7 +543,7 @@
 
 <Node id="30" bw="4" op_0_bw="4" op_1_bw="0">
 <![CDATA[
-.preheader11:0  %jj = phi i4 [ %jj_1, %"pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit" ], [ 0, %.preheader11.preheader ]
+.preheader11:0  %jj = phi i4 [ %jj_1, %"pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit" ], [ 0, %.preheader11.preheader ]
 
 ]]></Node>
 <StgValue><ssdm name="jj"/></StgValue>
@@ -573,10 +573,10 @@
 
 <Node id="32" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader11:2  %empty_31 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 6, i64 6, i64 6)
+.preheader11:2  %empty_33 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 6, i64 6, i64 6)
 
 ]]></Node>
-<StgValue><ssdm name="empty_31"/></StgValue>
+<StgValue><ssdm name="empty_33"/></StgValue>
 </operation>
 
 <operation id="43" st_id="4" stage="1" lat="1">
@@ -699,10 +699,10 @@
 
 <Node id="40" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader10:3  %empty_32 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)
+.preheader10:3  %empty_34 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)
 
 ]]></Node>
-<StgValue><ssdm name="empty_32"/></StgValue>
+<StgValue><ssdm name="empty_34"/></StgValue>
 </operation>
 
 <operation id="51" st_id="5" stage="1" lat="1">
@@ -902,10 +902,10 @@
 
 <Node id="54" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-.preheader:3  %empty_33 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)
+.preheader:3  %empty_35 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)
 
 ]]></Node>
-<StgValue><ssdm name="empty_33"/></StgValue>
+<StgValue><ssdm name="empty_35"/></StgValue>
 </operation>
 
 <operation id="64" st_id="7" stage="1" lat="1">
@@ -1555,10 +1555,10 @@
 
 <Node id="100" bw="32" op_0_bw="32" op_1_bw="64" op_2_bw="64" op_3_bw="64">
 <![CDATA[
-:3  %empty_34 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
+:3  %empty_36 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 3, i64 3, i64 3)
 
 ]]></Node>
-<StgValue><ssdm name="empty_34"/></StgValue>
+<StgValue><ssdm name="empty_36"/></StgValue>
 </operation>
 
 <operation id="103" st_id="13" stage="1" lat="1">
@@ -1570,7 +1570,7 @@
 
 <Node id="101" bw="0" op_0_bw="1" op_1_bw="0" op_2_bw="0">
 <![CDATA[
-:4  br i1 %exitcond_i_i, label %"pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit", label %._crit_edge.i.i
+:4  br i1 %exitcond_i_i, label %"pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit", label %._crit_edge.i.i
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1650,7 +1650,7 @@
 
 <Node id="111" bw="10" op_0_bw="14" op_1_bw="64" op_2_bw="64">
 <![CDATA[
-pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:0  %res_V_addr = getelementptr [576 x i14]* %res_V, i64 0, i64 %tmp_7
+pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit:0  %res_V_addr = getelementptr [576 x i14]* %res_V, i64 0, i64 %tmp_7
 
 ]]></Node>
 <StgValue><ssdm name="res_V_addr"/></StgValue>
@@ -1666,7 +1666,7 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:0  %res_V_addr = getelementptr [576
 
 <Node id="112" bw="0" op_0_bw="14" op_1_bw="10">
 <![CDATA[
-pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:1  store i14 %agg_result_V_i_i, i14* %res_V_addr, align 2
+pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit:1  store i14 %agg_result_V_i_i, i14* %res_V_addr, align 2
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1682,7 +1682,7 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:1  store i14 %agg_result_V_i_i, i14
 
 <Node id="113" bw="4" op_0_bw="4" op_1_bw="4">
 <![CDATA[
-pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:2  %jj_1 = add i4 %jj, 2
+pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit:2  %jj_1 = add i4 %jj, 2
 
 ]]></Node>
 <StgValue><ssdm name="jj_1"/></StgValue>
@@ -1698,7 +1698,7 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:2  %jj_1 = add i4 %jj, 2
 
 <Node id="114" bw="0" op_0_bw="0">
 <![CDATA[
-pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
+pool_op<ap_fixed<14, 2, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 
 ]]></Node>
 <StgValue><ssdm name=""/></StgValue>
@@ -1734,10 +1734,10 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 
 <Node id="106" bw="1" op_0_bw="14" op_1_bw="14">
 <![CDATA[
-._crit_edge.i.i:3  %tmp_i_i_35 = icmp sgt i14 %pool_V_load, %agg_result_V_i_i
+._crit_edge.i.i:3  %tmp_i_i_37 = icmp sgt i14 %pool_V_load, %agg_result_V_i_i
 
 ]]></Node>
-<StgValue><ssdm name="tmp_i_i_35"/></StgValue>
+<StgValue><ssdm name="tmp_i_i_37"/></StgValue>
 </operation>
 
 <operation id="114" st_id="15" stage="1" lat="1">
@@ -1749,7 +1749,7 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 
 <Node id="107" bw="14" op_0_bw="1" op_1_bw="14" op_2_bw="14">
 <![CDATA[
-._crit_edge.i.i:4  %y_V_3 = select i1 %tmp_i_i_35, i14 %pool_V_load, i14 %agg_result_V_i_i
+._crit_edge.i.i:4  %y_V_3 = select i1 %tmp_i_i_37, i14 %pool_V_load, i14 %agg_result_V_i_i
 
 ]]></Node>
 <StgValue><ssdm name="y_V_3"/></StgValue>
@@ -1853,13 +1853,13 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="175" from="StgValue_174" to="tmp" fromId="174" toId="28">
 </dataflow>
-<dataflow id="176" from="_ssdm_op_SpecLoopTripCount" to="empty_30" fromId="158" toId="29">
+<dataflow id="176" from="_ssdm_op_SpecLoopTripCount" to="empty_32" fromId="158" toId="29">
 </dataflow>
-<dataflow id="178" from="StgValue_177" to="empty_30" fromId="177" toId="29">
+<dataflow id="178" from="StgValue_177" to="empty_32" fromId="177" toId="29">
 </dataflow>
-<dataflow id="179" from="StgValue_177" to="empty_30" fromId="177" toId="29">
+<dataflow id="179" from="StgValue_177" to="empty_32" fromId="177" toId="29">
 </dataflow>
-<dataflow id="180" from="StgValue_177" to="empty_30" fromId="177" toId="29">
+<dataflow id="180" from="StgValue_177" to="empty_32" fromId="177" toId="29">
 </dataflow>
 <dataflow id="181" from="tmp" to="StgValue_30" fromId="28" toId="30">
 </dataflow>
@@ -1919,13 +1919,13 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="211" from="StgValue_174" to="tmp_3" fromId="174" toId="41">
 </dataflow>
-<dataflow id="212" from="_ssdm_op_SpecLoopTripCount" to="empty_31" fromId="158" toId="42">
+<dataflow id="212" from="_ssdm_op_SpecLoopTripCount" to="empty_33" fromId="158" toId="42">
 </dataflow>
-<dataflow id="213" from="StgValue_177" to="empty_31" fromId="177" toId="42">
+<dataflow id="213" from="StgValue_177" to="empty_33" fromId="177" toId="42">
 </dataflow>
-<dataflow id="214" from="StgValue_177" to="empty_31" fromId="177" toId="42">
+<dataflow id="214" from="StgValue_177" to="empty_33" fromId="177" toId="42">
 </dataflow>
-<dataflow id="215" from="StgValue_177" to="empty_31" fromId="177" toId="42">
+<dataflow id="215" from="StgValue_177" to="empty_33" fromId="177" toId="42">
 </dataflow>
 <dataflow id="216" from="tmp_3" to="StgValue_43" fromId="41" toId="43">
 </dataflow>
@@ -1957,13 +1957,13 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="228" from="StgValue_227" to="tmp_4" fromId="227" toId="49">
 </dataflow>
-<dataflow id="229" from="_ssdm_op_SpecLoopTripCount" to="empty_32" fromId="158" toId="50">
+<dataflow id="229" from="_ssdm_op_SpecLoopTripCount" to="empty_34" fromId="158" toId="50">
 </dataflow>
-<dataflow id="231" from="StgValue_230" to="empty_32" fromId="230" toId="50">
+<dataflow id="231" from="StgValue_230" to="empty_34" fromId="230" toId="50">
 </dataflow>
-<dataflow id="232" from="StgValue_230" to="empty_32" fromId="230" toId="50">
+<dataflow id="232" from="StgValue_230" to="empty_34" fromId="230" toId="50">
 </dataflow>
-<dataflow id="233" from="StgValue_230" to="empty_32" fromId="230" toId="50">
+<dataflow id="233" from="StgValue_230" to="empty_34" fromId="230" toId="50">
 </dataflow>
 <dataflow id="234" from="kk" to="kk_1" fromId="47" toId="51">
 </dataflow>
@@ -2013,13 +2013,13 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="256" from="StgValue_227" to="tmp_11" fromId="227" toId="62">
 </dataflow>
-<dataflow id="257" from="_ssdm_op_SpecLoopTripCount" to="empty_33" fromId="158" toId="63">
+<dataflow id="257" from="_ssdm_op_SpecLoopTripCount" to="empty_35" fromId="158" toId="63">
 </dataflow>
-<dataflow id="258" from="StgValue_230" to="empty_33" fromId="230" toId="63">
+<dataflow id="258" from="StgValue_230" to="empty_35" fromId="230" toId="63">
 </dataflow>
-<dataflow id="259" from="StgValue_230" to="empty_33" fromId="230" toId="63">
+<dataflow id="259" from="StgValue_230" to="empty_35" fromId="230" toId="63">
 </dataflow>
-<dataflow id="260" from="StgValue_230" to="empty_33" fromId="230" toId="63">
+<dataflow id="260" from="StgValue_230" to="empty_35" fromId="230" toId="63">
 </dataflow>
 <dataflow id="261" from="ll" to="ll_1" fromId="60" toId="64">
 </dataflow>
@@ -2157,13 +2157,13 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="325" from="StgValue_324" to="exitcond_i_i" fromId="324" toId="101">
 </dataflow>
-<dataflow id="326" from="_ssdm_op_SpecLoopTripCount" to="empty_34" fromId="158" toId="102">
+<dataflow id="326" from="_ssdm_op_SpecLoopTripCount" to="empty_36" fromId="158" toId="102">
 </dataflow>
-<dataflow id="328" from="StgValue_327" to="empty_34" fromId="327" toId="102">
+<dataflow id="328" from="StgValue_327" to="empty_36" fromId="327" toId="102">
 </dataflow>
-<dataflow id="329" from="StgValue_327" to="empty_34" fromId="327" toId="102">
+<dataflow id="329" from="StgValue_327" to="empty_36" fromId="327" toId="102">
 </dataflow>
-<dataflow id="330" from="StgValue_327" to="empty_34" fromId="327" toId="102">
+<dataflow id="330" from="StgValue_327" to="empty_36" fromId="327" toId="102">
 </dataflow>
 <dataflow id="331" from="exitcond_i_i" to="StgValue_103" fromId="101" toId="103">
 </dataflow>
@@ -2197,11 +2197,11 @@ pool_op<ap_fixed<14, 9, 0, 0, 0>, 4, 0>.exit:3  br label %.preheader11
 </dataflow>
 <dataflow id="346" from="pool_V_addr_1" to="pool_V_load" fromId="105" toId="112">
 </dataflow>
-<dataflow id="347" from="pool_V_load" to="tmp_i_i_35" fromId="112" toId="113">
+<dataflow id="347" from="pool_V_load" to="tmp_i_i_37" fromId="112" toId="113">
 </dataflow>
-<dataflow id="348" from="agg_result_V_i_i" to="tmp_i_i_35" fromId="99" toId="113">
+<dataflow id="348" from="agg_result_V_i_i" to="tmp_i_i_37" fromId="99" toId="113">
 </dataflow>
-<dataflow id="349" from="tmp_i_i_35" to="y_V_3" fromId="113" toId="114">
+<dataflow id="349" from="tmp_i_i_37" to="y_V_3" fromId="113" toId="114">
 </dataflow>
 <dataflow id="350" from="pool_V_load" to="y_V_3" fromId="112" toId="114">
 </dataflow>

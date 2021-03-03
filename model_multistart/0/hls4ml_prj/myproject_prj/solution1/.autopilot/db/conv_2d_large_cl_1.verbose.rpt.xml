@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'conv_2d_large_cl_1'" level="0">
-<item name = "Date">Mon Mar  1 22:17:14 2021
+<item name = "Date">Tue Mar  2 23:01:23 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.134, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -54,19 +54,19 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 127</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">1, 1, 415, 950</column>
+<column name="Instance">1, 1, 422, 929</column>
 <column name="Memory">0, -, 56, 6</column>
 <column name="Multiplexer">-, -, -, 170</column>
 <column name="Register">-, -, 98, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
-<specialColumn name="Utilization (%)">1, 1, 1, 8</specialColumn>
+<specialColumn name="Utilization (%)">1, 1, 2, 8</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_dense_large_rf_gt_ni_1_fu_134">dense_large_rf_gt_ni_1, 1, 1, 334, 725</column>
+<column name="grp_dense_large_rf_gt_ni_1_fu_134">dense_large_rf_gt_ni_1, 1, 1, 341, 704</column>
 <column name="grp_im2col_2d_cl_1_fu_144">im2col_2d_cl_1, 0, 0, 81, 225</column>
 </table>
 </item>

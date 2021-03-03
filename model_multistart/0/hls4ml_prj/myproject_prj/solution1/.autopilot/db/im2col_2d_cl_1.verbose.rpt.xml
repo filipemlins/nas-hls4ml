@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'im2col_2d_cl_1'" level="0">
-<item name = "Date">Mon Mar  1 22:17:13 2021
+<item name = "Date">Tue Mar  2 23:01:22 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -84,9 +84,9 @@
 <column name="input_row_fu_160_p2">+, 0, 0, 15, 6, 6</column>
 <column name="kernel_col_2_fu_197_p2">+, 0, 0, 12, 3, 1</column>
 <column name="kernel_row_2_fu_154_p2">+, 0, 0, 12, 3, 1</column>
-<column name="tmp_31_fu_165_p2">+, 0, 0, 15, 5, 3</column>
-<column name="tmp_37_fu_225_p2">+, 0, 0, 13, 11, 11</column>
-<column name="tmp_33_fu_191_p2">icmp, 0, 0, 9, 3, 4</column>
+<column name="tmp_30_fu_165_p2">+, 0, 0, 15, 5, 3</column>
+<column name="tmp_36_fu_225_p2">+, 0, 0, 13, 11, 11</column>
+<column name="tmp_32_fu_191_p2">icmp, 0, 0, 9, 3, 4</column>
 <column name="tmp_s_fu_148_p2">icmp, 0, 0, 9, 3, 4</column>
 </table>
 </item>
@@ -113,11 +113,11 @@
 <column name="kernel_row_2_reg_258">3, 0, 3, 0</column>
 <column name="kernel_row_reg_103">3, 0, 3, 0</column>
 <column name="row_cast_reg_245">5, 0, 6, 1</column>
-<column name="tmp_31_reg_263">5, 0, 5, 0</column>
-<column name="tmp_32_reg_272">6, 0, 11, 5</column>
-<column name="tmp_35_reg_285">1, 0, 1, 0</column>
-<column name="tmp_36_reg_289">5, 0, 64, 59</column>
-<column name="tmp_37_reg_294">11, 0, 11, 0</column>
+<column name="tmp_30_reg_263">5, 0, 5, 0</column>
+<column name="tmp_31_reg_272">6, 0, 11, 5</column>
+<column name="tmp_34_reg_285">1, 0, 1, 0</column>
+<column name="tmp_35_reg_289">5, 0, 64, 59</column>
+<column name="tmp_36_reg_294">11, 0, 11, 0</column>
 <column name="tmp_reg_268">1, 0, 1, 0</column>
 </table>
 </item>

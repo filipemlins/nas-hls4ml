@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'conv_2d_large_cl_1'
 ================================================================
-* Date:           Mon Mar  1 22:17:04 2021
+* Date:           Tue Mar  2 23:01:04 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |   5.00|     4.134|        0.62|
+    |ap_clk  |   5.00|     4.231|        0.62|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -127,11 +127,11 @@ ST_2 : Operation 23 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet
 State 3 <SV = 2> <Delay = 1.78>
 ST_3 : Operation 24 [1/1] (0.00ns)   --->   "%j = phi i5 [ 0, %0 ], [ %j_1, %5 ]"   --->   Operation 24 'phi' 'j' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 25 [1/1] (1.36ns)   --->   "%tmp_s = icmp eq i5 %j, -3" [firmware/nnet_utils/nnet_conv2d_large.h:206]   --->   Operation 25 'icmp' 'tmp_s' <Predicate = true> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%empty_65 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 29, i64 29, i64 29)"   --->   Operation 26 'speclooptripcount' 'empty_65' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%empty_67 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 29, i64 29, i64 29)"   --->   Operation 26 'speclooptripcount' 'empty_67' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 27 [1/1] (1.78ns)   --->   "%j_1 = add i5 %j, 1" [firmware/nnet_utils/nnet_conv2d_large.h:206]   --->   Operation 27 'add' 'j_1' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.67> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 28 [1/1] (0.00ns)   --->   "br i1 %tmp_s, label %6, label %2" [firmware/nnet_utils/nnet_conv2d_large.h:206]   --->   Operation 28 'br' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 29 [2/2] (0.00ns)   --->   "call fastcc void @im2col_2d_cl.1([1024 x i14]* %data_V, [16 x i14]* %data_col_V, i5 %i, i5 %j)" [firmware/nnet_utils/nnet_conv2d_large.h:208]   --->   Operation 29 'call' <Predicate = (!tmp_s)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%empty_68 = call i32 (...)* @_ssdm_op_SpecRegionEnd([11 x i8]* @p_str20, i32 %tmp_48)" [firmware/nnet_utils/nnet_conv2d_large.h:216]   --->   Operation 30 'specregionend' 'empty_68' <Predicate = (tmp_s)> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%empty_70 = call i32 (...)* @_ssdm_op_SpecRegionEnd([11 x i8]* @p_str20, i32 %tmp_48)" [firmware/nnet_utils/nnet_conv2d_large.h:216]   --->   Operation 30 'specregionend' 'empty_70' <Predicate = (tmp_s)> <Delay = 0.00>
 ST_3 : Operation 31 [1/1] (0.00ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_conv2d_large.h:204]   --->   Operation 31 'br' <Predicate = (tmp_s)> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 0.00>
@@ -152,7 +152,7 @@ State 7 <SV = 6> <Delay = 3.59>
 ST_7 : Operation 40 [1/1] (0.00ns)   --->   "%k = phi i4 [ 0, %2 ], [ %k_1, %4 ]"   --->   Operation 40 'phi' 'k' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 41 [1/1] (0.00ns)   --->   "%k_cast4_cast = zext i4 %k to i9" [firmware/nnet_utils/nnet_conv2d_large.h:211]   --->   Operation 41 'zext' 'k_cast4_cast' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 42 [1/1] (1.30ns)   --->   "%tmp_78 = icmp eq i4 %k, -8" [firmware/nnet_utils/nnet_conv2d_large.h:211]   --->   Operation 42 'icmp' 'tmp_78' <Predicate = true> <Delay = 1.30> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_7 : Operation 43 [1/1] (0.00ns)   --->   "%empty_66 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 8, i64 8, i64 8)"   --->   Operation 43 'speclooptripcount' 'empty_66' <Predicate = true> <Delay = 0.00>
+ST_7 : Operation 43 [1/1] (0.00ns)   --->   "%empty_68 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 8, i64 8, i64 8)"   --->   Operation 43 'speclooptripcount' 'empty_68' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 44 [1/1] (1.73ns)   --->   "%k_1 = add i4 %k, 1" [firmware/nnet_utils/nnet_conv2d_large.h:211]   --->   Operation 44 'add' 'k_1' <Predicate = true> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.67> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_7 : Operation 45 [1/1] (0.00ns)   --->   "br i1 %tmp_78, label %5, label %4" [firmware/nnet_utils/nnet_conv2d_large.h:211]   --->   Operation 45 'br' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 46 [1/1] (1.91ns)   --->   "%tmp1 = add i9 %tmp_135_cast_cast, %k_cast4_cast" [firmware/nnet_utils/nnet_conv2d_large.h:212]   --->   Operation 46 'add' 'tmp1' <Predicate = (!tmp_78)> <Delay = 1.91> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.67> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
@@ -161,7 +161,7 @@ ST_7 : Operation 48 [1/1] (1.67ns)   --->   "%tmp_79 = add i13 %tmp1_cast, %phi_
 ST_7 : Operation 49 [1/1] (0.00ns)   --->   "%tmp_81 = zext i4 %k to i64" [firmware/nnet_utils/nnet_conv2d_large.h:212]   --->   Operation 49 'zext' 'tmp_81' <Predicate = (!tmp_78)> <Delay = 0.00>
 ST_7 : Operation 50 [1/1] (0.00ns)   --->   "%res_V_assign_addr = getelementptr [8 x i14]* %res_V_assign, i64 0, i64 %tmp_81" [firmware/nnet_utils/nnet_conv2d_large.h:212]   --->   Operation 50 'getelementptr' 'res_V_assign_addr' <Predicate = (!tmp_78)> <Delay = 0.00>
 ST_7 : Operation 51 [2/2] (2.32ns)   --->   "%res_V_assign_load = load i14* %res_V_assign_addr, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:212]   --->   Operation 51 'load' 'res_V_assign_load' <Predicate = (!tmp_78)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 8> <RAM>
-ST_7 : Operation 52 [1/1] (0.00ns)   --->   "%empty_67 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str21, i32 %tmp_49)" [firmware/nnet_utils/nnet_conv2d_large.h:215]   --->   Operation 52 'specregionend' 'empty_67' <Predicate = (tmp_78)> <Delay = 0.00>
+ST_7 : Operation 52 [1/1] (0.00ns)   --->   "%empty_69 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str21, i32 %tmp_49)" [firmware/nnet_utils/nnet_conv2d_large.h:215]   --->   Operation 52 'specregionend' 'empty_69' <Predicate = (tmp_78)> <Delay = 0.00>
 ST_7 : Operation 53 [1/1] (0.00ns)   --->   "br label %1" [firmware/nnet_utils/nnet_conv2d_large.h:206]   --->   Operation 53 'br' <Predicate = (tmp_78)> <Delay = 0.00>
 
 State 8 <SV = 7> <Delay = 2.32>
@@ -212,10 +212,10 @@ StgValue_22       (br               ) [ 0011111111]
 StgValue_23       (ret              ) [ 0000000000]
 j                 (phi              ) [ 0001111000]
 tmp_s             (icmp             ) [ 0011111111]
-empty_65          (speclooptripcount) [ 0000000000]
+empty_67          (speclooptripcount) [ 0000000000]
 j_1               (add              ) [ 0011111111]
 StgValue_28       (br               ) [ 0000000000]
-empty_68          (specregionend    ) [ 0000000000]
+empty_70          (specregionend    ) [ 0000000000]
 StgValue_31       (br               ) [ 0111111111]
 StgValue_32       (call             ) [ 0000000000]
 StgValue_34       (specloopname     ) [ 0000000000]
@@ -227,7 +227,7 @@ StgValue_39       (br               ) [ 0011111111]
 k                 (phi              ) [ 0000000100]
 k_cast4_cast      (zext             ) [ 0000000000]
 tmp_78            (icmp             ) [ 0011111111]
-empty_66          (speclooptripcount) [ 0000000000]
+empty_68          (speclooptripcount) [ 0000000000]
 k_1               (add              ) [ 0011111111]
 StgValue_45       (br               ) [ 0000000000]
 tmp1              (add              ) [ 0000000000]
@@ -235,7 +235,7 @@ tmp1_cast         (zext             ) [ 0000000000]
 tmp_79            (add              ) [ 0000000011]
 tmp_81            (zext             ) [ 0000000000]
 res_V_assign_addr (getelementptr    ) [ 0000000010]
-empty_67          (specregionend    ) [ 0000000000]
+empty_69          (specregionend    ) [ 0000000000]
 StgValue_53       (br               ) [ 0011111111]
 res_V_assign_load (load             ) [ 0000000001]
 StgValue_55       (specloopname     ) [ 0000000000]
@@ -671,7 +671,7 @@ StgValue_59       (br               ) [ 0011111111]
 <pin id="136" dir="0" index="1" bw="14" slack="2147483647"/>
 <pin id="137" dir="0" index="2" bw="14" slack="2147483647"/>
 <pin id="138" dir="0" index="3" bw="2" slack="0"/>
-<pin id="139" dir="0" index="4" bw="18" slack="0"/>
+<pin id="139" dir="0" index="4" bw="25" slack="0"/>
 <pin id="140" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -1141,7 +1141,7 @@ StgValue_59       (br               ) [ 0011111111]
 |----------|-----------------------------------|---------|---------|---------|---------|---------|
 | Operation|          Functional Unit          |   BRAM  |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|-----------------------------------|---------|---------|---------|---------|---------|
-|   call   | grp_dense_large_rf_gt_ni_1_fu_134 |    0    |    1    | 14.3808 |   499   |   531   |
+|   call   | grp_dense_large_rf_gt_ni_1_fu_134 |    0    |    1    | 14.3808 |   506   |   538   |
 |          |     grp_im2col_2d_cl_1_fu_144     |    0    |    0    | 7.12175 |   156   |   157   |
 |----------|-----------------------------------|---------|---------|---------|---------|---------|
 |          |          next_mul_fu_155          |    0    |    0    |    0    |    0    |    17   |
@@ -1163,7 +1163,7 @@ StgValue_59       (br               ) [ 0011111111]
 |          |           tmp_81_fu_228           |    0    |    0    |    0    |    0    |    0    |
 |          |           tmp_80_fu_233           |    0    |    0    |    0    |    0    |    0    |
 |----------|-----------------------------------|---------|---------|---------|---------|---------|
-|   Total  |                                   |    0    |    1    | 21.5025 |   655   |   811   |
+|   Total  |                                   |    0    |    1    | 21.5025 |   662   |   818   |
 |----------|-----------------------------------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -1214,10 +1214,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    0   |    1   |   21   |   655  |   811  |
+|  Function |    0   |    1   |   21   |   662  |   818  |
 |   Memory  |    0   |    -   |    -   |   56   |    6   |
 |Multiplexer|    -   |    -   |    7   |    -   |   36   |
 |  Register |    -   |    -   |    -   |   93   |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |    0   |    1   |   28   |   804  |   853  |
+|   Total   |    0   |    1   |   28   |   811  |   860  |
 +-----------+--------+--------+--------+--------+--------+

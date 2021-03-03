@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dense_large_rf_gt_ni_2'
 ================================================================
-* Date:           Mon Mar  1 22:17:09 2021
+* Date:           Tue Mar  2 23:01:15 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |   5.00|     4.134|        0.62|
+    |ap_clk  |   5.00|     4.231|        0.62|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -96,8 +96,8 @@ IsGatedGlobalClock: 0
 5 --> 
 	6  / true
 6 --> 
-	7  / (!tmp_60)
-	27  / (tmp_60)
+	7  / (!tmp_59)
+	27  / (tmp_59)
 7 --> 
 	8  / true
 8 --> 
@@ -139,12 +139,12 @@ IsGatedGlobalClock: 0
 26 --> 
 	27  / true
 27 --> 
-	28  / (tmp_70) | (tmp_60)
-	6  / (!tmp_60 & !tmp_70)
+	28  / (tmp_70) | (tmp_59)
+	6  / (!tmp_59 & !tmp_70)
 28 --> 
 	3  / true
 29 --> 
-	30  / (!tmp_63)
+	30  / (!tmp_62)
 30 --> 
 	31  / true
 31 --> 
@@ -174,18 +174,18 @@ ST_3 : Operation 45 [1/1] (0.00ns)   --->   "%w_index = phi i9 [ %ir, %.loopexit
 ST_3 : Operation 46 [1/1] (0.00ns)   --->   "%in_index = phi i32 [ %p_s, %.loopexit ], [ 0, %.preheader74.preheader ]" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 46 'phi' 'in_index' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 47 [1/1] (0.00ns)   --->   "%w_index_cast = zext i9 %w_index to i11" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 47 'zext' 'w_index_cast' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 48 [1/1] (1.66ns)   --->   "%exitcond = icmp eq i9 %w_index, -92" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 48 'icmp' 'exitcond' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%empty_53 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 420, i64 420, i64 420)"   --->   Operation 49 'speclooptripcount' 'empty_53' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 49 [1/1] (0.00ns)   --->   "%empty_55 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 420, i64 420, i64 420)"   --->   Operation 49 'speclooptripcount' 'empty_55' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 50 [1/1] (1.82ns)   --->   "%ir = add i9 %w_index, 1" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 50 'add' 'ir' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 51 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %.preheader.preheader, label %1" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 51 'br' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 52 [1/1] (0.00ns)   --->   "%tmp_s = zext i9 %w_index to i64" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 52 'zext' 'tmp_s' <Predicate = (!exitcond)> <Delay = 0.00>
 ST_3 : Operation 53 [1/1] (0.00ns)   --->   "%outidx_addr = getelementptr [420 x i3]* @outidx, i64 0, i64 %tmp_s" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 53 'getelementptr' 'outidx_addr' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_3 : Operation 54 [2/2] (3.25ns)   --->   "%out_index = load i3* %outidx_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 54 'load' 'out_index' <Predicate = (!exitcond)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 18> <Depth = 420> <ROM>
+ST_3 : Operation 54 [2/2] (3.25ns)   --->   "%out_index = load i3* %outidx_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 54 'load' 'out_index' <Predicate = (!exitcond)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 420> <ROM>
 ST_3 : Operation 55 [1/1] (1.76ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 55 'br' <Predicate = (exitcond)> <Delay = 1.76>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 56 [1/2] (3.25ns)   --->   "%out_index = load i3* %outidx_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 56 'load' 'out_index' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 18> <Depth = 420> <ROM>
-ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%tmp_62 = sext i32 %in_index to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 57 'sext' 'tmp_62' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 58 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [84 x i13]* %data_V, i64 0, i64 %tmp_62" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 58 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 56 [1/2] (3.25ns)   --->   "%out_index = load i3* %outidx_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 56 'load' 'out_index' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 420> <ROM>
+ST_4 : Operation 57 [1/1] (0.00ns)   --->   "%tmp_61 = sext i32 %in_index to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 57 'sext' 'tmp_61' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 58 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [84 x i13]* %data_V, i64 0, i64 %tmp_61" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 58 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 59 [2/2] (3.25ns)   --->   "%data_V_load = load i13* %data_V_addr, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 59 'load' 'data_V_load' <Predicate = true> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 5 <SV = 4> <Delay = 3.25>
@@ -200,11 +200,11 @@ State 6 <SV = 5> <Delay = 3.50>
 ST_6 : Operation 66 [1/1] (0.00ns)   --->   "%im = phi i2 [ 0, %1 ], [ %im_3, %7 ]"   --->   Operation 66 'phi' 'im' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 67 [1/1] (0.00ns)   --->   "%out_index5 = phi i4 [ %out_index_cast, %1 ], [ %out_index_3, %7 ]" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 67 'phi' 'out_index5' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 68 [1/1] (0.00ns)   --->   "%w_index5 = phi i11 [ %w_index_cast, %1 ], [ %w_index_3, %7 ]"   --->   Operation 68 'phi' 'w_index5' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 69 [1/1] (0.00ns)   --->   "%tmp_60 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %im, i32 1)" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 69 'bitselect' 'tmp_60' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 70 [1/1] (0.00ns)   --->   "%empty_54 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)"   --->   Operation 70 'speclooptripcount' 'empty_54' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 69 [1/1] (0.00ns)   --->   "%tmp_59 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %im, i32 1)" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 69 'bitselect' 'tmp_59' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 70 [1/1] (0.00ns)   --->   "%empty_56 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)"   --->   Operation 70 'speclooptripcount' 'empty_56' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 71 [1/1] (1.56ns)   --->   "%im_3 = add i2 %im, 1" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 71 'add' 'im_3' <Predicate = true> <Delay = 1.56> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 72 [1/1] (0.00ns)   --->   "br i1 %tmp_60, label %.loopexit, label %_ZN13ap_fixed_baseILi15ELi10ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 72 'br' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 73 [15/15] (3.50ns)   --->   "%tmp_21 = urem i11 %w_index5, 420" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 73 'urem' 'tmp_21' <Predicate = (!tmp_60)> <Delay = 3.50> <Core = "DivnS_SEQ">   --->   Core 24 'DivnS_SEQ' <Latency = 14> <II = 11> <Delay = 3.50> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
+ST_6 : Operation 72 [1/1] (0.00ns)   --->   "br i1 %tmp_59, label %.loopexit, label %_ZN13ap_fixed_baseILi15ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 72 'br' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 73 [15/15] (3.50ns)   --->   "%tmp_21 = urem i11 %w_index5, 420" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 73 'urem' 'tmp_21' <Predicate = (!tmp_59)> <Delay = 3.50> <Core = "DivnS_SEQ">   --->   Core 24 'DivnS_SEQ' <Latency = 14> <II = 11> <Delay = 3.50> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
 
 State 7 <SV = 6> <Delay = 3.50>
 ST_7 : Operation 74 [14/15] (3.50ns)   --->   "%tmp_21 = urem i11 %w_index5, 420" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 74 'urem' 'tmp_21' <Predicate = true> <Delay = 3.50> <Core = "DivnS_SEQ">   --->   Core 24 'DivnS_SEQ' <Latency = 14> <II = 11> <Delay = 3.50> <FuncUnit> <Opcode : 'sdiv' 'srem' 'udiv' 'urem'> <InPorts = 2> <OutPorts = 1>
@@ -254,32 +254,32 @@ ST_20 : Operation 90 [2/3] (3.89ns) (root node of the DSP)   --->   "%mul = mul 
 State 21 <SV = 20> <Delay = 3.25>
 ST_21 : Operation 91 [1/3] (0.00ns) (root node of the DSP)   --->   "%mul = mul i24 %zext_cast, 2497" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 91 'mul' 'mul' <Predicate = true> <Delay = 0.00> <Core = "DSP48">   --->   Core 65 'DSP48' <Latency = 2> <II = 1> <Delay = 3.89> <IPBlock> <Opcode : 'mul' 'add' 'sub' 'select'> <InPorts = 0> <OutPorts = 1> <Sync> <CReg>
 ST_21 : Operation 92 [1/1] (0.00ns)   --->   "%tmp_23 = zext i11 %tmp_21 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 92 'zext' 'tmp_23' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 93 [1/1] (0.00ns)   --->   "%w17_V_addr = getelementptr [420 x i18]* @w17_V, i64 0, i64 %tmp_23" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 93 'getelementptr' 'w17_V_addr' <Predicate = true> <Delay = 0.00>
-ST_21 : Operation 94 [2/2] (3.25ns)   --->   "%w17_V_load = load i18* %w17_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 94 'load' 'w17_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 18> <Depth = 420> <ROM>
-ST_21 : Operation 95 [1/1] (0.00ns)   --->   "%tmp_61 = call i1 @_ssdm_op_BitSelect.i1.i24.i32(i24 %mul, i32 20)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 95 'bitselect' 'tmp_61' <Predicate = true> <Delay = 0.00>
+ST_21 : Operation 93 [1/1] (0.00ns)   --->   "%w17_V_addr = getelementptr [420 x i25]* @w17_V, i64 0, i64 %tmp_23" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 93 'getelementptr' 'w17_V_addr' <Predicate = true> <Delay = 0.00>
+ST_21 : Operation 94 [2/2] (3.25ns)   --->   "%w17_V_load = load i25* %w17_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 94 'load' 'w17_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 420> <ROM>
+ST_21 : Operation 95 [1/1] (0.00ns)   --->   "%tmp_60 = call i1 @_ssdm_op_BitSelect.i1.i24.i32(i24 %mul, i32 20)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 95 'bitselect' 'tmp_60' <Predicate = true> <Delay = 0.00>
 
 State 22 <SV = 21> <Delay = 3.25>
-ST_22 : Operation 96 [1/2] (3.25ns)   --->   "%w17_V_load = load i18* %w17_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 96 'load' 'w17_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 18> <Depth = 420> <ROM>
+ST_22 : Operation 96 [1/2] (3.25ns)   --->   "%w17_V_load = load i25* %w17_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 96 'load' 'w17_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 420> <ROM>
 ST_22 : Operation 97 [1/1] (0.00ns)   --->   "%tmp_8 = call i2 @_ssdm_op_PartSelect.i2.i24.i32.i32(i24 %mul, i32 20, i32 21)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 97 'partselect' 'tmp_8' <Predicate = true> <Delay = 0.00>
 ST_22 : Operation 98 [1/1] (0.00ns)   --->   "%p_shl8 = call i3 @_ssdm_op_BitConcatenate.i3.i2.i1(i2 %tmp_8, i1 false)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 98 'bitconcatenate' 'p_shl8' <Predicate = true> <Delay = 0.00>
-ST_22 : Operation 99 [1/1] (0.00ns)   --->   "%tmp_66 = call i5 @_ssdm_op_BitConcatenate.i5.i1.i4(i1 %tmp_61, i4 0)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 99 'bitconcatenate' 'tmp_66' <Predicate = true> <Delay = 0.00>
-ST_22 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_67 = zext i3 %p_shl8 to i5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 100 'zext' 'tmp_67' <Predicate = true> <Delay = 0.00>
-ST_22 : Operation 101 [1/1] (1.78ns)   --->   "%tmp_68 = sub i5 %tmp_66, %tmp_67" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 101 'sub' 'tmp_68' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_22 : Operation 99 [1/1] (0.00ns)   --->   "%tmp_65 = call i5 @_ssdm_op_BitConcatenate.i5.i1.i4(i1 %tmp_60, i4 0)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 99 'bitconcatenate' 'tmp_65' <Predicate = true> <Delay = 0.00>
+ST_22 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_66 = zext i3 %p_shl8 to i5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 100 'zext' 'tmp_66' <Predicate = true> <Delay = 0.00>
+ST_22 : Operation 101 [1/1] (1.78ns)   --->   "%tmp_67 = sub i5 %tmp_65, %tmp_66" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 101 'sub' 'tmp_67' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
-State 23 <SV = 22> <Delay = 4.04>
-ST_23 : Operation 102 [1/1] (0.00ns)   --->   "%w17_V_load_cast = sext i18 %w17_V_load to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 102 'sext' 'w17_V_load_cast' <Predicate = true> <Delay = 0.00>
-ST_23 : Operation 103 [1/1] (0.00ns)   --->   "%tmp_72 = zext i5 %tmp_68 to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 103 'zext' 'tmp_72' <Predicate = true> <Delay = 0.00>
-ST_23 : Operation 104 [1/1] (4.04ns)   --->   "%tmp_73 = lshr i28 %w17_V_load_cast, %tmp_72" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 104 'lshr' 'tmp_73' <Predicate = true> <Delay = 4.04> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.04> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
-ST_23 : Operation 105 [1/1] (0.00ns)   --->   "%tmp_74 = trunc i28 %tmp_73 to i14" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 105 'trunc' 'tmp_74' <Predicate = true> <Delay = 0.00>
+State 23 <SV = 22> <Delay = 4.23>
+ST_23 : Operation 102 [1/1] (0.00ns)   --->   "%w17_V_load_cast = sext i25 %w17_V_load to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 102 'sext' 'w17_V_load_cast' <Predicate = true> <Delay = 0.00>
+ST_23 : Operation 103 [1/1] (0.00ns)   --->   "%tmp_68 = zext i5 %tmp_67 to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 103 'zext' 'tmp_68' <Predicate = true> <Delay = 0.00>
+ST_23 : Operation 104 [1/1] (4.23ns)   --->   "%tmp_72 = lshr i28 %w17_V_load_cast, %tmp_68" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 104 'lshr' 'tmp_72' <Predicate = true> <Delay = 4.23> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.23> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_23 : Operation 105 [1/1] (0.00ns)   --->   "%tmp_73 = trunc i28 %tmp_72 to i14" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 105 'trunc' 'tmp_73' <Predicate = true> <Delay = 0.00>
 
 State 24 <SV = 23> <Delay = 3.89>
-ST_24 : Operation 106 [1/1] (0.00ns)   --->   "%tmp_65 = zext i4 %out_index5 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 106 'zext' 'tmp_65' <Predicate = true> <Delay = 0.00>
-ST_24 : Operation 107 [2/2] (3.89ns)   --->   "%p_Val2_17 = call fastcc i14 @product(i14 %extLd, i14 %tmp_74)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 107 'call' 'p_Val2_17' <Predicate = true> <Delay = 3.89> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_24 : Operation 108 [1/1] (0.00ns)   --->   "%acc_V_addr_6 = getelementptr [10 x i14]* %acc_V, i64 0, i64 %tmp_65" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 108 'getelementptr' 'acc_V_addr_6' <Predicate = true> <Delay = 0.00>
+ST_24 : Operation 106 [1/1] (0.00ns)   --->   "%tmp_64 = zext i4 %out_index5 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 106 'zext' 'tmp_64' <Predicate = true> <Delay = 0.00>
+ST_24 : Operation 107 [2/2] (3.89ns)   --->   "%p_Val2_17 = call fastcc i14 @product(i14 %extLd, i14 %tmp_73)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 107 'call' 'p_Val2_17' <Predicate = true> <Delay = 3.89> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_24 : Operation 108 [1/1] (0.00ns)   --->   "%acc_V_addr_6 = getelementptr [10 x i14]* %acc_V, i64 0, i64 %tmp_64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 108 'getelementptr' 'acc_V_addr_6' <Predicate = true> <Delay = 0.00>
 ST_24 : Operation 109 [2/2] (2.32ns)   --->   "%p_Val2_s = load i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 109 'load' 'p_Val2_s' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 25 <SV = 24> <Delay = 3.65>
-ST_25 : Operation 110 [1/2] (3.65ns)   --->   "%p_Val2_17 = call fastcc i14 @product(i14 %extLd, i14 %tmp_74)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 110 'call' 'p_Val2_17' <Predicate = true> <Delay = 3.65> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_25 : Operation 110 [1/2] (3.65ns)   --->   "%p_Val2_17 = call fastcc i14 @product(i14 %extLd, i14 %tmp_73)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 110 'call' 'p_Val2_17' <Predicate = true> <Delay = 3.65> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 ST_25 : Operation 111 [1/2] (2.32ns)   --->   "%p_Val2_s = load i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 111 'load' 'p_Val2_s' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 26 <SV = 25> <Delay = 4.13>
@@ -296,46 +296,46 @@ ST_26 : Operation 121 [1/1] (0.97ns) (out node of the LUT)   --->   "%overflow =
 ST_26 : Operation 122 [1/1] (0.00ns) (grouped into LUT with out node underflow)   --->   "%tmp_69 = xor i1 %p_Result_11, true" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 122 'xor' 'tmp_69' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_26 : Operation 123 [1/1] (0.97ns) (out node of the LUT)   --->   "%underflow = and i1 %p_Result_s, %tmp_69" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 123 'and' 'underflow' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_26 : Operation 124 [1/1] (0.97ns)   --->   "%brmerge8 = xor i1 %p_Result_s, %p_Result_11" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 124 'xor' 'brmerge8' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_26 : Operation 125 [1/1] (0.00ns)   --->   "br i1 %brmerge8, label %3, label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 125 'br' <Predicate = true> <Delay = 0.00>
+ST_26 : Operation 125 [1/1] (0.00ns)   --->   "br i1 %brmerge8, label %3, label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 125 'br' <Predicate = true> <Delay = 0.00>
 ST_26 : Operation 126 [1/1] (0.00ns)   --->   "br i1 %overflow, label %4, label %5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 126 'br' <Predicate = (brmerge8)> <Delay = 0.00>
 ST_26 : Operation 127 [1/1] (0.00ns)   --->   "br i1 %underflow, label %6, label %._crit_edge77" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 127 'br' <Predicate = (brmerge8 & !overflow)> <Delay = 0.00>
 
 State 27 <SV = 26> <Delay = 3.51>
-ST_27 : Operation 128 [1/1] (2.32ns)   --->   "store i14 -8192, i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 128 'store' <Predicate = (!tmp_60 & brmerge8 & !overflow & underflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_27 : Operation 129 [1/1] (0.00ns)   --->   "br label %._crit_edge77" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 129 'br' <Predicate = (!tmp_60 & brmerge8 & !overflow & underflow)> <Delay = 0.00>
-ST_27 : Operation 130 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit"   --->   Operation 130 'br' <Predicate = (!tmp_60 & brmerge8 & !overflow)> <Delay = 0.00>
-ST_27 : Operation 131 [1/1] (2.32ns)   --->   "store i14 8191, i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 131 'store' <Predicate = (!tmp_60 & brmerge8 & overflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_27 : Operation 132 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 132 'br' <Predicate = (!tmp_60 & brmerge8 & overflow)> <Delay = 0.00>
-ST_27 : Operation 133 [1/1] (1.63ns)   --->   "%w_index_3 = add i11 %w_index5, 420" [firmware/nnet_utils/nnet_dense_large.h:162]   --->   Operation 133 'add' 'w_index_3' <Predicate = (!tmp_60)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 134 [1/1] (1.88ns)   --->   "%tmp_70 = icmp ugt i11 %w_index_3, 839" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 134 'icmp' 'tmp_70' <Predicate = (!tmp_60)> <Delay = 1.88> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 135 [1/1] (0.00ns)   --->   "br i1 %tmp_70, label %.loopexit, label %7" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 135 'br' <Predicate = (!tmp_60)> <Delay = 0.00>
-ST_27 : Operation 136 [1/1] (1.73ns)   --->   "%out_index_3 = add i4 %out_index5, 5" [firmware/nnet_utils/nnet_dense_large.h:164]   --->   Operation 136 'add' 'out_index_3' <Predicate = (!tmp_60 & !tmp_70)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_27 : Operation 137 [1/1] (0.00ns)   --->   "br label %2" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 137 'br' <Predicate = (!tmp_60 & !tmp_70)> <Delay = 0.00>
-ST_27 : Operation 138 [1/1] (2.55ns)   --->   "%in_index_3 = add nsw i32 %in_index, 1" [firmware/nnet_utils/nnet_dense_large.h:167]   --->   Operation 138 'add' 'in_index_3' <Predicate = (tmp_70) | (tmp_60)> <Delay = 2.55> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 128 [1/1] (2.32ns)   --->   "store i14 -8192, i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 128 'store' <Predicate = (!tmp_59 & brmerge8 & !overflow & underflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_27 : Operation 129 [1/1] (0.00ns)   --->   "br label %._crit_edge77" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 129 'br' <Predicate = (!tmp_59 & brmerge8 & !overflow & underflow)> <Delay = 0.00>
+ST_27 : Operation 130 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit"   --->   Operation 130 'br' <Predicate = (!tmp_59 & brmerge8 & !overflow)> <Delay = 0.00>
+ST_27 : Operation 131 [1/1] (2.32ns)   --->   "store i14 8191, i14* %acc_V_addr_6, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 131 'store' <Predicate = (!tmp_59 & brmerge8 & overflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_27 : Operation 132 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 132 'br' <Predicate = (!tmp_59 & brmerge8 & overflow)> <Delay = 0.00>
+ST_27 : Operation 133 [1/1] (1.63ns)   --->   "%w_index_3 = add i11 %w_index5, 420" [firmware/nnet_utils/nnet_dense_large.h:162]   --->   Operation 133 'add' 'w_index_3' <Predicate = (!tmp_59)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 134 [1/1] (1.88ns)   --->   "%tmp_70 = icmp ugt i11 %w_index_3, 839" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 134 'icmp' 'tmp_70' <Predicate = (!tmp_59)> <Delay = 1.88> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 135 [1/1] (0.00ns)   --->   "br i1 %tmp_70, label %.loopexit, label %7" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 135 'br' <Predicate = (!tmp_59)> <Delay = 0.00>
+ST_27 : Operation 136 [1/1] (1.73ns)   --->   "%out_index_3 = add i4 %out_index5, 5" [firmware/nnet_utils/nnet_dense_large.h:164]   --->   Operation 136 'add' 'out_index_3' <Predicate = (!tmp_59 & !tmp_70)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_27 : Operation 137 [1/1] (0.00ns)   --->   "br label %2" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 137 'br' <Predicate = (!tmp_59 & !tmp_70)> <Delay = 0.00>
+ST_27 : Operation 138 [1/1] (2.55ns)   --->   "%in_index_3 = add nsw i32 %in_index, 1" [firmware/nnet_utils/nnet_dense_large.h:167]   --->   Operation 138 'add' 'in_index_3' <Predicate = (tmp_70) | (tmp_59)> <Delay = 2.55> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
 State 28 <SV = 27> <Delay = 3.17>
 ST_28 : Operation 139 [1/1] (2.47ns)   --->   "%tmp_71 = icmp sgt i32 %in_index_3, 83" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 139 'icmp' 'tmp_71' <Predicate = true> <Delay = 2.47> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_28 : Operation 140 [1/1] (0.69ns)   --->   "%p_s = select i1 %tmp_71, i32 0, i32 %in_index_3" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 140 'select' 'p_s' <Predicate = true> <Delay = 0.69> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_28 : Operation 141 [1/1] (0.00ns)   --->   "%empty_55 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str16, i32 %tmp_19)" [firmware/nnet_utils/nnet_dense_large.h:172]   --->   Operation 141 'specregionend' 'empty_55' <Predicate = true> <Delay = 0.00>
+ST_28 : Operation 141 [1/1] (0.00ns)   --->   "%empty_57 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str16, i32 %tmp_19)" [firmware/nnet_utils/nnet_dense_large.h:172]   --->   Operation 141 'specregionend' 'empty_57' <Predicate = true> <Delay = 0.00>
 ST_28 : Operation 142 [1/1] (0.00ns)   --->   "br label %.preheader74" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 142 'br' <Predicate = true> <Delay = 0.00>
 
 State 29 <SV = 3> <Delay = 2.32>
 ST_29 : Operation 143 [1/1] (0.00ns)   --->   "%ires = phi i4 [ %ires_3, %8 ], [ 0, %.preheader.preheader ]"   --->   Operation 143 'phi' 'ires' <Predicate = true> <Delay = 0.00>
-ST_29 : Operation 144 [1/1] (1.30ns)   --->   "%tmp_63 = icmp eq i4 %ires, -6" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 144 'icmp' 'tmp_63' <Predicate = true> <Delay = 1.30> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 145 [1/1] (0.00ns)   --->   "%empty_56 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10, i64 10, i64 10)"   --->   Operation 145 'speclooptripcount' 'empty_56' <Predicate = true> <Delay = 0.00>
+ST_29 : Operation 144 [1/1] (1.30ns)   --->   "%tmp_62 = icmp eq i4 %ires, -6" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 144 'icmp' 'tmp_62' <Predicate = true> <Delay = 1.30> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_29 : Operation 145 [1/1] (0.00ns)   --->   "%empty_58 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 10, i64 10, i64 10)"   --->   Operation 145 'speclooptripcount' 'empty_58' <Predicate = true> <Delay = 0.00>
 ST_29 : Operation 146 [1/1] (1.73ns)   --->   "%ires_3 = add i4 %ires, 1" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 146 'add' 'ires_3' <Predicate = true> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.73> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_29 : Operation 147 [1/1] (0.00ns)   --->   "br i1 %tmp_63, label %9, label %8" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 147 'br' <Predicate = true> <Delay = 0.00>
-ST_29 : Operation 148 [1/1] (0.00ns)   --->   "%tmp_64 = zext i4 %ires to i64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 148 'zext' 'tmp_64' <Predicate = (!tmp_63)> <Delay = 0.00>
-ST_29 : Operation 149 [1/1] (0.00ns)   --->   "%acc_V_addr_5 = getelementptr [10 x i14]* %acc_V, i64 0, i64 %tmp_64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 149 'getelementptr' 'acc_V_addr_5' <Predicate = (!tmp_63)> <Delay = 0.00>
-ST_29 : Operation 150 [2/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_5, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 150 'load' 'acc_V_load' <Predicate = (!tmp_63)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_29 : Operation 151 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet_dense_large.h:180]   --->   Operation 151 'ret' <Predicate = (tmp_63)> <Delay = 0.00>
+ST_29 : Operation 147 [1/1] (0.00ns)   --->   "br i1 %tmp_62, label %9, label %8" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 147 'br' <Predicate = true> <Delay = 0.00>
+ST_29 : Operation 148 [1/1] (0.00ns)   --->   "%tmp_63 = zext i4 %ires to i64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 148 'zext' 'tmp_63' <Predicate = (!tmp_62)> <Delay = 0.00>
+ST_29 : Operation 149 [1/1] (0.00ns)   --->   "%acc_V_addr_5 = getelementptr [10 x i14]* %acc_V, i64 0, i64 %tmp_63" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 149 'getelementptr' 'acc_V_addr_5' <Predicate = (!tmp_62)> <Delay = 0.00>
+ST_29 : Operation 150 [2/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_5, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 150 'load' 'acc_V_load' <Predicate = (!tmp_62)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_29 : Operation 151 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet_dense_large.h:180]   --->   Operation 151 'ret' <Predicate = (tmp_62)> <Delay = 0.00>
 
 State 30 <SV = 4> <Delay = 2.32>
 ST_30 : Operation 152 [1/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_5, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 152 'load' 'acc_V_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 31 <SV = 5> <Delay = 2.32>
 ST_31 : Operation 153 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([7 x i8]* @p_str18) nounwind" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 153 'specloopname' <Predicate = true> <Delay = 0.00>
-ST_31 : Operation 154 [1/1] (0.00ns)   --->   "%res_V_addr = getelementptr [10 x i14]* %res_V, i64 0, i64 %tmp_64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 154 'getelementptr' 'res_V_addr' <Predicate = true> <Delay = 0.00>
+ST_31 : Operation 154 [1/1] (0.00ns)   --->   "%res_V_addr = getelementptr [10 x i14]* %res_V, i64 0, i64 %tmp_63" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 154 'getelementptr' 'res_V_addr' <Predicate = true> <Delay = 0.00>
 ST_31 : Operation 155 [1/1] (2.32ns)   --->   "store i14 %acc_V_load, i14* %res_V_addr, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 155 'store' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 ST_31 : Operation 156 [1/1] (0.00ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 156 'br' <Predicate = true> <Delay = 0.00>
 
@@ -378,14 +378,14 @@ w_index         (phi              ) [ 00010000000000000000000000000000]
 in_index        (phi              ) [ 00011111111111111111111111110000]
 w_index_cast    (zext             ) [ 00001111111111111111111111110000]
 exitcond        (icmp             ) [ 00011111111111111111111111111000]
-empty_53        (speclooptripcount) [ 00000000000000000000000000000000]
+empty_55        (speclooptripcount) [ 00000000000000000000000000000000]
 ir              (add              ) [ 00111111111111111111111111111000]
 StgValue_51     (br               ) [ 00000000000000000000000000000000]
 tmp_s           (zext             ) [ 00000000000000000000000000000000]
 outidx_addr     (getelementptr    ) [ 00001000000000000000000000000000]
 StgValue_55     (br               ) [ 00011111111111111111111111111111]
 out_index       (load             ) [ 00000100000000000000000000000000]
-tmp_62          (sext             ) [ 00000000000000000000000000000000]
+tmp_61          (sext             ) [ 00000000000000000000000000000000]
 data_V_addr     (getelementptr    ) [ 00000100000000000000000000000000]
 StgValue_60     (specloopname     ) [ 00000000000000000000000000000000]
 tmp_19          (specregionbegin  ) [ 00000011111111111111111111111000]
@@ -396,8 +396,8 @@ StgValue_65     (br               ) [ 00011111111111111111111111111000]
 im              (phi              ) [ 00000010000000000000000000000000]
 out_index5      (phi              ) [ 00000011111111111111111111110000]
 w_index5        (phi              ) [ 00000011111111111111111111110000]
-tmp_60          (bitselect        ) [ 00011111111111111111111111111000]
-empty_54        (speclooptripcount) [ 00000000000000000000000000000000]
+tmp_59          (bitselect        ) [ 00011111111111111111111111111000]
+empty_56        (speclooptripcount) [ 00000000000000000000000000000000]
 im_3            (add              ) [ 00011111111111111111111111111000]
 StgValue_72     (br               ) [ 00000000000000000000000000000000]
 zext_cast       (zext             ) [ 00000000000000000000110000000000]
@@ -405,18 +405,18 @@ tmp_21          (urem             ) [ 00000000000000000000010000000000]
 mul             (mul              ) [ 00000000000000000000001000000000]
 tmp_23          (zext             ) [ 00000000000000000000000000000000]
 w17_V_addr      (getelementptr    ) [ 00000000000000000000001000000000]
-tmp_61          (bitselect        ) [ 00000000000000000000001000000000]
+tmp_60          (bitselect        ) [ 00000000000000000000001000000000]
 w17_V_load      (load             ) [ 00000000000000000000000100000000]
 tmp_8           (partselect       ) [ 00000000000000000000000000000000]
 p_shl8          (bitconcatenate   ) [ 00000000000000000000000000000000]
-tmp_66          (bitconcatenate   ) [ 00000000000000000000000000000000]
-tmp_67          (zext             ) [ 00000000000000000000000000000000]
-tmp_68          (sub              ) [ 00000000000000000000000100000000]
+tmp_65          (bitconcatenate   ) [ 00000000000000000000000000000000]
+tmp_66          (zext             ) [ 00000000000000000000000000000000]
+tmp_67          (sub              ) [ 00000000000000000000000100000000]
 w17_V_load_cast (sext             ) [ 00000000000000000000000000000000]
-tmp_72          (zext             ) [ 00000000000000000000000000000000]
-tmp_73          (lshr             ) [ 00000000000000000000000000000000]
-tmp_74          (trunc            ) [ 00000000000000000000000011000000]
-tmp_65          (zext             ) [ 00000000000000000000000000000000]
+tmp_68          (zext             ) [ 00000000000000000000000000000000]
+tmp_72          (lshr             ) [ 00000000000000000000000000000000]
+tmp_73          (trunc            ) [ 00000000000000000000000011000000]
+tmp_64          (zext             ) [ 00000000000000000000000000000000]
 acc_V_addr_6    (getelementptr    ) [ 00011110000000000000000001111000]
 p_Val2_17       (call             ) [ 00000000000000000000000000100000]
 p_Val2_s        (load             ) [ 00000000000000000000000000100000]
@@ -449,14 +449,14 @@ StgValue_137    (br               ) [ 00011111111111111111111111111000]
 in_index_3      (add              ) [ 00000000000000000000000000001000]
 tmp_71          (icmp             ) [ 00000000000000000000000000000000]
 p_s             (select           ) [ 00111111111111111111111111111000]
-empty_55        (specregionend    ) [ 00000000000000000000000000000000]
+empty_57        (specregionend    ) [ 00000000000000000000000000000000]
 StgValue_142    (br               ) [ 00111111111111111111111111111000]
 ires            (phi              ) [ 00000000000000000000000000000100]
-tmp_63          (icmp             ) [ 00000000000000000000000000000111]
-empty_56        (speclooptripcount) [ 00000000000000000000000000000000]
+tmp_62          (icmp             ) [ 00000000000000000000000000000111]
+empty_58        (speclooptripcount) [ 00000000000000000000000000000000]
 ires_3          (add              ) [ 00010000000000000000000000000111]
 StgValue_147    (br               ) [ 00000000000000000000000000000000]
-tmp_64          (zext             ) [ 00000000000000000000000000000011]
+tmp_63          (zext             ) [ 00000000000000000000000000000011]
 acc_V_addr_5    (getelementptr    ) [ 00000000000000000000000000000010]
 StgValue_151    (ret              ) [ 00000000000000000000000000000000]
 acc_V_load      (load             ) [ 00000000000000000000000000000001]
@@ -1005,7 +1005,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 
 <comp id="141" class="1004" name="w17_V_addr_gep_fu_141">
 <pin_list>
-<pin id="142" dir="0" index="0" bw="18" slack="0"/>
+<pin id="142" dir="0" index="0" bw="25" slack="0"/>
 <pin id="143" dir="0" index="1" bw="1" slack="0"/>
 <pin id="144" dir="0" index="2" bw="10" slack="0"/>
 <pin id="145" dir="1" index="3" bw="9" slack="0"/>
@@ -1019,9 +1019,9 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 <comp id="148" class="1004" name="grp_access_fu_148">
 <pin_list>
 <pin id="149" dir="0" index="0" bw="9" slack="0"/>
-<pin id="150" dir="0" index="1" bw="18" slack="2147483647"/>
+<pin id="150" dir="0" index="1" bw="25" slack="2147483647"/>
 <pin id="151" dir="0" index="2" bw="0" slack="2147483647"/>
-<pin id="152" dir="1" index="3" bw="18" slack="1"/>
+<pin id="152" dir="1" index="3" bw="25" slack="1"/>
 </pin_list>
 <bind>
 <opcode="load(27) " fcode="load"/>
@@ -1353,14 +1353,14 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="308" class="1004" name="tmp_62_fu_308">
+<comp id="308" class="1004" name="tmp_61_fu_308">
 <pin_list>
 <pin id="309" dir="0" index="0" bw="32" slack="1"/>
 <pin id="310" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="tmp_62/4 "/>
+<opset="tmp_61/4 "/>
 </bind>
 </comp>
 
@@ -1386,7 +1386,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="320" class="1004" name="tmp_60_fu_320">
+<comp id="320" class="1004" name="tmp_59_fu_320">
 <pin_list>
 <pin id="321" dir="0" index="0" bw="1" slack="0"/>
 <pin id="322" dir="0" index="1" bw="2" slack="0"/>
@@ -1395,7 +1395,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_60/6 "/>
+<opset="tmp_59/6 "/>
 </bind>
 </comp>
 
@@ -1445,7 +1445,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="348" class="1004" name="tmp_61_fu_348">
+<comp id="348" class="1004" name="tmp_60_fu_348">
 <pin_list>
 <pin id="349" dir="0" index="0" bw="1" slack="0"/>
 <pin id="350" dir="0" index="1" bw="24" slack="0"/>
@@ -1454,7 +1454,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_61/21 "/>
+<opset="tmp_60/21 "/>
 </bind>
 </comp>
 
@@ -1485,7 +1485,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="372" class="1004" name="tmp_66_fu_372">
+<comp id="372" class="1004" name="tmp_65_fu_372">
 <pin_list>
 <pin id="373" dir="0" index="0" bw="5" slack="0"/>
 <pin id="374" dir="0" index="1" bw="1" slack="1"/>
@@ -1494,22 +1494,22 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp_66/22 "/>
+<opset="tmp_65/22 "/>
 </bind>
 </comp>
 
-<comp id="379" class="1004" name="tmp_67_fu_379">
+<comp id="379" class="1004" name="tmp_66_fu_379">
 <pin_list>
 <pin id="380" dir="0" index="0" bw="3" slack="0"/>
 <pin id="381" dir="1" index="1" bw="5" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_67/22 "/>
+<opset="tmp_66/22 "/>
 </bind>
 </comp>
 
-<comp id="383" class="1004" name="tmp_68_fu_383">
+<comp id="383" class="1004" name="tmp_67_fu_383">
 <pin_list>
 <pin id="384" dir="0" index="0" bw="5" slack="0"/>
 <pin id="385" dir="0" index="1" bw="3" slack="0"/>
@@ -1517,13 +1517,13 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="tmp_68/22 "/>
+<opset="tmp_67/22 "/>
 </bind>
 </comp>
 
 <comp id="389" class="1004" name="w17_V_load_cast_fu_389">
 <pin_list>
-<pin id="390" dir="0" index="0" bw="18" slack="1"/>
+<pin id="390" dir="0" index="0" bw="25" slack="1"/>
 <pin id="391" dir="1" index="1" bw="28" slack="0"/>
 </pin_list>
 <bind>
@@ -1532,48 +1532,48 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="392" class="1004" name="tmp_72_fu_392">
+<comp id="392" class="1004" name="tmp_68_fu_392">
 <pin_list>
 <pin id="393" dir="0" index="0" bw="5" slack="1"/>
 <pin id="394" dir="1" index="1" bw="28" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_72/23 "/>
+<opset="tmp_68/23 "/>
 </bind>
 </comp>
 
-<comp id="395" class="1004" name="tmp_73_fu_395">
+<comp id="395" class="1004" name="tmp_72_fu_395">
 <pin_list>
-<pin id="396" dir="0" index="0" bw="18" slack="0"/>
+<pin id="396" dir="0" index="0" bw="25" slack="0"/>
 <pin id="397" dir="0" index="1" bw="5" slack="0"/>
 <pin id="398" dir="1" index="2" bw="28" slack="0"/>
 </pin_list>
 <bind>
 <opcode="lshr(21) " fcode="lshr"/>
-<opset="tmp_73/23 "/>
+<opset="tmp_72/23 "/>
 </bind>
 </comp>
 
-<comp id="401" class="1004" name="tmp_74_fu_401">
+<comp id="401" class="1004" name="tmp_73_fu_401">
 <pin_list>
 <pin id="402" dir="0" index="0" bw="28" slack="0"/>
 <pin id="403" dir="1" index="1" bw="14" slack="1"/>
 </pin_list>
 <bind>
 <opcode="trunc(33) " fcode="trunc"/>
-<opset="tmp_74/23 "/>
+<opset="tmp_73/23 "/>
 </bind>
 </comp>
 
-<comp id="405" class="1004" name="tmp_65_fu_405">
+<comp id="405" class="1004" name="tmp_64_fu_405">
 <pin_list>
 <pin id="406" dir="0" index="0" bw="4" slack="18"/>
 <pin id="407" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_65/24 "/>
+<opset="tmp_64/24 "/>
 </bind>
 </comp>
 
@@ -1782,7 +1782,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="511" class="1004" name="tmp_63_fu_511">
+<comp id="511" class="1004" name="tmp_62_fu_511">
 <pin_list>
 <pin id="512" dir="0" index="0" bw="4" slack="0"/>
 <pin id="513" dir="0" index="1" bw="4" slack="0"/>
@@ -1790,7 +1790,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="tmp_63/29 "/>
+<opset="tmp_62/29 "/>
 </bind>
 </comp>
 
@@ -1806,14 +1806,14 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="523" class="1004" name="tmp_64_fu_523">
+<comp id="523" class="1004" name="tmp_63_fu_523">
 <pin_list>
 <pin id="524" dir="0" index="0" bw="4" slack="0"/>
 <pin id="525" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_64/29 "/>
+<opset="tmp_63/29 "/>
 </bind>
 </comp>
 
@@ -1909,13 +1909,13 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="581" class="1005" name="tmp_60_reg_581">
+<comp id="581" class="1005" name="tmp_59_reg_581">
 <pin_list>
 <pin id="582" dir="0" index="0" bw="1" slack="21"/>
 <pin id="583" dir="1" index="1" bw="1" slack="2147483647"/>
 </pin_list>
 <bind>
-<opset="tmp_60 "/>
+<opset="tmp_59 "/>
 </bind>
 </comp>
 
@@ -1969,43 +1969,43 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="610" class="1005" name="tmp_61_reg_610">
+<comp id="610" class="1005" name="tmp_60_reg_610">
 <pin_list>
 <pin id="611" dir="0" index="0" bw="1" slack="1"/>
 <pin id="612" dir="1" index="1" bw="1" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_61 "/>
+<opset="tmp_60 "/>
 </bind>
 </comp>
 
 <comp id="615" class="1005" name="w17_V_load_reg_615">
 <pin_list>
-<pin id="616" dir="0" index="0" bw="18" slack="1"/>
-<pin id="617" dir="1" index="1" bw="18" slack="1"/>
+<pin id="616" dir="0" index="0" bw="25" slack="1"/>
+<pin id="617" dir="1" index="1" bw="25" slack="1"/>
 </pin_list>
 <bind>
 <opset="w17_V_load "/>
 </bind>
 </comp>
 
-<comp id="620" class="1005" name="tmp_68_reg_620">
+<comp id="620" class="1005" name="tmp_67_reg_620">
 <pin_list>
 <pin id="621" dir="0" index="0" bw="5" slack="1"/>
 <pin id="622" dir="1" index="1" bw="5" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_68 "/>
+<opset="tmp_67 "/>
 </bind>
 </comp>
 
-<comp id="625" class="1005" name="tmp_74_reg_625">
+<comp id="625" class="1005" name="tmp_73_reg_625">
 <pin_list>
 <pin id="626" dir="0" index="0" bw="14" slack="1"/>
 <pin id="627" dir="1" index="1" bw="14" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_74 "/>
+<opset="tmp_73 "/>
 </bind>
 </comp>
 
@@ -2109,13 +2109,13 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 </bind>
 </comp>
 
-<comp id="685" class="1005" name="tmp_64_reg_685">
+<comp id="685" class="1005" name="tmp_63_reg_685">
 <pin_list>
 <pin id="686" dir="0" index="0" bw="64" slack="2"/>
 <pin id="687" dir="1" index="1" bw="64" slack="2"/>
 </pin_list>
 <bind>
-<opset="tmp_64 "/>
+<opset="tmp_63 "/>
 </bind>
 </comp>
 
@@ -2527,7 +2527,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 	State 5
 		extLd : 1
 	State 6
-		tmp_60 : 1
+		tmp_59 : 1
 		im_3 : 1
 		StgValue_72 : 2
 		tmp_21 : 1
@@ -2549,14 +2549,14 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 	State 21
 		w17_V_addr : 1
 		w17_V_load : 2
-		tmp_61 : 1
+		tmp_60 : 1
 	State 22
 		p_shl8 : 1
-		tmp_67 : 2
-		tmp_68 : 3
+		tmp_66 : 2
+		tmp_67 : 3
 	State 23
-		tmp_73 : 1
-		tmp_74 : 2
+		tmp_72 : 1
+		tmp_73 : 2
 	State 24
 		acc_V_addr_6 : 1
 		p_Val2_s : 2
@@ -2580,10 +2580,10 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 	State 28
 		p_s : 1
 	State 29
-		tmp_63 : 1
+		tmp_62 : 1
 		ires_3 : 1
 		StgValue_147 : 2
-		tmp_64 : 1
+		tmp_63 : 1
 		acc_V_addr_5 : 2
 		acc_V_load : 3
 	State 30
@@ -2599,7 +2599,7 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 |----------|------------------------|---------|---------|---------|---------|
 | Operation|     Functional Unit    |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|------------------------|---------|---------|---------|---------|
-|   call   |   grp_product_fu_259   |    1    |  3.538  |   106   |   152   |
+|   call   |   grp_product_fu_259   |    1    |  3.538  |   106   |   131   |
 |----------|------------------------|---------|---------|---------|---------|
 |   urem   |       grp_fu_334       |    0    |    0    |   142   |    78   |
 |----------|------------------------|---------|---------|---------|---------|
@@ -2613,17 +2613,17 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 |          |    in_index_3_fu_493   |    0    |    0    |    0    |    39   |
 |          |      ires_3_fu_517     |    0    |    0    |    0    |    13   |
 |----------|------------------------|---------|---------|---------|---------|
+|   lshr   |      tmp_72_fu_395     |    0    |    0    |    0    |    73   |
+|----------|------------------------|---------|---------|---------|---------|
 |          |    exitcond6_fu_270    |    0    |    0    |    0    |    9    |
 |          |     exitcond_fu_291    |    0    |    0    |    0    |    13   |
 |   icmp   |      tmp_70_fu_481     |    0    |    0    |    0    |    13   |
 |          |      tmp_71_fu_499     |    0    |    0    |    0    |    18   |
-|          |      tmp_63_fu_511     |    0    |    0    |    0    |    9    |
-|----------|------------------------|---------|---------|---------|---------|
-|   lshr   |      tmp_73_fu_395     |    0    |    0    |    0    |    45   |
+|          |      tmp_62_fu_511     |    0    |    0    |    0    |    9    |
 |----------|------------------------|---------|---------|---------|---------|
 |  select  |       p_s_fu_504       |    0    |    0    |    0    |    32   |
 |----------|------------------------|---------|---------|---------|---------|
-|    sub   |      tmp_68_fu_383     |    0    |    0    |    0    |    15   |
+|    sub   |      tmp_67_fu_383     |    0    |    0    |    0    |    15   |
 |----------|------------------------|---------|---------|---------|---------|
 |          |      tmp_20_fu_445     |    0    |    0    |    0    |    2    |
 |    xor   |      tmp_69_fu_457     |    0    |    0    |    0    |    2    |
@@ -2641,29 +2641,29 @@ StgValue_156    (br               ) [ 00010000000000000000000000000111]
 |          |      extLd_fu_316      |    0    |    0    |    0    |    0    |
 |   zext   |    zext_cast_fu_340    |    0    |    0    |    0    |    0    |
 |          |      tmp_23_fu_344     |    0    |    0    |    0    |    0    |
-|          |      tmp_67_fu_379     |    0    |    0    |    0    |    0    |
-|          |      tmp_72_fu_392     |    0    |    0    |    0    |    0    |
-|          |      tmp_65_fu_405     |    0    |    0    |    0    |    0    |
-|          |      tmp_64_fu_523     |    0    |    0    |    0    |    0    |
+|          |      tmp_66_fu_379     |    0    |    0    |    0    |    0    |
+|          |      tmp_68_fu_392     |    0    |    0    |    0    |    0    |
+|          |      tmp_64_fu_405     |    0    |    0    |    0    |    0    |
+|          |      tmp_63_fu_523     |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
-|          |      tmp_62_fu_308     |    0    |    0    |    0    |    0    |
+|          |      tmp_61_fu_308     |    0    |    0    |    0    |    0    |
 |   sext   | w17_V_load_cast_fu_389 |    0    |    0    |    0    |    0    |
 |          |      lhs_V_fu_410      |    0    |    0    |    0    |    0    |
 |          |      rhs_V_fu_414      |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
-|          |      tmp_60_fu_320     |    0    |    0    |    0    |    0    |
-| bitselect|      tmp_61_fu_348     |    0    |    0    |    0    |    0    |
+|          |      tmp_59_fu_320     |    0    |    0    |    0    |    0    |
+| bitselect|      tmp_60_fu_348     |    0    |    0    |    0    |    0    |
 |          |    p_Result_s_fu_423   |    0    |    0    |    0    |    0    |
 |          |   p_Result_11_fu_437   |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
 |partselect|      tmp_8_fu_355      |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
 |bitconcatenate|      p_shl8_fu_364     |    0    |    0    |    0    |    0    |
-|          |      tmp_66_fu_372     |    0    |    0    |    0    |    0    |
+|          |      tmp_65_fu_372     |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
-|   trunc  |      tmp_74_fu_401     |    0    |    0    |    0    |    0    |
+|   trunc  |      tmp_73_fu_401     |    0    |    0    |    0    |    0    |
 |----------|------------------------|---------|---------|---------|---------|
-|   Total  |                        |    2    |  3.538  |   248   |   548   |
+|   Total  |                        |    2    |  3.538  |   248   |   555   |
 |----------|------------------------|---------|---------|---------|---------|
 
 Memories:
@@ -2704,21 +2704,21 @@ Memories:
 |      p_s_reg_672     |   32   |
 |        reg_265       |   14   |
 |    tmp_21_reg_595    |   11   |
-|    tmp_60_reg_581    |    1   |
-|    tmp_61_reg_610    |    1   |
-|    tmp_64_reg_685    |   64   |
-|    tmp_68_reg_620    |    5   |
-|    tmp_74_reg_625    |   14   |
+|    tmp_59_reg_581    |    1   |
+|    tmp_60_reg_610    |    1   |
+|    tmp_63_reg_685    |   64   |
+|    tmp_67_reg_620    |    5   |
+|    tmp_73_reg_625    |   14   |
 |   underflow_reg_645  |    1   |
 |  w17_V_addr_reg_605  |    9   |
-|  w17_V_load_reg_615  |   18   |
+|  w17_V_load_reg_615  |   25   |
 |   w_index5_reg_238   |   11   |
 |   w_index_3_reg_653  |   11   |
 | w_index_cast_reg_543 |   11   |
 |    w_index_reg_194   |    9   |
 |   zext_cast_reg_590  |   24   |
 +----------------------+--------+
-|         Total        |   422  |
+|         Total        |   429  |
 +----------------------+--------+
 
 * Multiplexer (MUX) list: 
@@ -2742,10 +2742,10 @@ Memories:
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    -   |    2   |    3   |   248  |   548  |
+|  Function |    -   |    2   |    3   |   248  |   555  |
 |   Memory  |    0   |    -   |    -   |   28   |    3   |
 |Multiplexer|    -   |    -   |   12   |    -   |   81   |
-|  Register |    -   |    -   |    -   |   422  |    -   |
+|  Register |    -   |    -   |    -   |   429  |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |    0   |    2   |   16   |   698  |   632  |
+|   Total   |    0   |    2   |   16   |   705  |   639  |
 +-----------+--------+--------+--------+--------+--------+

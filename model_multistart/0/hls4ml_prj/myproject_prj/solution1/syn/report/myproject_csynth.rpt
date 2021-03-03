@@ -1,0 +1,211 @@
+
+
+================================================================
+== Vivado HLS Report for 'myproject'
+================================================================
+* Date:           Tue Mar  2 23:01:37 2021
+
+* Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
+* Project:        myproject_prj
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z007sclg225-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |   5.00|     4.350|        0.62|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +---------+---------+--------+---------+----------+
+    |      Latency      |     Interval     | Pipeline |
+    |   min   |   max   |   min  |   max   |   Type   |
+    +---------+---------+--------+---------+----------+
+    |  2521531|  7004283|  949549|  2917349| dataflow |
+    +---------+---------+--------+---------+----------+
+
+    + Detail: 
+        * Instance: 
+        +-------------------------+----------------------+--------+---------+--------+---------+---------+
+        |                         |                      |      Latency     |     Interval     | Pipeline|
+        |         Instance        |        Module        |   min  |   max   |   min  |   max   |   Type  |
+        +-------------------------+----------------------+--------+---------+--------+---------+---------+
+        |softmax_U0               |softmax               |     194|      194|     194|      194|   none  |
+        |dense_large_2_U0         |dense_large_2         |  553444|  2917348|  553444|  2917348|   none  |
+        |conv_2d_large_cl_U0      |conv_2d_large_cl      |  731628|  1526604|  731628|  1526604|   none  |
+        |conv_2d_large_cl_1_U0    |conv_2d_large_cl_1    |  949548|  1945292|  949548|  1945292|   none  |
+        |dense_large_1_U0         |dense_large_1         |  176740|   458980|  176740|   458980|   none  |
+        |dense_large_U0           |dense_large           |   13064|    33224|   13064|    33224|   none  |
+        |pooling2d_cl_U0          |pooling2d_cl          |   42577|    61393|   42577|    61393|   none  |
+        |pooling2d_cl_1_U0        |pooling2d_cl_1        |   15777|    22689|   15777|    22689|   none  |
+        |relu_1_U0                |relu_1                |   26913|    26913|   26913|    26913|   none  |
+        |relu_U0                  |relu                  |   10817|    10817|   10817|    10817|   none  |
+        |relu_3_U0                |relu_3                |     481|      481|     481|      481|   none  |
+        |relu_2_U0                |relu_2                |     337|      337|     337|      337|   none  |
+        |Block_arrayctor_loop_U0  |Block_arrayctor_loop  |       0|        0|       0|        0|   none  |
+        +-------------------------+----------------------+--------+---------+--------+---------+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+-------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF  |  LUT  |
++-----------------+---------+-------+-------+-------+
+|DSP              |        -|      -|      -|      -|
+|Expression       |        -|      -|      0|     34|
+|FIFO             |        -|      -|      -|      -|
+|Instance         |       95|      9|   4818|   8276|
+|Memory           |       29|      -|     28|      3|
+|Multiplexer      |        -|      -|      -|     36|
+|Register         |        -|      -|      6|      -|
++-----------------+---------+-------+-------+-------+
+|Total            |      124|      9|   4852|   8349|
++-----------------+---------+-------+-------+-------+
+|Available        |      100|     66|  28800|  14400|
++-----------------+---------+-------+-------+-------+
+|Utilization (%)  |      124|     13|     16|     57|
++-----------------+---------+-------+-------+-------+
+
++ Detail: 
+    * Instance: 
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF |  LUT |
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |Block_arrayctor_loop_U0  |Block_arrayctor_loop  |        0|      0|    2|    11|
+    |conv_2d_large_cl_U0      |conv_2d_large_cl      |        1|      1|  628|  1367|
+    |conv_2d_large_cl_1_U0    |conv_2d_large_cl_1    |        1|      1|  576|  1232|
+    |dense_large_U0           |dense_large           |        2|      2|  518|   876|
+    |dense_large_1_U0         |dense_large_1         |       17|      2|  591|   955|
+    |dense_large_2_U0         |dense_large_2         |       72|      2|  960|  1187|
+    |pooling2d_cl_U0          |pooling2d_cl          |        0|      0|  210|   503|
+    |pooling2d_cl_1_U0        |pooling2d_cl_1        |        0|      0|  207|   486|
+    |relu_U0                  |relu                  |        0|      0|   82|   104|
+    |relu_1_U0                |relu_1                |        0|      0|   85|   109|
+    |relu_2_U0                |relu_2                |        0|      0|   67|   105|
+    |relu_3_U0                |relu_3                |        0|      0|   67|   105|
+    |softmax_U0               |softmax               |        2|      1|  825|  1236|
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |Total                    |                      |       95|      9| 4818|  8276|
+    +-------------------------+----------------------+---------+-------+-----+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    +-----------------+-------------------------+---------+----+----+------+-----+------+-------------+
+    |      Memory     |          Module         | BRAM_18K| FF | LUT| Words| Bits| Banks| W*Bits*Banks|
+    +-----------------+-------------------------+---------+----+----+------+-----+------+-------------+
+    |layer10_out_V_U  |myproject_layer10_out_V  |        1|   0|   0|   576|   14|     2|        16128|
+    |layer11_out_V_U  |myproject_layer11_out_V  |        1|   0|   0|   120|   14|     2|         3360|
+    |layer13_out_V_U  |myproject_layer13_out_V  |        1|   0|   0|   120|   13|     2|         3120|
+    |layer14_out_V_U  |myproject_layer14_out_V  |        1|   0|   0|    84|   14|     2|         2352|
+    |layer16_out_V_U  |myproject_layer16_out_V  |        1|   0|   0|    84|   13|     2|         2184|
+    |layer17_out_V_U  |myproject_layer17_out_V  |        0|  28|   3|    10|   14|     2|          280|
+    |layer3_out_V_U   |myproject_layer3_out_V   |        7|   0|   0|  6728|   14|     2|       188384|
+    |layer5_out_V_U   |myproject_layer5_out_V   |        7|   0|   0|  6728|   13|     2|       174928|
+    |layer6_out_V_U   |myproject_layer6_out_V   |        2|   0|   0|  1568|   14|     2|        43904|
+    |layer7_out_V_U   |myproject_layer7_out_V   |        4|   0|   0|  2704|   14|     2|        75712|
+    |layer9_out_V_U   |myproject_layer9_out_V   |        4|   0|   0|  2704|   13|     2|        70304|
+    +-----------------+-------------------------+---------+----+----+------+-----+------+-------------+
+    |Total            |                         |       29|  28|   3| 21426|  150|    22|       580656|
+    +-----------------+-------------------------+---------+----+----+------+-----+------+-------------+
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |               Variable Name              | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |Block_arrayctor_loop_U0_ap_ready_count    |     +    |      0|  0|  10|           2|           1|
+    |conv_2d_large_cl_1_U0_ap_ready_count      |     +    |      0|  0|  10|           2|           1|
+    |Block_arrayctor_loop_U0_ap_start          |    and   |      0|  0|   2|           1|           1|
+    |ap_idle                                   |    and   |      0|  0|   2|           1|           1|
+    |ap_sync_done                              |    and   |      0|  0|   2|           1|           1|
+    |ap_sync_ready                             |    and   |      0|  0|   2|           1|           1|
+    |conv_2d_large_cl_1_U0_ap_start            |    and   |      0|  0|   2|           1|           1|
+    |ap_sync_Block_arrayctor_loop_U0_ap_ready  |    or    |      0|  0|   2|           1|           1|
+    |ap_sync_conv_2d_large_cl_1_U0_ap_ready    |    or    |      0|  0|   2|           1|           1|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+    |Total                                     |          |      0|  0|  34|          11|           9|
+    +------------------------------------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------------------+----+-----------+-----+-----------+
+    |                     Name                     | LUT| Input Size| Bits| Total Bits|
+    +----------------------------------------------+----+-----------+-----+-----------+
+    |Block_arrayctor_loop_U0_ap_ready_count        |   9|          2|    2|          4|
+    |ap_sync_reg_Block_arrayctor_loop_U0_ap_ready  |   9|          2|    1|          2|
+    |ap_sync_reg_conv_2d_large_cl_1_U0_ap_ready    |   9|          2|    1|          2|
+    |conv_2d_large_cl_1_U0_ap_ready_count          |   9|          2|    2|          4|
+    +----------------------------------------------+----+-----------+-----+-----------+
+    |Total                                         |  36|          8|    6|         12|
+    +----------------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +----------------------------------------------+---+----+-----+-----------+
+    |                     Name                     | FF| LUT| Bits| Const Bits|
+    +----------------------------------------------+---+----+-----+-----------+
+    |Block_arrayctor_loop_U0_ap_ready_count        |  2|   0|    2|          0|
+    |ap_sync_reg_Block_arrayctor_loop_U0_ap_ready  |  1|   0|    1|          0|
+    |ap_sync_reg_conv_2d_large_cl_1_U0_ap_ready    |  1|   0|    1|          0|
+    |conv_2d_large_cl_1_U0_ap_ready_count          |  2|   0|    2|          0|
+    +----------------------------------------------+---+----+-----+-----------+
+    |Total                                         |  6|   0|    6|          0|
+    +----------------------------------------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++-------------------------+-----+-----+------------+------------------+--------------+
+|        RTL Ports        | Dir | Bits|  Protocol  |   Source Object  |    C Type    |
++-------------------------+-----+-----+------------+------------------+--------------+
+|ap_clk                   |  in |    1| ap_ctrl_hs |     myproject    | return value |
+|ap_rst                   |  in |    1| ap_ctrl_hs |     myproject    | return value |
+|ap_start                 |  in |    1| ap_ctrl_hs |     myproject    | return value |
+|ap_done                  | out |    1| ap_ctrl_hs |     myproject    | return value |
+|ap_ready                 | out |    1| ap_ctrl_hs |     myproject    | return value |
+|ap_idle                  | out |    1| ap_ctrl_hs |     myproject    | return value |
+|input1_V_address0        | out |   10|  ap_memory |     input1_V     |     array    |
+|input1_V_ce0             | out |    1|  ap_memory |     input1_V     |     array    |
+|input1_V_d0              | out |   14|  ap_memory |     input1_V     |     array    |
+|input1_V_q0              |  in |   14|  ap_memory |     input1_V     |     array    |
+|input1_V_we0             | out |    1|  ap_memory |     input1_V     |     array    |
+|input1_V_address1        | out |   10|  ap_memory |     input1_V     |     array    |
+|input1_V_ce1             | out |    1|  ap_memory |     input1_V     |     array    |
+|input1_V_d1              | out |   14|  ap_memory |     input1_V     |     array    |
+|input1_V_q1              |  in |   14|  ap_memory |     input1_V     |     array    |
+|input1_V_we1             | out |    1|  ap_memory |     input1_V     |     array    |
+|layer19_out_V_address0   | out |    4|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_ce0        | out |    1|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_d0         | out |   14|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_q0         |  in |   14|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_we0        | out |    1|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_address1   | out |    4|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_ce1        | out |    1|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_d1         | out |   14|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_q1         |  in |   14|  ap_memory |   layer19_out_V  |     array    |
+|layer19_out_V_we1        | out |    1|  ap_memory |   layer19_out_V  |     array    |
+|const_size_in_1          | out |   16|   ap_vld   |  const_size_in_1 |    pointer   |
+|const_size_in_1_ap_vld   | out |    1|   ap_vld   |  const_size_in_1 |    pointer   |
+|const_size_out_1         | out |   16|   ap_vld   | const_size_out_1 |    pointer   |
+|const_size_out_1_ap_vld  | out |    1|   ap_vld   | const_size_out_1 |    pointer   |
++-------------------------+-----+-----+------------+------------------+--------------+
+

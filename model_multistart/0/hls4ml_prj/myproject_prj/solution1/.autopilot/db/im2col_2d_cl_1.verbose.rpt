@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'im2col_2d_cl_1'
 ================================================================
-* Date:           Mon Mar  1 22:17:13 2021
+* Date:           Tue Mar  2 23:01:22 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -91,9 +91,9 @@
     |input_row_fu_160_p2     |     +    |      0|  0|  15|           6|           6|
     |kernel_col_2_fu_197_p2  |     +    |      0|  0|  12|           3|           1|
     |kernel_row_2_fu_154_p2  |     +    |      0|  0|  12|           3|           1|
-    |tmp_31_fu_165_p2        |     +    |      0|  0|  15|           5|           3|
-    |tmp_37_fu_225_p2        |     +    |      0|  0|  13|          11|          11|
-    |tmp_33_fu_191_p2        |   icmp   |      0|  0|   9|           3|           4|
+    |tmp_30_fu_165_p2        |     +    |      0|  0|  15|           5|           3|
+    |tmp_36_fu_225_p2        |     +    |      0|  0|  13|          11|          11|
+    |tmp_32_fu_191_p2        |   icmp   |      0|  0|   9|           3|           4|
     |tmp_s_fu_148_p2         |   icmp   |      0|  0|   9|           3|           4|
     +------------------------+----------+-------+---+----+------------+------------+
     |Total                   |          |      0|  0| 115|          45|          37|
@@ -128,11 +128,11 @@
     |kernel_row_2_reg_258  |   3|   0|    3|          0|
     |kernel_row_reg_103    |   3|   0|    3|          0|
     |row_cast_reg_245      |   5|   0|    6|          1|
-    |tmp_31_reg_263        |   5|   0|    5|          0|
-    |tmp_32_reg_272        |   6|   0|   11|          5|
-    |tmp_35_reg_285        |   1|   0|    1|          0|
-    |tmp_36_reg_289        |   5|   0|   64|         59|
-    |tmp_37_reg_294        |  11|   0|   11|          0|
+    |tmp_30_reg_263        |   5|   0|    5|          0|
+    |tmp_31_reg_272        |   6|   0|   11|          5|
+    |tmp_34_reg_285        |   1|   0|    1|          0|
+    |tmp_35_reg_289        |   5|   0|   64|         59|
+    |tmp_36_reg_294        |  11|   0|   11|          0|
     |tmp_reg_268           |   1|   0|    1|          0|
     +----------------------+----+----+-----+-----------+
     |Total                 |  81|   0|  147|         66|
@@ -200,9 +200,9 @@ IsGatedGlobalClock: 0
 2 --> 
 	3  / (!tmp_s)
 3 --> 
-	4  / (!tmp_33 & !tmp & !tmp_35)
-	6  / (!tmp_33 & tmp_35) | (!tmp_33 & tmp)
-	2  / (tmp_33)
+	4  / (!tmp_32 & !tmp & !tmp_34)
+	6  / (!tmp_32 & tmp_34) | (!tmp_32 & tmp)
+	2  / (tmp_32)
 4 --> 
 	5  / true
 5 --> 
@@ -220,7 +220,7 @@ ST_1 : Operation 10 [1/1] (0.00ns)   --->   "%col_cast = zext i5 %col_read to i6
 ST_1 : Operation 11 [1/1] (1.76ns)   --->   "br label %.loopexit" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 11 'br' <Predicate = true> <Delay = 1.76>
 
 State 2 <SV = 1> <Delay = 1.78>
-ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%index_1 = phi i5 [ 0, %0 ], [ %tmp_31, %.loopexit.loopexit ]" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 12 'phi' 'index_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%index_1 = phi i5 [ 0, %0 ], [ %tmp_30, %.loopexit.loopexit ]" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 12 'phi' 'index_1' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 13 [1/1] (0.00ns)   --->   "%kernel_row = phi i3 [ 0, %0 ], [ %kernel_row_2, %.loopexit.loopexit ]" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 13 'phi' 'kernel_row' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 14 [1/1] (0.00ns)   --->   "%kernel_row_cast = zext i3 %kernel_row to i6" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 14 'zext' 'kernel_row_cast' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 15 [1/1] (1.13ns)   --->   "%tmp_s = icmp eq i3 %kernel_row, -4" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 15 'icmp' 'tmp_s' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
@@ -228,9 +228,9 @@ ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_
 ST_2 : Operation 17 [1/1] (1.65ns)   --->   "%kernel_row_2 = add i3 %kernel_row, 1" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 17 'add' 'kernel_row_2' <Predicate = true> <Delay = 1.65> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "br i1 %tmp_s, label %8, label %2" [firmware/nnet_utils/nnet_conv2d_large.h:160]   --->   Operation 18 'br' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 19 [1/1] (1.78ns)   --->   "%input_row = add i6 %kernel_row_cast, %row_cast" [firmware/nnet_utils/nnet_conv2d_large.h:161]   --->   Operation 19 'add' 'input_row' <Predicate = (!tmp_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 20 [1/1] (1.78ns)   --->   "%tmp_31 = add i5 %index_1, 4" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 20 'add' 'tmp_31' <Predicate = (!tmp_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (1.78ns)   --->   "%tmp_30 = add i5 %index_1, 4" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 20 'add' 'tmp_30' <Predicate = (!tmp_s)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 21 [1/1] (0.00ns)   --->   "%tmp = call i1 @_ssdm_op_BitSelect.i1.i6.i32(i6 %input_row, i32 5)" [firmware/nnet_utils/nnet_conv2d_large.h:163]   --->   Operation 21 'bitselect' 'tmp' <Predicate = (!tmp_s)> <Delay = 0.00>
-ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%tmp_32 = call i11 @_ssdm_op_BitConcatenate.i11.i6.i5(i6 %input_row, i5 0)" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 22 'bitconcatenate' 'tmp_32' <Predicate = (!tmp_s)> <Delay = 0.00>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%tmp_31 = call i11 @_ssdm_op_BitConcatenate.i11.i6.i5(i6 %input_row, i5 0)" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 22 'bitconcatenate' 'tmp_31' <Predicate = (!tmp_s)> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (1.76ns)   --->   "br label %1" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 23 'br' <Predicate = (!tmp_s)> <Delay = 1.76>
 ST_2 : Operation 24 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet_conv2d_large.h:178]   --->   Operation 24 'ret' <Predicate = (tmp_s)> <Delay = 0.00>
 
@@ -238,38 +238,38 @@ State 3 <SV = 2> <Delay = 3.41>
 ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%index_2 = phi i5 [ %index_1, %2 ], [ %index_4, %3 ]" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 25 'phi' 'index_2' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%kernel_col = phi i3 [ 0, %2 ], [ %kernel_col_2, %3 ]" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 26 'phi' 'kernel_col' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 27 [1/1] (0.00ns)   --->   "%kernel_col_cast = zext i3 %kernel_col to i6" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 27 'zext' 'kernel_col_cast' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 28 [1/1] (1.13ns)   --->   "%tmp_33 = icmp eq i3 %kernel_col, -4" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 28 'icmp' 'tmp_33' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%empty_42 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)"   --->   Operation 29 'speclooptripcount' 'empty_42' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (1.13ns)   --->   "%tmp_32 = icmp eq i3 %kernel_col, -4" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 28 'icmp' 'tmp_32' <Predicate = true> <Delay = 1.13> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.30> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%empty_44 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 4, i64 4, i64 4)"   --->   Operation 29 'speclooptripcount' 'empty_44' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 30 [1/1] (1.65ns)   --->   "%kernel_col_2 = add i3 %kernel_col, 1" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 30 'add' 'kernel_col_2' <Predicate = true> <Delay = 1.65> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 31 [1/1] (0.00ns)   --->   "br i1 %tmp_33, label %.loopexit.loopexit, label %4" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 31 'br' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 32 [1/1] (0.00ns)   --->   "br i1 %tmp, label %_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit2.i.i.i.i.0, label %7" [firmware/nnet_utils/nnet_conv2d_large.h:163]   --->   Operation 32 'br' <Predicate = (!tmp_33)> <Delay = 0.00>
-ST_3 : Operation 33 [1/1] (1.78ns)   --->   "%input_col = add i6 %col_cast, %kernel_col_cast" [firmware/nnet_utils/nnet_conv2d_large.h:166]   --->   Operation 33 'add' 'input_col' <Predicate = (!tmp_33 & !tmp)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%input_col_cast_cast = zext i6 %input_col to i11" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 34 'zext' 'input_col_cast_cast' <Predicate = (!tmp_33 & !tmp)> <Delay = 0.00>
-ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_35 = call i1 @_ssdm_op_BitSelect.i1.i6.i32(i6 %input_col, i32 5)" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 35 'bitselect' 'tmp_35' <Predicate = (!tmp_33 & !tmp)> <Delay = 0.00>
-ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%tmp_36 = zext i5 %index_2 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 36 'zext' 'tmp_36' <Predicate = (!tmp_33 & !tmp)> <Delay = 0.00>
-ST_3 : Operation 37 [1/1] (0.00ns)   --->   "br i1 %tmp_35, label %_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit2.i.i.i.i35.0, label %6" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 37 'br' <Predicate = (!tmp_33 & !tmp)> <Delay = 0.00>
-ST_3 : Operation 38 [1/1] (1.63ns)   --->   "%tmp_37 = add i11 %tmp_32, %input_col_cast_cast" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 38 'add' 'tmp_37' <Predicate = (!tmp_33 & !tmp & !tmp_35)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%data_col_V_addr_2 = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_36" [firmware/nnet_utils/nnet_conv2d_large.h:172]   --->   Operation 39 'getelementptr' 'data_col_V_addr_2' <Predicate = (!tmp_33 & !tmp & tmp_35)> <Delay = 0.00>
-ST_3 : Operation 40 [1/1] (2.32ns)   --->   "store i14 0, i14* %data_col_V_addr_2, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:172]   --->   Operation 40 'store' <Predicate = (!tmp_33 & !tmp & tmp_35)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_3 : Operation 41 [1/1] (0.00ns)   --->   "br label %5"   --->   Operation 41 'br' <Predicate = (!tmp_33 & !tmp & tmp_35)> <Delay = 0.00>
-ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_34 = zext i5 %index_2 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 42 'zext' 'tmp_34' <Predicate = (!tmp_33 & tmp)> <Delay = 0.00>
-ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%data_col_V_addr = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_34" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 43 'getelementptr' 'data_col_V_addr' <Predicate = (!tmp_33 & tmp)> <Delay = 0.00>
-ST_3 : Operation 44 [1/1] (2.32ns)   --->   "store i14 0, i14* %data_col_V_addr, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 44 'store' <Predicate = (!tmp_33 & tmp)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_3 : Operation 45 [1/1] (0.00ns)   --->   "br label %3" [firmware/nnet_utils/nnet_conv2d_large.h:165]   --->   Operation 45 'br' <Predicate = (!tmp_33 & tmp)> <Delay = 0.00>
-ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %.loopexit"   --->   Operation 46 'br' <Predicate = (tmp_33)> <Delay = 0.00>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "br i1 %tmp_32, label %.loopexit.loopexit, label %4" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 31 'br' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "br i1 %tmp, label %_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit2.i.i.i.i.0, label %7" [firmware/nnet_utils/nnet_conv2d_large.h:163]   --->   Operation 32 'br' <Predicate = (!tmp_32)> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (1.78ns)   --->   "%input_col = add i6 %col_cast, %kernel_col_cast" [firmware/nnet_utils/nnet_conv2d_large.h:166]   --->   Operation 33 'add' 'input_col' <Predicate = (!tmp_32 & !tmp)> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%input_col_cast_cast = zext i6 %input_col to i11" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 34 'zext' 'input_col_cast_cast' <Predicate = (!tmp_32 & !tmp)> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%tmp_34 = call i1 @_ssdm_op_BitSelect.i1.i6.i32(i6 %input_col, i32 5)" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 35 'bitselect' 'tmp_34' <Predicate = (!tmp_32 & !tmp)> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "%tmp_35 = zext i5 %index_2 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 36 'zext' 'tmp_35' <Predicate = (!tmp_32 & !tmp)> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "br i1 %tmp_34, label %_ZrsILi32ELb0EEN11ap_int_baseIXT_EXT0_EE5RTypeIXT_EXT0_EE4arg1ERKS1_i.exit2.i.i.i.i35.0, label %6" [firmware/nnet_utils/nnet_conv2d_large.h:167]   --->   Operation 37 'br' <Predicate = (!tmp_32 & !tmp)> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (1.63ns)   --->   "%tmp_36 = add i11 %tmp_31, %input_col_cast_cast" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 38 'add' 'tmp_36' <Predicate = (!tmp_32 & !tmp & !tmp_34)> <Delay = 1.63> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "%data_col_V_addr_2 = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_35" [firmware/nnet_utils/nnet_conv2d_large.h:172]   --->   Operation 39 'getelementptr' 'data_col_V_addr_2' <Predicate = (!tmp_32 & !tmp & tmp_34)> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (2.32ns)   --->   "store i14 0, i14* %data_col_V_addr_2, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:172]   --->   Operation 40 'store' <Predicate = (!tmp_32 & !tmp & tmp_34)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "br label %5"   --->   Operation 41 'br' <Predicate = (!tmp_32 & !tmp & tmp_34)> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_33 = zext i5 %index_2 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 42 'zext' 'tmp_33' <Predicate = (!tmp_32 & tmp)> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "%data_col_V_addr = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_33" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 43 'getelementptr' 'data_col_V_addr' <Predicate = (!tmp_32 & tmp)> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (2.32ns)   --->   "store i14 0, i14* %data_col_V_addr, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 44 'store' <Predicate = (!tmp_32 & tmp)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_3 : Operation 45 [1/1] (0.00ns)   --->   "br label %3" [firmware/nnet_utils/nnet_conv2d_large.h:165]   --->   Operation 45 'br' <Predicate = (!tmp_32 & tmp)> <Delay = 0.00>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %.loopexit"   --->   Operation 46 'br' <Predicate = (tmp_32)> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%tmp_38 = zext i11 %tmp_37 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 47 'zext' 'tmp_38' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 48 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [1024 x i14]* %data_V, i64 0, i64 %tmp_38" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 48 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 47 [1/1] (0.00ns)   --->   "%tmp_37 = zext i11 %tmp_36 to i64" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 47 'zext' 'tmp_37' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 48 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [1024 x i14]* %data_V, i64 0, i64 %tmp_37" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 48 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 49 [2/2] (3.25ns)   --->   "%data_V_load = load i14* %data_V_addr, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 49 'load' 'data_V_load' <Predicate = true> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 5 <SV = 4> <Delay = 3.25>
 ST_5 : Operation 50 [1/2] (3.25ns)   --->   "%data_V_load = load i14* %data_V_addr, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 50 'load' 'data_V_load' <Predicate = true> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
 
 State 6 <SV = 5> <Delay = 2.32>
-ST_6 : Operation 51 [1/1] (0.00ns)   --->   "%data_col_V_addr_1 = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_36" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 51 'getelementptr' 'data_col_V_addr_1' <Predicate = (!tmp & !tmp_35)> <Delay = 0.00>
-ST_6 : Operation 52 [1/1] (2.32ns)   --->   "store i14 %data_V_load, i14* %data_col_V_addr_1, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 52 'store' <Predicate = (!tmp & !tmp_35)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
-ST_6 : Operation 53 [1/1] (0.00ns)   --->   "br label %5" [firmware/nnet_utils/nnet_conv2d_large.h:170]   --->   Operation 53 'br' <Predicate = (!tmp & !tmp_35)> <Delay = 0.00>
+ST_6 : Operation 51 [1/1] (0.00ns)   --->   "%data_col_V_addr_1 = getelementptr [16 x i14]* %data_col_V, i64 0, i64 %tmp_35" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 51 'getelementptr' 'data_col_V_addr_1' <Predicate = (!tmp & !tmp_34)> <Delay = 0.00>
+ST_6 : Operation 52 [1/1] (2.32ns)   --->   "store i14 %data_V_load, i14* %data_col_V_addr_1, align 2" [firmware/nnet_utils/nnet_conv2d_large.h:169]   --->   Operation 52 'store' <Predicate = (!tmp & !tmp_34)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 10> <RAM>
+ST_6 : Operation 53 [1/1] (0.00ns)   --->   "br label %5" [firmware/nnet_utils/nnet_conv2d_large.h:170]   --->   Operation 53 'br' <Predicate = (!tmp & !tmp_34)> <Delay = 0.00>
 ST_6 : Operation 54 [1/1] (0.00ns)   --->   "br label %3"   --->   Operation 54 'br' <Predicate = (!tmp)> <Delay = 0.00>
 ST_6 : Operation 55 [1/1] (1.78ns)   --->   "%index_4 = add i5 %index_2, 1" [firmware/nnet_utils/nnet_conv2d_large.h:164]   --->   Operation 55 'add' 'index_4' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.63> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_6 : Operation 56 [1/1] (0.00ns)   --->   "br label %1" [firmware/nnet_utils/nnet_conv2d_large.h:162]   --->   Operation 56 'br' <Predicate = true> <Delay = 0.00>
@@ -309,34 +309,34 @@ empty               (speclooptripcount) [ 0000000]
 kernel_row_2        (add              ) [ 0111111]
 StgValue_18         (br               ) [ 0000000]
 input_row           (add              ) [ 0000000]
-tmp_31              (add              ) [ 0111111]
+tmp_30              (add              ) [ 0111111]
 tmp                 (bitselect        ) [ 0001111]
-tmp_32              (bitconcatenate   ) [ 0001111]
+tmp_31              (bitconcatenate   ) [ 0001111]
 StgValue_23         (br               ) [ 0011111]
 StgValue_24         (ret              ) [ 0000000]
 index_2             (phi              ) [ 0001111]
 kernel_col          (phi              ) [ 0001000]
 kernel_col_cast     (zext             ) [ 0000000]
-tmp_33              (icmp             ) [ 0011111]
-empty_42            (speclooptripcount) [ 0000000]
+tmp_32              (icmp             ) [ 0011111]
+empty_44            (speclooptripcount) [ 0000000]
 kernel_col_2        (add              ) [ 0011111]
 StgValue_31         (br               ) [ 0000000]
 StgValue_32         (br               ) [ 0000000]
 input_col           (add              ) [ 0000000]
 input_col_cast_cast (zext             ) [ 0000000]
-tmp_35              (bitselect        ) [ 0011111]
-tmp_36              (zext             ) [ 0000111]
+tmp_34              (bitselect        ) [ 0011111]
+tmp_35              (zext             ) [ 0000111]
 StgValue_37         (br               ) [ 0000000]
-tmp_37              (add              ) [ 0000100]
+tmp_36              (add              ) [ 0000100]
 data_col_V_addr_2   (getelementptr    ) [ 0000000]
 StgValue_40         (store            ) [ 0000000]
 StgValue_41         (br               ) [ 0000000]
-tmp_34              (zext             ) [ 0000000]
+tmp_33              (zext             ) [ 0000000]
 data_col_V_addr     (getelementptr    ) [ 0000000]
 StgValue_44         (store            ) [ 0000000]
 StgValue_45         (br               ) [ 0000000]
 StgValue_46         (br               ) [ 0111111]
-tmp_38              (zext             ) [ 0000000]
+tmp_37              (zext             ) [ 0000000]
 data_V_addr         (getelementptr    ) [ 0000010]
 data_V_load         (load             ) [ 0011001]
 data_col_V_addr_1   (getelementptr    ) [ 0000000]
@@ -781,7 +781,7 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="165" class="1004" name="tmp_31_fu_165">
+<comp id="165" class="1004" name="tmp_30_fu_165">
 <pin_list>
 <pin id="166" dir="0" index="0" bw="5" slack="0"/>
 <pin id="167" dir="0" index="1" bw="4" slack="0"/>
@@ -789,7 +789,7 @@ StgValue_56         (br               ) [ 0011111]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="tmp_31/2 "/>
+<opset="tmp_30/2 "/>
 </bind>
 </comp>
 
@@ -806,7 +806,7 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="179" class="1004" name="tmp_32_fu_179">
+<comp id="179" class="1004" name="tmp_31_fu_179">
 <pin_list>
 <pin id="180" dir="0" index="0" bw="11" slack="0"/>
 <pin id="181" dir="0" index="1" bw="6" slack="0"/>
@@ -815,7 +815,7 @@ StgValue_56         (br               ) [ 0011111]
 </pin_list>
 <bind>
 <opcode="bitconcatenate(1004) " fcode="bitconcatenate"/>
-<opset="tmp_32/2 "/>
+<opset="tmp_31/2 "/>
 </bind>
 </comp>
 
@@ -830,7 +830,7 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="191" class="1004" name="tmp_33_fu_191">
+<comp id="191" class="1004" name="tmp_32_fu_191">
 <pin_list>
 <pin id="192" dir="0" index="0" bw="3" slack="0"/>
 <pin id="193" dir="0" index="1" bw="3" slack="0"/>
@@ -838,7 +838,7 @@ StgValue_56         (br               ) [ 0011111]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="tmp_33/3 "/>
+<opset="tmp_32/3 "/>
 </bind>
 </comp>
 
@@ -877,7 +877,7 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="212" class="1004" name="tmp_35_fu_212">
+<comp id="212" class="1004" name="tmp_34_fu_212">
 <pin_list>
 <pin id="213" dir="0" index="0" bw="1" slack="0"/>
 <pin id="214" dir="0" index="1" bw="6" slack="0"/>
@@ -886,22 +886,22 @@ StgValue_56         (br               ) [ 0011111]
 </pin_list>
 <bind>
 <opcode="bitselect(1000) " fcode="bitselect"/>
-<opset="tmp_35/3 "/>
+<opset="tmp_34/3 "/>
 </bind>
 </comp>
 
-<comp id="220" class="1004" name="tmp_36_fu_220">
+<comp id="220" class="1004" name="tmp_35_fu_220">
 <pin_list>
 <pin id="221" dir="0" index="0" bw="5" slack="0"/>
 <pin id="222" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_36/3 "/>
+<opset="tmp_35/3 "/>
 </bind>
 </comp>
 
-<comp id="225" class="1004" name="tmp_37_fu_225">
+<comp id="225" class="1004" name="tmp_36_fu_225">
 <pin_list>
 <pin id="226" dir="0" index="0" bw="11" slack="1"/>
 <pin id="227" dir="0" index="1" bw="6" slack="0"/>
@@ -909,29 +909,29 @@ StgValue_56         (br               ) [ 0011111]
 </pin_list>
 <bind>
 <opcode="add(8) " fcode="add"/>
-<opset="tmp_37/3 "/>
+<opset="tmp_36/3 "/>
 </bind>
 </comp>
 
-<comp id="230" class="1004" name="tmp_34_fu_230">
+<comp id="230" class="1004" name="tmp_33_fu_230">
 <pin_list>
 <pin id="231" dir="0" index="0" bw="5" slack="0"/>
 <pin id="232" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_34/3 "/>
+<opset="tmp_33/3 "/>
 </bind>
 </comp>
 
-<comp id="235" class="1004" name="tmp_38_fu_235">
+<comp id="235" class="1004" name="tmp_37_fu_235">
 <pin_list>
 <pin id="236" dir="0" index="0" bw="11" slack="1"/>
 <pin id="237" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="tmp_38/4 "/>
+<opset="tmp_37/4 "/>
 </bind>
 </comp>
 
@@ -977,13 +977,13 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="263" class="1005" name="tmp_31_reg_263">
+<comp id="263" class="1005" name="tmp_30_reg_263">
 <pin_list>
 <pin id="264" dir="0" index="0" bw="5" slack="0"/>
 <pin id="265" dir="1" index="1" bw="5" slack="0"/>
 </pin_list>
 <bind>
-<opset="tmp_31 "/>
+<opset="tmp_30 "/>
 </bind>
 </comp>
 
@@ -997,13 +997,13 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="272" class="1005" name="tmp_32_reg_272">
+<comp id="272" class="1005" name="tmp_31_reg_272">
 <pin_list>
 <pin id="273" dir="0" index="0" bw="11" slack="1"/>
 <pin id="274" dir="1" index="1" bw="11" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_32 "/>
+<opset="tmp_31 "/>
 </bind>
 </comp>
 
@@ -1017,33 +1017,33 @@ StgValue_56         (br               ) [ 0011111]
 </bind>
 </comp>
 
-<comp id="285" class="1005" name="tmp_35_reg_285">
+<comp id="285" class="1005" name="tmp_34_reg_285">
 <pin_list>
 <pin id="286" dir="0" index="0" bw="1" slack="3"/>
 <pin id="287" dir="1" index="1" bw="1" slack="2147483647"/>
+</pin_list>
+<bind>
+<opset="tmp_34 "/>
+</bind>
+</comp>
+
+<comp id="289" class="1005" name="tmp_35_reg_289">
+<pin_list>
+<pin id="290" dir="0" index="0" bw="64" slack="3"/>
+<pin id="291" dir="1" index="1" bw="64" slack="3"/>
 </pin_list>
 <bind>
 <opset="tmp_35 "/>
 </bind>
 </comp>
 
-<comp id="289" class="1005" name="tmp_36_reg_289">
-<pin_list>
-<pin id="290" dir="0" index="0" bw="64" slack="3"/>
-<pin id="291" dir="1" index="1" bw="64" slack="3"/>
-</pin_list>
-<bind>
-<opset="tmp_36 "/>
-</bind>
-</comp>
-
-<comp id="294" class="1005" name="tmp_37_reg_294">
+<comp id="294" class="1005" name="tmp_36_reg_294">
 <pin_list>
 <pin id="295" dir="0" index="0" bw="11" slack="1"/>
 <pin id="296" dir="1" index="1" bw="11" slack="1"/>
 </pin_list>
 <bind>
-<opset="tmp_37 "/>
+<opset="tmp_36 "/>
 </bind>
 </comp>
 
@@ -1269,23 +1269,23 @@ StgValue_56         (br               ) [ 0011111]
 		kernel_row_2 : 1
 		StgValue_18 : 2
 		input_row : 2
-		tmp_31 : 1
+		tmp_30 : 1
 		tmp : 3
-		tmp_32 : 3
+		tmp_31 : 3
 	State 3
 		kernel_col_cast : 1
-		tmp_33 : 1
+		tmp_32 : 1
 		kernel_col_2 : 1
 		StgValue_31 : 2
 		input_col : 2
 		input_col_cast_cast : 3
-		tmp_35 : 3
-		tmp_36 : 1
+		tmp_34 : 3
+		tmp_35 : 1
 		StgValue_37 : 4
-		tmp_37 : 4
+		tmp_36 : 4
 		data_col_V_addr_2 : 2
 		StgValue_40 : 3
-		tmp_34 : 1
+		tmp_33 : 1
 		data_col_V_addr : 2
 		StgValue_44 : 3
 	State 4
@@ -1306,14 +1306,14 @@ StgValue_56         (br               ) [ 0011111]
 |----------|----------------------------|---------|---------|
 |          |     kernel_row_2_fu_154    |    0    |    12   |
 |          |      input_row_fu_160      |    0    |    15   |
-|          |        tmp_31_fu_165       |    0    |    15   |
+|          |        tmp_30_fu_165       |    0    |    15   |
 |    add   |     kernel_col_2_fu_197    |    0    |    12   |
 |          |      input_col_fu_203      |    0    |    15   |
-|          |        tmp_37_fu_225       |    0    |    13   |
+|          |        tmp_36_fu_225       |    0    |    13   |
 |          |       index_4_fu_239       |    0    |    15   |
 |----------|----------------------------|---------|---------|
 |   icmp   |        tmp_s_fu_148        |    0    |    9    |
-|          |        tmp_33_fu_191       |    0    |    9    |
+|          |        tmp_32_fu_191       |    0    |    9    |
 |----------|----------------------------|---------|---------|
 |   read   |     col_read_read_fu_36    |    0    |    0    |
 |          |     row_read_read_fu_42    |    0    |    0    |
@@ -1323,14 +1323,14 @@ StgValue_56         (br               ) [ 0011111]
 |          |   kernel_row_cast_fu_144   |    0    |    0    |
 |   zext   |   kernel_col_cast_fu_187   |    0    |    0    |
 |          | input_col_cast_cast_fu_208 |    0    |    0    |
-|          |        tmp_36_fu_220       |    0    |    0    |
-|          |        tmp_34_fu_230       |    0    |    0    |
-|          |        tmp_38_fu_235       |    0    |    0    |
+|          |        tmp_35_fu_220       |    0    |    0    |
+|          |        tmp_33_fu_230       |    0    |    0    |
+|          |        tmp_37_fu_235       |    0    |    0    |
 |----------|----------------------------|---------|---------|
 | bitselect|         tmp_fu_171         |    0    |    0    |
-|          |        tmp_35_fu_212       |    0    |    0    |
+|          |        tmp_34_fu_212       |    0    |    0    |
 |----------|----------------------------|---------|---------|
-|bitconcatenate|        tmp_32_fu_179       |    0    |    0    |
+|bitconcatenate|        tmp_31_fu_179       |    0    |    0    |
 |----------|----------------------------|---------|---------|
 |   Total  |                            |    0    |   115   |
 |----------|----------------------------|---------|---------|
@@ -1353,11 +1353,11 @@ N/A
 |kernel_row_2_reg_258|    3   |
 | kernel_row_reg_103 |    3   |
 |  row_cast_reg_245  |    6   |
-|   tmp_31_reg_263   |    5   |
-|   tmp_32_reg_272   |   11   |
-|   tmp_35_reg_285   |    1   |
-|   tmp_36_reg_289   |   64   |
-|   tmp_37_reg_294   |   11   |
+|   tmp_30_reg_263   |    5   |
+|   tmp_31_reg_272   |   11   |
+|   tmp_34_reg_285   |    1   |
+|   tmp_35_reg_289   |   64   |
+|   tmp_36_reg_294   |   11   |
 |     tmp_reg_268    |    1   |
 +--------------------+--------+
 |        Total       |   156  |

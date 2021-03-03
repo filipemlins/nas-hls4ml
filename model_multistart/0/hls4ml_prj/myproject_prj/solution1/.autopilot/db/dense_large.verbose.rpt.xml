@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large'" level="0">
-<item name = "Date">Mon Mar  1 22:17:18 2021
+<item name = "Date">Tue Mar  2 23:01:32 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.134, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -50,7 +50,7 @@
 <column name="DSP">-, -, -, -</column>
 <column name="Expression">-, -, 0, 2</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">2, 2, 507, 871</column>
+<column name="Instance">2, 2, 514, 850</column>
 <column name="Memory">-, -, -, -</column>
 <column name="Multiplexer">-, -, -, 24</column>
 <column name="Register">-, -, 4, -</column>
@@ -62,7 +62,7 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="grp_dense_large_rf_gt_ni_2_fu_10">dense_large_rf_gt_ni_2, 2, 2, 507, 871</column>
+<column name="grp_dense_large_rf_gt_ni_2_fu_10">dense_large_rf_gt_ni_2, 2, 2, 514, 850</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">

@@ -79,19 +79,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>155</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>155</second>
                     </item>
@@ -127,33 +127,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>11</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>11</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -191,19 +191,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>150</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>150</second>
                     </item>
@@ -276,19 +276,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>150</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>150</second>
                     </item>
@@ -324,19 +324,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>150</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>150</second>
                     </item>
@@ -373,19 +373,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>150</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>150</second>
                     </item>
@@ -422,19 +422,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>150</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>150</second>
                     </item>
@@ -472,19 +472,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>152</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>152</second>
                     </item>
@@ -557,19 +557,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>152</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>152</second>
                     </item>
@@ -606,19 +606,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>152</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>152</second>
                     </item>
@@ -656,19 +656,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -706,19 +706,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -754,19 +754,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -804,19 +804,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -852,19 +852,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -901,19 +901,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -952,19 +952,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -1002,19 +1002,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>154</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>154</second>
                     </item>
@@ -1087,19 +1087,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>154</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>154</second>
                     </item>
@@ -1136,19 +1136,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>154</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>154</second>
                     </item>
@@ -1186,19 +1186,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>159</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>159</second>
                     </item>
@@ -1271,19 +1271,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>159</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>159</second>
                     </item>
@@ -1319,19 +1319,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>159</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>159</second>
                     </item>
@@ -1368,19 +1368,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>159</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>159</second>
                     </item>
@@ -1417,19 +1417,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>159</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>159</second>
                     </item>
@@ -1467,19 +1467,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -1516,19 +1516,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1564,19 +1564,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -1613,19 +1613,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>164</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>164</second>
                     </item>
@@ -1662,19 +1662,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1711,19 +1711,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1796,19 +1796,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1844,19 +1844,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1893,19 +1893,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1942,19 +1942,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -1992,19 +1992,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -2042,19 +2042,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -2091,19 +2091,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -2140,19 +2140,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>162</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>162</second>
                     </item>
@@ -2190,19 +2190,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2239,19 +2239,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2287,19 +2287,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2337,19 +2337,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2385,19 +2385,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2434,19 +2434,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2482,19 +2482,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2531,19 +2531,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2579,19 +2579,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2629,19 +2629,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2677,19 +2677,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2725,19 +2725,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2775,19 +2775,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>166</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>166</second>
                     </item>
@@ -2858,19 +2858,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>164</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>164</second>
                     </item>
@@ -2907,19 +2907,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>164</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>164</second>
                     </item>
@@ -2955,19 +2955,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>164</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>164</second>
                     </item>
@@ -3005,19 +3005,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>164</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>164</second>
                     </item>
@@ -3054,19 +3054,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>165</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>165</second>
                     </item>
@@ -3102,19 +3102,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>161</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>161</second>
                     </item>
@@ -3184,19 +3184,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -3234,19 +3234,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -3282,19 +3282,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -3331,19 +3331,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -3379,19 +3379,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>174</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>174</second>
                     </item>
@@ -3427,33 +3427,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>12</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>12</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3489,33 +3489,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>13</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>13</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3625,33 +3625,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>13</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>13</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3688,33 +3688,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>13</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>13</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3752,33 +3752,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>14</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>14</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3814,33 +3814,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>14</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>14</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3878,33 +3878,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>14</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>14</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3936,37 +3936,37 @@
             <Obj>
               <type>0</type>
               <id>106</id>
-              <name>tmp_i_i_35</name>
+              <name>tmp_i_i_37</name>
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>14</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>14</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -3974,7 +3974,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_i_i_35_fu_457_p2</rtlName>
+              <rtlName>tmp_i_i_37_fu_457_p2</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -4003,33 +4003,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>14</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>14</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -4067,33 +4067,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>13</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>13</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -4130,33 +4130,33 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>13</lineNumber>
-              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
+              <contextFuncName>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>3</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>max&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
+                        <second>max&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4&amp;gt;</second>
                       </first>
                       <second>13</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
+                        <second>pool_op&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, 4, 0&amp;gt;</second>
                       </first>
                       <second>61</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -4192,19 +4192,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>175</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -4242,19 +4242,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>175</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>175</second>
                     </item>
@@ -4291,19 +4291,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>154</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>154</second>
                     </item>
@@ -4340,19 +4340,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>154</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>154</second>
                     </item>
@@ -4388,19 +4388,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>152</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>152</second>
                     </item>
@@ -4437,19 +4437,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>152</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>152</second>
                     </item>
@@ -4519,19 +4519,19 @@
               <fileName>firmware/nnet_utils/nnet_pooling.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>184</lineNumber>
-              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
+              <contextFuncName>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_pooling.h</first>
-                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
+                        <second>pooling2d_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config10&amp;gt;</second>
                       </first>
                       <second>184</second>
                     </item>
@@ -5530,7 +5530,7 @@
           <Obj>
             <type>3</type>
             <id>115</id>
-            <name>pool_op&lt;ap_fixed&lt;14, 9, 0, 0, 0&gt;, 4, 0&gt;.exit</name>
+            <name>pool_op&lt;ap_fixed&lt;14, 2, 0, 0, 0&gt;, 4, 0&gt;.exit</name>
             <fileName/>
             <fileDirectory/>
             <lineNumber>0</lineNumber>
@@ -9064,7 +9064,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_i_i_35_fu_457_p2 ( icmp ) </first>
+          <first>tmp_i_i_37_fu_457_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -10116,7 +10116,7 @@
           </second>
         </item>
         <item>
-          <first>tmp_i_i_35_fu_457_p2 ( icmp ) </first>
+          <first>tmp_i_i_37_fu_457_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11951,7 +11951,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_i_i_35_fu_457</first>
+        <first>tmp_i_i_37_fu_457</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

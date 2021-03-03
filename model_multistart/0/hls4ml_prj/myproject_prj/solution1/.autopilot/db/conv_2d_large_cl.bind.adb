@@ -77,21 +77,21 @@
 						<id>5</id>
 						<name>data_col_V</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>197</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>197</second>
 									</item>
@@ -159,21 +159,21 @@
 						<id>7</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>204</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>204</second>
 									</item>
@@ -316,21 +316,21 @@
 						<id>12</id>
 						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>204</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>204</second>
 									</item>
@@ -365,21 +365,21 @@
 						<id>14</id>
 						<name>i_8</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>204</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>204</second>
 									</item>
@@ -414,21 +414,21 @@
 						<id>15</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>204</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>204</second>
 									</item>
@@ -464,21 +464,21 @@
 						<id>19</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>206</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>206</second>
 									</item>
@@ -549,21 +549,21 @@
 						<id>22</id>
 						<name>tmp_s</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>206</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>206</second>
 									</item>
@@ -598,21 +598,21 @@
 						<id>24</id>
 						<name>j_1</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>206</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>206</second>
 									</item>
@@ -647,21 +647,21 @@
 						<id>25</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>206</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>206</second>
 									</item>
@@ -697,21 +697,21 @@
 						<id>29</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>208</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>208</second>
 									</item>
@@ -749,28 +749,28 @@
 						<id>30</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>276</lineNumber>
-						<contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7_mult&amp;gt;</contextFuncName>
+						<contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7_mult&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>2</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>209</second>
 									</item>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense_large.h</first>
-											<second>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7_mult&amp;gt;</second>
+											<second>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7_mult&amp;gt;</second>
 										</first>
 										<second>276</second>
 									</item>
@@ -810,21 +810,21 @@
 						<id>31</id>
 						<name>tmp_82</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -860,21 +860,21 @@
 						<id>32</id>
 						<name>tmp_128_cast_cast</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -908,21 +908,21 @@
 						<id>33</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -993,21 +993,21 @@
 						<id>36</id>
 						<name>k_cast4_cast</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -1041,21 +1041,21 @@
 						<id>37</id>
 						<name>tmp_83</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -1090,21 +1090,21 @@
 						<id>39</id>
 						<name>k_1</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -1139,21 +1139,21 @@
 						<id>40</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -1189,21 +1189,21 @@
 						<id>43</id>
 						<name>tmp1</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1238,21 +1238,21 @@
 						<id>44</id>
 						<name>tmp1_cast</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1286,21 +1286,21 @@
 						<id>45</id>
 						<name>tmp_84</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1335,21 +1335,21 @@
 						<id>46</id>
 						<name>tmp_85</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1383,21 +1383,21 @@
 						<id>47</id>
 						<name>tmp_86</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1431,21 +1431,21 @@
 						<id>48</id>
 						<name>res_V_assign_addr</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1481,21 +1481,21 @@
 						<id>49</id>
 						<name>res_V_assign_load</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1529,21 +1529,21 @@
 						<id>50</id>
 						<name>res_V_addr</name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1579,21 +1579,21 @@
 						<id>51</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>212</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>212</second>
 									</item>
@@ -1628,21 +1628,21 @@
 						<id>52</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>211</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>211</second>
 									</item>
@@ -1676,21 +1676,21 @@
 						<id>55</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>206</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>206</second>
 									</item>
@@ -1724,21 +1724,21 @@
 						<id>58</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>204</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>204</second>
 									</item>
@@ -1772,21 +1772,21 @@
 						<id>60</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_conv2d_large.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>217</lineNumber>
-						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
+						<contextFuncName>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_conv2d_large.h</first>
-											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
+											<second>conv_2d_large_cl&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config7&amp;gt;</second>
 										</first>
 										<second>217</second>
 									</item>

@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large_rf_gt_ni_4'" level="0">
-<item name = "Date">Mon Mar  1 22:17:07 2021
+<item name = "Date">Tue Mar  2 23:01:10 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 3.893, 0.62</column>
+<column name="ap_clk">5.00, 3.945, 0.62</column>
 </table>
 </item>
 </section>
@@ -24,7 +24,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">101859, 2788323, 101859, 2788323, none</column>
+<column name="">553443, 2917347, 553443, 2917347, none</column>
 </table>
 </item>
 <item name = "Detail">
@@ -36,8 +36,8 @@
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- InitAccum">120, 120, 1, -, -, 120, no</column>
-<column name="- ReuseLoop">101376, 2787840, 44 ~ 1210, -, -, 2304, no</column>
-<column name=" + MultLoop">39, 1204, 39, -, -, 1 ~ 30, no</column>
+<column name="- ReuseLoop">552960, 2916864, 40 ~ 211, -, -, 13824, no</column>
+<column name=" + MultLoop">35, 205, 35, -, -, 1 ~ 5, no</column>
 <column name="- Result">360, 360, 3, -, -, 120, no</column>
 </table>
 </item>

@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'reduce_2'
 ================================================================
-* Date:           Mon Mar  1 22:17:10 2021
+* Date:           Tue Mar  2 23:01:17 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -114,14 +114,15 @@ ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_
 ST_2 : Operation 21 [1/1] (1.73ns)   --->   "%i_4 = add i4 %i, 1" [firmware/nnet_utils/nnet_common.h:74]   --->   Operation 21 'add' 'i_4' <Predicate = true> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 22 [1/1] (0.00ns)   --->   "br i1 %exitcond3, label %.preheader.preheader, label %0" [firmware/nnet_utils/nnet_common.h:74]   --->   Operation 22 'br' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%tmp = zext i4 %i to i64" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 23 'zext' 'tmp' <Predicate = (!exitcond3)> <Delay = 0.00>
-ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%x_V_addr = getelementptr [10 x i18]* %x_V, i64 0, i64 %tmp" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 24 'getelementptr' 'x_V_addr' <Predicate = (!exitcond3)> <Delay = 0.00>
-ST_2 : Operation 25 [2/2] (2.32ns)   --->   "%left_0_V = load i18* %x_V_addr, align 4" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 25 'load' 'left_0_V' <Predicate = (!exitcond3)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 10> <RAM>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%x_V_addr = getelementptr [10 x i13]* %x_V, i64 0, i64 %tmp" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 24 'getelementptr' 'x_V_addr' <Predicate = (!exitcond3)> <Delay = 0.00>
+ST_2 : Operation 25 [2/2] (2.32ns)   --->   "%x_V_load = load i13* %x_V_addr, align 2" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 25 'load' 'x_V_load' <Predicate = (!exitcond3)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 13> <Depth = 10> <RAM>
 ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_18 = trunc i4 %i to i3" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 26 'trunc' 'tmp_18' <Predicate = (!exitcond3)> <Delay = 0.00>
 ST_2 : Operation 27 [1/1] (1.76ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 27 'br' <Predicate = (exitcond3)> <Delay = 1.76>
 
 State 3 <SV = 2> <Delay = 2.32>
-ST_3 : Operation 28 [1/2] (2.32ns)   --->   "%left_0_V = load i18* %x_V_addr, align 4" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 28 'load' 'left_0_V' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 10> <RAM>
-ST_3 : Operation 29 [1/1] (1.36ns)   --->   "switch i3 %tmp_18, label %branch7 [
+ST_3 : Operation 28 [1/2] (2.32ns)   --->   "%x_V_load = load i13* %x_V_addr, align 2" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 28 'load' 'x_V_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 13> <Depth = 10> <RAM>
+ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%left_0_V = zext i13 %x_V_load to i18" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 29 'zext' 'left_0_V' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 30 [1/1] (1.36ns)   --->   "switch i3 %tmp_18, label %branch7 [
     i3 0, label %.branch0.backedge_crit_edge
     i3 1, label %branch1
     i3 2, label %branch2
@@ -129,63 +130,64 @@ ST_3 : Operation 29 [1/1] (1.36ns)   --->   "switch i3 %tmp_18, label %branch7 [
     i3 -4, label %branch4
     i3 -3, label %branch5
     i3 -2, label %branch6
-  ]" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 29 'switch' <Predicate = true> <Delay = 1.36>
-ST_3 : Operation 30 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_6" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 30 'store' <Predicate = (tmp_18 == 6)> <Delay = 0.00>
-ST_3 : Operation 31 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 31 'br' <Predicate = (tmp_18 == 6)> <Delay = 0.00>
-ST_3 : Operation 32 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_5" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 32 'store' <Predicate = (tmp_18 == 5)> <Delay = 0.00>
-ST_3 : Operation 33 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 33 'br' <Predicate = (tmp_18 == 5)> <Delay = 0.00>
-ST_3 : Operation 34 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_4" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 34 'store' <Predicate = (tmp_18 == 4)> <Delay = 0.00>
-ST_3 : Operation 35 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 35 'br' <Predicate = (tmp_18 == 4)> <Delay = 0.00>
-ST_3 : Operation 36 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_3" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 36 'store' <Predicate = (tmp_18 == 3)> <Delay = 0.00>
-ST_3 : Operation 37 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 37 'br' <Predicate = (tmp_18 == 3)> <Delay = 0.00>
-ST_3 : Operation 38 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_2" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 38 'store' <Predicate = (tmp_18 == 2)> <Delay = 0.00>
-ST_3 : Operation 39 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 39 'br' <Predicate = (tmp_18 == 2)> <Delay = 0.00>
-ST_3 : Operation 40 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_1" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 40 'store' <Predicate = (tmp_18 == 1)> <Delay = 0.00>
-ST_3 : Operation 41 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 41 'br' <Predicate = (tmp_18 == 1)> <Delay = 0.00>
-ST_3 : Operation 42 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 42 'store' <Predicate = (tmp_18 == 0)> <Delay = 0.00>
-ST_3 : Operation 43 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 43 'br' <Predicate = (tmp_18 == 0)> <Delay = 0.00>
-ST_3 : Operation 44 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_7" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 44 'store' <Predicate = (tmp_18 == 7)> <Delay = 0.00>
-ST_3 : Operation 45 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 45 'br' <Predicate = (tmp_18 == 7)> <Delay = 0.00>
+  ]" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 30 'switch' <Predicate = true> <Delay = 1.36>
+ST_3 : Operation 31 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_6" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 31 'store' <Predicate = (tmp_18 == 6)> <Delay = 0.00>
+ST_3 : Operation 32 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 32 'br' <Predicate = (tmp_18 == 6)> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_5" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 33 'store' <Predicate = (tmp_18 == 5)> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 34 'br' <Predicate = (tmp_18 == 5)> <Delay = 0.00>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_4" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 35 'store' <Predicate = (tmp_18 == 4)> <Delay = 0.00>
+ST_3 : Operation 36 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 36 'br' <Predicate = (tmp_18 == 4)> <Delay = 0.00>
+ST_3 : Operation 37 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_3" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 37 'store' <Predicate = (tmp_18 == 3)> <Delay = 0.00>
+ST_3 : Operation 38 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 38 'br' <Predicate = (tmp_18 == 3)> <Delay = 0.00>
+ST_3 : Operation 39 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_2" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 39 'store' <Predicate = (tmp_18 == 2)> <Delay = 0.00>
+ST_3 : Operation 40 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 40 'br' <Predicate = (tmp_18 == 2)> <Delay = 0.00>
+ST_3 : Operation 41 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_1" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 41 'store' <Predicate = (tmp_18 == 1)> <Delay = 0.00>
+ST_3 : Operation 42 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 42 'br' <Predicate = (tmp_18 == 1)> <Delay = 0.00>
+ST_3 : Operation 43 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 43 'store' <Predicate = (tmp_18 == 0)> <Delay = 0.00>
+ST_3 : Operation 44 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 44 'br' <Predicate = (tmp_18 == 0)> <Delay = 0.00>
+ST_3 : Operation 45 [1/1] (0.00ns)   --->   "store i18 %left_0_V, i18* %left_7_V_7" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 45 'store' <Predicate = (tmp_18 == 7)> <Delay = 0.00>
+ST_3 : Operation 46 [1/1] (0.00ns)   --->   "br label %branch0.backedge" [firmware/nnet_utils/nnet_common.h:75]   --->   Operation 46 'br' <Predicate = (tmp_18 == 7)> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 0.00>
-ST_4 : Operation 46 [1/1] (0.00ns)   --->   "br label %branch0"   --->   Operation 46 'br' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 47 [1/1] (0.00ns)   --->   "br label %branch0"   --->   Operation 47 'br' <Predicate = true> <Delay = 0.00>
 
 State 5 <SV = 2> <Delay = 2.32>
-ST_5 : Operation 47 [1/1] (0.00ns)   --->   "%p_Val2_7 = phi i18 [ %right_1_V_1, %1 ], [ undef, %.preheader.preheader ]"   --->   Operation 47 'phi' 'p_Val2_7' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 48 [1/1] (0.00ns)   --->   "%p_Val2_s = phi i18 [ %right_1_V_2, %1 ], [ undef, %.preheader.preheader ]"   --->   Operation 48 'phi' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 49 [1/1] (0.00ns)   --->   "%i2 = phi i2 [ %i_3, %1 ], [ 0, %.preheader.preheader ]"   --->   Operation 49 'phi' 'i2' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 50 [1/1] (0.95ns)   --->   "%exitcond = icmp eq i2 %i2, -2" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 50 'icmp' 'exitcond' <Predicate = true> <Delay = 0.95> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 51 [1/1] (0.00ns)   --->   "%empty_26 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)"   --->   Operation 51 'speclooptripcount' 'empty_26' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 52 [1/1] (1.56ns)   --->   "%i_3 = add i2 %i2, 1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 52 'add' 'i_3' <Predicate = true> <Delay = 1.56> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_5 : Operation 53 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %2, label %1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 53 'br' <Predicate = true> <Delay = 0.00>
-ST_5 : Operation 54 [1/1] (0.00ns)   --->   "%tmp_s = call i4 @_ssdm_op_BitConcatenate.i4.i2.i2(i2 -2, i2 %i2)" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 54 'bitconcatenate' 'tmp_s' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_5 : Operation 55 [1/1] (0.00ns)   --->   "%tmp_5 = zext i4 %tmp_s to i64" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 55 'zext' 'tmp_5' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_5 : Operation 56 [1/1] (0.00ns)   --->   "%x_V_addr_1 = getelementptr [10 x i18]* %x_V, i64 0, i64 %tmp_5" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 56 'getelementptr' 'x_V_addr_1' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_5 : Operation 57 [2/2] (2.32ns)   --->   "%right_0_V = load i18* %x_V_addr_1, align 4" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 57 'load' 'right_0_V' <Predicate = (!exitcond)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 10> <RAM>
-ST_5 : Operation 58 [1/1] (0.00ns)   --->   "%tmp_19 = trunc i2 %i2 to i1" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 58 'trunc' 'tmp_19' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_5 : Operation 59 [1/1] (0.00ns)   --->   "%left_7_V_load = load i18* %left_7_V" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 59 'load' 'left_7_V_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%left_7_V_1_load = load i18* %left_7_V_1" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 60 'load' 'left_7_V_1_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 61 [1/1] (0.00ns)   --->   "%left_7_V_2_load = load i18* %left_7_V_2" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 61 'load' 'left_7_V_2_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 62 [1/1] (0.00ns)   --->   "%left_7_V_3_load = load i18* %left_7_V_3" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 62 'load' 'left_7_V_3_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 63 [1/1] (0.00ns)   --->   "%left_7_V_4_load = load i18* %left_7_V_4" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 63 'load' 'left_7_V_4_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 64 [1/1] (0.00ns)   --->   "%left_7_V_5_load = load i18* %left_7_V_5" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 64 'load' 'left_7_V_5_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 65 [1/1] (0.00ns)   --->   "%left_7_V_6_load = load i18* %left_7_V_6" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 65 'load' 'left_7_V_6_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%left_7_V_7_load = load i18* %left_7_V_7" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 66 'load' 'left_7_V_7_load' <Predicate = (exitcond)> <Delay = 0.00>
-ST_5 : Operation 67 [2/2] (0.00ns)   --->   "%p_Val2_8 = call fastcc i18 @reduce(i18 %left_7_V_load, i18 %left_7_V_1_load, i18 %left_7_V_2_load, i18 %left_7_V_3_load, i18 %left_7_V_4_load, i18 %left_7_V_5_load, i18 %left_7_V_6_load, i18 %left_7_V_7_load)" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 67 'call' 'p_Val2_8' <Predicate = (exitcond)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_5 : Operation 48 [1/1] (0.00ns)   --->   "%p_Val2_7 = phi i18 [ %right_1_V_1, %1 ], [ undef, %.preheader.preheader ]"   --->   Operation 48 'phi' 'p_Val2_7' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 49 [1/1] (0.00ns)   --->   "%p_Val2_s = phi i18 [ %right_1_V_2, %1 ], [ undef, %.preheader.preheader ]"   --->   Operation 49 'phi' 'p_Val2_s' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 50 [1/1] (0.00ns)   --->   "%i2 = phi i2 [ %i_3, %1 ], [ 0, %.preheader.preheader ]"   --->   Operation 50 'phi' 'i2' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 51 [1/1] (0.95ns)   --->   "%exitcond = icmp eq i2 %i2, -2" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 51 'icmp' 'exitcond' <Predicate = true> <Delay = 0.95> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 52 [1/1] (0.00ns)   --->   "%empty_28 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)"   --->   Operation 52 'speclooptripcount' 'empty_28' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 53 [1/1] (1.56ns)   --->   "%i_3 = add i2 %i2, 1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 53 'add' 'i_3' <Predicate = true> <Delay = 1.56> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.56> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_5 : Operation 54 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %2, label %1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 54 'br' <Predicate = true> <Delay = 0.00>
+ST_5 : Operation 55 [1/1] (0.00ns)   --->   "%tmp_1 = call i4 @_ssdm_op_BitConcatenate.i4.i2.i2(i2 -2, i2 %i2)" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 55 'bitconcatenate' 'tmp_1' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_5 : Operation 56 [1/1] (0.00ns)   --->   "%tmp_s = zext i4 %tmp_1 to i64" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 56 'zext' 'tmp_s' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_5 : Operation 57 [1/1] (0.00ns)   --->   "%x_V_addr_1 = getelementptr [10 x i13]* %x_V, i64 0, i64 %tmp_s" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 57 'getelementptr' 'x_V_addr_1' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_5 : Operation 58 [2/2] (2.32ns)   --->   "%x_V_load_1 = load i13* %x_V_addr_1, align 2" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 58 'load' 'x_V_load_1' <Predicate = (!exitcond)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 13> <Depth = 10> <RAM>
+ST_5 : Operation 59 [1/1] (0.00ns)   --->   "%tmp_19 = trunc i2 %i2 to i1" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 59 'trunc' 'tmp_19' <Predicate = (!exitcond)> <Delay = 0.00>
+ST_5 : Operation 60 [1/1] (0.00ns)   --->   "%left_7_V_load = load i18* %left_7_V" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 60 'load' 'left_7_V_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 61 [1/1] (0.00ns)   --->   "%left_7_V_1_load = load i18* %left_7_V_1" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 61 'load' 'left_7_V_1_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 62 [1/1] (0.00ns)   --->   "%left_7_V_2_load = load i18* %left_7_V_2" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 62 'load' 'left_7_V_2_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 63 [1/1] (0.00ns)   --->   "%left_7_V_3_load = load i18* %left_7_V_3" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 63 'load' 'left_7_V_3_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 64 [1/1] (0.00ns)   --->   "%left_7_V_4_load = load i18* %left_7_V_4" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 64 'load' 'left_7_V_4_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 65 [1/1] (0.00ns)   --->   "%left_7_V_5_load = load i18* %left_7_V_5" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 65 'load' 'left_7_V_5_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 66 [1/1] (0.00ns)   --->   "%left_7_V_6_load = load i18* %left_7_V_6" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 66 'load' 'left_7_V_6_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 67 [1/1] (0.00ns)   --->   "%left_7_V_7_load = load i18* %left_7_V_7" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 67 'load' 'left_7_V_7_load' <Predicate = (exitcond)> <Delay = 0.00>
+ST_5 : Operation 68 [2/2] (0.00ns)   --->   "%p_Val2_8 = call fastcc i18 @reduce(i18 %left_7_V_load, i18 %left_7_V_1_load, i18 %left_7_V_2_load, i18 %left_7_V_3_load, i18 %left_7_V_4_load, i18 %left_7_V_5_load, i18 %left_7_V_6_load, i18 %left_7_V_7_load)" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 68 'call' 'p_Val2_8' <Predicate = (exitcond)> <Delay = 0.00> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 6 <SV = 3> <Delay = 3.07>
-ST_6 : Operation 68 [1/2] (2.32ns)   --->   "%right_0_V = load i18* %x_V_addr_1, align 4" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 68 'load' 'right_0_V' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 18> <Depth = 10> <RAM>
-ST_6 : Operation 69 [1/1] (0.75ns)   --->   "%right_1_V_1 = select i1 %tmp_19, i18 %right_0_V, i18 %p_Val2_7" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 69 'select' 'right_1_V_1' <Predicate = true> <Delay = 0.75> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 70 [1/1] (0.75ns)   --->   "%right_1_V_2 = select i1 %tmp_19, i18 %p_Val2_s, i18 %right_0_V" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 70 'select' 'right_1_V_2' <Predicate = true> <Delay = 0.75> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_6 : Operation 71 [1/1] (0.00ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 71 'br' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 69 [1/2] (2.32ns)   --->   "%x_V_load_1 = load i13* %x_V_addr_1, align 2" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 69 'load' 'x_V_load_1' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 13> <Depth = 10> <RAM>
+ST_6 : Operation 70 [1/1] (0.00ns)   --->   "%right_0_V = zext i13 %x_V_load_1 to i18" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 70 'zext' 'right_0_V' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 71 [1/1] (0.75ns)   --->   "%right_1_V_1 = select i1 %tmp_19, i18 %right_0_V, i18 %p_Val2_7" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 71 'select' 'right_1_V_1' <Predicate = true> <Delay = 0.75> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 72 [1/1] (0.75ns)   --->   "%right_1_V_2 = select i1 %tmp_19, i18 %p_Val2_s, i18 %right_0_V" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 72 'select' 'right_1_V_2' <Predicate = true> <Delay = 0.75> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.75> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_6 : Operation 73 [1/1] (0.00ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 73 'br' <Predicate = true> <Delay = 0.00>
 
 State 7 <SV = 3> <Delay = 2.13>
-ST_7 : Operation 72 [1/2] (2.13ns)   --->   "%p_Val2_8 = call fastcc i18 @reduce(i18 %left_7_V_load, i18 %left_7_V_1_load, i18 %left_7_V_2_load, i18 %left_7_V_3_load, i18 %left_7_V_4_load, i18 %left_7_V_5_load, i18 %left_7_V_6_load, i18 %left_7_V_7_load)" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 72 'call' 'p_Val2_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
+ST_7 : Operation 74 [1/2] (2.13ns)   --->   "%p_Val2_8 = call fastcc i18 @reduce(i18 %left_7_V_load, i18 %left_7_V_1_load, i18 %left_7_V_2_load, i18 %left_7_V_3_load, i18 %left_7_V_4_load, i18 %left_7_V_5_load, i18 %left_7_V_6_load, i18 %left_7_V_7_load)" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 74 'call' 'p_Val2_8' <Predicate = true> <Delay = 2.13> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
 
 State 8 <SV = 4> <Delay = 3.96>
-ST_8 : Operation 73 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp1 = add i18 %p_Val2_s, %p_Val2_8" [firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80]   --->   Operation 73 'add' 'tmp1' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 84 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.98> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_8 : Operation 74 [1/1] (3.96ns) (root node of TernaryAdder)   --->   "%agg_result_i = add i18 %tmp1, %p_Val2_7" [firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80]   --->   Operation 74 'add' 'agg_result_i' <Predicate = true> <Delay = 3.96> <Core = "TAddSub">   --->   Core 84 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.98> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
-ST_8 : Operation 75 [1/1] (0.00ns)   --->   "ret i18 %agg_result_i" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 75 'ret' <Predicate = true> <Delay = 0.00>
+ST_8 : Operation 75 [1/1] (0.00ns) (grouped into TernaryAdder)   --->   "%tmp1 = add i18 %p_Val2_s, %p_Val2_8" [firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80]   --->   Operation 75 'add' 'tmp1' <Predicate = true> <Delay = 0.00> <Core = "TAddSub">   --->   Core 84 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.98> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_8 : Operation 76 [1/1] (3.96ns) (root node of TernaryAdder)   --->   "%agg_result_i = add i18 %tmp1, %p_Val2_7" [firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80]   --->   Operation 76 'add' 'agg_result_i' <Predicate = true> <Delay = 3.96> <Core = "TAddSub">   --->   Core 84 'TAddSub' <Latency = 0> <II = 1> <Delay = 1.98> <IPBlock> <Opcode : 'add' 'sub'> <InPorts = 3> <OutPorts = 1> <Sync> <CReg>
+ST_8 : Operation 77 [1/1] (0.00ns)   --->   "ret i18 %agg_result_i" [firmware/nnet_utils/nnet_common.h:80]   --->   Operation 77 'ret' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -201,35 +203,35 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'phi' operation ('i') with incoming values : ('i', firmware/nnet_utils/nnet_common.h:74) [12]  (0 ns)
 	'getelementptr' operation ('x_V_addr', firmware/nnet_utils/nnet_common.h:75) [19]  (0 ns)
-	'load' operation ('left[0].V', firmware/nnet_utils/nnet_common.h:75) on array 'x_V' [20]  (2.32 ns)
+	'load' operation ('x_V_load', firmware/nnet_utils/nnet_common.h:75) on array 'x_V' [20]  (2.32 ns)
 
  <State 3>: 2.32ns
 The critical path consists of the following:
-	'load' operation ('left[0].V', firmware/nnet_utils/nnet_common.h:75) on array 'x_V' [20]  (2.32 ns)
-	'store' operation (firmware/nnet_utils/nnet_common.h:75) of variable 'left[0].V', firmware/nnet_utils/nnet_common.h:75 on local variable 'left[7].V' [45]  (0 ns)
+	'load' operation ('x_V_load', firmware/nnet_utils/nnet_common.h:75) on array 'x_V' [20]  (2.32 ns)
+	'store' operation (firmware/nnet_utils/nnet_common.h:75) of variable 'left[0].V', firmware/nnet_utils/nnet_common.h:75 on local variable 'left[7].V' [46]  (0 ns)
 
  <State 4>: 0ns
 The critical path consists of the following:
 
  <State 5>: 2.32ns
 The critical path consists of the following:
-	'phi' operation ('i') with incoming values : ('i', firmware/nnet_utils/nnet_common.h:77) [54]  (0 ns)
-	'getelementptr' operation ('x_V_addr_1', firmware/nnet_utils/nnet_common.h:78) [62]  (0 ns)
-	'load' operation ('right[0].V', firmware/nnet_utils/nnet_common.h:78) on array 'x_V' [63]  (2.32 ns)
+	'phi' operation ('i') with incoming values : ('i', firmware/nnet_utils/nnet_common.h:77) [55]  (0 ns)
+	'getelementptr' operation ('x_V_addr_1', firmware/nnet_utils/nnet_common.h:78) [63]  (0 ns)
+	'load' operation ('x_V_load_1', firmware/nnet_utils/nnet_common.h:78) on array 'x_V' [64]  (2.32 ns)
 
  <State 6>: 3.08ns
 The critical path consists of the following:
-	'load' operation ('right[0].V', firmware/nnet_utils/nnet_common.h:78) on array 'x_V' [63]  (2.32 ns)
-	'select' operation ('right[1].V', firmware/nnet_utils/nnet_common.h:78) [65]  (0.756 ns)
+	'load' operation ('x_V_load_1', firmware/nnet_utils/nnet_common.h:78) on array 'x_V' [64]  (2.32 ns)
+	'select' operation ('right[1].V', firmware/nnet_utils/nnet_common.h:78) [67]  (0.756 ns)
 
  <State 7>: 2.14ns
 The critical path consists of the following:
-	'call' operation ('__Val2__', firmware/nnet_utils/nnet_common.h:80) to 'reduce' [77]  (2.14 ns)
+	'call' operation ('__Val2__', firmware/nnet_utils/nnet_common.h:80) to 'reduce' [79]  (2.14 ns)
 
  <State 8>: 3.96ns
 The critical path consists of the following:
-	'add' operation ('tmp1', firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80) [78]  (0 ns)
-	'add' operation ('agg_result_i', firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80) [79]  (3.96 ns)
+	'add' operation ('tmp1', firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80) [80]  (0 ns)
+	'add' operation ('agg_result_i', firmware/nnet_utils/nnet_common.h:88->firmware/nnet_utils/nnet_common.h:80) [81]  (3.96 ns)
 
 
 ============================================================

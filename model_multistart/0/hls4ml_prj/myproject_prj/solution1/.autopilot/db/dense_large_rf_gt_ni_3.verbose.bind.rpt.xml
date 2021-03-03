@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large_rf_gt_ni_3'" level="0">
-<item name = "Date">Mon Mar  1 22:17:08 2021
+<item name = "Date">Tue Mar  2 23:01:13 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.021, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -24,21 +24,21 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="6">, min, max, min, max, Type</keys>
-<column name="">91059, 393459, 91059, 393459, none</column>
+<column name="">176739, 458979, 176739, 458979, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="7">Instance, Module, min, max, min, max, Type</keys>
-<column name="grp_product_fu_267">product, 4, 4, 4, 4, none</column>
+<column name="grp_product_fu_263">product, 4, 4, 4, 4, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
 <column name="- InitAccum">84, 84, 1, -, -, 84, no</column>
-<column name="- ReuseLoop">90720, 393120, 36 ~ 156, -, -, 2520, no</column>
-<column name=" + MultLoop">31, 150, 31, -, -, 1 ~ 4, no</column>
+<column name="- ReuseLoop">176400, 458640, 35 ~ 91, -, -, 5040, no</column>
+<column name=" + MultLoop">30, 85, 30, -, -, 1 ~ 2, no</column>
 <column name="- Result">252, 252, 3, -, -, 84, no</column>
 </table>
 </item>

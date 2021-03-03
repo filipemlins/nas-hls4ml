@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'reduce_1'
 ================================================================
-* Date:           Mon Mar  1 22:17:09 2021
+* Date:           Tue Mar  2 23:01:15 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -116,7 +116,7 @@ ST_3 : Operation 24 [1/1] (0.00ns)   --->   "%p_Val2_10 = phi i18 [ %right_0_V, 
 ST_3 : Operation 25 [1/1] (0.00ns)   --->   "%p_Val2_1 = phi i18 [ %right_0_V_1, %2 ], [ undef, %.preheader.preheader ]"   --->   Operation 25 'phi' 'p_Val2_1' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 26 [1/1] (0.00ns)   --->   "%i2 = phi i2 [ %i_6, %2 ], [ 0, %.preheader.preheader ]"   --->   Operation 26 'phi' 'i2' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 27 [1/1] (0.95ns)   --->   "%exitcond = icmp eq i2 %i2, -2" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 27 'icmp' 'exitcond' <Predicate = true> <Delay = 0.95> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%empty_27 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)"   --->   Operation 28 'speclooptripcount' 'empty_27' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 28 [1/1] (0.00ns)   --->   "%empty_29 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 2, i64 2, i64 2)"   --->   Operation 28 'speclooptripcount' 'empty_29' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 29 [1/1] (1.56ns)   --->   "%i_6 = add i2 %i2, 1" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 29 'add' 'i_6' <Predicate = true> <Delay = 1.56> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 2.13> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 30 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %3, label %2" [firmware/nnet_utils/nnet_common.h:77]   --->   Operation 30 'br' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 31 [1/1] (0.95ns)   --->   "%cond1 = icmp eq i2 %i2, 0" [firmware/nnet_utils/nnet_common.h:78]   --->   Operation 31 'icmp' 'cond1' <Predicate = (!exitcond)> <Delay = 0.95> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 0.95> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>

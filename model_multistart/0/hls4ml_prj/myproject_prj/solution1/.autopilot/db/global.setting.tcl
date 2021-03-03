@@ -42,7 +42,7 @@ set SCTraceOption all
 set TargetInfo xc7z007s:clg225:-1
 set SourceFiles {sc {} c ../../firmware/myproject.cpp}
 set SourceFlags {sc {} c -std=c++0x}
-set DirectiveFile /home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj/myproject_prj/solution1/solution1.directive
+set DirectiveFile /home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj/myproject_prj/solution1/solution1.directive
 set TBFiles {verilog {../../tb_data ../../firmware/weights ../../myproject_test.cpp} bc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} vhdl {../../tb_data ../../firmware/weights ../../myproject_test.cpp} sc {../../tb_data ../../firmware/weights ../../myproject_test.cpp} cas {../../tb_data ../../firmware/weights ../../myproject_test.cpp} c {}}
 set SpecLanguage C
 set TVInFiles {bc {} c {} sc {} cas {} vhdl {} verilog {}}

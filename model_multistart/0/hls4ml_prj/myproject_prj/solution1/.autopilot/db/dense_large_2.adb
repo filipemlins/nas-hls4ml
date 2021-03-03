@@ -79,19 +79,19 @@
               <fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>276</lineNumber>
-              <contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config11&amp;gt;</contextFuncName>
+              <contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config11&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_dense_large.h</first>
-                        <second>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config11&amp;gt;</second>
+                        <second>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config11&amp;gt;</second>
                       </first>
                       <second>276</second>
                     </item>
@@ -131,19 +131,19 @@
               <fileName>firmware/nnet_utils/nnet_dense_large.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>280</lineNumber>
-              <contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config11&amp;gt;</contextFuncName>
+              <contextFuncName>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config11&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_dense_large.h</first>
-                        <second>dense_large&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, config11&amp;gt;</second>
+                        <second>dense_large&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, config11&amp;gt;</second>
                       </first>
                       <second>280</second>
                     </item>
@@ -285,8 +285,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>101860</mMinLatency>
-        <mMaxLatency>2788324</mMaxLatency>
+        <mMinLatency>553444</mMinLatency>
+        <mMaxLatency>2917348</mMaxLatency>
         <mIsDfPipe>0</mIsDfPipe>
         <mDfPipe class_id="-1"/>
       </item>
@@ -356,7 +356,7 @@
             <item_version>0</item_version>
             <item class_id="38" tracking_level="0" version="0">
               <first>BRAM</first>
-              <second>94</second>
+              <second>72</second>
             </item>
             <item>
               <first>DSP48E</first>
@@ -364,11 +364,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>4123</second>
+              <second>956</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>3526</second>
+              <second>1161</second>
             </item>
           </second>
         </item>

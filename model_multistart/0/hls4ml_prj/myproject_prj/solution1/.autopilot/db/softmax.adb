@@ -79,19 +79,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>242</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
                     <item class_id="12" tracking_level="0" version="0">
                       <first class_id="13" tracking_level="0" version="0">
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>242</second>
                     </item>
@@ -102,7 +102,7 @@
               <rtlName>exp_res_V_U</rtlName>
               <coreName>RAM</coreName>
             </Obj>
-            <bitwidth>18</bitwidth>
+            <bitwidth>13</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -127,19 +127,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -212,19 +212,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -261,19 +261,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -310,19 +310,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -360,19 +360,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>247</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>247</second>
                     </item>
@@ -408,19 +408,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>247</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>247</second>
                     </item>
@@ -458,19 +458,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>247</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>247</second>
                     </item>
@@ -506,26 +506,26 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>194</lineNumber>
-              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>247</second>
                     </item>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax_idx_from_real_val&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>194</second>
                     </item>
@@ -564,19 +564,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>248</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>248</second>
                     </item>
@@ -612,19 +612,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>248</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>248</second>
                     </item>
@@ -662,19 +662,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>248</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>248</second>
                     </item>
@@ -685,7 +685,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>18</bitwidth>
+            <bitwidth>13</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -710,19 +710,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>248</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>248</second>
                     </item>
@@ -760,19 +760,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>248</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>248</second>
                     </item>
@@ -809,19 +809,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>245</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>245</second>
                     </item>
@@ -857,19 +857,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>254</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>254</second>
                     </item>
@@ -911,14 +911,14 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>2</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>256</second>
                     </item>
@@ -964,19 +964,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>256</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>256</second>
                     </item>
@@ -1012,19 +1012,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>256</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>256</second>
                     </item>
@@ -1062,19 +1062,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>256</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>256</second>
                     </item>
@@ -1106,23 +1106,23 @@
             <Obj>
               <type>0</type>
               <id>30</id>
-              <name>tmp_3_cast_cast</name>
+              <name>tmp_3_cast_cast_cast</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -1130,10 +1130,10 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_3_cast_cast_fu_217_p1</rtlName>
+              <rtlName>tmp_3_cast_cast_cast_fu_217_p1</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>32</bitwidth>
+            <bitwidth>27</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -1158,19 +1158,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -1243,19 +1243,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -1292,19 +1292,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -1341,19 +1341,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -1391,19 +1391,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1439,19 +1439,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1489,19 +1489,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1512,7 +1512,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>18</bitwidth>
+            <bitwidth>13</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
@@ -1533,23 +1533,23 @@
             <Obj>
               <type>0</type>
               <id>42</id>
-              <name>r_V_cast_cast</name>
+              <name>r_V_cast_cast_cast</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1557,17 +1557,17 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName/>
+              <rtlName>grp_fu_463_p10</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>32</bitwidth>
+            <bitwidth>27</bitwidth>
           </Value>
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
             <item>159</item>
           </oprand_edges>
-          <opcode>sext</opcode>
+          <opcode>zext</opcode>
           <m_Display>0</m_Display>
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
@@ -1585,19 +1585,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1605,10 +1605,10 @@
                 </item>
               </inlineStackInfo>
               <originalName>r.V</originalName>
-              <rtlName>myproject_mul_mul_18s_14s_32_3_1_U94</rtlName>
+              <rtlName>myproject_mul_mul_14s_13ns_27_3_1_U92</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>32</bitwidth>
+            <bitwidth>27</bitwidth>
           </Value>
           <oprand_edges>
             <count>2</count>
@@ -1634,19 +1634,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1684,19 +1684,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1714,8 +1714,8 @@
             <item_version>0</item_version>
             <item>168</item>
             <item>169</item>
-            <item>171</item>
-            <item>173</item>
+            <item>170</item>
+            <item>172</item>
           </oprand_edges>
           <opcode>partselect</opcode>
           <m_Display>0</m_Display>
@@ -1735,19 +1735,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1763,9 +1763,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
+            <item>173</item>
             <item>174</item>
             <item>175</item>
-            <item>176</item>
           </oprand_edges>
           <opcode>bitselect</opcode>
           <m_Display>0</m_Display>
@@ -1781,23 +1781,23 @@
             <Obj>
               <type>0</type>
               <id>47</id>
-              <name>tmp_10</name>
+              <name>tmp_6</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1805,7 +1805,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_10_reg_561</rtlName>
+              <rtlName>tmp_6_reg_561</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1813,9 +1813,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
+            <item>176</item>
             <item>177</item>
-            <item>178</item>
-            <item>180</item>
+            <item>179</item>
           </oprand_edges>
           <opcode>bitselect</opcode>
           <m_Display>0</m_Display>
@@ -1835,19 +1835,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1863,7 +1863,7 @@
           <oprand_edges>
             <count>1</count>
             <item_version>0</item_version>
-            <item>181</item>
+            <item>180</item>
           </oprand_edges>
           <opcode>zext</opcode>
           <m_Display>0</m_Display>
@@ -1883,19 +1883,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1911,8 +1911,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
+            <item>181</item>
             <item>182</item>
-            <item>183</item>
           </oprand_edges>
           <opcode>add</opcode>
           <m_Display>0</m_Display>
@@ -1928,23 +1928,23 @@
             <Obj>
               <type>0</type>
               <id>50</id>
-              <name>tmp_11</name>
+              <name>tmp_9</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -1952,7 +1952,7 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_11_fu_280_p3</rtlName>
+              <rtlName>tmp_9_fu_280_p3</rtlName>
               <coreName/>
             </Obj>
             <bitwidth>1</bitwidth>
@@ -1960,9 +1960,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
+            <item>184</item>
             <item>185</item>
             <item>186</item>
-            <item>187</item>
           </oprand_edges>
           <opcode>bitselect</opcode>
           <m_Display>0</m_Display>
@@ -1982,19 +1982,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2010,8 +2010,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
-            <item>188</item>
-            <item>190</item>
+            <item>187</item>
+            <item>189</item>
           </oprand_edges>
           <opcode>xor</opcode>
           <m_Display>0</m_Display>
@@ -2031,19 +2031,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2059,8 +2059,8 @@
           <oprand_edges>
             <count>2</count>
             <item_version>0</item_version>
+            <item>190</item>
             <item>191</item>
-            <item>192</item>
           </oprand_edges>
           <opcode>and</opcode>
           <m_Display>0</m_Display>
@@ -2080,19 +2080,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2108,9 +2108,9 @@
           <oprand_edges>
             <count>3</count>
             <item_version>0</item_version>
+            <item>192</item>
             <item>193</item>
             <item>194</item>
-            <item>195</item>
           </oprand_edges>
           <opcode>bitselect</opcode>
           <m_Display>0</m_Display>
@@ -2126,23 +2126,23 @@
             <Obj>
               <type>0</type>
               <id>54</id>
-              <name>tmp_6</name>
+              <name>tmp_11</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2150,16 +2150,16 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_6_fu_308_p4</rtlName>
+              <rtlName>tmp_11_fu_308_p4</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>2</bitwidth>
+            <bitwidth>4</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
             <item_version>0</item_version>
+            <item>196</item>
             <item>197</item>
-            <item>198</item>
             <item>199</item>
             <item>201</item>
           </oprand_edges>
@@ -2181,19 +2181,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2217,7 +2217,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>0.95</m_delay>
+          <m_delay>1.30</m_delay>
           <m_topoIndex>45</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -2226,23 +2226,23 @@
             <Obj>
               <type>0</type>
               <id>56</id>
-              <name>tmp_9</name>
+              <name>tmp_12</name>
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2250,10 +2250,10 @@
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>tmp_9_fu_323_p4</rtlName>
+              <rtlName>tmp_12_fu_323_p4</rtlName>
               <coreName/>
             </Obj>
-            <bitwidth>3</bitwidth>
+            <bitwidth>5</bitwidth>
           </Value>
           <oprand_edges>
             <count>4</count>
@@ -2281,19 +2281,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2317,7 +2317,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.13</m_delay>
+          <m_delay>1.36</m_delay>
           <m_topoIndex>47</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -2330,19 +2330,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2366,7 +2366,7 @@
           <m_isOnCriticalPath>0</m_isOnCriticalPath>
           <m_isLCDNode>0</m_isLCDNode>
           <m_isStartOfPath>0</m_isStartOfPath>
-          <m_delay>1.13</m_delay>
+          <m_delay>1.36</m_delay>
           <m_topoIndex>48</m_topoIndex>
           <m_clusterGroupNumber>-1</m_clusterGroupNumber>
         </item>
@@ -2379,19 +2379,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2429,19 +2429,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2479,19 +2479,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2528,19 +2528,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2577,19 +2577,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2627,19 +2627,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2676,19 +2676,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2725,19 +2725,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2774,19 +2774,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2823,19 +2823,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2872,19 +2872,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2921,19 +2921,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -2970,19 +2970,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3019,19 +3019,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3068,19 +3068,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3117,19 +3117,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3166,19 +3166,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3215,19 +3215,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3265,19 +3265,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3315,19 +3315,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3365,19 +3365,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3415,19 +3415,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>259</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>259</second>
                     </item>
@@ -3464,19 +3464,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>257</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>257</second>
                     </item>
@@ -3512,19 +3512,19 @@
               <fileName>firmware/nnet_utils/nnet_activation.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>261</lineNumber>
-              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
+              <contextFuncName>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</contextFuncName>
               <inlineStackInfo>
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
                     <item>
                       <first>
                         <first>firmware/nnet_utils/nnet_activation.h</first>
-                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
+                        <second>softmax&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, softmax_config19&amp;gt;</second>
                       </first>
                       <second>261</second>
                     </item>
@@ -3805,13 +3805,13 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>30</content>
+          <content>25</content>
         </item>
         <item class_id_reference="16" object_id="_85">
           <Value>
             <Obj>
               <type>2</type>
-              <id>170</id>
+              <id>171</id>
               <name>empty</name>
               <fileName/>
               <fileDirectory/>
@@ -3828,13 +3828,13 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>15</content>
+          <content>21</content>
         </item>
         <item class_id_reference="16" object_id="_86">
           <Value>
             <Obj>
               <type>2</type>
-              <id>172</id>
+              <id>178</id>
               <name>empty</name>
               <fileName/>
               <fileDirectory/>
@@ -3851,36 +3851,13 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>28</content>
+          <content>7</content>
         </item>
         <item class_id_reference="16" object_id="_87">
           <Value>
             <Obj>
               <type>2</type>
-              <id>179</id>
-              <name>empty</name>
-              <fileName/>
-              <fileDirectory/>
-              <lineNumber>0</lineNumber>
-              <contextFuncName/>
-              <inlineStackInfo>
-                <count>0</count>
-                <item_version>0</item_version>
-              </inlineStackInfo>
-              <originalName/>
-              <rtlName/>
-              <coreName/>
-            </Obj>
-            <bitwidth>32</bitwidth>
-          </Value>
-          <const_type>0</const_type>
-          <content>14</content>
-        </item>
-        <item class_id_reference="16" object_id="_88">
-          <Value>
-            <Obj>
-              <type>2</type>
-              <id>189</id>
+              <id>188</id>
               <name>empty</name>
               <fileName/>
               <fileDirectory/>
@@ -3898,6 +3875,29 @@
           </Value>
           <const_type>0</const_type>
           <content>1</content>
+        </item>
+        <item class_id_reference="16" object_id="_88">
+          <Value>
+            <Obj>
+              <type>2</type>
+              <id>198</id>
+              <name>empty</name>
+              <fileName/>
+              <fileDirectory/>
+              <lineNumber>0</lineNumber>
+              <contextFuncName/>
+              <inlineStackInfo>
+                <count>0</count>
+                <item_version>0</item_version>
+              </inlineStackInfo>
+              <originalName/>
+              <rtlName/>
+              <coreName/>
+            </Obj>
+            <bitwidth>32</bitwidth>
+          </Value>
+          <const_type>0</const_type>
+          <content>23</content>
         </item>
         <item class_id_reference="16" object_id="_89">
           <Value>
@@ -3920,7 +3920,7 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>31</content>
+          <content>26</content>
         </item>
         <item class_id_reference="16" object_id="_90">
           <Value>
@@ -3940,10 +3940,10 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>2</bitwidth>
+            <bitwidth>4</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>3</content>
+          <content>15</content>
         </item>
         <item class_id_reference="16" object_id="_91">
           <Value>
@@ -3966,7 +3966,7 @@
             <bitwidth>32</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>29</content>
+          <content>22</content>
         </item>
         <item class_id_reference="16" object_id="_92">
           <Value>
@@ -3986,10 +3986,10 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>3</bitwidth>
+            <bitwidth>5</bitwidth>
           </Value>
           <const_type>0</const_type>
-          <content>7</content>
+          <content>31</content>
         </item>
         <item class_id_reference="16" object_id="_93">
           <Value>
@@ -4009,7 +4009,7 @@
               <rtlName/>
               <coreName/>
             </Obj>
-            <bitwidth>3</bitwidth>
+            <bitwidth>5</bitwidth>
           </Value>
           <const_type>0</const_type>
           <content>0</content>
@@ -4205,7 +4205,7 @@
           <Obj>
             <type>3</type>
             <id>82</id>
-            <name>_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EE19quantization_adjustEbbb.exit.i.i.i.i_ifconv</name>
+            <name>_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EE19quantization_adjustEbbb.exit.i.i.i.i_ifconv</name>
             <fileName/>
             <fileDirectory/>
             <lineNumber>0</lineNumber>
@@ -4723,14 +4723,14 @@
         <item class_id_reference="20" object_id="_164">
           <id>160</id>
           <edge_type>1</edge_type>
-          <source_obj>42</source_obj>
+          <source_obj>30</source_obj>
           <sink_obj>43</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_165">
           <id>161</id>
           <edge_type>1</edge_type>
-          <source_obj>30</source_obj>
+          <source_obj>42</source_obj>
           <sink_obj>43</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -4756,126 +4756,126 @@
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_169">
-          <id>171</id>
+          <id>170</id>
           <edge_type>1</edge_type>
-          <source_obj>170</source_obj>
+          <source_obj>132</source_obj>
           <sink_obj>45</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_170">
-          <id>173</id>
+          <id>172</id>
           <edge_type>1</edge_type>
-          <source_obj>172</source_obj>
+          <source_obj>171</source_obj>
           <sink_obj>45</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_171">
-          <id>175</id>
+          <id>174</id>
           <edge_type>1</edge_type>
           <source_obj>43</source_obj>
           <sink_obj>46</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_172">
-          <id>176</id>
+          <id>175</id>
           <edge_type>1</edge_type>
-          <source_obj>172</source_obj>
+          <source_obj>171</source_obj>
           <sink_obj>46</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_173">
-          <id>178</id>
+          <id>177</id>
           <edge_type>1</edge_type>
           <source_obj>43</source_obj>
           <sink_obj>47</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_174">
-          <id>180</id>
+          <id>179</id>
           <edge_type>1</edge_type>
-          <source_obj>179</source_obj>
+          <source_obj>178</source_obj>
           <sink_obj>47</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_175">
-          <id>181</id>
+          <id>180</id>
           <edge_type>1</edge_type>
           <source_obj>47</source_obj>
           <sink_obj>48</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_176">
+          <id>181</id>
+          <edge_type>1</edge_type>
+          <source_obj>48</source_obj>
+          <sink_obj>49</sink_obj>
+          <is_back_edge>0</is_back_edge>
+        </item>
+        <item class_id_reference="20" object_id="_177">
           <id>182</id>
           <edge_type>1</edge_type>
           <source_obj>45</source_obj>
           <sink_obj>49</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
-        <item class_id_reference="20" object_id="_177">
-          <id>183</id>
-          <edge_type>1</edge_type>
-          <source_obj>48</source_obj>
-          <sink_obj>49</sink_obj>
-          <is_back_edge>0</is_back_edge>
-        </item>
         <item class_id_reference="20" object_id="_178">
-          <id>186</id>
+          <id>185</id>
           <edge_type>1</edge_type>
           <source_obj>49</source_obj>
           <sink_obj>50</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_179">
-          <id>187</id>
+          <id>186</id>
           <edge_type>1</edge_type>
           <source_obj>113</source_obj>
           <sink_obj>50</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_180">
-          <id>188</id>
+          <id>187</id>
           <edge_type>1</edge_type>
           <source_obj>50</source_obj>
           <sink_obj>51</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_181">
-          <id>190</id>
+          <id>189</id>
           <edge_type>1</edge_type>
-          <source_obj>189</source_obj>
+          <source_obj>188</source_obj>
           <sink_obj>51</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_182">
-          <id>191</id>
+          <id>190</id>
           <edge_type>1</edge_type>
           <source_obj>46</source_obj>
           <sink_obj>52</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_183">
-          <id>192</id>
+          <id>191</id>
           <edge_type>1</edge_type>
           <source_obj>51</source_obj>
           <sink_obj>52</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_184">
-          <id>194</id>
+          <id>193</id>
           <edge_type>1</edge_type>
           <source_obj>49</source_obj>
           <sink_obj>53</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_185">
-          <id>195</id>
+          <id>194</id>
           <edge_type>1</edge_type>
           <source_obj>113</source_obj>
           <sink_obj>53</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
         <item class_id_reference="20" object_id="_186">
-          <id>198</id>
+          <id>197</id>
           <edge_type>1</edge_type>
           <source_obj>43</source_obj>
           <sink_obj>54</sink_obj>
@@ -4884,7 +4884,7 @@
         <item class_id_reference="20" object_id="_187">
           <id>199</id>
           <edge_type>1</edge_type>
-          <source_obj>165</source_obj>
+          <source_obj>198</source_obj>
           <sink_obj>54</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -5003,7 +5003,7 @@
         <item class_id_reference="20" object_id="_204">
           <id>224</id>
           <edge_type>1</edge_type>
-          <source_obj>189</source_obj>
+          <source_obj>188</source_obj>
           <sink_obj>61</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -5066,7 +5066,7 @@
         <item class_id_reference="20" object_id="_213">
           <id>233</id>
           <edge_type>1</edge_type>
-          <source_obj>189</source_obj>
+          <source_obj>188</source_obj>
           <sink_obj>65</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -5094,7 +5094,7 @@
         <item class_id_reference="20" object_id="_217">
           <id>237</id>
           <edge_type>1</edge_type>
-          <source_obj>189</source_obj>
+          <source_obj>188</source_obj>
           <sink_obj>67</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -5150,7 +5150,7 @@
         <item class_id_reference="20" object_id="_225">
           <id>245</id>
           <edge_type>1</edge_type>
-          <source_obj>189</source_obj>
+          <source_obj>188</source_obj>
           <sink_obj>71</sink_obj>
           <is_back_edge>0</is_back_edge>
         </item>
@@ -6346,7 +6346,7 @@
             <item_version>0</item_version>
             <item class_id="40" tracking_level="0" version="0">
               <first>FF</first>
-              <second>660</second>
+              <second>620</second>
             </item>
             <item>
               <first>LUT</first>
@@ -6365,7 +6365,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>3</second>
+              <second>5</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -6377,7 +6377,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>11</second>
             </item>
           </second>
         </item>
@@ -6388,7 +6388,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>3</second>
+              <second>5</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -6400,7 +6400,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>9</second>
+              <second>11</second>
             </item>
           </second>
         </item>
@@ -6411,7 +6411,7 @@
             <item_version>0</item_version>
             <item>
               <first>(0P0)</first>
-              <second>2</second>
+              <second>4</second>
             </item>
             <item>
               <first>(1P1)</first>
@@ -6423,7 +6423,7 @@
             </item>
             <item>
               <first>LUT</first>
-              <second>8</second>
+              <second>9</second>
             </item>
           </second>
         </item>
@@ -7087,7 +7087,7 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>18</second>
+              <second>13</second>
             </item>
             <item>
               <first>(2Banks)</first>
@@ -7095,7 +7095,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>180</second>
+              <second>130</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -7103,7 +7103,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>36</second>
+              <second>26</second>
             </item>
             <item>
               <first>LUT</first>
@@ -7122,7 +7122,7 @@
             </item>
             <item>
               <first>(1Bits)</first>
-              <second>18</second>
+              <second>13</second>
             </item>
             <item>
               <first>(2Banks)</first>
@@ -7130,7 +7130,7 @@
             </item>
             <item>
               <first>(3W*Bits*Banks)</first>
-              <second>18432</second>
+              <second>13312</second>
             </item>
             <item>
               <first>BRAM</first>
@@ -7448,7 +7448,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>18</second>
+              <second>13</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -7456,7 +7456,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>18</second>
+              <second>13</second>
             </item>
           </second>
         </item>
@@ -7467,7 +7467,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>18</second>
+              <second>13</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -7475,7 +7475,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>18</second>
+              <second>13</second>
             </item>
           </second>
         </item>
@@ -7676,7 +7676,7 @@
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>32</second>
+              <second>27</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -7684,18 +7684,18 @@
             </item>
             <item>
               <first>FF</first>
-              <second>32</second>
+              <second>27</second>
             </item>
           </second>
         </item>
         <item>
-          <first>tmp_10_reg_561</first>
+          <first>tmp_3_cast_cast_cast_reg_513</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
             <item>
               <first>(Bits)</first>
-              <second>1</second>
+              <second>27</second>
             </item>
             <item>
               <first>(Consts)</first>
@@ -7703,26 +7703,7 @@
             </item>
             <item>
               <first>FF</first>
-              <second>1</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>tmp_3_cast_cast_reg_513</first>
-          <second>
-            <count>3</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(Bits)</first>
-              <second>32</second>
-            </item>
-            <item>
-              <first>(Consts)</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>32</second>
+              <second>27</second>
             </item>
           </second>
         </item>
@@ -7742,6 +7723,25 @@
             <item>
               <first>FF</first>
               <second>4</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>tmp_6_reg_561</first>
+          <second>
+            <count>3</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(Bits)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(Consts)</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>1</second>
             </item>
           </second>
         </item>
@@ -7814,7 +7814,7 @@
           </second>
         </item>
         <item>
-          <first>myproject_mul_mul_18s_14s_32_3_1_U94</first>
+          <first>myproject_mul_mul_14s_13ns_27_3_1_U92</first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9440,7 +9440,7 @@
         </second>
       </item>
       <item>
-        <first>r_V_cast_cast_fu_238</first>
+        <first>r_V_cast_cast_cast_fu_238</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -9496,14 +9496,6 @@
         </second>
       </item>
       <item>
-        <first>tmp_10_fu_248</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>47</item>
-        </second>
-      </item>
-      <item>
         <first>tmp_11_cast_fu_271</first>
         <second>
           <count>1</count>
@@ -9512,11 +9504,19 @@
         </second>
       </item>
       <item>
-        <first>tmp_11_fu_280</first>
+        <first>tmp_11_fu_308</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>50</item>
+          <item>54</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_12_fu_323</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>56</item>
         </second>
       </item>
       <item>
@@ -9536,7 +9536,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_3_cast_cast_fu_217</first>
+        <first>tmp_3_cast_cast_cast_fu_217</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -9560,11 +9560,11 @@
         </second>
       </item>
       <item>
-        <first>tmp_6_fu_308</first>
+        <first>tmp_6_fu_248</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>54</item>
+          <item>47</item>
         </second>
       </item>
       <item>
@@ -9584,11 +9584,11 @@
         </second>
       </item>
       <item>
-        <first>tmp_9_fu_323</first>
+        <first>tmp_9_fu_280</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
-          <item>56</item>
+          <item>50</item>
         </second>
       </item>
       <item>
@@ -10114,7 +10114,7 @@
         </second>
       </item>
       <item>
-        <first>r_V_cast_cast_reg_541</first>
+        <first>r_V_cast_cast_cast_reg_541</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -10130,15 +10130,7 @@
         </second>
       </item>
       <item>
-        <first>tmp_10_reg_561</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>47</item>
-        </second>
-      </item>
-      <item>
-        <first>tmp_3_cast_cast_reg_513</first>
+        <first>tmp_3_cast_cast_cast_reg_513</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -10151,6 +10143,14 @@
           <count>1</count>
           <item_version>0</item_version>
           <item>14</item>
+        </second>
+      </item>
+      <item>
+        <first>tmp_6_reg_561</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>47</item>
         </second>
       </item>
       <item>

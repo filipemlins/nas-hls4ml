@@ -133,14 +133,14 @@
 						<id>23</id>
 						<name>layer3_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>64</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
@@ -181,14 +181,14 @@
 						<id>24</id>
 						<name>layer5_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>68</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -229,14 +229,14 @@
 						<id>25</id>
 						<name>layer6_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>72</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -277,14 +277,14 @@
 						<id>26</id>
 						<name>layer7_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>76</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -325,14 +325,14 @@
 						<id>27</id>
 						<name>layer9_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>80</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -373,14 +373,14 @@
 						<id>28</id>
 						<name>layer10_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>84</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -421,14 +421,14 @@
 						<id>29</id>
 						<name>layer11_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>88</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -469,14 +469,14 @@
 						<id>30</id>
 						<name>layer13_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>92</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -517,14 +517,14 @@
 						<id>31</id>
 						<name>layer14_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>96</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -565,14 +565,14 @@
 						<id>32</id>
 						<name>layer16_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>100</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -613,14 +613,14 @@
 						<id>33</id>
 						<name>layer17_out_V</name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>104</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -697,14 +697,14 @@
 						<id>37</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>66</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -749,14 +749,14 @@
 						<id>38</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>70</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -800,14 +800,14 @@
 						<id>39</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>74</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -851,14 +851,14 @@
 						<id>40</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>78</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -904,14 +904,14 @@
 						<id>41</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>82</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -955,14 +955,14 @@
 						<id>42</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>86</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1006,14 +1006,14 @@
 						<id>43</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1059,14 +1059,14 @@
 						<id>44</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>94</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1110,14 +1110,14 @@
 						<id>45</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>98</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1163,14 +1163,14 @@
 						<id>46</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>102</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1214,14 +1214,14 @@
 						<id>47</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>106</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1267,14 +1267,14 @@
 						<id>48</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>108</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -1320,14 +1320,14 @@
 						<id>49</id>
 						<name></name>
 						<fileName>firmware/myproject.cpp</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>110</lineNumber>
 						<contextFuncName>myproject</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
@@ -2274,8 +2274,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>1984267</mMinLatency>
-			<mMaxLatency>6809739</mMaxLatency>
+			<mMinLatency>2521531</mMinLatency>
+			<mMaxLatency>7004283</mMaxLatency>
 			<mIsDfPipe>1</mIsDfPipe>
 			<mDfPipe class_id="23" tracking_level="1" version="0" object_id="_119">
 				<port_list class_id="24" tracking_level="0" version="0">

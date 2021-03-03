@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'relu_2'
 ================================================================
-* Date:           Mon Mar  1 22:17:08 2021
+* Date:           Tue Mar  2 23:01:14 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -92,11 +92,11 @@ State 1 <SV = 0> <Delay = 1.76>
 ST_1 : Operation 6 [1/1] (1.76ns)   --->   "br label %1" [firmware/nnet_utils/nnet_activation.h:76]   --->   Operation 6 'br' <Predicate = true> <Delay = 1.76>
 
 State 2 <SV = 1> <Delay = 3.25>
-ST_2 : Operation 7 [1/1] (0.00ns)   --->   "%ii = phi i7 [ 0, %0 ], [ %ii_2, %_ZgtILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit ]"   --->   Operation 7 'phi' 'ii' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 7 [1/1] (0.00ns)   --->   "%ii = phi i7 [ 0, %0 ], [ %ii_2, %_ZgtILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit ]"   --->   Operation 7 'phi' 'ii' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 8 [1/1] (1.48ns)   --->   "%tmp = icmp eq i7 %ii, -44" [firmware/nnet_utils/nnet_activation.h:76]   --->   Operation 8 'icmp' 'tmp' <Predicate = true> <Delay = 1.48> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 2.20> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 9 [1/1] (0.00ns)   --->   "%empty = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 84, i64 84, i64 84)"   --->   Operation 9 'speclooptripcount' 'empty' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 10 [1/1] (1.87ns)   --->   "%ii_2 = add i7 %ii, 1" [firmware/nnet_utils/nnet_activation.h:76]   --->   Operation 10 'add' 'ii_2' <Predicate = true> <Delay = 1.87> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.87> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 11 [1/1] (0.00ns)   --->   "br i1 %tmp, label %2, label %_ZgtILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit" [firmware/nnet_utils/nnet_activation.h:76]   --->   Operation 11 'br' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 11 [1/1] (0.00ns)   --->   "br i1 %tmp, label %2, label %_ZgtILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEbRK13ap_fixed_baseIXT_EXT0_EXT1_EXT2_EXT3_EXT4_EEi.exit" [firmware/nnet_utils/nnet_activation.h:76]   --->   Operation 11 'br' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 12 [1/1] (0.00ns)   --->   "%tmp_s = zext i7 %ii to i64" [firmware/nnet_utils/nnet_activation.h:80]   --->   Operation 12 'zext' 'tmp_s' <Predicate = (!tmp)> <Delay = 0.00>
 ST_2 : Operation 13 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [84 x i14]* %data_V, i64 0, i64 %tmp_s" [firmware/nnet_utils/nnet_activation.h:80]   --->   Operation 13 'getelementptr' 'data_V_addr' <Predicate = (!tmp)> <Delay = 0.00>
 ST_2 : Operation 14 [2/2] (3.25ns)   --->   "%datareg_V = load i14* %data_V_addr, align 2" [firmware/nnet_utils/nnet_activation.h:80]   --->   Operation 14 'load' 'datareg_V' <Predicate = (!tmp)> <Delay = 3.25> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 13> <Depth = 84> <RAM>

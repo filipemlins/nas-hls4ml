@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'dense_large_rf_gt_ni'
 ================================================================
-* Date:           Mon Mar  1 22:17:05 2021
+* Date:           Tue Mar  2 23:01:07 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -20,7 +20,7 @@
     +--------+-------+----------+------------+
     |  Clock | Target| Estimated| Uncertainty|
     +--------+-------+----------+------------+
-    |ap_clk  |   5.00|     4.134|        0.62|
+    |ap_clk  |   5.00|     4.231|        0.62|
     +--------+-------+----------+------------+
 
 + Latency (clock cycles): 
@@ -109,7 +109,7 @@ IsGatedGlobalClock: 0
 13 --> 
 	3  / true
 14 --> 
-	15  / (!tmp_69)
+	15  / (!tmp_68)
 15 --> 
 	16  / true
 16 --> 
@@ -139,18 +139,18 @@ ST_3 : Operation 30 [1/1] (0.00ns)   --->   "%w_index = phi i9 [ %ir, %.loopexit
 ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%in_index = phi i32 [ %p_s, %.loopexit ], [ 0, %.preheader74.preheader ]" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 31 'phi' 'in_index' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 32 [1/1] (0.00ns)   --->   "%w_index_cast = zext i9 %w_index to i10" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 32 'zext' 'w_index_cast' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 33 [1/1] (1.66ns)   --->   "%exitcond = icmp eq i9 %w_index, -256" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 33 'icmp' 'exitcond' <Predicate = true> <Delay = 1.66> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%empty_61 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 256, i64 256, i64 256)"   --->   Operation 34 'speclooptripcount' 'empty_61' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 34 [1/1] (0.00ns)   --->   "%empty_63 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 256, i64 256, i64 256)"   --->   Operation 34 'speclooptripcount' 'empty_63' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 35 [1/1] (1.82ns)   --->   "%ir = add i9 %w_index, 1" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 35 'add' 'ir' <Predicate = true> <Delay = 1.82> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 36 [1/1] (0.00ns)   --->   "br i1 %exitcond, label %.preheader.preheader, label %1" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 36 'br' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 37 [1/1] (0.00ns)   --->   "%tmp_s = zext i9 %w_index to i64" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 37 'zext' 'tmp_s' <Predicate = (!exitcond)> <Delay = 0.00>
 ST_3 : Operation 38 [1/1] (0.00ns)   --->   "%outidx6_addr = getelementptr [256 x i3]* @outidx6, i64 0, i64 %tmp_s" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 38 'getelementptr' 'outidx6_addr' <Predicate = (!exitcond)> <Delay = 0.00>
-ST_3 : Operation 39 [2/2] (3.25ns)   --->   "%out_index = load i3* %outidx6_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 39 'load' 'out_index' <Predicate = (!exitcond)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 19> <Depth = 256> <ROM>
+ST_3 : Operation 39 [2/2] (3.25ns)   --->   "%out_index = load i3* %outidx6_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 39 'load' 'out_index' <Predicate = (!exitcond)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 256> <ROM>
 ST_3 : Operation 40 [1/1] (1.76ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 40 'br' <Predicate = (exitcond)> <Delay = 1.76>
 
 State 4 <SV = 3> <Delay = 3.25>
-ST_4 : Operation 41 [1/2] (3.25ns)   --->   "%out_index = load i3* %outidx6_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 41 'load' 'out_index' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 19> <Depth = 256> <ROM>
-ST_4 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_68 = sext i32 %in_index to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 42 'sext' 'tmp_68' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [32 x i14]* %data_V, i64 0, i64 %tmp_68" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 43 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 41 [1/2] (3.25ns)   --->   "%out_index = load i3* %outidx6_addr, align 1" [firmware/nnet_utils/nnet_dense_large.h:155]   --->   Operation 41 'load' 'out_index' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 256> <ROM>
+ST_4 : Operation 42 [1/1] (0.00ns)   --->   "%tmp_67 = sext i32 %in_index to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 42 'sext' 'tmp_67' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 43 [1/1] (0.00ns)   --->   "%data_V_addr = getelementptr [32 x i14]* %data_V, i64 0, i64 %tmp_67" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 43 'getelementptr' 'data_V_addr' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 44 [2/2] (2.32ns)   --->   "%data_V_load = load i14* %data_V_addr, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 44 'load' 'data_V_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
 
 State 5 <SV = 4> <Delay = 2.32>
@@ -165,16 +165,16 @@ ST_6 : Operation 50 [1/1] (0.00ns)   --->   "%im = phi i2 [ 0, %1 ], [ %im_1, %7
 ST_6 : Operation 51 [1/1] (0.00ns)   --->   "%out_index1 = phi i5 [ %out_index_cast, %1 ], [ %out_index_1, %7 ]"   --->   Operation 51 'phi' 'out_index1' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 52 [1/1] (0.00ns)   --->   "%w_index1 = phi i10 [ %w_index_cast, %1 ], [ %w_index_1, %7 ]"   --->   Operation 52 'phi' 'w_index1' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 53 [1/1] (0.00ns)   --->   "%tmp_91 = call i1 @_ssdm_op_BitSelect.i1.i2.i32(i2 %im, i32 1)" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 53 'bitselect' 'tmp_91' <Predicate = true> <Delay = 0.00>
-ST_6 : Operation 54 [1/1] (0.00ns)   --->   "%empty_62 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)"   --->   Operation 54 'speclooptripcount' 'empty_62' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 54 [1/1] (0.00ns)   --->   "%empty_64 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 1, i64 2, i64 1)"   --->   Operation 54 'speclooptripcount' 'empty_64' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 55 [1/1] (1.56ns)   --->   "%im_1 = add i2 %im, 1" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 55 'add' 'im_1' <Predicate = true> <Delay = 1.56> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_6 : Operation 56 [1/1] (0.00ns)   --->   "br i1 %tmp_91, label %.loopexit, label %_ZN13ap_fixed_baseILi15ELi10ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 56 'br' <Predicate = true> <Delay = 0.00>
+ST_6 : Operation 56 [1/1] (0.00ns)   --->   "br i1 %tmp_91, label %.loopexit, label %_ZN13ap_fixed_baseILi15ELi3ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC1ILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit9.i.i_ifconv" [firmware/nnet_utils/nnet_dense_large.h:158]   --->   Operation 56 'br' <Predicate = true> <Delay = 0.00>
 ST_6 : Operation 57 [1/1] (0.00ns)   --->   "%tmp_92 = trunc i10 %w_index1 to i8" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 57 'trunc' 'tmp_92' <Predicate = (!tmp_91)> <Delay = 0.00>
 ST_6 : Operation 58 [1/1] (0.00ns)   --->   "%tmp_5 = zext i8 %tmp_92 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 58 'zext' 'tmp_5' <Predicate = (!tmp_91)> <Delay = 0.00>
-ST_6 : Operation 59 [1/1] (0.00ns)   --->   "%w7_V_addr = getelementptr [256 x i19]* @w7_V, i64 0, i64 %tmp_5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 59 'getelementptr' 'w7_V_addr' <Predicate = (!tmp_91)> <Delay = 0.00>
-ST_6 : Operation 60 [2/2] (3.25ns)   --->   "%w7_V_load = load i19* %w7_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 60 'load' 'w7_V_load' <Predicate = (!tmp_91)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 19> <Depth = 256> <ROM>
+ST_6 : Operation 59 [1/1] (0.00ns)   --->   "%w7_V_addr = getelementptr [256 x i25]* @w7_V, i64 0, i64 %tmp_5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 59 'getelementptr' 'w7_V_addr' <Predicate = (!tmp_91)> <Delay = 0.00>
+ST_6 : Operation 60 [2/2] (3.25ns)   --->   "%w7_V_load = load i25* %w7_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 60 'load' 'w7_V_load' <Predicate = (!tmp_91)> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 256> <ROM>
 
 State 7 <SV = 6> <Delay = 3.25>
-ST_7 : Operation 61 [1/2] (3.25ns)   --->   "%w7_V_load = load i19* %w7_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 61 'load' 'w7_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 19> <Depth = 256> <ROM>
+ST_7 : Operation 61 [1/2] (3.25ns)   --->   "%w7_V_load = load i25* %w7_V_addr, align 4" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 61 'load' 'w7_V_load' <Predicate = true> <Delay = 3.25> <Core = "ROM_nP">   --->   Core 52 'ROM_nP' <Latency = 1> <II = 1> <Delay = 3.25> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 25> <Depth = 256> <ROM>
 ST_7 : Operation 62 [1/1] (0.00ns)   --->   "%tmp_13 = call i2 @_ssdm_op_PartSelect.i2.i10.i32.i32(i10 %w_index1, i32 8, i32 9)" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 62 'partselect' 'tmp_13' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 63 [1/1] (0.00ns)   --->   "%tmp_93 = call i1 @_ssdm_op_BitSelect.i1.i10.i32(i10 %w_index1, i32 8)" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 63 'bitselect' 'tmp_93' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 64 [1/1] (0.00ns)   --->   "%p_shl8 = call i3 @_ssdm_op_BitConcatenate.i3.i2.i1(i2 %tmp_13, i1 false)" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 64 'bitconcatenate' 'p_shl8' <Predicate = true> <Delay = 0.00>
@@ -182,16 +182,16 @@ ST_7 : Operation 65 [1/1] (0.00ns)   --->   "%tmp_94 = call i5 @_ssdm_op_BitConc
 ST_7 : Operation 66 [1/1] (0.00ns)   --->   "%tmp_95 = zext i3 %p_shl8 to i5" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 66 'zext' 'tmp_95' <Predicate = true> <Delay = 0.00>
 ST_7 : Operation 67 [1/1] (1.78ns)   --->   "%tmp_96 = sub i5 %tmp_94, %tmp_95" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 67 'sub' 'tmp_96' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 
-State 8 <SV = 7> <Delay = 4.06>
-ST_8 : Operation 68 [1/1] (0.00ns)   --->   "%w7_V_load_cast = sext i19 %w7_V_load to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 68 'sext' 'w7_V_load_cast' <Predicate = true> <Delay = 0.00>
+State 8 <SV = 7> <Delay = 4.23>
+ST_8 : Operation 68 [1/1] (0.00ns)   --->   "%w7_V_load_cast = sext i25 %w7_V_load to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 68 'sext' 'w7_V_load_cast' <Predicate = true> <Delay = 0.00>
 ST_8 : Operation 69 [1/1] (0.00ns)   --->   "%tmp_97 = zext i5 %tmp_96 to i28" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 69 'zext' 'tmp_97' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 70 [1/1] (4.06ns)   --->   "%tmp_98 = lshr i28 %w7_V_load_cast, %tmp_97" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 70 'lshr' 'tmp_98' <Predicate = true> <Delay = 4.06> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.06> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
+ST_8 : Operation 70 [1/1] (4.23ns)   --->   "%tmp_98 = lshr i28 %w7_V_load_cast, %tmp_97" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 70 'lshr' 'tmp_98' <Predicate = true> <Delay = 4.23> <Core = "Shift">   --->   Core 28 'Shift' <Latency = 0> <II = 1> <Delay = 4.23> <FuncUnit> <Opcode : 'shl' 'lshr' 'ashr'> <InPorts = 2> <OutPorts = 1>
 ST_8 : Operation 71 [1/1] (0.00ns)   --->   "%tmp_99 = trunc i28 %tmp_98 to i14" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 71 'trunc' 'tmp_99' <Predicate = true> <Delay = 0.00>
 
 State 9 <SV = 8> <Delay = 3.89>
-ST_9 : Operation 72 [1/1] (0.00ns)   --->   "%tmp_72 = zext i5 %out_index1 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 72 'zext' 'tmp_72' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 72 [1/1] (0.00ns)   --->   "%tmp_71 = zext i5 %out_index1 to i64" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 72 'zext' 'tmp_71' <Predicate = true> <Delay = 0.00>
 ST_9 : Operation 73 [2/2] (3.89ns)   --->   "%p_Val2_5 = call fastcc i14 @product(i14 %data_V_load, i14 %tmp_99)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 73 'call' 'p_Val2_5' <Predicate = true> <Delay = 3.89> <CoreType = "Generic">   --->   Core 0 '' <Latency = 0> <II = 1> <Delay = 1.00> <Generic> <Opcode : >
-ST_9 : Operation 74 [1/1] (0.00ns)   --->   "%acc_V_addr_2 = getelementptr [16 x i14]* %acc_V, i64 0, i64 %tmp_72" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 74 'getelementptr' 'acc_V_addr_2' <Predicate = true> <Delay = 0.00>
+ST_9 : Operation 74 [1/1] (0.00ns)   --->   "%acc_V_addr_2 = getelementptr [16 x i14]* %acc_V, i64 0, i64 %tmp_71" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 74 'getelementptr' 'acc_V_addr_2' <Predicate = true> <Delay = 0.00>
 ST_9 : Operation 75 [2/2] (2.32ns)   --->   "%p_Val2_s = load i14* %acc_V_addr_2, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 75 'load' 'p_Val2_s' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
 
 State 10 <SV = 9> <Delay = 3.65>
@@ -209,19 +209,19 @@ ST_11 : Operation 84 [1/1] (2.32ns)   --->   "store i14 %p_Val2_7, i14* %acc_V_a
 ST_11 : Operation 85 [1/1] (0.00ns)   --->   "%p_Result_13 = call i1 @_ssdm_op_BitSelect.i1.i14.i32(i14 %p_Val2_7, i32 13)" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 85 'bitselect' 'p_Result_13' <Predicate = true> <Delay = 0.00>
 ST_11 : Operation 86 [1/1] (0.00ns) (grouped into LUT with out node overflow)   --->   "%tmp_15 = xor i1 %p_Result_s, true" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 86 'xor' 'tmp_15' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_11 : Operation 87 [1/1] (0.97ns) (out node of the LUT)   --->   "%overflow = and i1 %p_Result_13, %tmp_15" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 87 'and' 'overflow' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node underflow)   --->   "%tmp_73 = xor i1 %p_Result_13, true" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 88 'xor' 'tmp_73' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 89 [1/1] (0.97ns) (out node of the LUT)   --->   "%underflow = and i1 %p_Result_s, %tmp_73" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 89 'and' 'underflow' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node underflow)   --->   "%tmp_72 = xor i1 %p_Result_13, true" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 88 'xor' 'tmp_72' <Predicate = true> <Delay = 0.00> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 89 [1/1] (0.97ns) (out node of the LUT)   --->   "%underflow = and i1 %p_Result_s, %tmp_72" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 89 'and' 'underflow' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_11 : Operation 90 [1/1] (0.97ns)   --->   "%brmerge6 = xor i1 %p_Result_s, %p_Result_13" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 90 'xor' 'brmerge6' <Predicate = true> <Delay = 0.97> <Core = "LogicGate">   --->   Core 27 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.97> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 91 [1/1] (0.00ns)   --->   "br i1 %brmerge6, label %3, label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 91 'br' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 91 [1/1] (0.00ns)   --->   "br i1 %brmerge6, label %3, label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 91 'br' <Predicate = true> <Delay = 0.00>
 ST_11 : Operation 92 [1/1] (0.00ns)   --->   "br i1 %overflow, label %4, label %5" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 92 'br' <Predicate = (brmerge6)> <Delay = 0.00>
 ST_11 : Operation 93 [1/1] (0.00ns)   --->   "br i1 %underflow, label %6, label %._crit_edge77" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 93 'br' <Predicate = (brmerge6 & !overflow)> <Delay = 0.00>
 
 State 12 <SV = 11> <Delay = 2.55>
 ST_12 : Operation 94 [1/1] (2.32ns)   --->   "store i14 -8192, i14* %acc_V_addr_2, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 94 'store' <Predicate = (!tmp_91 & brmerge6 & !overflow & underflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
 ST_12 : Operation 95 [1/1] (0.00ns)   --->   "br label %._crit_edge77" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 95 'br' <Predicate = (!tmp_91 & brmerge6 & !overflow & underflow)> <Delay = 0.00>
-ST_12 : Operation 96 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit"   --->   Operation 96 'br' <Predicate = (!tmp_91 & brmerge6 & !overflow)> <Delay = 0.00>
+ST_12 : Operation 96 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit"   --->   Operation 96 'br' <Predicate = (!tmp_91 & brmerge6 & !overflow)> <Delay = 0.00>
 ST_12 : Operation 97 [1/1] (2.32ns)   --->   "store i14 8191, i14* %acc_V_addr_2, align 2" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 97 'store' <Predicate = (!tmp_91 & brmerge6 & overflow)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
-ST_12 : Operation 98 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi9ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi9ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 98 'br' <Predicate = (!tmp_91 & brmerge6 & overflow)> <Delay = 0.00>
+ST_12 : Operation 98 [1/1] (0.00ns)   --->   "br label %_ZN13ap_fixed_baseILi14ELi2ELb1EL9ap_q_mode0EL9ap_o_mode0ELi0EEpLILi14ELi2ELb1ELS0_0ELS1_0ELi0EEERS2_RKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit" [firmware/nnet_utils/nnet_dense_large.h:160]   --->   Operation 98 'br' <Predicate = (!tmp_91 & brmerge6 & overflow)> <Delay = 0.00>
 ST_12 : Operation 99 [1/1] (1.73ns)   --->   "%w_index_1 = add i10 %w_index1, 256" [firmware/nnet_utils/nnet_dense_large.h:162]   --->   Operation 99 'add' 'w_index_1' <Predicate = (!tmp_91)> <Delay = 1.73> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_12 : Operation 100 [1/1] (0.00ns)   --->   "%tmp_102 = call i1 @_ssdm_op_BitSelect.i1.i10.i32(i10 %w_index_1, i32 9)" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 100 'bitselect' 'tmp_102' <Predicate = (!tmp_91)> <Delay = 0.00>
 ST_12 : Operation 101 [1/1] (0.00ns)   --->   "br i1 %tmp_102, label %.loopexit, label %7" [firmware/nnet_utils/nnet_dense_large.h:163]   --->   Operation 101 'br' <Predicate = (!tmp_91)> <Delay = 0.00>
@@ -233,26 +233,26 @@ ST_12 : Operation 105 [1/1] (0.00ns)   --->   "%tmp_103 = call i27 @_ssdm_op_Par
 State 13 <SV = 12> <Delay = 3.15>
 ST_13 : Operation 106 [1/1] (2.45ns)   --->   "%icmp = icmp sgt i27 %tmp_103, 0" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 106 'icmp' 'icmp' <Predicate = true> <Delay = 2.45> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_13 : Operation 107 [1/1] (0.69ns)   --->   "%p_s = select i1 %icmp, i32 0, i32 %in_index_1" [firmware/nnet_utils/nnet_dense_large.h:168]   --->   Operation 107 'select' 'p_s' <Predicate = true> <Delay = 0.69> <Core = "Sel">   --->   Core 26 'Sel' <Latency = 0> <II = 1> <Delay = 0.69> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_13 : Operation 108 [1/1] (0.00ns)   --->   "%empty_63 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str16, i32 %tmp_1)" [firmware/nnet_utils/nnet_dense_large.h:172]   --->   Operation 108 'specregionend' 'empty_63' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 108 [1/1] (0.00ns)   --->   "%empty_65 = call i32 (...)* @_ssdm_op_SpecRegionEnd([10 x i8]* @p_str16, i32 %tmp_1)" [firmware/nnet_utils/nnet_dense_large.h:172]   --->   Operation 108 'specregionend' 'empty_65' <Predicate = true> <Delay = 0.00>
 ST_13 : Operation 109 [1/1] (0.00ns)   --->   "br label %.preheader74" [firmware/nnet_utils/nnet_dense_large.h:151]   --->   Operation 109 'br' <Predicate = true> <Delay = 0.00>
 
 State 14 <SV = 3> <Delay = 2.32>
 ST_14 : Operation 110 [1/1] (0.00ns)   --->   "%ires = phi i5 [ %ires_1, %8 ], [ 0, %.preheader.preheader ]"   --->   Operation 110 'phi' 'ires' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 111 [1/1] (1.36ns)   --->   "%tmp_69 = icmp eq i5 %ires, -16" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 111 'icmp' 'tmp_69' <Predicate = true> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 112 [1/1] (0.00ns)   --->   "%empty_64 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)"   --->   Operation 112 'speclooptripcount' 'empty_64' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 111 [1/1] (1.36ns)   --->   "%tmp_68 = icmp eq i5 %ires, -16" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 111 'icmp' 'tmp_68' <Predicate = true> <Delay = 1.36> <Core = "Cmp">   --->   Core 25 'Cmp' <Latency = 0> <II = 1> <Delay = 1.36> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_14 : Operation 112 [1/1] (0.00ns)   --->   "%empty_66 = call i32 (...)* @_ssdm_op_SpecLoopTripCount(i64 16, i64 16, i64 16)"   --->   Operation 112 'speclooptripcount' 'empty_66' <Predicate = true> <Delay = 0.00>
 ST_14 : Operation 113 [1/1] (1.78ns)   --->   "%ires_1 = add i5 %ires, 1" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 113 'add' 'ires_1' <Predicate = true> <Delay = 1.78> <Core = "AddSub">   --->   Core 14 'AddSub' <Latency = 0> <II = 1> <Delay = 1.78> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_14 : Operation 114 [1/1] (0.00ns)   --->   "br i1 %tmp_69, label %9, label %8" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 114 'br' <Predicate = true> <Delay = 0.00>
-ST_14 : Operation 115 [1/1] (0.00ns)   --->   "%tmp_71 = zext i5 %ires to i64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 115 'zext' 'tmp_71' <Predicate = (!tmp_69)> <Delay = 0.00>
-ST_14 : Operation 116 [1/1] (0.00ns)   --->   "%acc_V_addr_1 = getelementptr [16 x i14]* %acc_V, i64 0, i64 %tmp_71" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 116 'getelementptr' 'acc_V_addr_1' <Predicate = (!tmp_69)> <Delay = 0.00>
-ST_14 : Operation 117 [2/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_1, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 117 'load' 'acc_V_load' <Predicate = (!tmp_69)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
-ST_14 : Operation 118 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet_dense_large.h:180]   --->   Operation 118 'ret' <Predicate = (tmp_69)> <Delay = 0.00>
+ST_14 : Operation 114 [1/1] (0.00ns)   --->   "br i1 %tmp_68, label %9, label %8" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 114 'br' <Predicate = true> <Delay = 0.00>
+ST_14 : Operation 115 [1/1] (0.00ns)   --->   "%tmp_70 = zext i5 %ires to i64" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 115 'zext' 'tmp_70' <Predicate = (!tmp_68)> <Delay = 0.00>
+ST_14 : Operation 116 [1/1] (0.00ns)   --->   "%acc_V_addr_1 = getelementptr [16 x i14]* %acc_V, i64 0, i64 %tmp_70" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 116 'getelementptr' 'acc_V_addr_1' <Predicate = (!tmp_68)> <Delay = 0.00>
+ST_14 : Operation 117 [2/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_1, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 117 'load' 'acc_V_load' <Predicate = (!tmp_68)> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
+ST_14 : Operation 118 [1/1] (0.00ns)   --->   "ret void" [firmware/nnet_utils/nnet_dense_large.h:180]   --->   Operation 118 'ret' <Predicate = (tmp_68)> <Delay = 0.00>
 
 State 15 <SV = 4> <Delay = 2.32>
 ST_15 : Operation 119 [1/2] (2.32ns)   --->   "%acc_V_load = load i14* %acc_V_addr_1, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 119 'load' 'acc_V_load' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
 
 State 16 <SV = 5> <Delay = 2.32>
 ST_16 : Operation 120 [1/1] (0.00ns)   --->   "call void (...)* @_ssdm_op_SpecLoopName([7 x i8]* @p_str18) nounwind" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 120 'specloopname' <Predicate = true> <Delay = 0.00>
-ST_16 : Operation 121 [1/1] (0.00ns)   --->   "%res_V_addr = getelementptr [16 x i14]* %res_V, i64 0, i64 %tmp_71" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 121 'getelementptr' 'res_V_addr' <Predicate = true> <Delay = 0.00>
+ST_16 : Operation 121 [1/1] (0.00ns)   --->   "%res_V_addr = getelementptr [16 x i14]* %res_V, i64 0, i64 %tmp_70" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 121 'getelementptr' 'res_V_addr' <Predicate = true> <Delay = 0.00>
 ST_16 : Operation 122 [1/1] (2.32ns)   --->   "store i14 %acc_V_load, i14* %res_V_addr, align 2" [firmware/nnet_utils/nnet_dense_large.h:178]   --->   Operation 122 'store' <Predicate = true> <Delay = 2.32> <Core = "RAM">   --->   Core 37 'RAM' <Latency = 1> <II = 1> <Delay = 2.32> <Storage> <Opcode : 'load' 'store'> <Ports = 2> <Width = 14> <Depth = 16> <RAM>
 ST_16 : Operation 123 [1/1] (0.00ns)   --->   "br label %.preheader" [firmware/nnet_utils/nnet_dense_large.h:176]   --->   Operation 123 'br' <Predicate = true> <Delay = 0.00>
 
@@ -296,9 +296,9 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'load' operation ('w7_V_load', firmware/nnet_utils/nnet_dense_large.h:160) on array 'w7_V' [54]  (3.25 ns)
 
- <State 8>: 4.07ns
+ <State 8>: 4.23ns
 The critical path consists of the following:
-	'lshr' operation ('tmp_98', firmware/nnet_utils/nnet_dense_large.h:160) [63]  (4.07 ns)
+	'lshr' operation ('tmp_98', firmware/nnet_utils/nnet_dense_large.h:160) [63]  (4.23 ns)
 
  <State 9>: 3.89ns
 The critical path consists of the following:

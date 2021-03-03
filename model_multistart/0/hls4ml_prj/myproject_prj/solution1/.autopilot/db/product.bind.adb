@@ -68,7 +68,7 @@
 			</item>
 		</ports>
 		<nodes class_id="8" tracking_level="0" version="0">
-			<count>41</count>
+			<count>40</count>
 			<item_version>0</item_version>
 			<item class_id="9" tracking_level="1" version="0" object_id="_3">
 				<Value>
@@ -77,21 +77,21 @@
 						<id>3</id>
 						<name>w_V_read</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item class_id="10" tracking_level="0" version="0">
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second class_id="11" tracking_level="0" version="0">
 									<count>1</count>
 									<item_version>0</item_version>
 									<item class_id="12" tracking_level="0" version="0">
 										<first class_id="13" tracking_level="0" version="0">
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -107,8 +107,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>45</item>
 					<item>46</item>
-					<item>47</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -126,21 +126,21 @@
 						<id>4</id>
 						<name>a_V_read</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -156,8 +156,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>47</item>
 					<item>48</item>
-					<item>49</item>
 				</oprand_edges>
 				<opcode>read</opcode>
 				<m_Display>0</m_Display>
@@ -175,21 +175,21 @@
 						<id>5</id>
 						<name>r_V</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -205,7 +205,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>50</item>
+					<item>49</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -223,21 +223,21 @@
 						<id>6</id>
 						<name>tmp</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -253,7 +253,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>51</item>
+					<item>50</item>
 				</oprand_edges>
 				<opcode>sext</opcode>
 				<m_Display>0</m_Display>
@@ -271,21 +271,21 @@
 						<id>7</id>
 						<name>r_V_2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -301,8 +301,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>51</item>
 					<item>52</item>
-					<item>53</item>
 				</oprand_edges>
 				<opcode>mul</opcode>
 				<m_Display>0</m_Display>
@@ -320,21 +320,21 @@
 						<id>8</id>
 						<name>p_Result_s</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -350,9 +350,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>54</item>
 					<item>55</item>
-					<item>56</item>
-					<item>58</item>
+					<item>57</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -370,21 +370,21 @@
 						<id>9</id>
 						<name>p_Val2_3</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -400,10 +400,10 @@
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
+					<item>59</item>
 					<item>60</item>
-					<item>61</item>
-					<item>63</item>
-					<item>65</item>
+					<item>62</item>
+					<item>64</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
@@ -421,21 +421,21 @@
 						<id>10</id>
 						<name>p_Result_7</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -451,9 +451,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>65</item>
 					<item>66</item>
 					<item>67</item>
-					<item>68</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -471,21 +471,21 @@
 						<id>11</id>
 						<name>tmp_25</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -501,9 +501,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>68</item>
 					<item>69</item>
-					<item>70</item>
-					<item>72</item>
+					<item>71</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -521,21 +521,21 @@
 						<id>12</id>
 						<name>tmp_23_cast</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -551,7 +551,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>73</item>
+					<item>72</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
 				<m_Display>0</m_Display>
@@ -569,21 +569,21 @@
 						<id>13</id>
 						<name>p_Val2_4</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -599,8 +599,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>73</item>
 					<item>74</item>
-					<item>75</item>
 				</oprand_edges>
 				<opcode>add</opcode>
 				<m_Display>0</m_Display>
@@ -618,21 +618,21 @@
 						<id>14</id>
 						<name>tmp_26</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -648,9 +648,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>76</item>
 					<item>77</item>
-					<item>78</item>
-					<item>80</item>
+					<item>79</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -668,21 +668,21 @@
 						<id>15</id>
 						<name>rev</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -698,8 +698,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>81</item>
-					<item>83</item>
+					<item>80</item>
+					<item>82</item>
 				</oprand_edges>
 				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
@@ -717,21 +717,21 @@
 						<id>16</id>
 						<name>carry_2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -747,8 +747,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
+					<item>83</item>
 					<item>84</item>
-					<item>85</item>
 				</oprand_edges>
 				<opcode>and</opcode>
 				<m_Display>0</m_Display>
@@ -766,21 +766,21 @@
 						<id>17</id>
 						<name>p_Result_8</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -796,9 +796,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>85</item>
 					<item>86</item>
 					<item>87</item>
-					<item>88</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -814,74 +814,23 @@
 					<Obj>
 						<type>0</type>
 						<id>18</id>
-						<name>p_Result_s_29</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>8</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>4</count>
-					<item_version>0</item_version>
-					<item>90</item>
-					<item>91</item>
-					<item>93</item>
-					<item>94</item>
-				</oprand_edges>
-				<opcode>partselect</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>16</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_19">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>19</id>
 						<name>Range2_all_ones</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -895,42 +844,43 @@
 					<bitwidth>1</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>3</count>
 					<item_version>0</item_version>
-					<item>95</item>
-					<item>97</item>
+					<item>88</item>
+					<item>89</item>
+					<item>90</item>
 				</oprand_edges>
-				<opcode>icmp</opcode>
+				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.55</m_delay>
-				<m_topoIndex>17</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>16</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_20">
+			<item class_id_reference="9" object_id="_19">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>20</id>
-						<name>p_Result_1</name>
+						<id>19</id>
+						<name>p_Result_s_31</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -941,15 +891,15 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>2</bitwidth>
 				</Value>
 				<oprand_edges>
 					<count>4</count>
 					<item_version>0</item_version>
-					<item>99</item>
-					<item>100</item>
-					<item>102</item>
-					<item>103</item>
+					<item>92</item>
+					<item>93</item>
+					<item>95</item>
+					<item>96</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
 				<m_Display>0</m_Display>
@@ -957,31 +907,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>18</m_topoIndex>
+				<m_topoIndex>17</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_21">
+			<item class_id_reference="9" object_id="_20">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>21</id>
+						<id>20</id>
 						<name>Range1_all_ones</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -997,40 +947,40 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>104</item>
-					<item>106</item>
+					<item>97</item>
+					<item>99</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.66</m_delay>
-				<m_topoIndex>19</m_topoIndex>
+				<m_delay>0.95</m_delay>
+				<m_topoIndex>18</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_22">
+			<item class_id_reference="9" object_id="_21">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>22</id>
+						<id>21</id>
 						<name>Range1_all_zeros</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1046,40 +996,40 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>107</item>
-					<item>109</item>
+					<item>100</item>
+					<item>102</item>
 				</oprand_edges>
 				<opcode>icmp</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>1.66</m_delay>
-				<m_topoIndex>20</m_topoIndex>
+				<m_delay>0.95</m_delay>
+				<m_topoIndex>19</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_23">
+			<item class_id_reference="9" object_id="_22">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>23</id>
+						<id>22</id>
 						<name>deleted_zeros</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1095,9 +1045,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>110</item>
-					<item>111</item>
-					<item>112</item>
+					<item>103</item>
+					<item>104</item>
+					<item>105</item>
 				</oprand_edges>
 				<opcode>select</opcode>
 				<m_Display>0</m_Display>
@@ -1105,31 +1055,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>27</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+				<m_topoIndex>26</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_24">
+			<item class_id_reference="9" object_id="_23">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>24</id>
-						<name>tmp_28</name>
+						<id>23</id>
+						<name>tmp_29</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1145,9 +1095,9 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item>113</item>
-					<item>114</item>
-					<item>115</item>
+					<item>106</item>
+					<item>107</item>
+					<item>108</item>
 				</oprand_edges>
 				<opcode>bitselect</opcode>
 				<m_Display>0</m_Display>
@@ -1155,31 +1105,179 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>21</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
+				<m_topoIndex>20</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_25">
+			<item class_id_reference="9" object_id="_24">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>25</id>
+						<id>24</id>
 						<name>rev2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>109</item>
+					<item>110</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>21</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_25">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>25</id>
+						<name>p_s</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>111</item>
+					<item>112</item>
+				</oprand_edges>
+				<opcode>and</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>22</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_26">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>26</id>
+						<name>deleted_ones</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName>deleted_ones</originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>113</item>
+					<item>114</item>
+					<item>115</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>23</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_27">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>27</id>
+						<name>phitmp_demorgan</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1198,37 +1296,37 @@
 					<item>116</item>
 					<item>117</item>
 				</oprand_edges>
-				<opcode>xor</opcode>
+				<opcode>and</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>22</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
+				<m_delay>0.97</m_delay>
+				<m_topoIndex>24</m_topoIndex>
+				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_26">
+			<item class_id_reference="9" object_id="_28">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>26</id>
-						<name>p_s</name>
+						<id>28</id>
+						<name>p_not</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1247,185 +1345,37 @@
 					<item>118</item>
 					<item>119</item>
 				</oprand_edges>
-				<opcode>and</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>23</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_27">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>27</id>
-						<name>deleted_ones</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName>deleted_ones</originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>120</item>
-					<item>121</item>
-					<item>122</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>24</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_28">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>28</id>
-						<name>phitmp_demorgan</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>123</item>
-					<item>124</item>
-				</oprand_edges>
-				<opcode>and</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>25</m_topoIndex>
-				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_29">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>29</id>
-						<name>p_not</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>125</item>
-					<item>126</item>
-				</oprand_edges>
 				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>28</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+				<m_topoIndex>27</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_30">
+			<item class_id_reference="9" object_id="_29">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>30</id>
+						<id>29</id>
 						<name>brmerge</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1441,8 +1391,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>127</item>
-					<item>128</item>
+					<item>120</item>
+					<item>121</item>
 				</oprand_edges>
 				<opcode>or</opcode>
 				<m_Display>0</m_Display>
@@ -1450,31 +1400,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>29</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+				<m_topoIndex>28</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_31">
+			<item class_id_reference="9" object_id="_30">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>31</id>
-						<name>tmp_9</name>
+						<id>30</id>
+						<name>tmp_8</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1490,8 +1440,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>129</item>
-					<item>130</item>
+					<item>122</item>
+					<item>123</item>
 				</oprand_edges>
 				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
@@ -1499,31 +1449,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.97</m_delay>
-				<m_topoIndex>30</m_topoIndex>
+				<m_topoIndex>29</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_32">
+			<item class_id_reference="9" object_id="_31">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>32</id>
+						<id>31</id>
 						<name>overflow</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1539,8 +1489,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>131</item>
-					<item>132</item>
+					<item>124</item>
+					<item>125</item>
 				</oprand_edges>
 				<opcode>and</opcode>
 				<m_Display>0</m_Display>
@@ -1548,31 +1498,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>31</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+				<m_topoIndex>30</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_33">
+			<item class_id_reference="9" object_id="_32">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>33</id>
+						<id>32</id>
 						<name>brmerge114_demorgan</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1588,8 +1538,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>133</item>
-					<item>134</item>
+					<item>126</item>
+					<item>127</item>
 				</oprand_edges>
 				<opcode>and</opcode>
 				<m_Display>0</m_Display>
@@ -1597,31 +1547,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.99</m_delay>
-				<m_topoIndex>26</m_topoIndex>
-				<m_clusterGroupNumber>3</m_clusterGroupNumber>
+				<m_topoIndex>25</m_topoIndex>
+				<m_clusterGroupNumber>2</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_34">
+			<item class_id_reference="9" object_id="_33">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>34</id>
+						<id>33</id>
 						<name>tmp1_demorgan</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1637,10 +1587,59 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>135</item>
-					<item>136</item>
+					<item>128</item>
+					<item>129</item>
 				</oprand_edges>
 				<opcode>or</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>31</m_topoIndex>
+				<m_clusterGroupNumber>4</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_34">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>34</id>
+						<name>tmp1</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>130</item>
+					<item>131</item>
+				</oprand_edges>
+				<opcode>xor</opcode>
 				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
@@ -1654,72 +1653,23 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>tmp1</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>137</item>
-					<item>138</item>
-				</oprand_edges>
-				<opcode>xor</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>33</m_topoIndex>
-				<m_clusterGroupNumber>4</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_36">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>36</id>
 						<name>underflow</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1735,8 +1685,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>139</item>
-					<item>140</item>
+					<item>132</item>
+					<item>133</item>
 				</oprand_edges>
 				<opcode>and</opcode>
 				<m_Display>0</m_Display>
@@ -1744,31 +1694,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.97</m_delay>
-				<m_topoIndex>34</m_topoIndex>
+				<m_topoIndex>33</m_topoIndex>
 				<m_clusterGroupNumber>4</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_37">
+			<item class_id_reference="9" object_id="_36">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>37</id>
+						<id>36</id>
 						<name>brmerge5</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1784,8 +1734,8 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>141</item>
-					<item>142</item>
+					<item>134</item>
+					<item>135</item>
 				</oprand_edges>
 				<opcode>or</opcode>
 				<m_Display>0</m_Display>
@@ -1793,31 +1743,31 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.99</m_delay>
-				<m_topoIndex>35</m_topoIndex>
-				<m_clusterGroupNumber>2</m_clusterGroupNumber>
+				<m_topoIndex>34</m_topoIndex>
+				<m_clusterGroupNumber>3</m_clusterGroupNumber>
 			</item>
-			<item class_id_reference="9" object_id="_38">
+			<item class_id_reference="9" object_id="_37">
 				<Value>
 					<Obj>
 						<type>0</type>
-						<id>38</id>
+						<id>37</id>
 						<name>tmp2</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1833,8 +1783,57 @@
 				<oprand_edges>
 					<count>2</count>
 					<item_version>0</item_version>
-					<item>143</item>
-					<item>144</item>
+					<item>136</item>
+					<item>137</item>
+				</oprand_edges>
+				<opcode>or</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>35</m_topoIndex>
+				<m_clusterGroupNumber>5</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_38">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>38</id>
+						<name>underflow_not</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>1</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>2</count>
+					<item_version>0</item_version>
+					<item>138</item>
+					<item>139</item>
 				</oprand_edges>
 				<opcode>or</opcode>
 				<m_Display>0</m_Display>
@@ -1850,72 +1849,23 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>underflow_not</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>1</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>2</count>
-					<item_version>0</item_version>
-					<item>145</item>
-					<item>146</item>
-				</oprand_edges>
-				<opcode>or</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
-				<m_topoIndex>37</m_topoIndex>
-				<m_clusterGroupNumber>5</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_40">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>40</id>
 						<name>p_Val2_6_mux</name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -1931,7 +1881,107 @@
 				<oprand_edges>
 					<count>3</count>
 					<item_version>0</item_version>
+					<item>140</item>
+					<item>142</item>
+					<item>143</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.70</m_delay>
+				<m_topoIndex>37</m_topoIndex>
+				<m_clusterGroupNumber>6</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_40">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>40</id>
+						<name>p_Val2_6</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>14</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>144</item>
+					<item>146</item>
 					<item>147</item>
+				</oprand_edges>
+				<opcode>select</opcode>
+				<m_Display>0</m_Display>
+				<m_isOnCriticalPath>0</m_isOnCriticalPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
+				<m_delay>0.00</m_delay>
+				<m_topoIndex>38</m_topoIndex>
+				<m_clusterGroupNumber>5</m_clusterGroupNumber>
+			</item>
+			<item class_id_reference="9" object_id="_41">
+				<Value>
+					<Obj>
+						<type>0</type>
+						<id>41</id>
+						<name>agg_result_V_1</name>
+						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
+						<lineNumber>90</lineNumber>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<inlineStackInfo>
+							<count>1</count>
+							<item_version>0</item_version>
+							<item>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
+								<second>
+									<count>1</count>
+									<item_version>0</item_version>
+									<item>
+										<first>
+											<first>firmware/nnet_utils/nnet_dense.h</first>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
+										</first>
+										<second>90</second>
+									</item>
+								</second>
+							</item>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>14</bitwidth>
+				</Value>
+				<oprand_edges>
+					<count>3</count>
+					<item_version>0</item_version>
+					<item>148</item>
 					<item>149</item>
 					<item>150</item>
 				</oprand_edges>
@@ -1940,57 +1990,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.70</m_delay>
-				<m_topoIndex>38</m_topoIndex>
-				<m_clusterGroupNumber>6</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_41">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>41</id>
-						<name>p_Val2_6</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>14</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>151</item>
-					<item>153</item>
-					<item>154</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.00</m_delay>
+				<m_delay>0.97</m_delay>
 				<m_topoIndex>39</m_topoIndex>
 				<m_clusterGroupNumber>5</m_clusterGroupNumber>
 			</item>
@@ -1999,73 +1999,23 @@
 					<Obj>
 						<type>0</type>
 						<id>42</id>
-						<name>agg_result_V_1</name>
-						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
-						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
-						<inlineStackInfo>
-							<count>1</count>
-							<item_version>0</item_version>
-							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
-								<second>
-									<count>1</count>
-									<item_version>0</item_version>
-									<item>
-										<first>
-											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
-										</first>
-										<second>90</second>
-									</item>
-								</second>
-							</item>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>14</bitwidth>
-				</Value>
-				<oprand_edges>
-					<count>3</count>
-					<item_version>0</item_version>
-					<item>155</item>
-					<item>156</item>
-					<item>157</item>
-				</oprand_edges>
-				<opcode>select</opcode>
-				<m_Display>0</m_Display>
-				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>0</m_isLCDNode>
-				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>0.97</m_delay>
-				<m_topoIndex>40</m_topoIndex>
-				<m_clusterGroupNumber>5</m_clusterGroupNumber>
-			</item>
-			<item class_id_reference="9" object_id="_43">
-				<Value>
-					<Obj>
-						<type>0</type>
-						<id>43</id>
 						<name></name>
 						<fileName>firmware/nnet_utils/nnet_dense.h</fileName>
-						<fileDirectory>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</fileDirectory>
+						<fileDirectory>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</fileDirectory>
 						<lineNumber>90</lineNumber>
-						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
+						<contextFuncName>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</contextFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
 							<item>
-								<first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+								<first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
 								<second>
 									<count>1</count>
 									<item_version>0</item_version>
 									<item>
 										<first>
 											<first>firmware/nnet_utils/nnet_dense.h</first>
-											<second>product&amp;lt;ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 9, 0, 0, 0&amp;gt; &amp;gt;</second>
+											<second>product&amp;lt;ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt;, ap_fixed&amp;lt;14, 2, 0, 0, 0&amp;gt; &amp;gt;</second>
 										</first>
 										<second>90</second>
 									</item>
@@ -2081,7 +2031,7 @@
 				<oprand_edges>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item>158</item>
+					<item>151</item>
 				</oprand_edges>
 				<opcode>ret</opcode>
 				<m_Display>0</m_Display>
@@ -2089,18 +2039,18 @@
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
-				<m_topoIndex>41</m_topoIndex>
+				<m_topoIndex>40</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
 		</nodes>
 		<consts class_id="15" tracking_level="0" version="0">
-			<count>13</count>
+			<count>11</count>
 			<item_version>0</item_version>
-			<item class_id="16" tracking_level="1" version="0" object_id="_44">
+			<item class_id="16" tracking_level="1" version="0" object_id="_43">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>57</id>
+						<id>56</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2119,11 +2069,11 @@
 				<const_type>0</const_type>
 				<content>27</content>
 			</item>
-			<item class_id_reference="16" object_id="_45">
+			<item class_id_reference="16" object_id="_44">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>62</id>
+						<id>61</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2140,13 +2090,36 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>5</content>
+				<content>12</content>
+			</item>
+			<item class_id_reference="16" object_id="_45">
+				<Value>
+					<Obj>
+						<type>2</type>
+						<id>63</id>
+						<name>empty</name>
+						<fileName></fileName>
+						<fileDirectory></fileDirectory>
+						<lineNumber>0</lineNumber>
+						<contextFuncName></contextFuncName>
+						<inlineStackInfo>
+							<count>0</count>
+							<item_version>0</item_version>
+						</inlineStackInfo>
+						<originalName></originalName>
+						<rtlName></rtlName>
+						<coreName></coreName>
+					</Obj>
+					<bitwidth>32</bitwidth>
+				</Value>
+				<const_type>0</const_type>
+				<content>25</content>
 			</item>
 			<item class_id_reference="16" object_id="_46">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>64</id>
+						<id>70</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2163,36 +2136,13 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>18</content>
+				<content>11</content>
 			</item>
 			<item class_id_reference="16" object_id="_47">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>71</id>
-						<name>empty</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<const_type>0</const_type>
-				<content>4</content>
-			</item>
-			<item class_id_reference="16" object_id="_48">
-				<Value>
-					<Obj>
-						<type>2</type>
-						<id>79</id>
+						<id>78</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2211,11 +2161,11 @@
 				<const_type>0</const_type>
 				<content>13</content>
 			</item>
-			<item class_id_reference="16" object_id="_49">
+			<item class_id_reference="16" object_id="_48">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>82</id>
+						<id>81</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2234,11 +2184,11 @@
 				<const_type>0</const_type>
 				<content>1</content>
 			</item>
-			<item class_id_reference="16" object_id="_50">
+			<item class_id_reference="16" object_id="_49">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>92</id>
+						<id>94</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2255,13 +2205,13 @@
 					<bitwidth>32</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>20</content>
+				<content>26</content>
 			</item>
-			<item class_id_reference="16" object_id="_51">
+			<item class_id_reference="16" object_id="_50">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>96</id>
+						<id>98</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2275,12 +2225,12 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>8</bitwidth>
+					<bitwidth>2</bitwidth>
 				</Value>
 				<const_type>0</const_type>
-				<content>255</content>
+				<content>3</content>
 			</item>
-			<item class_id_reference="16" object_id="_52">
+			<item class_id_reference="16" object_id="_51">
 				<Value>
 					<Obj>
 						<type>2</type>
@@ -2298,62 +2248,16 @@
 						<rtlName></rtlName>
 						<coreName></coreName>
 					</Obj>
-					<bitwidth>32</bitwidth>
-				</Value>
-				<const_type>0</const_type>
-				<content>19</content>
-			</item>
-			<item class_id_reference="16" object_id="_53">
-				<Value>
-					<Obj>
-						<type>2</type>
-						<id>105</id>
-						<name>empty</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>9</bitwidth>
-				</Value>
-				<const_type>0</const_type>
-				<content>511</content>
-			</item>
-			<item class_id_reference="16" object_id="_54">
-				<Value>
-					<Obj>
-						<type>2</type>
-						<id>108</id>
-						<name>empty</name>
-						<fileName></fileName>
-						<fileDirectory></fileDirectory>
-						<lineNumber>0</lineNumber>
-						<contextFuncName></contextFuncName>
-						<inlineStackInfo>
-							<count>0</count>
-							<item_version>0</item_version>
-						</inlineStackInfo>
-						<originalName></originalName>
-						<rtlName></rtlName>
-						<coreName></coreName>
-					</Obj>
-					<bitwidth>9</bitwidth>
+					<bitwidth>2</bitwidth>
 				</Value>
 				<const_type>0</const_type>
 				<content>0</content>
 			</item>
-			<item class_id_reference="16" object_id="_55">
+			<item class_id_reference="16" object_id="_52">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>148</id>
+						<id>141</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2372,11 +2276,11 @@
 				<const_type>0</const_type>
 				<content>8191</content>
 			</item>
-			<item class_id_reference="16" object_id="_56">
+			<item class_id_reference="16" object_id="_53">
 				<Value>
 					<Obj>
 						<type>2</type>
-						<id>152</id>
+						<id>145</id>
 						<name>empty</name>
 						<fileName></fileName>
 						<fileDirectory></fileDirectory>
@@ -2399,10 +2303,10 @@
 		<blocks class_id="17" tracking_level="0" version="0">
 			<count>1</count>
 			<item_version>0</item_version>
-			<item class_id="18" tracking_level="1" version="0" object_id="_57">
+			<item class_id="18" tracking_level="1" version="0" object_id="_54">
 				<Obj>
 					<type>3</type>
-					<id>44</id>
+					<id>43</id>
 					<name>product</name>
 					<fileName></fileName>
 					<fileDirectory></fileDirectory>
@@ -2417,7 +2321,7 @@
 					<coreName></coreName>
 				</Obj>
 				<node_objs>
-					<count>41</count>
+					<count>40</count>
 					<item_version>0</item_version>
 					<item>3</item>
 					<item>4</item>
@@ -2459,599 +2363,577 @@
 					<item>40</item>
 					<item>41</item>
 					<item>42</item>
-					<item>43</item>
 				</node_objs>
 			</item>
 		</blocks>
 		<edges class_id="19" tracking_level="0" version="0">
-			<count>84</count>
+			<count>81</count>
 			<item_version>0</item_version>
-			<item class_id="20" tracking_level="1" version="0" object_id="_58">
-				<id>47</id>
+			<item class_id="20" tracking_level="1" version="0" object_id="_55">
+				<id>46</id>
 				<edge_type>1</edge_type>
 				<source_obj>2</source_obj>
 				<sink_obj>3</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_59">
-				<id>49</id>
+			<item class_id_reference="20" object_id="_56">
+				<id>48</id>
 				<edge_type>1</edge_type>
 				<source_obj>1</source_obj>
 				<sink_obj>4</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_60">
-				<id>50</id>
+			<item class_id_reference="20" object_id="_57">
+				<id>49</id>
 				<edge_type>1</edge_type>
 				<source_obj>4</source_obj>
 				<sink_obj>5</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_61">
-				<id>51</id>
+			<item class_id_reference="20" object_id="_58">
+				<id>50</id>
 				<edge_type>1</edge_type>
 				<source_obj>3</source_obj>
 				<sink_obj>6</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_62">
-				<id>52</id>
+			<item class_id_reference="20" object_id="_59">
+				<id>51</id>
 				<edge_type>1</edge_type>
 				<source_obj>5</source_obj>
 				<sink_obj>7</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_63">
-				<id>53</id>
+			<item class_id_reference="20" object_id="_60">
+				<id>52</id>
 				<edge_type>1</edge_type>
 				<source_obj>6</source_obj>
 				<sink_obj>7</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_64">
-				<id>56</id>
+			<item class_id_reference="20" object_id="_61">
+				<id>55</id>
 				<edge_type>1</edge_type>
 				<source_obj>7</source_obj>
 				<sink_obj>8</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_62">
+				<id>57</id>
+				<edge_type>1</edge_type>
+				<source_obj>56</source_obj>
+				<sink_obj>8</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_63">
+				<id>60</id>
+				<edge_type>1</edge_type>
+				<source_obj>7</source_obj>
+				<sink_obj>9</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_64">
+				<id>62</id>
+				<edge_type>1</edge_type>
+				<source_obj>61</source_obj>
+				<sink_obj>9</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_65">
-				<id>58</id>
+				<id>64</id>
 				<edge_type>1</edge_type>
-				<source_obj>57</source_obj>
-				<sink_obj>8</sink_obj>
+				<source_obj>63</source_obj>
+				<sink_obj>9</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_66">
-				<id>61</id>
+				<id>66</id>
 				<edge_type>1</edge_type>
 				<source_obj>7</source_obj>
-				<sink_obj>9</sink_obj>
+				<sink_obj>10</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_67">
-				<id>63</id>
+				<id>67</id>
 				<edge_type>1</edge_type>
-				<source_obj>62</source_obj>
-				<sink_obj>9</sink_obj>
+				<source_obj>63</source_obj>
+				<sink_obj>10</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_68">
-				<id>65</id>
+				<id>69</id>
 				<edge_type>1</edge_type>
-				<source_obj>64</source_obj>
-				<sink_obj>9</sink_obj>
+				<source_obj>7</source_obj>
+				<sink_obj>11</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_69">
-				<id>67</id>
+				<id>71</id>
 				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>10</sink_obj>
+				<source_obj>70</source_obj>
+				<sink_obj>11</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_70">
-				<id>68</id>
-				<edge_type>1</edge_type>
-				<source_obj>64</source_obj>
-				<sink_obj>10</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_71">
-				<id>70</id>
-				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>11</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_72">
 				<id>72</id>
-				<edge_type>1</edge_type>
-				<source_obj>71</source_obj>
-				<sink_obj>11</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_73">
-				<id>73</id>
 				<edge_type>1</edge_type>
 				<source_obj>11</source_obj>
 				<sink_obj>12</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_74">
-				<id>74</id>
+			<item class_id_reference="20" object_id="_71">
+				<id>73</id>
 				<edge_type>1</edge_type>
 				<source_obj>12</source_obj>
 				<sink_obj>13</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_75">
-				<id>75</id>
+			<item class_id_reference="20" object_id="_72">
+				<id>74</id>
 				<edge_type>1</edge_type>
 				<source_obj>9</source_obj>
 				<sink_obj>13</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_76">
-				<id>78</id>
+			<item class_id_reference="20" object_id="_73">
+				<id>77</id>
 				<edge_type>1</edge_type>
 				<source_obj>13</source_obj>
 				<sink_obj>14</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_77">
-				<id>80</id>
+			<item class_id_reference="20" object_id="_74">
+				<id>79</id>
 				<edge_type>1</edge_type>
-				<source_obj>79</source_obj>
+				<source_obj>78</source_obj>
 				<sink_obj>14</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_78">
-				<id>81</id>
+			<item class_id_reference="20" object_id="_75">
+				<id>80</id>
 				<edge_type>1</edge_type>
 				<source_obj>14</source_obj>
 				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_79">
-				<id>83</id>
+			<item class_id_reference="20" object_id="_76">
+				<id>82</id>
 				<edge_type>1</edge_type>
-				<source_obj>82</source_obj>
+				<source_obj>81</source_obj>
 				<sink_obj>15</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_80">
-				<id>84</id>
+			<item class_id_reference="20" object_id="_77">
+				<id>83</id>
 				<edge_type>1</edge_type>
 				<source_obj>10</source_obj>
 				<sink_obj>16</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_81">
-				<id>85</id>
+			<item class_id_reference="20" object_id="_78">
+				<id>84</id>
 				<edge_type>1</edge_type>
 				<source_obj>15</source_obj>
 				<sink_obj>16</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_82">
-				<id>87</id>
+			<item class_id_reference="20" object_id="_79">
+				<id>86</id>
 				<edge_type>1</edge_type>
 				<source_obj>13</source_obj>
 				<sink_obj>17</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_83">
-				<id>88</id>
+			<item class_id_reference="20" object_id="_80">
+				<id>87</id>
 				<edge_type>1</edge_type>
-				<source_obj>79</source_obj>
+				<source_obj>78</source_obj>
 				<sink_obj>17</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_84">
-				<id>91</id>
+			<item class_id_reference="20" object_id="_81">
+				<id>89</id>
 				<edge_type>1</edge_type>
 				<source_obj>7</source_obj>
 				<sink_obj>18</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_82">
+				<id>90</id>
+				<edge_type>1</edge_type>
+				<source_obj>56</source_obj>
+				<sink_obj>18</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_83">
+				<id>93</id>
+				<edge_type>1</edge_type>
+				<source_obj>7</source_obj>
+				<sink_obj>19</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_84">
+				<id>95</id>
+				<edge_type>1</edge_type>
+				<source_obj>94</source_obj>
+				<sink_obj>19</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_85">
-				<id>93</id>
+				<id>96</id>
 				<edge_type>1</edge_type>
-				<source_obj>92</source_obj>
-				<sink_obj>18</sink_obj>
+				<source_obj>56</source_obj>
+				<sink_obj>19</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_86">
-				<id>94</id>
+				<id>97</id>
 				<edge_type>1</edge_type>
-				<source_obj>57</source_obj>
-				<sink_obj>18</sink_obj>
+				<source_obj>19</source_obj>
+				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_87">
-				<id>95</id>
+				<id>99</id>
 				<edge_type>1</edge_type>
-				<source_obj>18</source_obj>
-				<sink_obj>19</sink_obj>
+				<source_obj>98</source_obj>
+				<sink_obj>20</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_88">
-				<id>97</id>
+				<id>100</id>
 				<edge_type>1</edge_type>
-				<source_obj>96</source_obj>
-				<sink_obj>19</sink_obj>
+				<source_obj>19</source_obj>
+				<sink_obj>21</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_89">
-				<id>100</id>
-				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>20</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_90">
 				<id>102</id>
 				<edge_type>1</edge_type>
 				<source_obj>101</source_obj>
-				<sink_obj>20</sink_obj>
+				<sink_obj>21</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_90">
+				<id>103</id>
+				<edge_type>1</edge_type>
+				<source_obj>16</source_obj>
+				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_91">
-				<id>103</id>
-				<edge_type>1</edge_type>
-				<source_obj>57</source_obj>
-				<sink_obj>20</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_92">
 				<id>104</id>
 				<edge_type>1</edge_type>
 				<source_obj>20</source_obj>
-				<sink_obj>21</sink_obj>
+				<sink_obj>22</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_92">
+				<id>105</id>
+				<edge_type>1</edge_type>
+				<source_obj>21</source_obj>
+				<sink_obj>22</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_93">
-				<id>106</id>
+				<id>107</id>
 				<edge_type>1</edge_type>
-				<source_obj>105</source_obj>
-				<sink_obj>21</sink_obj>
+				<source_obj>7</source_obj>
+				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_94">
-				<id>107</id>
+				<id>108</id>
 				<edge_type>1</edge_type>
-				<source_obj>20</source_obj>
-				<sink_obj>22</sink_obj>
+				<source_obj>94</source_obj>
+				<sink_obj>23</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_95">
 				<id>109</id>
 				<edge_type>1</edge_type>
-				<source_obj>108</source_obj>
-				<sink_obj>22</sink_obj>
+				<source_obj>23</source_obj>
+				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_96">
 				<id>110</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
-				<sink_obj>23</sink_obj>
+				<source_obj>81</source_obj>
+				<sink_obj>24</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_97">
 				<id>111</id>
 				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>23</sink_obj>
+				<source_obj>18</source_obj>
+				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_98">
 				<id>112</id>
 				<edge_type>1</edge_type>
-				<source_obj>22</source_obj>
-				<sink_obj>23</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_99">
-				<id>114</id>
-				<edge_type>1</edge_type>
-				<source_obj>7</source_obj>
-				<sink_obj>24</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_100">
-				<id>115</id>
-				<edge_type>1</edge_type>
-				<source_obj>101</source_obj>
-				<sink_obj>24</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_101">
-				<id>116</id>
-				<edge_type>1</edge_type>
 				<source_obj>24</source_obj>
 				<sink_obj>25</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_102">
-				<id>117</id>
+			<item class_id_reference="20" object_id="_99">
+				<id>113</id>
 				<edge_type>1</edge_type>
-				<source_obj>82</source_obj>
-				<sink_obj>25</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_103">
-				<id>118</id>
-				<edge_type>1</edge_type>
-				<source_obj>19</source_obj>
+				<source_obj>16</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_104">
-				<id>119</id>
+			<item class_id_reference="20" object_id="_100">
+				<id>114</id>
 				<edge_type>1</edge_type>
 				<source_obj>25</source_obj>
 				<sink_obj>26</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_105">
-				<id>120</id>
+			<item class_id_reference="20" object_id="_101">
+				<id>115</id>
+				<edge_type>1</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>26</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_102">
+				<id>116</id>
 				<edge_type>1</edge_type>
 				<source_obj>16</source_obj>
 				<sink_obj>27</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_103">
+				<id>117</id>
+				<edge_type>1</edge_type>
+				<source_obj>20</source_obj>
+				<sink_obj>27</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_104">
+				<id>118</id>
+				<edge_type>1</edge_type>
+				<source_obj>22</source_obj>
+				<sink_obj>28</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_105">
+				<id>119</id>
+				<edge_type>1</edge_type>
+				<source_obj>81</source_obj>
+				<sink_obj>28</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_106">
-				<id>121</id>
+				<id>120</id>
 				<edge_type>1</edge_type>
-				<source_obj>26</source_obj>
-				<sink_obj>27</sink_obj>
+				<source_obj>17</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_107">
-				<id>122</id>
+				<id>121</id>
 				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>27</sink_obj>
+				<source_obj>28</source_obj>
+				<sink_obj>29</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_108">
-				<id>123</id>
+				<id>122</id>
 				<edge_type>1</edge_type>
-				<source_obj>16</source_obj>
-				<sink_obj>28</sink_obj>
+				<source_obj>8</source_obj>
+				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_109">
-				<id>124</id>
+				<id>123</id>
 				<edge_type>1</edge_type>
-				<source_obj>21</source_obj>
-				<sink_obj>28</sink_obj>
+				<source_obj>81</source_obj>
+				<sink_obj>30</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_110">
-				<id>125</id>
+				<id>124</id>
 				<edge_type>1</edge_type>
-				<source_obj>23</source_obj>
-				<sink_obj>29</sink_obj>
+				<source_obj>29</source_obj>
+				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_111">
-				<id>126</id>
+				<id>125</id>
 				<edge_type>1</edge_type>
-				<source_obj>82</source_obj>
-				<sink_obj>29</sink_obj>
+				<source_obj>30</source_obj>
+				<sink_obj>31</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_112">
-				<id>127</id>
+				<id>126</id>
 				<edge_type>1</edge_type>
 				<source_obj>17</source_obj>
-				<sink_obj>30</sink_obj>
+				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_113">
-				<id>128</id>
+				<id>127</id>
 				<edge_type>1</edge_type>
-				<source_obj>29</source_obj>
-				<sink_obj>30</sink_obj>
+				<source_obj>26</source_obj>
+				<sink_obj>32</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_114">
-				<id>129</id>
-				<edge_type>1</edge_type>
-				<source_obj>8</source_obj>
-				<sink_obj>31</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_115">
-				<id>130</id>
-				<edge_type>1</edge_type>
-				<source_obj>82</source_obj>
-				<sink_obj>31</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_116">
-				<id>131</id>
-				<edge_type>1</edge_type>
-				<source_obj>30</source_obj>
-				<sink_obj>32</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_117">
-				<id>132</id>
-				<edge_type>1</edge_type>
-				<source_obj>31</source_obj>
-				<sink_obj>32</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_118">
-				<id>133</id>
-				<edge_type>1</edge_type>
-				<source_obj>17</source_obj>
-				<sink_obj>33</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_119">
-				<id>134</id>
+				<id>128</id>
 				<edge_type>1</edge_type>
 				<source_obj>27</source_obj>
 				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_120">
-				<id>135</id>
+			<item class_id_reference="20" object_id="_115">
+				<id>129</id>
 				<edge_type>1</edge_type>
-				<source_obj>28</source_obj>
-				<sink_obj>34</sink_obj>
+				<source_obj>32</source_obj>
+				<sink_obj>33</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_121">
-				<id>136</id>
+			<item class_id_reference="20" object_id="_116">
+				<id>130</id>
 				<edge_type>1</edge_type>
 				<source_obj>33</source_obj>
 				<sink_obj>34</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_122">
-				<id>137</id>
+			<item class_id_reference="20" object_id="_117">
+				<id>131</id>
+				<edge_type>1</edge_type>
+				<source_obj>81</source_obj>
+				<sink_obj>34</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_118">
+				<id>132</id>
+				<edge_type>1</edge_type>
+				<source_obj>8</source_obj>
+				<sink_obj>35</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_119">
+				<id>133</id>
 				<edge_type>1</edge_type>
 				<source_obj>34</source_obj>
 				<sink_obj>35</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_123">
-				<id>138</id>
-				<edge_type>1</edge_type>
-				<source_obj>82</source_obj>
-				<sink_obj>35</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_124">
-				<id>139</id>
-				<edge_type>1</edge_type>
-				<source_obj>8</source_obj>
-				<sink_obj>36</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_125">
-				<id>140</id>
+			<item class_id_reference="20" object_id="_120">
+				<id>134</id>
 				<edge_type>1</edge_type>
 				<source_obj>35</source_obj>
 				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_126">
-				<id>141</id>
+			<item class_id_reference="20" object_id="_121">
+				<id>135</id>
 				<edge_type>1</edge_type>
-				<source_obj>36</source_obj>
-				<sink_obj>37</sink_obj>
+				<source_obj>31</source_obj>
+				<sink_obj>36</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_127">
-				<id>142</id>
+			<item class_id_reference="20" object_id="_122">
+				<id>136</id>
 				<edge_type>1</edge_type>
 				<source_obj>32</source_obj>
 				<sink_obj>37</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
+			<item class_id_reference="20" object_id="_123">
+				<id>137</id>
+				<edge_type>1</edge_type>
+				<source_obj>30</source_obj>
+				<sink_obj>37</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_124">
+				<id>138</id>
+				<edge_type>1</edge_type>
+				<source_obj>37</source_obj>
+				<sink_obj>38</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_125">
+				<id>139</id>
+				<edge_type>1</edge_type>
+				<source_obj>27</source_obj>
+				<sink_obj>38</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_126">
+				<id>140</id>
+				<edge_type>1</edge_type>
+				<source_obj>36</source_obj>
+				<sink_obj>39</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
+			<item class_id_reference="20" object_id="_127">
+				<id>142</id>
+				<edge_type>1</edge_type>
+				<source_obj>141</source_obj>
+				<sink_obj>39</sink_obj>
+				<is_back_edge>0</is_back_edge>
+			</item>
 			<item class_id_reference="20" object_id="_128">
 				<id>143</id>
 				<edge_type>1</edge_type>
-				<source_obj>33</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>13</source_obj>
+				<sink_obj>39</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_129">
 				<id>144</id>
 				<edge_type>1</edge_type>
-				<source_obj>31</source_obj>
-				<sink_obj>38</sink_obj>
+				<source_obj>35</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_130">
-				<id>145</id>
+				<id>146</id>
 				<edge_type>1</edge_type>
-				<source_obj>38</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>145</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_131">
-				<id>146</id>
+				<id>147</id>
 				<edge_type>1</edge_type>
-				<source_obj>28</source_obj>
-				<sink_obj>39</sink_obj>
+				<source_obj>13</source_obj>
+				<sink_obj>40</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_132">
-				<id>147</id>
+				<id>148</id>
 				<edge_type>1</edge_type>
-				<source_obj>37</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>38</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_133">
 				<id>149</id>
 				<edge_type>1</edge_type>
-				<source_obj>148</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>39</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_134">
 				<id>150</id>
 				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>40</sink_obj>
+				<source_obj>40</source_obj>
+				<sink_obj>41</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 			<item class_id_reference="20" object_id="_135">
 				<id>151</id>
 				<edge_type>1</edge_type>
-				<source_obj>36</source_obj>
-				<sink_obj>41</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_136">
-				<id>153</id>
-				<edge_type>1</edge_type>
-				<source_obj>152</source_obj>
-				<sink_obj>41</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_137">
-				<id>154</id>
-				<edge_type>1</edge_type>
-				<source_obj>13</source_obj>
-				<sink_obj>41</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_138">
-				<id>155</id>
-				<edge_type>1</edge_type>
-				<source_obj>39</source_obj>
-				<sink_obj>42</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_139">
-				<id>156</id>
-				<edge_type>1</edge_type>
-				<source_obj>40</source_obj>
-				<sink_obj>42</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_140">
-				<id>157</id>
-				<edge_type>1</edge_type>
 				<source_obj>41</source_obj>
 				<sink_obj>42</sink_obj>
-				<is_back_edge>0</is_back_edge>
-			</item>
-			<item class_id_reference="20" object_id="_141">
-				<id>158</id>
-				<edge_type>1</edge_type>
-				<source_obj>42</source_obj>
-				<sink_obj>43</sink_obj>
 				<is_back_edge>0</is_back_edge>
 			</item>
 		</edges>
@@ -3059,7 +2941,7 @@
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_142">
+		<item class_id="22" tracking_level="1" version="0" object_id="_136">
 			<mId>1</mId>
 			<mTag>product</mTag>
 			<mType>0</mType>
@@ -3070,7 +2952,7 @@
 			<basic_blocks>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>44</item>
+				<item>43</item>
 			</basic_blocks>
 			<mII>-1</mII>
 			<mDepth>-1</mDepth>
@@ -3082,168 +2964,200 @@
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
 	</cdfg_regions>
-	<fsm class_id="24" tracking_level="1" version="0" object_id="_143">
+	<fsm class_id="24" tracking_level="1" version="0" object_id="_137">
 		<states class_id="25" tracking_level="0" version="0">
 			<count>5</count>
 			<item_version>0</item_version>
-			<item class_id="26" tracking_level="1" version="0" object_id="_144">
+			<item class_id="26" tracking_level="1" version="0" object_id="_138">
 				<id>1</id>
 				<operations class_id="27" tracking_level="0" version="0">
 					<count>5</count>
 					<item_version>0</item_version>
-					<item class_id="28" tracking_level="1" version="0" object_id="_145">
+					<item class_id="28" tracking_level="1" version="0" object_id="_139">
 						<id>3</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_146">
+					<item class_id_reference="28" object_id="_140">
 						<id>4</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_147">
+					<item class_id_reference="28" object_id="_141">
 						<id>5</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_148">
+					<item class_id_reference="28" object_id="_142">
 						<id>6</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_149">
+					<item class_id_reference="28" object_id="_143">
 						<id>7</id>
 						<stage>3</stage>
 						<latency>3</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_150">
+			<item class_id_reference="26" object_id="_144">
 				<id>2</id>
 				<operations>
 					<count>1</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_151">
+					<item class_id_reference="28" object_id="_145">
 						<id>7</id>
 						<stage>2</stage>
 						<latency>3</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_152">
+			<item class_id_reference="26" object_id="_146">
 				<id>3</id>
 				<operations>
 					<count>3</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_153">
+					<item class_id_reference="28" object_id="_147">
 						<id>7</id>
 						<stage>1</stage>
 						<latency>3</latency>
 					</item>
-					<item class_id_reference="28" object_id="_154">
+					<item class_id_reference="28" object_id="_148">
 						<id>8</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_155">
+					<item class_id_reference="28" object_id="_149">
 						<id>11</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
 				</operations>
 			</item>
-			<item class_id_reference="26" object_id="_156">
+			<item class_id_reference="26" object_id="_150">
 				<id>4</id>
 				<operations>
-					<count>19</count>
+					<count>18</count>
 					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_157">
+					<item class_id_reference="28" object_id="_151">
 						<id>9</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_158">
+					<item class_id_reference="28" object_id="_152">
 						<id>10</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_159">
+					<item class_id_reference="28" object_id="_153">
 						<id>12</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_160">
+					<item class_id_reference="28" object_id="_154">
 						<id>13</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_161">
+					<item class_id_reference="28" object_id="_155">
 						<id>14</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_162">
+					<item class_id_reference="28" object_id="_156">
 						<id>15</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_163">
+					<item class_id_reference="28" object_id="_157">
 						<id>16</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_164">
+					<item class_id_reference="28" object_id="_158">
 						<id>17</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_165">
+					<item class_id_reference="28" object_id="_159">
 						<id>18</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_166">
+					<item class_id_reference="28" object_id="_160">
 						<id>19</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_167">
+					<item class_id_reference="28" object_id="_161">
 						<id>20</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_168">
+					<item class_id_reference="28" object_id="_162">
 						<id>21</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_169">
-						<id>22</id>
+					<item class_id_reference="28" object_id="_163">
+						<id>23</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_170">
+					<item class_id_reference="28" object_id="_164">
 						<id>24</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_171">
+					<item class_id_reference="28" object_id="_165">
 						<id>25</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_172">
+					<item class_id_reference="28" object_id="_166">
 						<id>26</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_173">
+					<item class_id_reference="28" object_id="_167">
 						<id>27</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_174">
+					<item class_id_reference="28" object_id="_168">
+						<id>32</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+				</operations>
+			</item>
+			<item class_id_reference="26" object_id="_169">
+				<id>5</id>
+				<operations>
+					<count>15</count>
+					<item_version>0</item_version>
+					<item class_id_reference="28" object_id="_170">
+						<id>22</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_171">
 						<id>28</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_172">
+						<id>29</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_173">
+						<id>30</id>
+						<stage>1</stage>
+						<latency>1</latency>
+					</item>
+					<item class_id_reference="28" object_id="_174">
+						<id>31</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
@@ -3252,85 +3166,48 @@
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-				</operations>
-			</item>
-			<item class_id_reference="26" object_id="_176">
-				<id>5</id>
-				<operations>
-					<count>15</count>
-					<item_version>0</item_version>
-					<item class_id_reference="28" object_id="_177">
-						<id>23</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_178">
-						<id>29</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_179">
-						<id>30</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_180">
-						<id>31</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_181">
-						<id>32</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_182">
+					<item class_id_reference="28" object_id="_176">
 						<id>34</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_183">
+					<item class_id_reference="28" object_id="_177">
 						<id>35</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_184">
+					<item class_id_reference="28" object_id="_178">
 						<id>36</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_185">
+					<item class_id_reference="28" object_id="_179">
 						<id>37</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_186">
+					<item class_id_reference="28" object_id="_180">
 						<id>38</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_187">
+					<item class_id_reference="28" object_id="_181">
 						<id>39</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_188">
+					<item class_id_reference="28" object_id="_182">
 						<id>40</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_189">
+					<item class_id_reference="28" object_id="_183">
 						<id>41</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
-					<item class_id_reference="28" object_id="_190">
+					<item class_id_reference="28" object_id="_184">
 						<id>42</id>
-						<stage>1</stage>
-						<latency>1</latency>
-					</item>
-					<item class_id_reference="28" object_id="_191">
-						<id>43</id>
 						<stage>1</stage>
 						<latency>1</latency>
 					</item>
@@ -3340,7 +3217,7 @@
 		<transitions class_id="29" tracking_level="0" version="0">
 			<count>4</count>
 			<item_version>0</item_version>
-			<item class_id="30" tracking_level="1" version="0" object_id="_192">
+			<item class_id="30" tracking_level="1" version="0" object_id="_185">
 				<inState>1</inState>
 				<outState>2</outState>
 				<condition class_id="31" tracking_level="0" version="0">
@@ -3355,7 +3232,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_193">
+			<item class_id_reference="30" object_id="_186">
 				<inState>2</inState>
 				<outState>3</outState>
 				<condition>
@@ -3370,7 +3247,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_194">
+			<item class_id_reference="30" object_id="_187">
 				<inState>3</inState>
 				<outState>4</outState>
 				<condition>
@@ -3385,7 +3262,7 @@
 					</sop>
 				</condition>
 			</item>
-			<item class_id_reference="30" object_id="_195">
+			<item class_id_reference="30" object_id="_188">
 				<inState>4</inState>
 				<outState>5</outState>
 				<condition>
@@ -3404,7 +3281,7 @@
 	</fsm>
 	<res class_id="-1"></res>
 	<node_label_latency class_id="35" tracking_level="0" version="0">
-		<count>41</count>
+		<count>40</count>
 		<item_version>0</item_version>
 		<item class_id="36" tracking_level="0" version="0">
 			<first>3</first>
@@ -3542,14 +3419,14 @@
 		<item>
 			<first>22</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>23</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3584,7 +3461,7 @@
 		<item>
 			<first>28</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3612,14 +3489,14 @@
 		<item>
 			<first>32</first>
 			<second>
-				<first>4</first>
+				<first>3</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>33</first>
 			<second>
-				<first>3</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3686,19 +3563,12 @@
 				<second>0</second>
 			</second>
 		</item>
-		<item>
-			<first>43</first>
-			<second>
-				<first>4</first>
-				<second>0</second>
-			</second>
-		</item>
 	</node_label_latency>
 	<bblk_ent_exit class_id="38" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
 		<item class_id="39" tracking_level="0" version="0">
-			<first>44</first>
+			<first>43</first>
 			<second class_id="40" tracking_level="0" version="0">
 				<first>0</first>
 				<second>4</second>
@@ -3710,10 +3580,10 @@
 		<item_version>0</item_version>
 	</regions>
 	<dp_fu_nodes class_id="42" tracking_level="0" version="0">
-		<count>40</count>
+		<count>39</count>
 		<item_version>0</item_version>
 		<item class_id="43" tracking_level="0" version="0">
-			<first>42</first>
+			<first>36</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3721,7 +3591,7 @@
 			</second>
 		</item>
 		<item>
-			<first>48</first>
+			<first>42</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3729,7 +3599,7 @@
 			</second>
 		</item>
 		<item>
-			<first>54</first>
+			<first>48</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3737,7 +3607,7 @@
 			</second>
 		</item>
 		<item>
-			<first>58</first>
+			<first>52</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3745,7 +3615,7 @@
 			</second>
 		</item>
 		<item>
-			<first>62</first>
+			<first>56</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3753,7 +3623,7 @@
 			</second>
 		</item>
 		<item>
-			<first>69</first>
+			<first>63</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3761,7 +3631,7 @@
 			</second>
 		</item>
 		<item>
-			<first>76</first>
+			<first>70</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3769,7 +3639,7 @@
 			</second>
 		</item>
 		<item>
-			<first>85</first>
+			<first>79</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3777,7 +3647,7 @@
 			</second>
 		</item>
 		<item>
-			<first>92</first>
+			<first>86</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3785,7 +3655,7 @@
 			</second>
 		</item>
 		<item>
-			<first>95</first>
+			<first>89</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3793,7 +3663,7 @@
 			</second>
 		</item>
 		<item>
-			<first>101</first>
+			<first>95</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3801,7 +3671,7 @@
 			</second>
 		</item>
 		<item>
-			<first>109</first>
+			<first>103</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3809,7 +3679,7 @@
 			</second>
 		</item>
 		<item>
-			<first>115</first>
+			<first>109</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3817,7 +3687,7 @@
 			</second>
 		</item>
 		<item>
-			<first>121</first>
+			<first>115</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3825,7 +3695,7 @@
 			</second>
 		</item>
 		<item>
-			<first>129</first>
+			<first>123</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3833,7 +3703,7 @@
 			</second>
 		</item>
 		<item>
-			<first>138</first>
+			<first>130</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3841,7 +3711,7 @@
 			</second>
 		</item>
 		<item>
-			<first>144</first>
+			<first>139</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3849,7 +3719,7 @@
 			</second>
 		</item>
 		<item>
-			<first>153</first>
+			<first>145</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3857,63 +3727,7 @@
 			</second>
 		</item>
 		<item>
-			<first>159</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>165</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>24</item>
-			</second>
-		</item>
-		<item>
-			<first>172</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>25</item>
-			</second>
-		</item>
-		<item>
-			<first>178</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>184</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>27</item>
-			</second>
-		</item>
-		<item>
-			<first>192</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>28</item>
-			</second>
-		</item>
-		<item>
-			<first>198</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>33</item>
-			</second>
-		</item>
-		<item>
-			<first>204</first>
+			<first>151</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3921,31 +3735,39 @@
 			</second>
 		</item>
 		<item>
-			<first>209</first>
+			<first>158</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>29</item>
+				<item>24</item>
 			</second>
 		</item>
 		<item>
-			<first>215</first>
+			<first>164</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>30</item>
+				<item>25</item>
 			</second>
 		</item>
 		<item>
-			<first>220</first>
+			<first>170</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>31</item>
+				<item>26</item>
 			</second>
 		</item>
 		<item>
-			<first>225</first>
+			<first>178</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>27</item>
+			</second>
+		</item>
+		<item>
+			<first>184</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3953,7 +3775,55 @@
 			</second>
 		</item>
 		<item>
-			<first>231</first>
+			<first>190</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
+			<first>195</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>28</item>
+			</second>
+		</item>
+		<item>
+			<first>201</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>29</item>
+			</second>
+		</item>
+		<item>
+			<first>206</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>30</item>
+			</second>
+		</item>
+		<item>
+			<first>211</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>31</item>
+			</second>
+		</item>
+		<item>
+			<first>217</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>33</item>
+			</second>
+		</item>
+		<item>
+			<first>221</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3961,7 +3831,7 @@
 			</second>
 		</item>
 		<item>
-			<first>235</first>
+			<first>227</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3969,7 +3839,7 @@
 			</second>
 		</item>
 		<item>
-			<first>241</first>
+			<first>232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3977,7 +3847,7 @@
 			</second>
 		</item>
 		<item>
-			<first>246</first>
+			<first>238</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3985,7 +3855,7 @@
 			</second>
 		</item>
 		<item>
-			<first>252</first>
+			<first>243</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -3993,7 +3863,7 @@
 			</second>
 		</item>
 		<item>
-			<first>257</first>
+			<first>248</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4001,7 +3871,7 @@
 			</second>
 		</item>
 		<item>
-			<first>262</first>
+			<first>255</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4009,7 +3879,7 @@
 			</second>
 		</item>
 		<item>
-			<first>269</first>
+			<first>262</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4017,15 +3887,7 @@
 			</second>
 		</item>
 		<item>
-			<first>276</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>42</item>
-			</second>
-		</item>
-		<item>
-			<first>284</first>
+			<first>270</first>
 			<second>
 				<count>3</count>
 				<item_version>0</item_version>
@@ -4036,98 +3898,10 @@
 		</item>
 	</dp_fu_nodes>
 	<dp_fu_nodes_expression class_id="45" tracking_level="0" version="0">
-		<count>37</count>
+		<count>36</count>
 		<item_version>0</item_version>
 		<item class_id="46" tracking_level="0" version="0">
-			<first>Range1_all_ones_fu_153</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>21</item>
-			</second>
-		</item>
-		<item>
-			<first>Range1_all_zeros_fu_159</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>22</item>
-			</second>
-		</item>
-		<item>
-			<first>Range2_all_ones_fu_138</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>19</item>
-			</second>
-		</item>
-		<item>
-			<first>agg_result_V_1_fu_276</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>42</item>
-			</second>
-		</item>
-		<item>
-			<first>brmerge114_demorgan_fu_198</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>33</item>
-			</second>
-		</item>
-		<item>
-			<first>brmerge5_fu_246</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>37</item>
-			</second>
-		</item>
-		<item>
-			<first>brmerge_fu_215</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>30</item>
-			</second>
-		</item>
-		<item>
-			<first>carry_2_fu_115</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>16</item>
-			</second>
-		</item>
-		<item>
-			<first>deleted_ones_fu_184</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>27</item>
-			</second>
-		</item>
-		<item>
-			<first>deleted_zeros_fu_204</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>23</item>
-			</second>
-		</item>
-		<item>
-			<first>overflow_fu_225</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>32</item>
-			</second>
-		</item>
-		<item>
-			<first>p_Result_1_fu_144</first>
+			<first>Range1_all_ones_fu_139</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4135,23 +3909,15 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_7_fu_85</first>
+			<first>Range1_all_zeros_fu_145</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>10</item>
+				<item>21</item>
 			</second>
 		</item>
 		<item>
-			<first>p_Result_8_fu_121</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>17</item>
-			</second>
-		</item>
-		<item>
-			<first>p_Result_s_29_fu_129</first>
+			<first>Range2_all_ones_fu_123</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4159,31 +3925,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_s_fu_62</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>8</item>
-			</second>
-		</item>
-		<item>
-			<first>p_Val2_3_fu_76</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>9</item>
-			</second>
-		</item>
-		<item>
-			<first>p_Val2_4_fu_95</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>13</item>
-			</second>
-		</item>
-		<item>
-			<first>p_Val2_6_fu_269</first>
+			<first>agg_result_V_1_fu_262</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4191,135 +3933,15 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Val2_6_mux_fu_262</first>
+			<first>brmerge114_demorgan_fu_184</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>40</item>
+				<item>32</item>
 			</second>
 		</item>
 		<item>
-			<first>p_not_fu_209</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>29</item>
-			</second>
-		</item>
-		<item>
-			<first>p_s_fu_178</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>26</item>
-			</second>
-		</item>
-		<item>
-			<first>phitmp_demorgan_fu_192</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>28</item>
-			</second>
-		</item>
-		<item>
-			<first>r_V_fu_54</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>5</item>
-			</second>
-		</item>
-		<item>
-			<first>rev2_fu_172</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>25</item>
-			</second>
-		</item>
-		<item>
-			<first>rev_fu_109</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>15</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp1_demorgan_fu_231</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>34</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp1_fu_235</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>35</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp2_fu_252</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>38</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_23_cast_fu_92</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>12</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_25_fu_69</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>11</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_26_fu_101</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>14</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_28_fu_165</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>24</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_9_fu_220</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>31</item>
-			</second>
-		</item>
-		<item>
-			<first>tmp_fu_58</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>6</item>
-			</second>
-		</item>
-		<item>
-			<first>underflow_fu_241</first>
+			<first>brmerge5_fu_232</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4327,11 +3949,243 @@
 			</second>
 		</item>
 		<item>
-			<first>underflow_not_fu_257</first>
+			<first>brmerge_fu_201</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>29</item>
+			</second>
+		</item>
+		<item>
+			<first>carry_2_fu_109</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>16</item>
+			</second>
+		</item>
+		<item>
+			<first>deleted_ones_fu_170</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>26</item>
+			</second>
+		</item>
+		<item>
+			<first>deleted_zeros_fu_190</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>22</item>
+			</second>
+		</item>
+		<item>
+			<first>overflow_fu_211</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>31</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Result_7_fu_79</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>10</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Result_8_fu_115</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>17</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Result_s_31_fu_130</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>19</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Result_s_fu_56</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>8</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Val2_3_fu_70</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>9</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Val2_4_fu_89</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>13</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Val2_6_fu_255</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>40</item>
+			</second>
+		</item>
+		<item>
+			<first>p_Val2_6_mux_fu_248</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
 				<item>39</item>
+			</second>
+		</item>
+		<item>
+			<first>p_not_fu_195</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>28</item>
+			</second>
+		</item>
+		<item>
+			<first>p_s_fu_164</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>25</item>
+			</second>
+		</item>
+		<item>
+			<first>phitmp_demorgan_fu_178</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>27</item>
+			</second>
+		</item>
+		<item>
+			<first>r_V_fu_48</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>5</item>
+			</second>
+		</item>
+		<item>
+			<first>rev2_fu_158</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>24</item>
+			</second>
+		</item>
+		<item>
+			<first>rev_fu_103</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>15</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp1_demorgan_fu_217</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>33</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp1_fu_221</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>34</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp2_fu_238</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>37</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_23_cast_fu_86</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>12</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_25_fu_63</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>11</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_26_fu_95</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>14</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_29_fu_151</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>23</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_8_fu_206</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>30</item>
+			</second>
+		</item>
+		<item>
+			<first>tmp_fu_52</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>6</item>
+			</second>
+		</item>
+		<item>
+			<first>underflow_fu_227</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>35</item>
+			</second>
+		</item>
+		<item>
+			<first>underflow_not_fu_243</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>38</item>
 			</second>
 		</item>
 	</dp_fu_nodes_expression>
@@ -4339,7 +4193,7 @@
 		<count>1</count>
 		<item_version>0</item_version>
 		<item>
-			<first>grp_fu_284</first>
+			<first>grp_fu_270</first>
 			<second>
 				<count>3</count>
 				<item_version>0</item_version>
@@ -4353,7 +4207,7 @@
 		<count>2</count>
 		<item_version>0</item_version>
 		<item>
-			<first>a_V_read_read_fu_48</first>
+			<first>a_V_read_read_fu_42</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4361,7 +4215,7 @@
 			</second>
 		</item>
 		<item>
-			<first>w_V_read_read_fu_42</first>
+			<first>w_V_read_read_fu_36</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4381,7 +4235,7 @@
 		<count>12</count>
 		<item_version>0</item_version>
 		<item>
-			<first>292</first>
+			<first>278</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4389,7 +4243,7 @@
 			</second>
 		</item>
 		<item>
-			<first>297</first>
+			<first>283</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4397,7 +4251,7 @@
 			</second>
 		</item>
 		<item>
-			<first>302</first>
+			<first>288</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4405,7 +4259,7 @@
 			</second>
 		</item>
 		<item>
-			<first>311</first>
+			<first>297</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4413,7 +4267,7 @@
 			</second>
 		</item>
 		<item>
-			<first>317</first>
+			<first>303</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4421,7 +4275,7 @@
 			</second>
 		</item>
 		<item>
-			<first>322</first>
+			<first>308</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4429,7 +4283,7 @@
 			</second>
 		</item>
 		<item>
-			<first>328</first>
+			<first>314</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4437,7 +4291,7 @@
 			</second>
 		</item>
 		<item>
-			<first>333</first>
+			<first>319</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4445,7 +4299,15 @@
 			</second>
 		</item>
 		<item>
-			<first>338</first>
+			<first>324</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>20</item>
+			</second>
+		</item>
+		<item>
+			<first>329</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4453,27 +4315,19 @@
 			</second>
 		</item>
 		<item>
-			<first>343</first>
+			<first>334</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>22</item>
+				<item>27</item>
 			</second>
 		</item>
 		<item>
-			<first>348</first>
+			<first>340</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>28</item>
-			</second>
-		</item>
-		<item>
-			<first>354</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>33</item>
+				<item>32</item>
 			</second>
 		</item>
 	</dp_reg_nodes>
@@ -4481,7 +4335,15 @@
 		<count>12</count>
 		<item_version>0</item_version>
 		<item>
-			<first>Range1_all_ones_reg_338</first>
+			<first>Range1_all_ones_reg_324</first>
+			<second>
+				<count>1</count>
+				<item_version>0</item_version>
+				<item>20</item>
+			</second>
+		</item>
+		<item>
+			<first>Range1_all_zeros_reg_329</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4489,23 +4351,15 @@
 			</second>
 		</item>
 		<item>
-			<first>Range1_all_zeros_reg_343</first>
+			<first>brmerge114_demorgan_reg_340</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>22</item>
+				<item>32</item>
 			</second>
 		</item>
 		<item>
-			<first>brmerge114_demorgan_reg_354</first>
-			<second>
-				<count>1</count>
-				<item_version>0</item_version>
-				<item>33</item>
-			</second>
-		</item>
-		<item>
-			<first>carry_2_reg_328</first>
+			<first>carry_2_reg_314</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4513,7 +4367,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_8_reg_333</first>
+			<first>p_Result_8_reg_319</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4521,7 +4375,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Result_s_reg_311</first>
+			<first>p_Result_s_reg_297</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4529,7 +4383,7 @@
 			</second>
 		</item>
 		<item>
-			<first>p_Val2_4_reg_322</first>
+			<first>p_Val2_4_reg_308</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4537,15 +4391,15 @@
 			</second>
 		</item>
 		<item>
-			<first>phitmp_demorgan_reg_348</first>
+			<first>phitmp_demorgan_reg_334</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
-				<item>28</item>
+				<item>27</item>
 			</second>
 		</item>
 		<item>
-			<first>r_V_2_reg_302</first>
+			<first>r_V_2_reg_288</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4553,7 +4407,7 @@
 			</second>
 		</item>
 		<item>
-			<first>r_V_reg_292</first>
+			<first>r_V_reg_278</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4561,7 +4415,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_25_reg_317</first>
+			<first>tmp_25_reg_303</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>
@@ -4569,7 +4423,7 @@
 			</second>
 		</item>
 		<item>
-			<first>tmp_reg_297</first>
+			<first>tmp_reg_283</first>
 			<second>
 				<count>1</count>
 				<item_version>0</item_version>

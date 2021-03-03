@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vivado HLS Report for 'dense_large_rf_gt_ni_2'" level="0">
-<item name = "Date">Mon Mar  1 22:17:18 2021
+<item name = "Date">Tue Mar  2 23:01:31 2021
 </item>
 <item name = "Version">2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)</item>
 <item name = "Project">myproject_prj</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">5.00, 4.134, 0.62</column>
+<column name="ap_clk">5.00, 4.231, 0.62</column>
 </table>
 </item>
 </section>
@@ -54,32 +54,32 @@
 <column name="DSP">-, 1, -, -</column>
 <column name="Expression">-, -, 0, 360</column>
 <column name="FIFO">-, -, -, -</column>
-<column name="Instance">-, 1, 197, 246</column>
+<column name="Instance">-, 1, 197, 225</column>
 <column name="Memory">2, -, 28, 3</column>
 <column name="Multiplexer">-, -, -, 262</column>
-<column name="Register">-, -, 282, -</column>
+<column name="Register">-, -, 289, -</column>
 <specialColumn name="Available">100, 66, 28800, 14400</specialColumn>
-<specialColumn name="Utilization (%)">2, 3, 1, 6</specialColumn>
+<specialColumn name="Utilization (%)">2, 3, 1, 5</specialColumn>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="1">
 <keys size="6">Instance, Module, BRAM_18K, DSP48E, FF, LUT</keys>
-<column name="myproject_urem_11ns_10ns_11_15_seq_1_U70">myproject_urem_11ns_10ns_11_15_seq_1, 0, 0, 142, 78</column>
-<column name="grp_product_fu_259">product, 0, 1, 55, 168</column>
+<column name="myproject_urem_11ns_10ns_11_15_seq_1_U68">myproject_urem_11ns_10ns_11_15_seq_1, 0, 0, 142, 78</column>
+<column name="grp_product_fu_259">product, 0, 1, 55, 147</column>
 </table>
 </item>
 <item name = "DSP48"><table name="" hasTotal="0">
 <keys size="3">Instance, Module, Expression</keys>
-<column name="myproject_mul_mul_11ns_13ns_24_3_1_U71">myproject_mul_mul_11ns_13ns_24_3_1, i0 * i1</column>
+<column name="myproject_mul_mul_11ns_13ns_24_3_1_U69">myproject_mul_mul_11ns_13ns_24_3_1, i0 * i1</column>
 </table>
 </item>
 <item name = "Memory"><table name="" hasTotal="1">
 <keys size="9">Memory, Module, BRAM_18K, FF, LUT, Words, Bits, Banks, W*Bits*Banks</keys>
 <column name="acc_V_U">dense_large_rf_gt_ni_2_acc_V, 0, 28, 3, 10, 14, 1, 140</column>
 <column name="outidx_U">dense_large_rf_gt_ni_2_outidx, 1, 0, 0, 420, 3, 1, 1260</column>
-<column name="w17_V_U">dense_large_rf_gt_ni_2_w17_V, 1, 0, 0, 420, 18, 1, 7560</column>
+<column name="w17_V_U">dense_large_rf_gt_ni_2_w17_V, 1, 0, 0, 420, 25, 1, 10500</column>
 </table>
 </item>
 <item name = "FIFO"><table name="" hasTotal="1">
@@ -97,15 +97,15 @@
 <column name="p_Val2_19_fu_431_p2">+, 0, 0, 19, 14, 14</column>
 <column name="ret_V_fu_417_p2">+, 0, 0, 21, 15, 15</column>
 <column name="w_index_3_fu_475_p2">+, 0, 0, 13, 11, 9</column>
-<column name="tmp_68_fu_383_p2">-, 0, 0, 15, 5, 5</column>
+<column name="tmp_67_fu_383_p2">-, 0, 0, 15, 5, 5</column>
 <column name="overflow_fu_451_p2">and, 0, 0, 2, 1, 1</column>
 <column name="underflow_fu_463_p2">and, 0, 0, 2, 1, 1</column>
 <column name="exitcond6_fu_270_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="exitcond_fu_291_p2">icmp, 0, 0, 13, 9, 8</column>
-<column name="tmp_63_fu_511_p2">icmp, 0, 0, 9, 4, 4</column>
+<column name="tmp_62_fu_511_p2">icmp, 0, 0, 9, 4, 4</column>
 <column name="tmp_70_fu_481_p2">icmp, 0, 0, 13, 11, 10</column>
 <column name="tmp_71_fu_499_p2">icmp, 0, 0, 18, 32, 7</column>
-<column name="tmp_73_fu_395_p2">lshr, 0, 0, 85, 28, 28</column>
+<column name="tmp_72_fu_395_p2">lshr, 0, 0, 85, 28, 28</column>
 <column name="p_s_fu_504_p3">select, 0, 0, 32, 1, 1</column>
 <column name="brmerge8_fu_469_p2">xor, 0, 0, 2, 1, 1</column>
 <column name="tmp_20_fu_445_p2">xor, 0, 0, 2, 1, 2</column>
@@ -148,13 +148,13 @@
 <column name="p_Val2_17_reg_635">14, 0, 14, 0</column>
 <column name="reg_265">14, 0, 14, 0</column>
 <column name="tmp_21_reg_595">11, 0, 11, 0</column>
-<column name="tmp_60_reg_581">1, 0, 1, 0</column>
-<column name="tmp_61_reg_610">1, 0, 1, 0</column>
-<column name="tmp_64_reg_685">4, 0, 64, 60</column>
-<column name="tmp_68_reg_620">4, 0, 5, 1</column>
-<column name="tmp_74_reg_625">14, 0, 14, 0</column>
+<column name="tmp_59_reg_581">1, 0, 1, 0</column>
+<column name="tmp_60_reg_610">1, 0, 1, 0</column>
+<column name="tmp_63_reg_685">4, 0, 64, 60</column>
+<column name="tmp_67_reg_620">4, 0, 5, 1</column>
+<column name="tmp_73_reg_625">14, 0, 14, 0</column>
 <column name="underflow_reg_645">1, 0, 1, 0</column>
-<column name="w17_V_load_reg_615">18, 0, 18, 0</column>
+<column name="w17_V_load_reg_615">25, 0, 25, 0</column>
 <column name="w_index5_reg_238">11, 0, 11, 0</column>
 <column name="w_index_cast_reg_543">9, 0, 11, 2</column>
 <column name="w_index_reg_194">9, 0, 9, 0</column>

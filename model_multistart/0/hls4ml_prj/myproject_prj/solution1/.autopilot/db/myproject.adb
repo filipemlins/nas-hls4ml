@@ -140,7 +140,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item class_id="10" tracking_level="0" version="0">
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second class_id="11" tracking_level="0" version="0">
                     <count>1</count>
                     <item_version>0</item_version>
@@ -188,7 +188,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -236,7 +236,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -284,7 +284,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -332,7 +332,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -380,7 +380,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -428,7 +428,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -476,7 +476,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -524,7 +524,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -572,7 +572,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -620,7 +620,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -704,7 +704,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -756,7 +756,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -807,7 +807,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -858,7 +858,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -911,7 +911,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -962,7 +962,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1013,7 +1013,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1066,7 +1066,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1117,7 +1117,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1170,7 +1170,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1221,7 +1221,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1274,7 +1274,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -1327,7 +1327,7 @@
                 <count>1</count>
                 <item_version>0</item_version>
                 <item>
-                  <first>/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj</first>
+                  <first>/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj</first>
                   <second>
                     <count>1</count>
                     <item_version>0</item_version>
@@ -2274,8 +2274,8 @@
         <mDepth>-1</mDepth>
         <mMinTripCount>-1</mMinTripCount>
         <mMaxTripCount>-1</mMaxTripCount>
-        <mMinLatency>1984267</mMinLatency>
-        <mMaxLatency>6809739</mMaxLatency>
+        <mMinLatency>2521531</mMinLatency>
+        <mMaxLatency>7004283</mMaxLatency>
         <mIsDfPipe>1</mIsDfPipe>
         <mDfPipe class_id="23" tracking_level="1" version="0" object_id="_119">
           <port_list class_id="24" tracking_level="0" version="0">
@@ -3816,11 +3816,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>569</second>
+              <second>576</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1253</second>
+              <second>1232</second>
             </item>
           </second>
         </item>
@@ -3839,11 +3839,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>622</second>
+              <second>628</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1388</second>
+              <second>1367</second>
             </item>
           </second>
         </item>
@@ -3854,7 +3854,7 @@
             <item_version>0</item_version>
             <item>
               <first>BRAM</first>
-              <second>15</second>
+              <second>17</second>
             </item>
             <item>
               <first>DSP48E</first>
@@ -3862,11 +3862,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>801</second>
+              <second>591</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1063</second>
+              <second>955</second>
             </item>
           </second>
         </item>
@@ -3877,7 +3877,7 @@
             <item_version>0</item_version>
             <item>
               <first>BRAM</first>
-              <second>94</second>
+              <second>72</second>
             </item>
             <item>
               <first>DSP48E</first>
@@ -3885,11 +3885,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>4127</second>
+              <second>960</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>3552</second>
+              <second>1187</second>
             </item>
           </second>
         </item>
@@ -3908,11 +3908,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>511</second>
+              <second>518</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>897</second>
+              <second>876</second>
             </item>
           </second>
         </item>
@@ -4037,11 +4037,11 @@
             </item>
             <item>
               <first>FF</first>
-              <second>895</second>
+              <second>825</second>
             </item>
             <item>
               <first>LUT</first>
-              <second>1231</second>
+              <second>1236</second>
             </item>
           </second>
         </item>
@@ -5515,17 +5515,17 @@
         <second>
           <count>2</count>
           <item_version>0</item_version>
-          <item>43</item>
-          <item>43</item>
+          <item>48</item>
+          <item>48</item>
         </second>
       </item>
       <item>
-        <first>132</first>
+        <first>133</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
-          <item>48</item>
-          <item>48</item>
+          <item>43</item>
+          <item>43</item>
         </second>
       </item>
       <item>
@@ -5533,8 +5533,8 @@
         <second>
           <count>2</count>
           <item_version>0</item_version>
-          <item>45</item>
-          <item>45</item>
+          <item>40</item>
+          <item>40</item>
         </second>
       </item>
       <item>
@@ -5542,17 +5542,17 @@
         <second>
           <count>2</count>
           <item_version>0</item_version>
-          <item>40</item>
-          <item>40</item>
+          <item>37</item>
+          <item>37</item>
         </second>
       </item>
       <item>
-        <first>163</first>
+        <first>165</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
-          <item>37</item>
-          <item>37</item>
+          <item>45</item>
+          <item>45</item>
         </second>
       </item>
       <item>
@@ -5731,7 +5731,7 @@
         </second>
       </item>
       <item>
-        <first>grp_conv_2d_large_cl_1_fu_163</first>
+        <first>grp_conv_2d_large_cl_1_fu_153</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -5740,7 +5740,7 @@
         </second>
       </item>
       <item>
-        <first>grp_conv_2d_large_cl_fu_153</first>
+        <first>grp_conv_2d_large_cl_fu_143</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -5749,7 +5749,7 @@
         </second>
       </item>
       <item>
-        <first>grp_dense_large_1_fu_143</first>
+        <first>grp_dense_large_1_fu_165</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -5758,7 +5758,7 @@
         </second>
       </item>
       <item>
-        <first>grp_dense_large_2_fu_122</first>
+        <first>grp_dense_large_2_fu_133</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>
@@ -5830,7 +5830,7 @@
         </second>
       </item>
       <item>
-        <first>grp_softmax_fu_132</first>
+        <first>grp_softmax_fu_122</first>
         <second>
           <count>2</count>
           <item_version>0</item_version>

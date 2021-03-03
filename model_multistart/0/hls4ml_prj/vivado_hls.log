@@ -6,15 +6,15 @@
 
 source /home/filipe/Xilinx/Vivado/2018.3/scripts/vivado_hls/hls.tcl -notrace
 INFO: [HLS 200-10] Running '/home/filipe/Xilinx/Vivado/2018.3/bin/unwrapped/lnx64.o/vivado_hls'
-INFO: [HLS 200-10] For user 'filipe' on host 'filipe-G5-5590' (Linux_x86_64 version 5.8.0-44-generic) on Mon Mar 01 22:20:02 -03 2021
+INFO: [HLS 200-10] For user 'filipe' on host 'filipe-G5-5590' (Linux_x86_64 version 5.8.0-44-generic) on Tue Mar 02 22:55:44 -03 2021
 INFO: [HLS 200-10] On os Ubuntu 20.04.2 LTS
-INFO: [HLS 200-10] In directory '/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj'
-INFO: [HLS 200-10] Opening project '/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj/myproject_prj'.
+INFO: [HLS 200-10] In directory '/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj'
+INFO: [HLS 200-10] Opening project '/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj/myproject_prj'.
 INFO: [HLS 200-10] Adding design file 'firmware/myproject.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'myproject_test.cpp' to the project
 INFO: [HLS 200-10] Adding test bench file 'firmware/weights' to the project
 INFO: [HLS 200-10] Adding test bench file 'tb_data' to the project
-INFO: [HLS 200-10] Opening solution '/home/filipe/MEGA/GitHub/hls4ml-tutorial-master/model_multistart/0/hls4ml_prj/myproject_prj/solution1'.
+INFO: [HLS 200-10] Opening solution '/home/filipe/MEGA/GitHub/nas-hls4ml/model_multistart/0/hls4ml_prj/myproject_prj/solution1'.
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 5ns.
 INFO: [HLS 200-10] Setting target device to 'xc7z007sclg225-1'
 INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
@@ -22,3 +22,621 @@ INFO: [XFORM 203-101] Allowed max sub elements number after partition is 4096.
 ***** C/RTL SYNTHESIS *****
 INFO: [SCHED 204-61] Option 'relax_ii_for_timing' is enabled, will increase II to preserve clock frequency constraints.
 INFO: [HLS 200-10] Analyzing design file 'firmware/myproject.cpp' ... 
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: firmware/nnet_utils/nnet_dense.h:139:9
+WARNING: [HLS 214-104] Only for-loops and functions support the dataflow: firmware/nnet_utils/nnet_dense.h:151:9
+WARNING: [HLS 214-114] Since the only kind of statements allowed in a dataflow region are variable declarations and function calls, the compiler may not be able to correctly handle the region: firmware/myproject.cpp:35:2
+WARNING: [HLS 200-471] Dataflow form checks found 3 issue(s) in file firmware/myproject.cpp
+INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 418.617 ; gain = 0.090 ; free physical = 15173 ; free virtual = 25672
+INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:58 ; elapsed = 00:01:00 . Memory (MB): peak = 418.617 ; gain = 0.090 ; free physical = 15173 ; free virtual = 25672
+INFO: [HLS 200-10] Starting code transformations ...
+INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:05:03 ; elapsed = 00:05:09 . Memory (MB): peak = 2786.535 ; gain = 2368.008 ; free physical = 13122 ; free virtual = 23653
+INFO: [HLS 200-10] Checking synthesizability ...
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' into 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' (firmware/nnet_utils/nnet_conv2d_large.h:209) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::max<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4>' into 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' (firmware/nnet_utils/nnet_pooling.h:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op_limit<config6>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>' (firmware/nnet_utils/nnet_pooling.h:140) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pad_val<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>' (firmware/nnet_utils/nnet_pooling.h:164) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>' (firmware/nnet_utils/nnet_pooling.h:175) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' into 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7>' (firmware/nnet_utils/nnet_conv2d_large.h:209) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op_limit<config10>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>' (firmware/nnet_utils/nnet_pooling.h:140) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pad_val<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>' (firmware/nnet_utils/nnet_pooling.h:164) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>' (firmware/nnet_utils/nnet_pooling.h:175) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:68) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' into 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' (firmware/nnet_utils/nnet_activation.h:247) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config19>' into 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' (firmware/nnet_utils/nnet_activation.h:256) automatically.
+INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:05:05 ; elapsed = 00:05:11 . Memory (MB): peak = 2787.664 ; gain = 2369.137 ; free physical = 13120 ; free virtual = 23655
+INFO: [XFORM 203-502] Unrolling small iteration loop 'Loop-1' (firmware/nnet_utils/nnet_conv2d_large.h:158) in function 'nnet::im2col_2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' automatically.
+INFO: [HLS 200-489] Unrolling loop 'Loop-1' (firmware/nnet_utils/nnet_conv2d_large.h:158) in function 'nnet::im2col_2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' completely with a factor of 1.
+INFO: [XFORM 203-131] Reshaping array 'w17.V'  in dimension 1 with a block factor of 2.
+INFO: [XFORM 203-131] Reshaping array 'w14.V'  in dimension 1 with a block factor of 2.
+INFO: [XFORM 203-131] Reshaping array 'w11.V'  in dimension 1 with a block factor of 5.
+INFO: [XFORM 203-131] Reshaping array 'w7.V'  in dimension 1 with a block factor of 2.
+INFO: [XFORM 203-131] Reshaping array 'w3.V'  in dimension 1 with a block factor of 2.
+INFO: [XFORM 203-101] Partitioning array 'left.V' (firmware/nnet_utils/nnet_common.h:70) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'right.V' (firmware/nnet_utils/nnet_common.h:71) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'left.V' (firmware/nnet_utils/nnet_common.h:70) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'right.V' (firmware/nnet_utils/nnet_common.h:71) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'left.V' (firmware/nnet_utils/nnet_common.h:70) in dimension 1 completely.
+INFO: [XFORM 203-101] Partitioning array 'right.V' (firmware/nnet_utils/nnet_common.h:71) in dimension 1 completely.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' into 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' (firmware/nnet_utils/nnet_conv2d_large.h:209) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::max<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4>' into 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' (firmware/nnet_utils/nnet_pooling.h:61) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>' (firmware/nnet_utils/nnet_pooling.h:175) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' into 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7>' (firmware/nnet_utils/nnet_conv2d_large.h:209) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::pool_op<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, 4, (nnet::Pool_Op)0>' into 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>' (firmware/nnet_utils/nnet_pooling.h:175) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::cast<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' into 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' (firmware/nnet_utils/nnet_dense_large.h:178) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:68) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 2, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> >::operator()' into 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:80) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' into 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' (firmware/nnet_utils/nnet_activation.h:247) automatically.
+INFO: [XFORM 203-602] Inlining function 'nnet::softmax_idx_from_real_val<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, softmax_config19>' into 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' (firmware/nnet_utils/nnet_activation.h:256) automatically.
+WARNING: [XFORM 203-713] All the elements of global array 'layer6_out.V' should be updated in process function 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>', otherwise it may not be synthesized correctly.
+WARNING: [XFORM 203-713] All the elements of global array 'layer10_out.V' should be updated in process function 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>', otherwise it may not be synthesized correctly.
+INFO: [XFORM 203-712] Applying dataflow to function 'myproject', detected/extracted 13 process function(s): 
+	 'Block_arrayctor.loop1.preheader2_proc'
+	 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>'
+	 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config5>'
+	 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>'
+	 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7>'
+	 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config9>'
+	 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>'
+	 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>'
+	 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config13>'
+	 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>'
+	 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config16>'
+	 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>'
+	 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>'.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_activation.h:259:9) to (firmware/nnet_utils/nnet_activation.h:257:45) in function 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>'... converting 7 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense.h:89:1) to (firmware/nnet_utils/nnet_dense.h:90:9) in function 'nnet::product<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0> >'... converting 7 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense_large.h:158:52) to (firmware/nnet_utils/nnet_dense_large.h:160:31) in function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense_large.h:158:52) to (firmware/nnet_utils/nnet_dense_large.h:160:31) in function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense_large.h:158:52) to (firmware/nnet_utils/nnet_dense_large.h:160:31) in function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense_large.h:158:52) to (firmware/nnet_utils/nnet_dense_large.h:160:31) in function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>'... converting 3 basic blocks.
+INFO: [XFORM 203-401] Performing if-conversion on hyperblock from (firmware/nnet_utils/nnet_dense_large.h:158:52) to (firmware/nnet_utils/nnet_dense_large.h:160:31) in function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>'... converting 3 basic blocks.
+INFO: [XFORM 203-11] Balancing expressions in function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' (firmware/nnet_utils/nnet_common.h:74:30)...3 expression(s) balanced.
+INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:05:09 ; elapsed = 00:05:15 . Memory (MB): peak = 2787.664 ; gain = 2369.137 ; free physical = 14531 ; free virtual = 25060
+WARNING: [XFORM 203-631] Renaming function 'nnet::softmax<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, softmax_config19>' to 'softmax' (firmware/nnet_utils/nnet_activation.h:194:45)
+WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config9>' to 'relu' (firmware/nnet_utils/nnet_activation.h:76:39)
+WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config5>' to 'relu.1' (firmware/nnet_utils/nnet_activation.h:76:39)
+WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config16>' to 'relu.2' (firmware/nnet_utils/nnet_activation.h:76:39)
+WARNING: [XFORM 203-631] Renaming function 'nnet::relu<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, relu_config13>' to 'relu.3' (firmware/nnet_utils/nnet_activation.h:76:39)
+WARNING: [XFORM 203-631] Renaming function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 8, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' to 'reduce' (firmware/nnet_utils/nnet_common.h:74:4)
+WARNING: [XFORM 203-631] Renaming function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 4, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' to 'reduce.1' (firmware/nnet_utils/nnet_common.h:74:30)
+WARNING: [XFORM 203-631] Renaming function 'nnet::reduce<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0>, 10, nnet::Op_add<ap_fixed<18, 8, (ap_q_mode)5, (ap_o_mode)3, 0> > >' to 'reduce.2' (firmware/nnet_utils/nnet_common.h:74:30)
+WARNING: [XFORM 203-631] Renaming function 'nnet::product<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0> >' to 'product' (firmware/nnet_utils/nnet_dense.h:90:9)
+WARNING: [XFORM 203-631] Renaming function 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config6>' to 'pooling2d_cl' (firmware/nnet_utils/nnet_pooling.h:11:10)
+WARNING: [XFORM 203-631] Renaming function 'nnet::pooling2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config10>' to 'pooling2d_cl.1' (firmware/nnet_utils/nnet_pooling.h:11:10)
+WARNING: [XFORM 203-631] Renaming function 'nnet::im2col_2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7>' to 'im2col_2d_cl' (firmware/nnet_utils/nnet_conv2d_large.h:158:25)
+WARNING: [XFORM 203-631] Renaming function 'nnet::im2col_2d_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' to 'im2col_2d_cl.1' (firmware/nnet_utils/nnet_conv2d_large.h:160:25)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7_mult>' to 'dense_large_rf_gt_ni' (firmware/nnet_utils/nnet_dense_large.h:126:31)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3_mult>' to 'dense_large_rf_gt_ni.1' (firmware/nnet_utils/nnet_dense_large.h:126:31)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' to 'dense_large_rf_gt_ni.2' (firmware/nnet_utils/nnet_dense_large.h:126:31)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' to 'dense_large_rf_gt_ni.3' (firmware/nnet_utils/nnet_dense_large.h:126:31)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large_rf_gt_nin_rem0<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' to 'dense_large_rf_gt_ni.4' (firmware/nnet_utils/nnet_dense_large.h:126:31)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config17>' to 'dense_large' (firmware/nnet_utils/nnet_dense_large.h:276:1)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config14>' to 'dense_large.1' (firmware/nnet_utils/nnet_dense_large.h:276:1)
+WARNING: [XFORM 203-631] Renaming function 'nnet::dense_large<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config11>' to 'dense_large.2' (firmware/nnet_utils/nnet_dense_large.h:276:1)
+WARNING: [XFORM 203-631] Renaming function 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config7>' to 'conv_2d_large_cl' (firmware/nnet_utils/nnet_conv2d_large.h:197:51)
+WARNING: [XFORM 203-631] Renaming function 'nnet::conv_2d_large_cl<ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, ap_fixed<14, 2, (ap_q_mode)0, (ap_o_mode)0, 0>, config3>' to 'conv_2d_large_cl.1' (firmware/nnet_utils/nnet_conv2d_large.h:197:51)
+WARNING: [XFORM 203-631] Renaming function 'Block_arrayctor.loop1.preheader2_proc' to 'Block_arrayctor.loop' (firmware/myproject.cpp:35:5)
+WARNING: [HLS 200-463] Ignoring allocation pragma because function 'pool_op' is missing or was optimized away (firmware/nnet_utils/nnet_pooling.h:141:1)
+WARNING: [HLS 200-463] Ignoring allocation pragma because function 'pool_op' is missing or was optimized away (firmware/nnet_utils/nnet_pooling.h:141:1)
+INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:05:12 ; elapsed = 00:05:18 . Memory (MB): peak = 2787.664 ; gain = 2369.137 ; free physical = 14484 ; free virtual = 25011
+INFO: [HLS 200-10] Starting hardware synthesis ...
+INFO: [HLS 200-10] Synthesizing 'myproject' ...
+WARNING: [SYN 201-103] Legalizing function name 'Block_arrayctor.loop' to 'Block_arrayctor_loop'.
+WARNING: [SYN 201-103] Legalizing function name 'im2col_2d_cl.1' to 'im2col_2d_cl_1'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large_rf_gt_ni.1' to 'dense_large_rf_gt_ni_1'.
+WARNING: [SYN 201-103] Legalizing function name 'conv_2d_large_cl.1' to 'conv_2d_large_cl_1'.
+WARNING: [SYN 201-103] Legalizing function name 'relu.1' to 'relu_1'.
+WARNING: [SYN 201-103] Legalizing function name 'pooling2d_cl.1' to 'pooling2d_cl_1'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large_rf_gt_ni.4' to 'dense_large_rf_gt_ni_4'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large.2' to 'dense_large_2'.
+WARNING: [SYN 201-103] Legalizing function name 'relu.3' to 'relu_3'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large_rf_gt_ni.3' to 'dense_large_rf_gt_ni_3'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large.1' to 'dense_large_1'.
+WARNING: [SYN 201-103] Legalizing function name 'relu.2' to 'relu_2'.
+WARNING: [SYN 201-103] Legalizing function name 'dense_large_rf_gt_ni.2' to 'dense_large_rf_gt_ni_2'.
+WARNING: [SYN 201-103] Legalizing function name 'reduce.1' to 'reduce_1'.
+WARNING: [SYN 201-103] Legalizing function name 'reduce.2' to 'reduce_2'.
+WARNING: [SYN 201-561] Cannot apply I/O mode 'ap_vld' on port 'input1_V' changing to the default 'ap_memory' mode.
+WARNING: [SYN 201-561] Cannot apply I/O mode 'ap_vld' on port 'layer19_out_V' changing to the default 'ap_memory' mode.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'Block_arrayctor_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 318.21 seconds; current allocated memory: 493.836 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.06 seconds; current allocated memory: 493.877 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'im2col_2d_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 494.101 MB.
+INFO: [HLS 200-434] Only 0 loops out of a total 2 loops have been pipelined in this design.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 494.311 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'product' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.25 seconds; current allocated memory: 494.567 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 494.761 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_rf_gt_ni_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.29 seconds; current allocated memory: 495.156 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 495.590 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv_2d_large_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.55 seconds; current allocated memory: 495.807 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.3 seconds; current allocated memory: 496.049 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.37 seconds; current allocated memory: 496.171 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 496.259 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pooling2d_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 496.566 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 496.963 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'im2col_2d_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.56 seconds; current allocated memory: 497.274 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.37 seconds; current allocated memory: 497.557 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_rf_gt_ni' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.42 seconds; current allocated memory: 497.878 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.57 seconds; current allocated memory: 498.352 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'conv_2d_large_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.65 seconds; current allocated memory: 498.581 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.33 seconds; current allocated memory: 498.790 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.38 seconds; current allocated memory: 498.923 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.1 seconds; current allocated memory: 499.013 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'pooling2d_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 499.352 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.58 seconds; current allocated memory: 499.755 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_rf_gt_ni_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 500.184 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.66 seconds; current allocated memory: 500.680 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.68 seconds; current allocated memory: 500.754 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 500.797 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.15 seconds; current allocated memory: 500.916 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.12 seconds; current allocated memory: 501.012 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_rf_gt_ni_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.21 seconds; current allocated memory: 501.415 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.64 seconds; current allocated memory: 501.955 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.63 seconds; current allocated memory: 502.022 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 502.098 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'relu_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 502.218 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.11 seconds; current allocated memory: 502.310 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large_rf_gt_ni_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.16 seconds; current allocated memory: 502.672 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.59 seconds; current allocated memory: 503.119 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'dense_large' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.62 seconds; current allocated memory: 503.194 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.09 seconds; current allocated memory: 503.235 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'reduce_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.15 seconds; current allocated memory: 503.401 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.19 seconds; current allocated memory: 503.564 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'reduce' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.25 seconds; current allocated memory: 503.870 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.43 seconds; current allocated memory: 504.333 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'reduce_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 504.579 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.39 seconds; current allocated memory: 504.900 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'softmax' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.44 seconds; current allocated memory: 505.152 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 0.46 seconds; current allocated memory: 505.515 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-42] -- Implementing module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [SCHED 204-11] Starting scheduling ...
+INFO: [SCHED 204-11] Finished scheduling.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 505.695 MB.
+INFO: [BIND 205-100] Starting micro-architecture generation ...
+INFO: [BIND 205-101] Performing variable lifetime analysis.
+INFO: [BIND 205-101] Exploring resource sharing.
+INFO: [BIND 205-101] Binding ...
+INFO: [BIND 205-100] Finished micro-architecture generation.
+INFO: [HLS 200-111]  Elapsed time: 2.06 seconds; current allocated memory: 506.754 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'Block_arrayctor_loop' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'Block_arrayctor_loop'.
+INFO: [HLS 200-111]  Elapsed time: 1.14 seconds; current allocated memory: 507.290 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'im2col_2d_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'im2col_2d_cl_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.08 seconds; current allocated memory: 507.787 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'product' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_14s_14s_28_3_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'product'.
+INFO: [HLS 200-111]  Elapsed time: 0.34 seconds; current allocated memory: 509.047 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_rf_gt_ni_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_rf_gt_ni_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.37 seconds; current allocated memory: 510.450 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv_2d_large_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_2d_large_cl_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.75 seconds; current allocated memory: 512.601 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.45 seconds; current allocated memory: 513.670 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pooling2d_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pooling2d_cl'.
+INFO: [HLS 200-111]  Elapsed time: 0.29 seconds; current allocated memory: 514.662 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'im2col_2d_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'im2col_2d_cl'.
+INFO: [HLS 200-111]  Elapsed time: 0.65 seconds; current allocated memory: 516.692 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_rf_gt_ni' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_rf_gt_ni'.
+INFO: [HLS 200-111]  Elapsed time: 0.53 seconds; current allocated memory: 518.590 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'conv_2d_large_cl' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'conv_2d_large_cl'.
+INFO: [HLS 200-111]  Elapsed time: 0.77 seconds; current allocated memory: 520.684 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu'.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 521.703 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'pooling2d_cl_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'pooling2d_cl_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.23 seconds; current allocated memory: 522.749 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_rf_gt_ni_4' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'myproject_lshr_70s_7ns_70_2_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_19ns_17ns_36_3_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'myproject_urem_17ns_15ns_17_21_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_rf_gt_ni_4'.
+INFO: [HLS 200-111]  Elapsed time: 0.91 seconds; current allocated memory: 525.260 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_2'.
+INFO: [HLS 200-111]  Elapsed time: 0.93 seconds; current allocated memory: 527.225 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_3'.
+INFO: [HLS 200-111]  Elapsed time: 0.24 seconds; current allocated memory: 527.645 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_rf_gt_ni_3' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_14ns_16ns_30_3_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'myproject_urem_14ns_14ns_14_18_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_rf_gt_ni_3'.
+INFO: [HLS 200-111]  Elapsed time: 0.35 seconds; current allocated memory: 528.866 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_1'.
+INFO: [HLS 200-111]  Elapsed time: 1.2 seconds; current allocated memory: 530.856 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'relu_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'relu_2'.
+INFO: [HLS 200-111]  Elapsed time: 0.22 seconds; current allocated memory: 531.258 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large_rf_gt_ni_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_11ns_13ns_24_3_1': 1 instance(s).
+INFO: [RTGEN 206-100] Generating core module 'myproject_urem_11ns_10ns_11_15_seq_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large_rf_gt_ni_2'.
+INFO: [HLS 200-111]  Elapsed time: 0.27 seconds; current allocated memory: 532.448 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'dense_large' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'dense_large'.
+INFO: [HLS 200-111]  Elapsed time: 1.14 seconds; current allocated memory: 534.422 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'reduce_1' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'reduce_1'.
+INFO: [HLS 200-111]  Elapsed time: 0.32 seconds; current allocated memory: 534.848 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'reduce' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'reduce'.
+INFO: [HLS 200-111]  Elapsed time: 0.52 seconds; current allocated memory: 536.029 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'reduce_2' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Finished creating RTL model for 'reduce_2'.
+INFO: [HLS 200-111]  Elapsed time: 0.83 seconds; current allocated memory: 537.662 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'softmax' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-100] Generating core module 'myproject_mul_mul_14s_13ns_27_3_1': 1 instance(s).
+INFO: [RTGEN 206-100] Finished creating RTL model for 'softmax'.
+INFO: [HLS 200-111]  Elapsed time: 0.73 seconds; current allocated memory: 539.486 MB.
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [HLS 200-10] -- Generating RTL for module 'myproject' 
+INFO: [HLS 200-10] ----------------------------------------------------------------
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/input1_V' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/layer19_out_V' to 'ap_memory'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/const_size_in_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on port 'myproject/const_size_out_1' to 'ap_vld'.
+INFO: [RTGEN 206-500] Setting interface mode on function 'myproject' to 'ap_ctrl_hs'.
+INFO: [RTGEN 206-100] Finished creating RTL model for 'myproject'.
+INFO: [HLS 200-111]  Elapsed time: 1.22 seconds; current allocated memory: 542.377 MB.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_1_outidx7_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_1_w3_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dense_large_rf_gt_ni_1_acc_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'conv_2d_large_cl_1_data_col_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'pooling2d_cl_pool_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_outidx6_rom' using distributed ROMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_w7_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dense_large_rf_gt_ni_acc_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'conv_2d_large_cl_data_col_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-282] Generating pipelined core: 'myproject_urem_17ns_15ns_17_21_seq_1_div'
+INFO: [RTMG 210-286] Generating pipelined shifter : 'myproject_lshr_70s_7ns_70_2_1'
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_4_outidx5_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_4_w11_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dense_large_rf_gt_ni_4_acc_V_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-282] Generating pipelined core: 'myproject_urem_14ns_14ns_14_18_seq_1_div'
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_3_outidx4_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_3_w14_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dense_large_rf_gt_ni_3_acc_V_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-282] Generating pipelined core: 'myproject_urem_11ns_10ns_11_15_seq_1_div'
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_2_outidx_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'dense_large_rf_gt_ni_2_w17_V_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'dense_large_rf_gt_ni_2_acc_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-279] Implementing memory 'softmax_exp_table2_rom' using auto ROMs.
+INFO: [RTMG 210-279] Implementing memory 'softmax_invert_table3_rom' using auto ROMs.
+INFO: [RTMG 210-278] Implementing memory 'softmax_exp_res_V_ram (RAM)' using distributed RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer3_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer5_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer6_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer7_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer9_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer10_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer11_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer13_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer14_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer16_out_V_memcore_ram (RAM)' using block RAMs.
+INFO: [RTMG 210-278] Implementing memory 'myproject_layer17_out_V_memcore_ram (RAM)' using distributed RAMs.
+INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:05:49 ; elapsed = 00:05:58 . Memory (MB): peak = 2787.664 ; gain = 2369.137 ; free physical = 14355 ; free virtual = 24849
+INFO: [SYSC 207-301] Generating SystemC RTL for myproject.
+INFO: [VHDL 208-304] Generating VHDL RTL for myproject.
+INFO: [VLOG 209-307] Generating Verilog RTL for myproject.
+***** C/RTL SYNTHESIS COMPLETED IN 0h5m57s *****
+INFO: [HLS 200-112] Total elapsed time: 358.52 seconds; peak allocated memory: 542.377 MB.
+INFO: [Common 17-206] Exiting vivado_hls at Tue Mar  2 23:01:42 2021...

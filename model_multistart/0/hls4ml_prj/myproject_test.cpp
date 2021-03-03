@@ -29,7 +29,7 @@
 #include <string>
 
 #define CHECKPOINT 5000
-#define NUM_IMAGES 50
+#define NUM_IMAGES 1000
 
 int main(int argc, char **argv)
 {
@@ -140,7 +140,7 @@ int main(int argc, char **argv)
 			}
 		}
 
-		std::cout << max << " " << gold_res[j] << std::endl;
+		//std::cout << max << " " << gold_res[j] << std::endl;
 		if(max == gold_res[j]){
 			corrected_val++;
 			std::cout << corrected_val/(j+1) << " " << j << std::endl;

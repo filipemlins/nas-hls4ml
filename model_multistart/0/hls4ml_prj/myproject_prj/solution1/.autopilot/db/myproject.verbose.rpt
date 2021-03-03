@@ -3,7 +3,7 @@
 ================================================================
 == Vivado HLS Report for 'myproject'
 ================================================================
-* Date:           Mon Mar  1 22:17:21 2021
+* Date:           Tue Mar  2 23:01:37 2021
 
 * Version:        2018.3 (Build 2405991 on Thu Dec 06 23:56:15 MST 2018)
 * Project:        myproject_prj
@@ -29,7 +29,7 @@
     |      Latency      |     Interval     | Pipeline |
     |   min   |   max   |   min  |   max   |   Type   |
     +---------+---------+--------+---------+----------+
-    |  1984267|  6809739|  949549|  2788325| dataflow |
+    |  2521531|  7004283|  949549|  2917349| dataflow |
     +---------+---------+--------+---------+----------+
 
     + Detail: 
@@ -38,11 +38,11 @@
         |                         |                      |      Latency     |     Interval     | Pipeline|
         |         Instance        |        Module        |   min  |   max   |   min  |   max   |   Type  |
         +-------------------------+----------------------+--------+---------+--------+---------+---------+
-        |dense_large_2_U0         |dense_large_2         |  101860|  2788324|  101860|  2788324|   none  |
         |softmax_U0               |softmax               |     194|      194|     194|      194|   none  |
-        |dense_large_1_U0         |dense_large_1         |   91060|   393460|   91060|   393460|   none  |
+        |dense_large_2_U0         |dense_large_2         |  553444|  2917348|  553444|  2917348|   none  |
         |conv_2d_large_cl_U0      |conv_2d_large_cl      |  731628|  1526604|  731628|  1526604|   none  |
         |conv_2d_large_cl_1_U0    |conv_2d_large_cl_1    |  949548|  1945292|  949548|  1945292|   none  |
+        |dense_large_1_U0         |dense_large_1         |  176740|   458980|  176740|   458980|   none  |
         |dense_large_U0           |dense_large           |   13064|    33224|   13064|    33224|   none  |
         |pooling2d_cl_U0          |pooling2d_cl          |   42577|    61393|   42577|    61393|   none  |
         |pooling2d_cl_1_U0        |pooling2d_cl_1        |   15777|    22689|   15777|    22689|   none  |
@@ -68,39 +68,39 @@
 |DSP              |        -|      -|      -|      -|
 |Expression       |        -|      -|      0|     34|
 |FIFO             |        -|      -|      -|      -|
-|Instance         |      115|      9|   8245|  10807|
+|Instance         |       95|      9|   4818|   8276|
 |Memory           |       29|      -|     28|      3|
 |Multiplexer      |        -|      -|      -|     36|
 |Register         |        -|      -|      6|      -|
 +-----------------+---------+-------+-------+-------+
-|Total            |      144|      9|   8279|  10880|
+|Total            |      124|      9|   4852|   8349|
 +-----------------+---------+-------+-------+-------+
 |Available        |      100|     66|  28800|  14400|
 +-----------------+---------+-------+-------+-------+
-|Utilization (%)  |      144|     13|     28|     75|
+|Utilization (%)  |      124|     13|     16|     57|
 +-----------------+---------+-------+-------+-------+
 
 + Detail: 
     * Instance: 
-    +-------------------------+----------------------+---------+-------+------+------+
-    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF  |  LUT |
-    +-------------------------+----------------------+---------+-------+------+------+
-    |Block_arrayctor_loop_U0  |Block_arrayctor_loop  |        0|      0|     2|    11|
-    |conv_2d_large_cl_U0      |conv_2d_large_cl      |        1|      1|   622|  1388|
-    |conv_2d_large_cl_1_U0    |conv_2d_large_cl_1    |        1|      1|   569|  1253|
-    |dense_large_U0           |dense_large           |        2|      2|   511|   897|
-    |dense_large_1_U0         |dense_large_1         |       15|      2|   801|  1063|
-    |dense_large_2_U0         |dense_large_2         |       94|      2|  4127|  3552|
-    |pooling2d_cl_U0          |pooling2d_cl          |        0|      0|   210|   503|
-    |pooling2d_cl_1_U0        |pooling2d_cl_1        |        0|      0|   207|   486|
-    |relu_U0                  |relu                  |        0|      0|    82|   104|
-    |relu_1_U0                |relu_1                |        0|      0|    85|   109|
-    |relu_2_U0                |relu_2                |        0|      0|    67|   105|
-    |relu_3_U0                |relu_3                |        0|      0|    67|   105|
-    |softmax_U0               |softmax               |        2|      1|   895|  1231|
-    +-------------------------+----------------------+---------+-------+------+------+
-    |Total                    |                      |      115|      9|  8245| 10807|
-    +-------------------------+----------------------+---------+-------+------+------+
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |         Instance        |        Module        | BRAM_18K| DSP48E|  FF |  LUT |
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |Block_arrayctor_loop_U0  |Block_arrayctor_loop  |        0|      0|    2|    11|
+    |conv_2d_large_cl_U0      |conv_2d_large_cl      |        1|      1|  628|  1367|
+    |conv_2d_large_cl_1_U0    |conv_2d_large_cl_1    |        1|      1|  576|  1232|
+    |dense_large_U0           |dense_large           |        2|      2|  518|   876|
+    |dense_large_1_U0         |dense_large_1         |       17|      2|  591|   955|
+    |dense_large_2_U0         |dense_large_2         |       72|      2|  960|  1187|
+    |pooling2d_cl_U0          |pooling2d_cl          |        0|      0|  210|   503|
+    |pooling2d_cl_1_U0        |pooling2d_cl_1        |        0|      0|  207|   486|
+    |relu_U0                  |relu                  |        0|      0|   82|   104|
+    |relu_1_U0                |relu_1                |        0|      0|   85|   109|
+    |relu_2_U0                |relu_2                |        0|      0|   67|   105|
+    |relu_3_U0                |relu_3                |        0|      0|   67|   105|
+    |softmax_U0               |softmax               |        2|      1|  825|  1236|
+    +-------------------------+----------------------+---------+-------+-----+------+
+    |Total                    |                      |       95|      9| 4818|  8276|
+    +-------------------------+----------------------+---------+-------+-----+------+
 
     * DSP48: 
     N/A
@@ -942,29 +942,14 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="122" class="1004" name="grp_dense_large_2_fu_122">
+<comp id="122" class="1004" name="grp_softmax_fu_122">
 <pin_list>
 <pin id="123" dir="0" index="0" bw="0" slack="0"/>
 <pin id="124" dir="0" index="1" bw="14" slack="2147483647"/>
-<pin id="125" dir="0" index="2" bw="14" slack="2147483647"/>
-<pin id="126" dir="0" index="3" bw="2" slack="0"/>
-<pin id="127" dir="0" index="4" bw="409" slack="0"/>
+<pin id="125" dir="0" index="2" bw="14" slack="0"/>
+<pin id="126" dir="0" index="3" bw="13" slack="0"/>
+<pin id="127" dir="0" index="4" bw="14" slack="0"/>
 <pin id="128" dir="1" index="5" bw="0" slack="2147483647"/>
-</pin_list>
-<bind>
-<opcode="call(48) " fcode="call"/>
-<opset="StgValue_48/13 "/>
-</bind>
-</comp>
-
-<comp id="132" class="1004" name="grp_softmax_fu_132">
-<pin_list>
-<pin id="133" dir="0" index="0" bw="0" slack="0"/>
-<pin id="134" dir="0" index="1" bw="14" slack="2147483647"/>
-<pin id="135" dir="0" index="2" bw="14" slack="0"/>
-<pin id="136" dir="0" index="3" bw="18" slack="0"/>
-<pin id="137" dir="0" index="4" bw="14" slack="0"/>
-<pin id="138" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
@@ -972,29 +957,29 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="143" class="1004" name="grp_dense_large_1_fu_143">
+<comp id="133" class="1004" name="grp_dense_large_2_fu_133">
 <pin_list>
-<pin id="144" dir="0" index="0" bw="0" slack="0"/>
-<pin id="145" dir="0" index="1" bw="13" slack="2147483647"/>
-<pin id="146" dir="0" index="2" bw="14" slack="2147483647"/>
-<pin id="147" dir="0" index="3" bw="5" slack="0"/>
-<pin id="148" dir="0" index="4" bw="46" slack="0"/>
-<pin id="149" dir="1" index="5" bw="0" slack="2147483647"/>
+<pin id="134" dir="0" index="0" bw="0" slack="0"/>
+<pin id="135" dir="0" index="1" bw="14" slack="2147483647"/>
+<pin id="136" dir="0" index="2" bw="14" slack="2147483647"/>
+<pin id="137" dir="0" index="3" bw="5" slack="0"/>
+<pin id="138" dir="0" index="4" bw="66" slack="0"/>
+<pin id="139" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
-<opset="StgValue_52/17 "/>
+<opset="StgValue_48/13 "/>
 </bind>
 </comp>
 
-<comp id="153" class="1004" name="grp_conv_2d_large_cl_fu_153">
+<comp id="143" class="1004" name="grp_conv_2d_large_cl_fu_143">
 <pin_list>
-<pin id="154" dir="0" index="0" bw="0" slack="0"/>
-<pin id="155" dir="0" index="1" bw="14" slack="2147483647"/>
-<pin id="156" dir="0" index="2" bw="14" slack="2147483647"/>
-<pin id="157" dir="0" index="3" bw="3" slack="0"/>
-<pin id="158" dir="0" index="4" bw="19" slack="0"/>
-<pin id="159" dir="1" index="5" bw="0" slack="2147483647"/>
+<pin id="144" dir="0" index="0" bw="0" slack="0"/>
+<pin id="145" dir="0" index="1" bw="14" slack="2147483647"/>
+<pin id="146" dir="0" index="2" bw="14" slack="2147483647"/>
+<pin id="147" dir="0" index="3" bw="3" slack="0"/>
+<pin id="148" dir="0" index="4" bw="25" slack="0"/>
+<pin id="149" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
@@ -1002,18 +987,33 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 </bind>
 </comp>
 
-<comp id="163" class="1004" name="grp_conv_2d_large_cl_1_fu_163">
+<comp id="153" class="1004" name="grp_conv_2d_large_cl_1_fu_153">
 <pin_list>
-<pin id="164" dir="0" index="0" bw="0" slack="0"/>
-<pin id="165" dir="0" index="1" bw="14" slack="0"/>
-<pin id="166" dir="0" index="2" bw="14" slack="0"/>
-<pin id="167" dir="0" index="3" bw="2" slack="0"/>
-<pin id="168" dir="0" index="4" bw="18" slack="0"/>
-<pin id="169" dir="1" index="5" bw="0" slack="2147483647"/>
+<pin id="154" dir="0" index="0" bw="0" slack="0"/>
+<pin id="155" dir="0" index="1" bw="14" slack="0"/>
+<pin id="156" dir="0" index="2" bw="14" slack="0"/>
+<pin id="157" dir="0" index="3" bw="2" slack="0"/>
+<pin id="158" dir="0" index="4" bw="25" slack="0"/>
+<pin id="159" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
 <opcode="call(48) " fcode="call"/>
 <opset="StgValue_36/1 "/>
+</bind>
+</comp>
+
+<comp id="165" class="1004" name="grp_dense_large_1_fu_165">
+<pin_list>
+<pin id="166" dir="0" index="0" bw="0" slack="0"/>
+<pin id="167" dir="0" index="1" bw="13" slack="2147483647"/>
+<pin id="168" dir="0" index="2" bw="14" slack="2147483647"/>
+<pin id="169" dir="0" index="3" bw="6" slack="0"/>
+<pin id="170" dir="0" index="4" bw="25" slack="0"/>
+<pin id="171" dir="1" index="5" bw="0" slack="2147483647"/>
+</pin_list>
+<bind>
+<opcode="call(48) " fcode="call"/>
+<opset="StgValue_52/17 "/>
 </bind>
 </comp>
 
@@ -1023,7 +1023,7 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 <pin id="177" dir="0" index="1" bw="13" slack="2147483647"/>
 <pin id="178" dir="0" index="2" bw="14" slack="2147483647"/>
 <pin id="179" dir="0" index="3" bw="3" slack="0"/>
-<pin id="180" dir="0" index="4" bw="18" slack="0"/>
+<pin id="180" dir="0" index="4" bw="25" slack="0"/>
 <pin id="181" dir="1" index="5" bw="0" slack="2147483647"/>
 </pin_list>
 <bind>
@@ -1148,41 +1148,41 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 
 <net id="121"><net_src comp="32" pin="0"/><net_sink comp="118" pin=0"/></net>
 
-<net id="129"><net_src comp="46" pin="0"/><net_sink comp="122" pin=0"/></net>
+<net id="129"><net_src comp="56" pin="0"/><net_sink comp="122" pin=0"/></net>
 
-<net id="130"><net_src comp="16" pin="0"/><net_sink comp="122" pin=3"/></net>
+<net id="130"><net_src comp="2" pin="0"/><net_sink comp="122" pin=2"/></net>
 
-<net id="131"><net_src comp="18" pin="0"/><net_sink comp="122" pin=4"/></net>
+<net id="131"><net_src comp="28" pin="0"/><net_sink comp="122" pin=3"/></net>
 
-<net id="139"><net_src comp="56" pin="0"/><net_sink comp="132" pin=0"/></net>
+<net id="132"><net_src comp="30" pin="0"/><net_sink comp="122" pin=4"/></net>
 
-<net id="140"><net_src comp="2" pin="0"/><net_sink comp="132" pin=2"/></net>
+<net id="140"><net_src comp="46" pin="0"/><net_sink comp="133" pin=0"/></net>
 
-<net id="141"><net_src comp="28" pin="0"/><net_sink comp="132" pin=3"/></net>
+<net id="141"><net_src comp="16" pin="0"/><net_sink comp="133" pin=3"/></net>
 
-<net id="142"><net_src comp="30" pin="0"/><net_sink comp="132" pin=4"/></net>
+<net id="142"><net_src comp="18" pin="0"/><net_sink comp="133" pin=4"/></net>
 
-<net id="150"><net_src comp="50" pin="0"/><net_sink comp="143" pin=0"/></net>
+<net id="150"><net_src comp="40" pin="0"/><net_sink comp="143" pin=0"/></net>
 
-<net id="151"><net_src comp="20" pin="0"/><net_sink comp="143" pin=3"/></net>
+<net id="151"><net_src comp="12" pin="0"/><net_sink comp="143" pin=3"/></net>
 
-<net id="152"><net_src comp="22" pin="0"/><net_sink comp="143" pin=4"/></net>
+<net id="152"><net_src comp="14" pin="0"/><net_sink comp="143" pin=4"/></net>
 
-<net id="160"><net_src comp="40" pin="0"/><net_sink comp="153" pin=0"/></net>
+<net id="160"><net_src comp="34" pin="0"/><net_sink comp="153" pin=0"/></net>
 
-<net id="161"><net_src comp="12" pin="0"/><net_sink comp="153" pin=3"/></net>
+<net id="161"><net_src comp="0" pin="0"/><net_sink comp="153" pin=1"/></net>
 
-<net id="162"><net_src comp="14" pin="0"/><net_sink comp="153" pin=4"/></net>
+<net id="162"><net_src comp="78" pin="1"/><net_sink comp="153" pin=2"/></net>
 
-<net id="170"><net_src comp="34" pin="0"/><net_sink comp="163" pin=0"/></net>
+<net id="163"><net_src comp="8" pin="0"/><net_sink comp="153" pin=3"/></net>
 
-<net id="171"><net_src comp="0" pin="0"/><net_sink comp="163" pin=1"/></net>
+<net id="164"><net_src comp="10" pin="0"/><net_sink comp="153" pin=4"/></net>
 
-<net id="172"><net_src comp="78" pin="1"/><net_sink comp="163" pin=2"/></net>
+<net id="172"><net_src comp="50" pin="0"/><net_sink comp="165" pin=0"/></net>
 
-<net id="173"><net_src comp="8" pin="0"/><net_sink comp="163" pin=3"/></net>
+<net id="173"><net_src comp="20" pin="0"/><net_sink comp="165" pin=3"/></net>
 
-<net id="174"><net_src comp="10" pin="0"/><net_sink comp="163" pin=4"/></net>
+<net id="174"><net_src comp="22" pin="0"/><net_sink comp="165" pin=4"/></net>
 
 <net id="182"><net_src comp="54" pin="0"/><net_sink comp="175" pin=0"/></net>
 
@@ -1268,12 +1268,12 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 |----------|-----------------------------------------|---------|---------|---------|---------|---------|
 | Operation|             Functional Unit             |   BRAM  |  DSP48E |  Delay  |    FF   |   LUT   |
 |----------|-----------------------------------------|---------|---------|---------|---------|---------|
-|          |         grp_dense_large_2_fu_122        |    1    |    2    | 19.6877 |   5162  |   3293  |
-|          |            grp_softmax_fu_132           |    0    |    1    | 56.7452 |   1802  |   1100  |
-|          |         grp_dense_large_1_fu_143        |    1    |    2    | 19.6877 |   1119  |   836   |
-|          |       grp_conv_2d_large_cl_fu_153       |    0    |    1    | 28.5785 |   870   |   949   |
-|          |      grp_conv_2d_large_cl_1_fu_163      |    0    |    1    | 28.5785 |   804   |   853   |
-|          |          grp_dense_large_fu_175         |    0    |    2    | 16.1498 |   698   |   632   |
+|          |            grp_softmax_fu_122           |    0    |    1    | 56.7452 |   1767  |   1105  |
+|          |         grp_dense_large_2_fu_133        |    1    |    2    | 19.6877 |   1303  |   944   |
+|          |       grp_conv_2d_large_cl_fu_143       |    0    |    1    | 28.5785 |   876   |   952   |
+|          |      grp_conv_2d_large_cl_1_fu_153      |    0    |    1    | 28.5785 |   811   |   860   |
+|          |         grp_dense_large_1_fu_165        |    1    |    2    | 16.1498 |   799   |   700   |
+|          |          grp_dense_large_fu_175         |    0    |    2    | 16.1498 |   705   |   639   |
 |   call   |         grp_pooling2d_cl_fu_185         |    0    |    0    | 12.5203 |   287   |   410   |
 |          |        grp_pooling2d_cl_1_fu_191        |    0    |    0    | 12.5203 |   280   |   395   |
 |          |            grp_relu_1_fu_197            |    0    |    0    |  1.769  |   143   |    65   |
@@ -1282,7 +1282,7 @@ StgValue_69   (ret                 ) [ 0000000000000000000000000]
 |          |            grp_relu_2_fu_215            |    0    |    0    |  1.769  |   125   |    61   |
 |          | StgValue_67_Block_arrayctor_loop_fu_221 |    0    |    0    |    0    |    0    |    0    |
 |----------|-----------------------------------------|---------|---------|---------|---------|---------|
-|   Total  |                                         |    2    |    9    | 201.544 |  11555  |   8715  |
+|   Total  |                                         |    2    |    9    | 198.006 |   7361  |   6252  |
 |----------|-----------------------------------------|---------|---------|---------|---------|---------|
 
 Memories:
@@ -1303,17 +1303,17 @@ Memories:
 | layer7_out_V|    4   |    0   |    0   |
 | layer9_out_V|    4   |    0   |    0   |
 |    outidx   |    1   |    0   |    0   |
-|   outidx4   |    2   |    0   |    0   |
-|   outidx5   |    1   |    0   |    0   |
+|   outidx4   |    3   |    0   |    0   |
+|   outidx5   |    5   |    0   |    0   |
 |   outidx6   |    0   |    3   |   12   |
 |   outidx7   |    0   |    2   |    2   |
-|    w11_V    |   92   |    0   |    0   |
-|    w14_V    |   12   |    0   |    0   |
+|    w11_V    |   66   |    0   |    0   |
+|    w14_V    |   13   |    0   |    0   |
 |    w17_V    |    1   |    0   |    0   |
 |     w3_V    |    1   |    0   |    0   |
 |     w7_V    |    1   |    0   |    0   |
 +-------------+--------+--------+--------+
-|    Total    |   142  |   33   |   17   |
+|    Total    |   122  |   33   |   17   |
 +-------------+--------+--------+--------+
 
 * Register list:
@@ -1332,10 +1332,10 @@ N/A
 +-----------+--------+--------+--------+--------+--------+
 |           |  BRAM  | DSP48E |  Delay |   FF   |   LUT  |
 +-----------+--------+--------+--------+--------+--------+
-|  Function |    2   |    9   |   201  |  11555 |  8715  |
-|   Memory  |   142  |    -   |    -   |   33   |   17   |
+|  Function |    2   |    9   |   198  |  7361  |  6252  |
+|   Memory  |   122  |    -   |    -   |   33   |   17   |
 |Multiplexer|    -   |    -   |    -   |    -   |    -   |
 |  Register |    -   |    -   |    -   |    -   |    -   |
 +-----------+--------+--------+--------+--------+--------+
-|   Total   |   144  |    9   |   201  |  11588 |  8732  |
+|   Total   |   124  |    9   |   198  |  7394  |  6269  |
 +-----------+--------+--------+--------+--------+--------+
